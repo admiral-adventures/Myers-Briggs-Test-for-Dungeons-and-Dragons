@@ -3,7 +3,7 @@ import { TestQuestion } from "../lib/personality-test";
 export const personalityTest: TestQuestion[] = [
   {
     no: 1,
-    question: "At a party do you: ",
+    question: "At a party (test) do you: ",
     answerOptions: [
       {
         type: "A",
