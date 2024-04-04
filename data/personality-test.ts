@@ -433,7 +433,7 @@ export const personalityTest: TestQuestion[] = [
     no: 51,
     question: "Scenario: Your character acquires a mysterious and powerful potion. Do you:v ",
     answerOptions: [
-      { type: "A", answer: "Find someone to cast the "Identify" spell to find out exactly what it is", score: "S" },
+      { type: "A", answer: "Find someone to cast the “Identify” spell to find out exactly what it is", score: "S" },
       { type: "B", answer: "Experiment cautiously, curious about its potential effects", score: "N" },
     ],
   },
