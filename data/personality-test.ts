@@ -3,14 +3,14 @@ import { TestQuestion } from "../lib/personality-test";
 export const personalityTest: TestQuestion[] = [
   {
     no: 1,
-    question: "At a party do you: ",
+    question: "Scenario: Your adventure team is invited to a grand ball in a noble's castle. Do you: ",
     answerOptions: [
       {
         type: "A",
-        answer: "Interact with many, including strangers",
+        answer: "Eagerly embrace the opportunity to socialize and make connections with potentially helpful factions",
         score: "E",
       },
-      { type: "B", answer: "Interact with a few, known to you", score: "I" },
+      { type: "B", answer: "Find a quiet corner to hide in and observe people from a distance in order to gain information", score: "I" },
     ],
   },
   {
