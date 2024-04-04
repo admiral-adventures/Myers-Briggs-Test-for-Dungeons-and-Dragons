@@ -359,7 +359,7 @@ export const personalityTest: TestQuestion[] = [
   },
   {
     no: 43,
-    question: "Scenario: Exploring a new region, your adventure team is invited to a witchlight carnival run by various "Fey" creatures known for their harmless pranks. Do you: ",
+    question: "Scenario: Exploring a new region, your adventure team is invited to a witchlight carnival run by various “Fey” creatures known for their harmless pranks. Do you: ",
     answerOptions: [
       { type: "A", answer: "Enjoy the revelry and immerse yourself in the experience", score: "E" },
       {
