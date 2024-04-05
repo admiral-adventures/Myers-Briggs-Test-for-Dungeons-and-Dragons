@@ -27,7 +27,7 @@ export default function HomePage() {
             textAlign="center"
           >
             <Highlight
-              query="MBTI Personality Test"
+              query="D&D Personality Test"
               styles={{
                 py: 1,
                 px: 4,
@@ -36,14 +36,14 @@ export default function HomePage() {
                 color: "white",
               }}
             >
-              Welcome to MBTI Personality Test
+              Welcome to D&D Personality Test
             </Highlight>
           </Heading>
           <Text
             fontSize="xl"
             align="center"
           >
-            Learn to know yourself better with this personality test.
+            This test will help you to identify a character to play that is better aligned with your personality type.
           </Text>
           <Link href="/test">
             <Button
