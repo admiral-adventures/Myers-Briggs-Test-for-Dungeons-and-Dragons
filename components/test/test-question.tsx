@@ -34,8 +34,6 @@ export default function TestQuestion() {
         value as TestAnswer["type"];
 
       setUserTestAnswers(newUserTestAnswers);
-
-      handleNextButtonClick();
     },
   });
 
@@ -58,6 +56,9 @@ export default function TestQuestion() {
 
       return currentPersonalityTestIndex + 1;
     });
+
+    // Store the selected answer
+    setUserTestAnswers(userTestAnswers);
   }
 
   function handlePreviousButtonClick() {
@@ -104,45 +105,27 @@ export default function TestQuestion() {
     >
       <TestProgress />
       <Flex direction="column">
-        <Text
-          fontWeight="bold"
-          align="center"
-        >
+        <Text fontWeight="bold" align="center">
           #{currentPersonalityTestIndex + 1}
         </Text>
-        <Text
-          fontSize="lg"
-          align="center"
-        >
+        <Text fontSize="lg" align="center">
           {personalityTest[currentPersonalityTestIndex].question}
         </Text>
       </Flex>
-      <Flex
-        w="full"
-        gap={4}
-        direction="column"
-        {...group}
-      >
+      <Flex w="full" gap={4} direction="column" {...group}>
         {personalityTest[currentPersonalityTestIndex].answerOptions.map(
           (answerOption) => {
             const radio = getRadioProps({ value: answerOption.type });
 
             return (
-              <TestAnswerOption
-                key={answerOption.type}
-                {...radio}
-              >
+              <TestAnswerOption key={answerOption.type} {...radio}>
                 {answerOption.answer}
               </TestAnswerOption>
             );
           }
         )}
       </Flex>
-      <Flex
-        direction="row"
-        w="full"
-        gap={4}
-      >
+      <Flex direction="row" w="full" gap={4}>
         <Button
           w="full"
           variant="outline"
