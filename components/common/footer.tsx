@@ -15,30 +15,30 @@ export default function Footer() {
       alignItems="center"
     >
       <Text>
-        All test on this website is based on this{" "}
+        This personality test is designed to support leadership development and team training. Visit us at {" "}
         <Link
-          href="http://www.lrjj.cn/encrm1.0/public/upload/MBTI-personality-test.pdf"
+          href="https://www.admiraladventures.games/"
           target="_blank"
         >
           <Button
             colorScheme="primary"
             variant="link"
           >
-            source
+            AdmiralAdventures.com
           </Button>
         </Link>
       </Text>
       <Text>
         🔨 Made by{" "}
         <Link
-          href="https://github.com/rauf-21"
+          href="https://startplaying.games/gm/admiral-adventures"
           target="_blank"
         >
           <Button
             colorScheme="primary"
             variant="link"
           >
-            rauf-21
+            The Admiral
           </Button>
         </Link>
       </Text>
