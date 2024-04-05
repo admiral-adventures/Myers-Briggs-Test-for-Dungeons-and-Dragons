@@ -5,7 +5,7 @@ export const personalityClassGroup: PersonalityClassGroup[] = [
     type: "ENFJ",
     name: "Extraverted Intuitive Feeling Judging",
     nameDescription: "Extraverted Feeling with Introverted Intuition",
-    epithet: "The Giver",
+    epithet: "The Protagonist",
     description: `As an ENFJ, you're primary mode of living is focused externally, where you deal with things according to
 how you feel about them, or how they fit into your personal value system. Your secondary mode is internal,
 where you take things in primarily via your intuition.
@@ -282,7 +282,7 @@ your own competence. Let the feelings of others become a strength rather than a 
     type: "ENTJ",
     name: "Extraverted Intuitive Thinking Judging",
     nameDescription: "Extraverted Thinking with Introverted Intuition",
-    epithet: "The Executive",
+    epithet: "The Commander",
     description: `As an ENTJ, your primary mode of living is focused externally, where you deal with things rationally and
 logically. Your secondary mode is internal, where you take things in primarily via your intuition.
 ENTJ's are natural born leaders. They live in a world of possibilities where they see all sorts of challenges
@@ -567,7 +567,7 @@ happiness`,
     type: "ENFP",
     name: "Extraverted Intuitive Feeling Perceiving",
     nameDescription: "Extraverted Intuition with Introverted Feeling",
-    epithet: "The Inspirer",
+    epithet: "The Campaigner",
     description: `As an ENFP, your primary mode of living is focused externally, where you take things in primarily via
 your intuition. Your secondary mode is internal, where you deal with things according to how you feel
 about them, or how they fit in with your personal value system.
@@ -817,7 +817,7 @@ negative feedback. If you need feedback and don't have any, ask for it`,
     type: "ENTP",
     name: "Extraverted Intuitive Thinking Perceiving",
     nameDescription: "Extraverted Intuition with Introverted Thinking",
-    epithet: "The Visionary",
+    epithet: "The Debater",
     description: `As an ENTP, your primary mode of living is focused externally, where you take things in primarily via
 your intuition. Your secondary mode is internal, where you deal with things rationally and logically.
 With Extraverted Intuition dominating their personality, the ENTP's primary interest in life is
@@ -1113,7 +1113,7 @@ planned foundations`,
     type: "ESFJ",
     name: "Extraverted Sensing Feeling Judging",
     nameDescription: "Extraverted Feeling with Introverted Sensing",
-    epithet: "The Caregiver",
+    epithet: "The Consul",
     description: `As an ESFJ, your primary mode of living is focused externally, where you deal with things according to
 how you feel about them, or how they fit in with your personal value system. Your secondary mode is
 internal, where you take things in via your five senses in a literal, concrete fashion.
@@ -1380,7 +1380,7 @@ Try to identify the personality type of everyone that you come into contact with
     type: "ESFP",
     name: "Extraverted Sensing Feeling Perceiving",
     nameDescription: "Extraverted Sensing with Introverted Feeling",
-    epithet: "The Performer",
+    epithet: "The Entertainer",
     description: `As an ESFP, your primary mode of living is focused externally, where you take things in via your five
 senses in a literal, concrete fashion. Your secondary mode is internal, where you deal with things according
 to how you feel about them, or how they fit with your personal value system.
@@ -1680,7 +1680,7 @@ someone else’s way will reveal the truth.`,
     type: "ESTJ",
     name: " Extraverted Sensing Thinking Judging",
     nameDescription: "Extraverted Thinking with Introverted Sensing",
-    epithet: "The Guardian",
+    epithet: "The Executive",
     description: `As an ESTJ, your primary mode of living is focused externally, where you deal with things rationally and
 logically. Your secondary mode is internal, where you take things in via your five senses in a literal,
 concrete fashion.
@@ -1941,7 +1941,7 @@ tangible benefits to becoming a better-rounded person.`,
     type: "ESTP",
     name: "Extraverted Sensing Thinking Perceiving",
     nameDescription: "Extraverted Sensing with Introverted Thinking",
-    epithet: "The Doer",
+    epithet: "The Entrepreneur",
     description: `As an ESTP, your primary mode of living is focused externally, where you take things in via your five
 senses in a literal, concrete fashion. Your secondary mode is internal, where you deal with things rationally
 and logically.
@@ -2261,7 +2261,7 @@ best will come.`,
     type: "INFJ",
     name: "Introverted iNtuitive Feeling Judging",
     nameDescription: "Introverted Intuition with Extraverted Feeling",
-    epithet: "The Protector",
+    epithet: "The Advocate",
     description: `As an INFJ, your primary mode of living is focused internally, where you take things in primarily via
 intuition. Your secondary mode is external, where you deal with things according to how you feel about
 them, or how they fit with your personal value system.
@@ -2523,7 +2523,7 @@ learning to let go of your passion and intensity for a respite.`,
     type: "INFP",
     name: "Introverted Intuitive Feeling Perceiving",
     nameDescription: "Introverted Feeling with Extraverted Intuition",
-    epithet: "The Idealist",
+    epithet: "The Mediator",
     description: `As an INFP, your primary mode of living is focused internally, where you deal with
 things according to how you feel about them, or how they fit into your personal value
 system. Your secondary mode is external, where you take things in primarily via your
@@ -2859,7 +2859,7 @@ it.`,
     type: "INTJ",
     name: "Introverted Intuitive Thinking Judging",
     nameDescription: "Introverted Intuition with Extraverted Thinking",
-    epithet: "The Scientist",
+    epithet: "The Architect",
     description: `As an INTJ, your primary mode of living is focused internally, where you take things in
 primarily via your intuition. Your secondary mode is external, where you deal with things
 rationally and logically.
@@ -3216,7 +3216,7 @@ Extravert in your own style.`,
     type: "INTP",
     name: "Introverted Intuitive Thinking Perceiving",
     nameDescription: "Introverted Thinking with Extraverted Intuition",
-    epithet: "The Thinker",
+    epithet: "The Logician",
     description: `As an INTP, your primary mode of living is focused internally, where you deal with
 things rationally and logically. Your secondary mode is external, where you take things
 in primarily via your intuition.
@@ -3586,7 +3586,7 @@ Remember that a positive attitude often creates positive situations.`,
     type: "ISFJ",
     name: "Introverted Sensing Feeling Judging",
     nameDescription: "Introverted Sensing with Extraverted Feeling",
-    epithet: "The Nurturer",
+    epithet: "The Defender",
     description: `As an ISFJ, your primary mode of living is focused internally, where you take things in
 via your five senses in a literal, concrete fashion. Your secondary mode is external, where
 you deal with things according to how you feel about them, or how they fit into your
@@ -3923,7 +3923,7 @@ something or someone then get input from others you trust.`,
     type: "ISFP",
     name: "Introverted Sensing Feeling Perceiving",
     nameDescription: "Introverted Feeling with Extraverted Sensing",
-    epithet: "The Artist",
+    epithet: "The Adventurer",
     description: `As an ISFP, your primary mode of living is focused internally, where you deal with
 things according to how you feel about them, or how they fit into your value system.
 Your secondary mode is external, where you take things in via your five senses in a
@@ -4245,7 +4245,7 @@ it.`,
     type: "ISTJ",
     name: "Introverted Sensing Thinking Judging",
     nameDescription: "Introverted Sensing with Extraverted Thinking",
-    epithet: "The Duty Fulfiller",
+    epithet: "The Logistician",
     description: `As an ISTJ, your primary mode of living is focused internally, where you take things in
 via your five senses in a literal, concrete fashion. Your secondary mode is external, where
 you deal with things rationally and logically.
@@ -4540,7 +4540,7 @@ just exist in your perspective. Change your perspective--change your life.`,
     type: "ISTP",
     name: "Introverted Sensing Thinking Perceiving",
     nameDescription: "Introverted Thinking with Extraverted Sensing",
-    epithet: "The Mechanic",
+    epithet: "The Virtuoso",
     description: `As an ISTP, your primary mode of living is focused internally, where you deal with
 things rationally and logically. Your secondary mode is external, where you take things
 in via your five senses in a literal, concrete fashion.
