@@ -48,7 +48,7 @@ export default function TestInstructions(props: TestInstructionsProps) {
         alignSelf="flex-end"
         onClick={props.onCloseTestInstructions}
       >
-        Okay, I got it!
+        Got it, now let's roll initiative!
       </Button>
     </Flex>
   );
