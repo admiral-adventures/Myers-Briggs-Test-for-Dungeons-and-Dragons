@@ -16,7 +16,7 @@ export default function MainLayout(props: MainLayoutProps) {
         <title>MBTI Personality Test</title>
         <meta
           name="description"
-          content="D&D Personality Test"
+          content="MBTI Personality Test"
         />
         <meta
           name="viewport"
