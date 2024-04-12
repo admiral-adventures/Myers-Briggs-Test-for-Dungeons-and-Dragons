@@ -9,61 +9,56 @@ export const personalityClassGroup: PersonalityClassGroup[] = [
     description: `Protagonists (ENFJs) feel called to serve a greater purpose in life. Thoughtful and idealistic, these personality types strive to have a positive impact on other people and the world around them. They rarely shy away from an opportunity to do the right thing, even when doing so is far from easy.
 Protagonists are born leaders, which explains why these personalities can be found among many notable politicians, coaches, and teachers. Their passion and charisma allow them to inspire others not just in their careers but in every arena of their lives, including their relationships. Few things bring Protagonists a deeper sense of joy and fulfillment than guiding friends and loved ones to grow into their best selves.`,
     jungianFunctionalPreference: {
-      dominant: "Option 1",
-      auxiliary: "Option 2",
+      dominant: "Human BARBARIAN- Path of the Ancestral Guardian,
+      auxiliary: "Drow PALADIN - Oath of the Crown,
       tertiary: "TBD",
       inferior: " TBD",
     },
     generalTraits: [
-      "Genuinely and warmly interested in people",
-      "Value people's feelings",
-      "Value structure and organization",
-      "Value harmony, and good at creating it",
-      "Exceptionally good people skills",
-      "Dislike impersonal logic and analysis",
-      "Strong organizational capabilities",
-      "Loyal and honest",
-      "Creative and imaginative",
-      "Enjoy variety and new challenges",
-      "Get personal satisfaction from helping others",
-      "Extremely sensitive to criticism and discord",
-      "Need approval from others to feel good about themselves",
+      "Daenerys Targaryen - Game of Thrones",
+      "Morpheus - The Matrix",
+      "Laurel Lance - Arrow",
+      "Charles Xavier - The X Men",
+      "Padme Amidala - Star Wars",      
     ],
     relationshipStrengths: [
       "RECEPTIVE – Protagonists have strong opinions, but they’re far from closed-minded. They recognize the importance of allowing others to express themselves fully. Even when Protagonists don’t agree with someone, they recognize that person’s right to voice their truth.",
-      "Very perceptive about people's thoughts and motives",
-      "Motivational, inspirational; bring out the best in others",
-      "Warmly affectionate and affirming",
-      "Fun to be with - lively sense of humor, dramatic, energetic, optimistic",
-      "Good money skills",
-      'Able to "move on" after a love relationship has failed (although they blame themselves)',
-      "Loyal and committed - they want lifelong relationships",
-      'Strive for "win-win" situations',
-      "Driven to meet other's needs",
+      "RELIABLE – Few things bother Protagonists more than the prospect of letting down a person or cause that they believe in. People with this personality type can be counted on to see their promises and responsibilities through – even when it’s difficult to do so.",
+      "PASSIONATE – Protagonists are far from being boring do-gooders. These types brim with interests, and they take great pleasure in pursuing their hobbies – whether that’s hiking, cooking, dancing, growing houseplants, or something else entirely. As a result, they rarely find themselves at a loss for something interesting to do.",
+      "ALTRUISTIC – These personalities are known for harboring a deep desire to be a force for positive change. Protagonists genuinely believe that if they bring people together, they can do a world of good.",
+      "CHARISMATIC – Determined and inspiring, Protagonists often find their way into leadership roles. Whether they’re captain of their softball team or a leader on the world stage, they rarely lose sight of their main goal: to be of service to others.",
     ],
     relationshipWeaknesses: [
-      "Tendency to be smothering and over-protective",
-      "Tendency to be controlling and/or manipulative",
-      "Don't pay enough attention to their own needs",
-      "Tend to be critical of opinions and attitudes which don't match their own",
-      "Sometimes unaware of social appropriateness or protocol",
-      `Extremely sensitive to conflict, with a tendency to sweep things under the rug as an avoidance
-tactic`,
-      `Tendency to blame themselves when things go wrong, and not give themselves credit when things
-go right`,
-      "Their sharply defined value systems make them unbending in some areas",
-      `They may be so attuned to what is socially accepted or expected that they're unable to assess
-whether something is \"right\" or \"wrong\" outside of what their social circle expects.`,
+      "UNREALISTIC – Many Protagonists put pressure on themselves to right every wrong that they encounter. But no matter how hard these personalities strive, it just isn’t realistic for them to solve all of the world’s problems. If they aren’t careful, they can spread themselves too thin – and be left unable to help anyone.",
+      "OVERLY IDEALISTIC – Protagonists tend to have clear ideas about what’s right and what’s wrong. They often think that everyone shares these fundamental principles – or, at least, that everyone should share these principles. So it can come as a genuine shock to Protagonists when people violate their core values, such as truth or justice.",
+      "CONDESCENDING – People with this personality type enjoy teaching others, particularly about the causes and beliefs that matter so much to them. But, at times, Protagonists’ attempts to “enlighten” others may come across as patronizing – not the most effective strategy for persuading other people, unfortunately",
+      "INTENSE – When it comes to self-improvement, Protagonists are rarely short on energy or determination. But they may not recognize that not everyone shares these qualities. At times, Protagonists may push others to make changes that they aren’t ready for – or simply aren’t interested in making in the first place.",
+      "OVERLY EMPATHETIC – Compassion is among this personality type’s greatest strengths. But Protagonists have a tendency to take on other people’s problems as their own – a habit that can leave them emotionally and physically exhausted.",
     ],
-    successDefinition: `ENFJs are motivated by external human situations, primarily by other people; their talents, their needs,
-their aspirations and their cares forming the world in which an ENFJ lives. They thrive when able to “make
-things right” for others, to enable and empower their co-workers, friends and family through valuing their
-human strengths and abilities. When gifted with the added ENFJ ability to intuitively adapt their feelings to
-the way they are affected by others, the ENFJ has a positive drive to find co-operative pathways leading to
-the best possible outcome for all. Success for an ENFJ comes through involvement in the process of
-making things happen for people; through the accomplishments and satisfactions of those they have helped
-to enrich the human world with greater value, and through finding that their efforts on behalf of others have
-fulfilled their own life as well.`,
+    successDefinition: `1. SPEAKING UP FOR WHAT IS RIGHT
+
+Changing people’s minds is no easy task – but if anyone can do it, it’s Protagonists.
+
+Protagonists tend to be vocal about their values, including authenticity and altruism. When something strikes them as unjust or wrong, they speak up. But they rarely come across as brash or pushy, as their sensitivity and insight guide them to speak in ways that resonate with others.
+
+These personality types have an uncanny ability to pick up on people’s underlying motivations and beliefs. At times, they may not even understand how they come to grasp another person’s mind and heart so quickly. These flashes of insight can make Protagonists incredibly persuasive and inspiring communicators.
+
+Protagonists’ secret weapon is their purity of intent. Generally speaking, they are motivated by a sincere wish to do the right thing rather than a desire to manipulate or have power over other people. Even when they disagree with someone, Protagonists search for common ground. The result is that people with this personality type can communicate with an eloquence and sensitivity that are nearly impossible to ignore – particularly when they speak about matters that are close to their hearts. 
+
+2. GETTING INVOLVED
+
+Protagonists are genuine, caring people who talk the talk and walk the walk. Nothing makes them happier than motivating other people to do what’s right.
+
+When Protagonists care about someone, they want to help solve that person’s problems – sometimes at any cost. The good news is that many people are grateful for Protagonists’ assistance and advice. After all, there’s a reason that these personalities have a reputation for helping others improve their lives.
+
+But getting involved in other people’s problems isn’t always a recipe for success. Protagonists tend to have a clear vision of what people can or should do in order to better themselves, but not everyone is ready to make those changes. If Protagonists push too hard, their loved ones may feel resentful or unfairly judged. And while this personality type is known for being insightful, even the wisest Protagonists may sometimes misread a situation or unwittingly give bad advice.
+
+3. LEADING THE WAY
+
+People with this personality type are devoted altruists, ready to face slings and arrows in order to stand up for the people and ideas that they believe in. This strength of conviction bolsters Protagonists’ innate leadership skills, particularly their ability to guide people to work together in service of the greater good.
+
+But their greatest gift might actually be leading by example. In their day-to-day lives, Protagonists reveal how seemingly ordinary situations can be handled with compassion, dedication, and care. For these personalities, even the smallest daily choices and actions – from how they spend their weekend to what they say to a coworker who is struggling – can become an opportunity to lead the way to a brighter future.
+`,
     strengths: [
       "Making others feel valued and important",
       "Quickly seeing the positive and negative aspects of a human situation",
