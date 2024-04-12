@@ -96,7 +96,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        Jungian Functional Preference Ordering
+        Character Race and Class Options
       </Heading>
       <Table>
         <Tbody>
@@ -107,19 +107,19 @@ export default function TestResult(props: TestResultProps) {
             </Td>
           </Tr>
           <Tr>
-            <Th>Auxiliary</Th>
+            <Th>Option 2</Th>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.auxiliary}
             </Td>
           </Tr>
           <Tr>
-            <Th>Tertiary</Th>
+            <Th>Option 3</Th>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.tertiary}
             </Td>
           </Tr>
           <Tr>
-            <Th>Inferior</Th>
+            <Th>Option 4</Th>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.inferior}
             </Td>
@@ -134,7 +134,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        {`${personalityClassGroup.type} General Traits`}
+        {`${personalityClassGroup.type}s You May Know`}
       </Heading>
       <UnorderedList>
         {personalityClassGroup.generalTraits.map((trait, index) => (
@@ -155,7 +155,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        Relationship Strengths
+        Character Personality Traits
       </Heading>
       <UnorderedList w="full">
         {personalityClassGroup.relationshipStrengths.map(
@@ -178,7 +178,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        Relationship Weaknesses
+        Character Flaws
       </Heading>
       <UnorderedList w="full">
         {personalityClassGroup.relationshipWeaknesses.map(
@@ -201,7 +201,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        Success Definition
+        Character Ideals
       </Heading>
       {personalityClassGroup.successDefinition
         .split(/\.\n+/g)
