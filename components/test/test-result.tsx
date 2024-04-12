@@ -90,38 +90,38 @@ export default function TestResult(props: TestResultProps) {
         ))}
       <Heading
         scrollMarginTop={8}
-        id="player-character-options"
+        id="jungian-functional-preference-ordering"
         my={4}
         as="h2"
         size="md"
         textAlign="center"
       >
-        Player Character Options
+        Jungian Functional Preference Ordering
       </Heading>
       <Table>
         <Tbody>
           <Tr>
-            <Th>Option 1</Th>
+            <Th>Dominant</Th>
             <Td>
-              {personalityClassGroup.playerCharacterOption.option1}
+              {personalityClassGroup.jungianFunctionalPreference.dominant}
             </Td>
           </Tr>
           <Tr>
-            <Th>Option 2</Th>
+            <Th>Auxiliary</Th>
             <Td>
-              {personalityClassGroup.playerCharacterOption.option2}
+              {personalityClassGroup.jungianFunctionalPreference.auxiliary}
             </Td>
           </Tr>
           <Tr>
-            <Th>Option 3</Th>
+            <Th>Tertiary</Th>
             <Td>
-              {personalityClassGroup.playerCharacterOption.option3}
+              {personalityClassGroup.jungianFunctionalPreference.tertiary}
             </Td>
           </Tr>
           <Tr>
-            <Th>Option 4</Th>
+            <Th>Inferior</Th>
             <Td>
-              {personalityClassGroup.playerCharacterOption.option4}
+              {personalityClassGroup.jungianFunctionalPreference.inferior}
             </Td>
           </Tr>
         </Tbody>
@@ -149,46 +149,46 @@ export default function TestResult(props: TestResultProps) {
       </UnorderedList>
       <Heading
         scrollMarginTop={8}
-        id="personality-traits"
+        id="relationship-strengths"
         my={4}
         as="h2"
         size="md"
         textAlign="center"
       >
-        Personality Traits
+        Relationship Strengths
       </Heading>
       <UnorderedList w="full">
-        {personalityClassGroup.personalityTraits.map(
-          (personalityTraits, index) => (
+        {personalityClassGroup.relationshipStrengths.map(
+          (relationshipStrength, index) => (
             <ListItem
               my={2}
               key={index}
               textAlign="justify"
             >
-              {personalityTraits}
+              {relationshipStrength}
             </ListItem>
           )
         )}
       </UnorderedList>
       <Heading
         scrollMarginTop={8}
-        id="personality-flaws"
+        id="relationship-weaknesses"
         my={4}
         as="h2"
         size="md"
         textAlign="center"
       >
-        Personality Flaws
+        Relationship Weaknesses
       </Heading>
       <UnorderedList w="full">
-        {personalityClassGroup.personalityFlaws.map(
-          (personalityFlaws, index) => (
+        {personalityClassGroup.relationshipWeaknesses.map(
+          (relationshipWeakness, index) => (
             <ListItem
               my={2}
               key={index}
               textAlign="justify"
             >
-              {personalityFlaws}
+              {relationshipWeakness}
             </ListItem>
           )
         )}
@@ -451,3 +451,4 @@ export default function TestResult(props: TestResultProps) {
     </Flex>
   );
 }
+
