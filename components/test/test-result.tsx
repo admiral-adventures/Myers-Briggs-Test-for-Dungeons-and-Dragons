@@ -101,7 +101,7 @@ export default function TestResult(props: TestResultProps) {
       <Table>
         <Tbody>
           <Tr>
-            <Th>Dominant</Th>
+            <Th>Option 1</Th>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.dominant}
             </Td>
