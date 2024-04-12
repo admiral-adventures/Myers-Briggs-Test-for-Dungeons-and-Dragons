@@ -9,8 +9,8 @@ export const personalityClassGroup: PersonalityClassGroup[] = [
     description: `Protagonists (ENFJs) feel called to serve a greater purpose in life. Thoughtful and idealistic, these personality types strive to have a positive impact on other people and the world around them. They rarely shy away from an opportunity to do the right thing, even when doing so is far from easy.
 Protagonists are born leaders, which explains why these personalities can be found among many notable politicians, coaches, and teachers. Their passion and charisma allow them to inspire others not just in their careers but in every arena of their lives, including their relationships. Few things bring Protagonists a deeper sense of joy and fulfillment than guiding friends and loved ones to grow into their best selves.`,
     jungianFunctionalPreference: {
-      dominant: "Human BARBARIAN- Path of the Ancestral Guardian,
-      auxiliary: "Drow PALADIN - Oath of the Crown,
+      dominant: "Human BARBARIAN Path of the Ancestral Guardian,
+      auxiliary: "Drow PALADIN Oath of the Crown,
       tertiary: "TBD",
       inferior: " TBD",
     },
