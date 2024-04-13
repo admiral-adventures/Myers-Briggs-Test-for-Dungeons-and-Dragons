@@ -2815,8 +2815,15 @@ And every Adventurer is certainly unique. Driven by curiosity and eager to try n
       "Captain Marvel - Marvel Comics",
       "Rogue - X Men",
       "Black Panther - Marvel Comics",
+    ],    
+    relationshipStrengths: [
+      "CHARMING – People with the Adventurer personality type are relaxed and warm, and their “live and let live” attitude naturally makes them likable and popular.",
+      "SENSITIVE TO OTHERS – Adventurers easily relate to others’ emotions, helping them to establish harmony and good will, and minimize conflict.",
+      "IMAGINATIVE – Being so aware of others’ emotions, Adventurer personalities use creativity and insight to craft bold ideas that speak to people’s hearts. While it’s hard to explain this quality on a resume, this vivid imagination and exploratory spirit help Adventurers in unexpected ways.",
+      "PASSIONATE – Beneath Adventurers’ quiet shyness beats an intensely feeling heart. When people with this personality type are caught up in something exciting and interesting, they can leave everything else in the dust.",
+      "CURIOUS – Ideas are well and good, but Adventurers need to see and explore for themselves whether their ideas ring true. Work revolving around the sciences may seem a poor match for their traits, but a boldly artistic and humanistic vision is often exactly what research needs to move forward – if Adventurers are given the freedom they need to do so.",
+      "ARTISTIC – Adventurers are able to show their creativity in tangible ways and with stunning beauty. Whether writing a song, painting an emotion, or presenting a statistic in a graph, Adventurers have a way of visualizing things that resonates with their audience.", 
     ],
-    
     relationshipWeaknesses: [
       "FIERCELY INDEPENDENT – Freedom of expression is often Adventurers’ top priority. Anything that interferes with that, like traditions and hard rules, creates a sense of oppression for Adventurer personalities. This can make more rigidly structured academics and work a challenge.",
       "UNPREDICTABLE – Adventurers’ dislike long-term commitments and plans. The tendency to actively avoid planning for the future can cause strain in Adventurers’ romantic relationships and financial hardship later in life.",
