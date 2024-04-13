@@ -2796,249 +2796,254 @@ something or someone then get input from others you trust.`,
     ],
   },
   {
-    type: "ISFP",
-    name: "Introverted Sensing Feeling Perceiving",
-    nameDescription: "“I change during the course of a day. I wake and I am one person - and when I go to sleep I know for certain I am somebody else.” - Bob Dylan",
-    epithet: "The Adventurer",
-    description: `Adventurers are true artists – although not necessarily in the conventional sense. For this personality type, life itself is a canvas for self-expression. From what they wear to how they spend their free time, Adventurers act in ways that vividly reflect who they are as unique individuals.
-And every Adventurer is certainly unique. Driven by curiosity and eager to try new things, people with this personality often have a fascinating array of passions and interests. With their exploratory spirits and their ability to find joy in everyday life, Adventurers can be among the most interesting people you’ll ever meet. The only irony? Unassuming and humble, Adventurers tend to see themselves as “just doing their own thing,” so they may not even realize how remarkable they really are.
-`,
+    type: "ISFJ",
+    name: "Introverted Sensing Feeling Judging",
+    nameDescription: "“Love only grows by sharing. You can only have more for yourself by giving it away to others.” - Brian Tracy",
+    epithet: "The Defender",
+    description: `In their unassuming, understated way, Defenders help make the world go round. Hardworking and devoted, people with this personality type feel a deep sense of responsibility to those around them. Defenders can be counted on to meet deadlines, remember birthdays and special occasions, uphold traditions, and shower their loved ones with gestures of care and support. But they rarely demand recognition for all that they do, preferring instead to operate behind the scenes.
+This is a capable, can-do personality type, with a wealth of versatile gifts. Though sensitive and caring, Defenders also have excellent analytical abilities and an eye for detail. And despite their reserve, they tend to have well-developed people skills and robust social relationships. Defenders are truly more than the sum of their parts, and their varied strengths shine in even the most ordinary aspects of their daily lives.`,
     jungianFunctionalPreference: {
-      dominant: "Human ROGUE - Swashbuckler",
-      auxiliary: "Human BARBARIAN - Wild Magic",
+      dominant: "Half-Orc FIGHTER - Samurai",
+      auxiliary: "High Elf WIZARD - School of War",
       tertiary: "TBD",
       inferior: " TBD",
     },
     generalTraits: [
-      "Eowyn - The Lord of the Rings",
-      "Finn - Star Wars",
-      "Thea Queen - Arrow",
-      "Captain Marvel - Marvel Comics",
-      "Rogue - X Men",
-      "Black Panther - Marvel Comics",     
+      "Catelyn Stark - Game of Thrones",
+      "Samwise Gamgee - The Lord of the Rings",
+      "Captain America - Avengers",
+      "Triss Merigold - The Witcher",
+      "Obi-Wan Kenobi - Star Wars",
+      "Leonard McCoy - Star Trek",
     ],
     relationshipStrengths: [
-      "CHARMING – People with the Adventurer personality type are relaxed and warm, and their “live and let live” attitude naturally makes them likable and popular."`,
-      "SENSITIVE TO OTHERS – Adventurers easily relate to others’ emotions, helping them to establish harmony and good will, and minimize conflict.",
-      "IMAGINATIVE – Being so aware of others’ emotions, Adventurer personalities use creativity and insight to craft bold ideas that speak to people’s hearts. While it’s hard to explain this quality on a resume, this vivid imagination and exploratory spirit help Adventurers in unexpected ways.",
-      "PASSIONATE – Beneath Adventurers’ quiet shyness beats an intensely feeling heart. When people with this personality type are caught up in something exciting and interesting, they can leave everything else in the dust.",
-      "CURIOUS – Ideas are well and good, but Adventurers need to see and explore for themselves whether their ideas ring true. Work revolving around the sciences may seem a poor match for their traits, but a boldly artistic and humanistic vision is often exactly what research needs to move forward – if Adventurers are given the freedom they need to do so.",
-      "ARTISTIC – Adventurers are able to show their creativity in tangible ways and with stunning beauty. Whether writing a song, painting an emotion, or presenting a statistic in a graph, Adventurers have a way of visualizing things that resonates with their audience.", 
+      "SUPPORTIVE – Defenders truly enjoy helping others, and they happily share their knowledge, attention, and expertise with anyone who needs it. People with this personality type strive for win-win situations, choosing teamwork over competition whenever possible.",
+      "RELIABLE – Rather than working in sporadic, excited bursts that leave things half finished, Defenders are meticulous and careful. They take a steady approach, ensuring that things are done to the highest standard – and often going well beyond what is required.",
+      "OBSERVANT – Defender personalities have a talent for noticing things, particularly about other people. They pay attention to the smallest details of what someone says and does, giving them unexpected insights into other people’s lives and emotions.",
+      "ENTHUSIASTIC – When the goal is right, Defenders apply all of their gifts to something that they believe will make a real, positive difference in people’s lives – whether that’s fighting poverty with a global initiative or simply making a customer’s day.",
+      "HARDWORKING – Defenders don’t just get their work done – they take pride in it. People with this personality type often form an emotional attachment to the projects and organizations that they’ve dedicated themselves to, and they won’t rest until they’ve done their share – or more than their share – to be of help.",
+      "GOOD PRACTICAL SKILLS – This personality type offers the rare combination of an altruistic nature and hard-won practicality. Defenders don’t just hope to help others. They take action – meaning that they’re more than happy to roll up their sleeves and do what’s necessary to care for their friends, family, and anyone else who needs it.",
     ],
     relationshipWeaknesses: [
-      "FIERCELY INDEPENDENT – Freedom of expression is often Adventurers’ top priority. Anything that interferes with that, like traditions and hard rules, creates a sense of oppression for Adventurer personalities. This can make more rigidly structured academics and work a challenge.",
-      "UNPREDICTABLE – Adventurers’ dislike long-term commitments and plans. The tendency to actively avoid planning for the future can cause strain in Adventurers’ romantic relationships and financial hardship later in life.",
-      "EASILY STRESSED – Adventurers live in the present, full of emotion. When situations get out of control, people with this personality type (especially Turbulent ones) can shut down, losing their characteristic charm and creativity in favor of gnashing teeth.",
-      "OVERLY COMPETITIVE – Adventurers can escalate small things into intense competitions, turning down long-term success in their search for glory in the moment, and are unhappy when they lose.",
-      "FLUCTUATING SELF-ESTEEM – It’s demanded that skills be quantified, but that’s hard to do with Adventurers’ strengths of sensitivity and artistry. Adventurers’ efforts are often dismissed, a hurtful and damaging blow, especially early in life. Adventurers can start to believe the naysayers without strong support.",
+      "OVERLY HUMBLE – Defenders are so concerned with other people’s feelings that they may refuse to make their thoughts known or to take any duly earned credit for their contributions. And they often downplay their efforts entirely when they think that they could have done some minor aspect of a task better.",
+      "TAKING THINGS PERSONALLY – Although they might try to hide it, people with this personality type are deeply sensitive to others’ opinions, and they can be thrown off-balance if someone doesn’t appreciate, approve of, or agree with them. When they encounter criticism or disagreement – even if it’s well intentioned – Defenders may feel as if they’re experiencing a personal attack.",
+      "REPRESSING THEIR FEELINGS – Private and reserved, Defenders tend to internalize their feelings, particularly negative ones. This can create misunderstandings in their relationships. Eventually, all of their repressed feelings and resentments may boil over in a sudden, uncharacteristic outburst of frustration.",
+      "OVERCOMMITTED – Defenders’ dutifulness can create situations where they are overwhelmed but unwilling to relax their standards or ask for help. As a result, Defender personalities may suffer silently, trying to do everything themselves, even when it’s simply impossible.",
+      "RELUCTANT TO CHANGE – Defenders are among the personality types that struggle the most with change. Breaking with tradition isn’t easy for Defenders, who place great value on history and precedent. Even when change is necessary, they may wait until the situation reaches a breaking point before altering course.",
+      "TOO ALTRUISTIC – Defenders’ giving, generous nature can leave them vulnerable to being taken advantage of by others. It can be hard for people with this personality type to rock the boat and stand up to someone who isn’t pulling their own weight.",
     ],
-    successDefinition: `1. LIVING IN HARMONY - Unless I take time for myself, I can end up feeling lost in the tide of everyday life, constantly reacting to external circumstances instead of making my own way. Creative and free-spirited, I march to the beat of my own drum, and it would be easy to assume that I don’t particularly worry what other people think of me. But this isn’t the case – I am  thoughtful and perceptive, able to pick up on people’s unspoken feelings and opinions, and it can upset me if I don’t feel liked, approved of, or appreciated. When faced with criticism, it can be a challenge for me not to get caught up in the heat of the moment. If I encounter harsh or seemingly unfair criticism, I may even lose my temper in spectacular fashion. 
-    2. THE BEAUTY OF AN OPEN MIND - I want to live in a world where me, and everyone else, have the freedom to live as I see fit, without judgment. I embrace a flexible, adaptable approach to life. Some people thrive on strict schedules and routines, but not me. I take each day as it comes, doing what feels right to me in the moment. And I make sure to leave plenty of room in their life for the unexpected, with the result that many of my most cherished memories are of spontaneous, spur-of-the-moment outings and adventures, whether by myself or with my loved ones.`,
+    successDefinition: `1. THE GIFT OF LOYALTY - I tend to feel most energized and effective when I am showing up for someone who needs my help.  My most distinctive trait is loyalty. Rare is it when I allow a friendship or relationship to fade away from lack of effort. Instead, I invest a great deal of energy into maintaining strong connections with my loved ones – and not just by sending “How are you doing?” texts. I am known for dropping everything and lending a hand whenever a friend or family member is going through a hard time.
+    2. THE HIGHEST STANDARDS - I am known for my humility, and I rarely seek the spotlight.  For me, “good enough” is rarely good enough. I can be meticulous to the point of perfectionism. I take my responsibilities personally, consistently going above and beyond and doing everything that I can to exceed others’ expectations. `,
     strengths: [
-      `Highly creative, artistic and spiritual, they can produce wonderful works of art,
-music and literature. ISFP’s are natural artists. They will find great satisfaction if
-they encourage and develop their artistic abilities. That doesn't mean that an ISFP
-has to be a famous writer or painter in order to be content. Simply the act of
-\`creating\` will be a fulfilling source of renewal and refreshment to the ISFP. An
-ISFP should allow himself or herself some artistic outlet, because it will add
-enrichment and positive energy to their life.`,
-      `They're more spiritually aware than most people, and are more in touch with their
-soul than others. Most ISFP’s have strong Faith. Those that don't may feel as if
-they're missing something important. An ISFP should nourish their faith.`,
-      `ISFP’s have an extremely well-developed ability to appreciate aesthetic qualities.
-They're usually very aware of their environment, and can easily see what works
-well and what doesn't from an aesthetic perspective. If they allow this strength to
-flourish, they're likely to be stylish dressers who live in a home that's aesthetically
-pleasing.`,
-      `ISFP’s have passionate and intense feelings.`,
-      `ISFP’s are very quick-witted and spatial in their thinking. If they have the desire,
-they can be very good at individual sports like golf, skiing, biking, etc., because
-they're extremely observant and have quick reactions.`,
-      `They're usually good listeners who genuinely want to hear about someone's
-problems, and genuinely want to help them. This makes them outstanding
-counselors, and good friends. An ISFP may find great satisfaction from
-volunteering as a counselor.`,
-      `They accept and value people as individuals, and are strongly egalitarian. They
-believe that an individual has the right to be themselves, without having their
-attitudes and perspectives brought under scrutiny. Accordingly, they have a great
-deal of tolerance and acceptance dealing with people who might encounter
-negative judgment from society in general. They can see something positive in
-everyone. They believe in individuals. If they give themselves the opportunity, an
-ISFP can become a much-needed source of self-esteem and confidence for people
-who cannot find it on their own. In this way, they can nurture a \`sick soul\` back
-to health.`,
-      `Practical and detail-oriented, ISFP’s are great at handling the details of a project.`,
-      `ISFP’s live for the current day, and have an ability to enjoy the present moment
-without stressing out about the future or the past.`,
-      `They have a good ability to concentrate and focus. Accordingly, they can do well
-in school if they set their mind to it.`,
+      `You are adept at seeing the right balance, the best way to make the world look
+and feel good. This talent enables you to make your world reflect your inner self
+and become a place of security and growth in which others can feel at ease too.`,
+      `You have a gift for knowing what will make another person feel better about the
+world and themselves. Your valuable input to their world comes back to you in
+ways which aid your own personal development.`,
+      `You see clearly what is right and wrong, what grates on yourself and others, what
+works for harmony and what does not. Your clear recognition of these things
+gains you the confidence and respect of others.`,
+      `You have a great memory for things, places and events, their curious details and
+the relationships between them. More than this, you also remember what was both
+good and bad about these things. These skills show in your ability to give no
+nonsense advice and aid to others`,
+      `Within yourself you know, even if others do not realize it, that for as long as they
+are trying to do their best, you will hold the line with them to the very end. You
+see this as simply doing the right thing, but in fact it is a special virtue and makes
+you one of the most worthy of partners and friends when the chips are down.`,
+      `You work hard to get the job done, and you can be counted on the stay with it till
+it is finished.`,
     ],
     gifts: [
-      `Their strongly passionate nature combined with their natural sense of aesthetic
-beauty may make them gifted artists (such as Picasso, or Barbra Streisand, both
-reportedly ISFP’s).`,
-      `Their awareness of what's going on around them combined with their great
-capacity to love will make them outstanding parents and caregivers.`,
-      `They will quickly identify the opportunities of a situation, and quickly act to take
-advantage of them. They will find that they're able to do anything that they put
-their mind to, although they may not find it personally satisfying. Things may
-seem to come easily to these ISFP’s. Although they're able to conquer many
-different kinds of tasks and situations, these ISFP’s will be happiest doing
-something that seems truly important to them. Although they may find that they
-can achieve the \`mainstream\` type of success with relative ease, they are not
-likely to find happiness along that path, unless they have especially rich and
-rewarding personal relationships.`,
-      `The ISFP who augments their strong, internal value system (Introverted Feeling)
-with a well-developed ability to recognize opportunities (Extraverted Sensing)
-can be a powerful force for social change.`,
+      `Work is never a chore to you, but a gift you offer to the world.`,
+      `In your relationships you are able to clearly show others how you feel about them.`,
+      `Others will always feel at ease in your home and presence.`,
+      `Your efforts always seem to be appreciated by those around you.`,
+      `You will try to find pleasing ways to settle differences and to find the most
+satisfying solutions to both your own and others difficulties.`,
+      `More often than not, you will know exactly the right thing to do, say, buy or
+create to make things better or move things toward a valid human solution to a
+problem`,
+      `You will clearly see the conditions underlying a situation and their effects on the
+persons within it, enabling you to see ways of changing things for the better. In
+this sense, you may be a powerful agent for social justice.`,
     ],
     potentialProblemAreas: [
-      `May be extremely sensitive to any kind of criticism`,
-      `May be unable to see the opportunities inherent to a situation`,
-      `May perceive criticism where none was intended`,
-      `May have skewed or unrealistic ideas about reality`,
-      `May be unable to acknowledge or hear anything that goes against their personal
-ideas and opinions`,
-      `May blame their problems on other people, seeing themselves as victims who are
-treated unfairly`,
-      `May have great anger, and show this anger with rash outpourings of bad temper`,
-      `May be unaware of appropriate social behavior`,
-      `May be oblivious to their personal appearance, or to appropriate dress`,
-      `May come across as eccentric, or perhaps even generally strange to others,
-without being aware of it`,
-      `May be unable to see or understand anyone else's point of view`,
-      `May value their own opinions and feelings far above others`,
-      `May be unaware of how their behavior affects others`,
-      `May be oblivious to other people's need`,
-      `May feel overwhelmed with tension and stress when someone expresses
-disagreement with the ISFP, or disapproval of the ISFP`,
-      `May develop strong judgments that are difficult to change against people who
-they perceive have been oppressive or suppressive to them`,
-      `Under great stress, may feel out of control and fearful, dwelling on the \`dark side\`
-of things`,
+      `May find difficulty expressing their feelings without fear or anger.`,
+      `May be unable to correctly judge what really is for the best`,
+      `May wrongly suspect others of having hidden motives or agendas`,
+      `May be unable to shrug off feelings impending disaster`,
+      `May be unable to acknowledge or hear anything that goes against their certainty
+about the “correct” or “right” way to do things`,
+      `May have a tendency to blame particular persons for disturbing or upsetting “their
+world” by simply being who they are`,
+      `May come across to others as cold and insensitive to anything but another’s
+ability to fit in with and support their own judgments`,
+      `May be unnecessarily harsh or strict about appropriate social behavior`,
+      `May be oblivious to what others think about them`,
+      `May come across as rigid, inflexible or even cold and uncaring to others, without
+being aware of it`,
+      `May be unable to understand verbal logic, and quickly cut off other’s
+explanations`,
+      `May value their own certainties about the world and its problems far above others`,
+      `May be quite falsely certain of their influence upon, and understanding of others`,
+      `May be extremely vulnerable to tricks, con men, false hopes, religious cults and
+conspiracy theories`,
+      `May react with anger or distress when someone expresses disagreement with their
+view of the world, or disapproval of their judgments`,
+      `May favor their judgments to the degree that they are unable to notice the pain or
+difficulty such judgments might cause others`,
+      `Under great stress, are likely to make outrageously harsh and uncaringly selfish
+survival oriented decisions`,
     ],
     explanationOfProblems: `Nearly all of the problematic characteristics described above can be attributed in various
-degrees to the common ISFP problem of only taking in data that justifies their personal
-opinions. ISFP’s are usually very intense and sensitive people, and feel seriously
-threatened by criticism. They are likely to treat any point of view other than their own as
-criticism of their own perspective. If the ISFP does not learn how to deal with this
-perceived criticism, the ISFP will begin to shut out the incoming information that causes
-them pain. This is a natural survivalist technique for the ISFP personality. The main
-driver to the ISFP personality is Introverted Feeling, whose purpose is to maintain and
-honor an intensely personal system of values and morals. If an ISFP's personal value
-system is threatened by external influences, the ISFP shuts out the threatening data in
-order to preserve and honor their value system. This is totally natural, and works well to
-protect the individual psyche from getting hurt. However, the ISFP who exercises this
-type of self-protection regularly will become more and more unaware of other people's
-perspectives, and thus more and more isolated from a real understanding of the world that
-they live in. They will always find justification for their own inappropriate behaviors, and
-will always find fault with the external world for problems that they have in their lives. It
-will be difficult for them to maintain close personal relationships because they will have
-unreasonable expectations, and will be unable to accept blame.
-It’s not an uncommon tendency for the ISFP to look to the external world primarily for
-information that will support their ideas and values. However, if this tendency is given
-free reign, the resulting ISFP personality is too self-centered to be happy or successful.
-Since the ISFP's dominant function to their personality is Introverted Feeling, they must
-balance this with an auxiliary Extraverted Sensing function. The ISFP takes in
-information via Extraverted Sensing. This is also the ISFP's primary way of dealing with
-the external world. If the ISFP uses Extraverted Sensing only to serve the purposes of
-Introverted Feeling, then the ISFP is not using Extraversion effectively at all. As a result,
-the ISFP does not take in enough information about the external world to have a good
-sense of what's going on. They see nothing but their own perspective, and deal with the
-world only so far as they need to in order to support their perspective. These individuals
-usually come across as selfish and unrealistic. Depending on how serious the problem is,
-they may appear to be anything from "a bit eccentric" to "way out there". Many times
-other people are unable to understand or relate to these people.`,
-    solutions: `To grow as an individual, the ISFP needs to focus on opening their perspective to include
-a more accurate picture of what is really going on in the world. In order to be in a
-position in which the ISFP is able to perceive and consider data that is foreign to their
-internal value system, the ISFP needs to know that its value system is not threatened by
-the new information. The ISFP must consciously tell himself/herself that an opinion that
-does not concede with their own is not an indictment of their entire character.
-The ISFP who is concerned with personal growth will pay close attention to their
-motivation for taking in information. Do they take in information to better understand a
-situation or concept? Or, do they take in information to support a personal idea or cause?
-At the moment when something is perceived, is the ISFP concerned with twisting that
-perception to fit in with their personal values? Or is she/he concerned with absorbing the
-information objectively? To achieve a better understanding of the external world, the
-ISFP should try to perceive information objectively, before fitting it into their value
-system. They should consciously be aware of their tendency to discard anything that
-doesn't agree with their values, and work towards lessening this tendency. They should
-try to see situations from other people's perspectives, without making personal judgments
-about the situations or the other people's perspectives. In general, they should work on
-exercising their Sensing in a truly Extraverted sense. In other words, they should use
-Sensing to take in information about the world around them for the sake of understanding
-the world, rather than take in information to support their own conclusions. The ISFP
-who successfully perceives things objectively may be quite a powerful force for positive
-change.`,
-    livingHappilyTips: `Some ISFP’s have difficulty fitting into our society. Their problems are often a result of
-an unawareness of appropriate social behavior, an unawareness of how they come across
-to others, or unrealistic expectations of others. Any one of these three issues stem from
-using Extraverted Sensing in a diminished manner. An ISFP who takes in information for
-the sake of understanding the world around them, rather than one who takes in
-information only to support their own ideas, will have a clearer, more objective
-understanding of how society values social behaviors and attitudes. He or she will also be
-more aware of how they are perceived by others, and will have more realistic
-expectations for others' behavior within a relationship. Such well-adjusted ISFP’s will fit
-happily into our society.
-Unless you really understand Psychological Type and the nuances of the various
-personality functions, it's a difficult task to suddenly start to use Sensing in an
-Extraverted direction. It's difficult to even understand what that means, much less to
-incorporate that directive into your life. With that in mind, I am providing some specific
-suggestions that may help you to begin exercising your Extraverted Sensing more fully:
-Take care to notice what people look like in different social situations. Look at their hair,
-their skin, their makeup (or lack thereof), their clothes, the condition of their clothes, their
-shoes, their facial expressions. Don't compare others to your own appearance, or pass
-judgment on their appearance, simply take in the information.
-Think of a situation in your life in which you weren't sure how to behave. Now try to
-understand how one or two other people would see the situation. Don't compare their
-behavior to your own, i.e. "she would know better than me what to do", or "why is it so
-easy for her, but so hard for me". Rather, try to understand how they would see the
-situation. Would it be seen as a problem, or as an opportunity? Would it be taken
-seriously or lightly? Try to determine their point of view without passing judgment or
-comparing it to your own.
+degrees to the ISFJ’s internally mapped and abstract view of the world not being
+successfully coupled to an appropriate level of Extroverted feeling. Without this rational
+external balance, the ISFJ’s opposing unconscious functions can wreak havoc upon the
+order and sense of the ISFJ’s perceptions and ideas. ISFJ’s are usually stable, certain,
+reliable and deft in their approach to life. But if unbalanced, they are likely to treat any
+point of view other than their own with a kind of cold dismay, and if pressed hard will
+tend to shut out the existence of problems caused by others differing attitudes and
+opinions. If the ISFJ does not learn how to deal with the wide range of differing world
+views they come into contact with, they can find themselves closed into a lonely little
+corner of the world in which only their own feelings of safety and certainty are
+maintained. This is a natural survival technique for the extreme ISFJ personality.
+The main driver to the ISFJ personality is Introverted Sensing, whose function is to
+define the properties of and locate and recognize the sometimes abstract and innate
+qualities of and between the objects of the outer world. If an ISFJ’s picture of the world
+is threatened by external influences, the ISFJ generally tries to shut such new information
+out of their lives. This is totally natural, and works well to protect the individual psyche
+from getting hurt. However, the ISFJ who exercises this type of self-protection regularly
+will become closed within a small and ever decreasing circle of those family and friends
+who do not actively disturb their increasingly narrow and rigid world view. They will
+always find justification for their own inappropriate behaviors, and will always find fault
+with the outside world for problems that they have in their lives. It will be difficult for
+them to maintain close personal relationships because they will have a negatively
+polarized and therefore limited ability to communicate outside of the box of their own
+security needs.
+It is not an uncommon tendency for the ISFJ to support their ideas and values by using
+only the value judgments they make about the world and other peoples behavior.
+However, if this tendency is given free reign, the resulting ISFJ personality is too self centered to be happy or successful. Since the ISFJ's dominant function is Introverted
+Sensing, they must balance this with an auxiliary Extraverted Feeling function. If the
+ISFJ uses Extraverted Feeling only to serve the purposes of Introverted Sensing, then the
+ISFJ is not using Extraversion effectively at all. As a result, the ISFJ does not sufficiently
+recognize and sympathize with the way feelings affect the behavior of others in the world
+to have a good sense of why things happen as they do. They see nothing but their own
+perspective, and deal with the world only so far as they need to in order to support their
+perspective. These individuals usually come across as somewhat judgmental and full of
+fixed and often rather ambiguously polarized ideas about the world. Other people are
+often surprised by the vehemence of their ideas and are usually unable to understand how
+they came by them.`,
+    solutions: `To grow as an individual, the ISFJ needs to focus on opening their perspective to include
+a more accurate picture of the feelings and value judgments of others. In order to be in a
+position in which the ISFJ is able to perceive and consider data that is foreign to their
+internal value system, the ISFJ needs to recognize that their world view is not threatened
+by the new information. The ISFJ must consciously tell himself/herself that emotional
+affects in others are not unrelated to reality; that the feelings of others are also just and
+valid within a wider and less rigorous vision of the world.
+The ISFJ who is concerned with personal growth will pay close attention to their
+motivation for deciding what is good and bad, right and wrong. Do they try to find the
+feeling values of others in a situation? Or, do they value only those feelings which
+support a personal idea or cause? At the moment when something is felt, is the ISFJ only
+concerned with whether that feeling supports something they recognize as correct? Or is
+she/he concerned with becoming truly empathetic? To achieve a better understanding of
+others and the world in which they live, the ISFJ should try to put themselves into the
+minds of others, to locate and recognize how they have come to feel the way they do,
+before making judgments. They should consciously be aware of their tendency to discard
+anything that doesn't agree with their carefully ordered concepts, and work towards
+lessening this tendency. They should try to feel the way others would feel in situations,
+without making personal judgments about the actual situations. In general, they should
+work on exercising their Feeling in a truly extraverted sense. In other words, they should
+use Feeling to locate the their true connections to and relationship with others for the sake
+of gaining a wider perspective, rather than only allowing such feeling values to support
+their own conclusions. The ISFJ who successfully feels things objectively may be quite a
+powerful force for positive change.`,
+    livingHappilyTips: `Some ISFJ’s have difficulty fitting into our society. Their problems are often a result of
+an inability to flow with what is, a too negative or correcting attitude which dismays
+others, or unrealistic ideals and ideas about the world. These issues mostly stem from
+using Extraverted Feeling in a diminished manner: the lack of a strong externally focused
+value system allowing an often ambiguous and yet strongly defended world view which
+has little relation to concrete reality to control the personality. An ISFJ who attempts to
+feel and value the feelings of others for the sake of understanding the world around them,
+rather than quickly deciding how they and they alone feel, will have a clearer, more
+objective understanding of how society is dependant not only upon structure and correct
+behavior, but also how human values make it just what it is and not something else
+perhaps more desirable. He or she will also be more comfortable and less likely to
+demand that the world and the behavior of others conform to some abstract code of being.
+Such well-adjusted ISFJ’s will fit happily into our society. Unless you really understand
+Psychological Type and the nuances of the various personality functions, it's a difficult
+task to suddenly start to use Feeling in an unambiguous and totally extraverted direction.
+It's difficult to even understand what that means, much less to incorporate that directive
+into your life. With that in mind, I am providing some specific suggestions that may help
+you to begin exercising your Extraverted Feeling more fully:
+Take care to try and discover why others feel the way they do. Try to notice the
+connections between their feelings and the way they see the world. Don’t immediately
+compare your own value judgments about the world to theirs; simply accept that for them
+this is a real and perfectly valid way of responding.
+Think of those times and situations in your life when you felt misunderstood or
+disregarded by others. Now try to understand how one or two other people would see the
+situation. Don't try to assume they would judge as you do: "she would have to feel the
+same way if that happened to her", or "he would change his tune if he saw things from
+my point of view". Rather, try to understand how they would truly see the situation.
+Would it be seen as a problem, or as an opportunity? Would it be taken seriously or
+lightly? Try to determine their point of view without passing judgment or comparing it to
+your own.
 When having a conversation with a friend or relative, dedicate at least half of your time
-to talking about the other person. Concentrate on really understanding where that person
-is coming from with their concerns. Ask questions.
+to finding out how the other person feels about what they are describing. Concentrate on
+really sensing their emotional state. Tell them how you feel and compare. Ask questions
+about why they feel as they do.
 Think of the people who are closest to you. As you think of each person, tell yourself
 "this person has their own life going on, and they are more concerned with their own life
 than they are with mine." Remember that this doesn't mean that they don't care about you.
-It's the natural order of things. Try to visualize what that person is doing right now. What
-things are they encountering, what thoughts are they having? Don't pass judgment, or
+It's the natural order of things. Try to visualize what that person is feeling right now.
+What emotions are they enacting, what thoughts are they having? Don't pass judgment, or
 compare their situation to your own.
 Try to identify the personality type of everyone that you come into contact with for any
 length of time.`,
     tenRulesToLive: [
-      `Feed Your Strengths! Encourage your natural artistic abilities and creativity.
-Nourish your spirituality. Give yourself opportunities to help the needy or
-underprivileged.`,
-      `Face Your Weaknesses! Realize and accept that some traits are strengths and
-some are weaknesses. Facing and dealing with your weaknesses doesn't mean that
-you have to change who you are, it means that you want to be the best You
-possible. By facing your weaknesses, you are honoring your true self, rather than
-attacking yourself.`,
-      `Express Your Feelings. Don't let unexpressed emotions build up inside of you. If
-you have strong feelings, sort them out and express them, Don't let them build up
-inside you to the point where they become unmanageable!`,
-      `Listen to Everything. Try not to dismiss anything immediately. Let everything
-soak in for awhile, then apply judgment.`,
-      `Smile at Criticism. Remember that people will not always agree with you or
-understand you, even if they value you greatly. Try to see disagreement and
-criticism as an opportunity for growth. In fact, that is exactly what it is.`,
-      `Be Aware of Others. Remember that there are 15 other personality types out there
-who see things differently than you see them. Try to identify other people's types.
-Try to understand their perspectives.`,
-      `Be Accountable for Yourself. Remember that YOU have more control over your
-life than any other person has.`,
-      `Be Gentle in Your Expectations. You will always be disappointed with others if
-you expect too much of them. Being disappointed with another person is the best
-way to drive them away. Treat others with the same gentleness that you would
-like to be treated with.`,
-      `Assume the Best. Don't distress yourself by assuming the worst. Remember that a
-positive attitude often creates positive situations.`,
-      `When in Doubt, Ask Questions! Don't assume that the lack of feedback is the
-same thing as negative feedback. If you need feedback and don't have any, ask for
-it.`,
+      `Feed Your Strengths! Let your talent for recognizing harmony and balance spill
+out into the world around you, show your gifts to the world. Allow yourself to
+take opportunities to design, reorganize and rebalance things to make your home
+and work environments better for yourself and others. Find work or a hobby
+which allows you to realize these strengths.`,
+      `Face Your Weaknesses! Realize and accept that some things are never going to
+be how you would like them to be. Understand that other peoples feelings are
+sometimes more important than whether they are right or wrong. Facing and
+dealing with discord or differences in others doesn't mean that you have to
+change who you are; it means that you are giving yourself opportunities to grow.
+
+By facing your weaknesses, you honor your true self and that of others.`,
+      `Discover the World of Others. Don't let yourself fall into the trap of thinking you
+always know what is right for others. Open your heart to the possibility of
+understanding that their true needs are something that must be discovered
+through relationship, and recognition that their world might be very different, yet
+just as valid as your own.`,
+      `Don’t be too hasty. Try to let things settle before you make a judgment, allowing
+others to discover the best for themselves while you feel your way into their way
+of seeing things.`,
+      `Look Carefully at the World. Remember, things are not always what they seem
+on the surface. You might need to look deeper to discover the truth, particularly
+when it seems you are sure of your first quick judgment. There are layers of
+meaning and truth beneath everything.`,
+      `Try to Let Others Take Some of the Load. By letting others help, you are not
+letting things get out of control, but are validating their own need to be a part of
+your life. Remember, it is better to guide another to see your point of view than
+keeping them out of the picture.`,
+      `Be Accountable to Others. Remember that they need to understand you and your
+needs too. Express your feelings and reasons and let them become partners to
+your goals.`,
+      `Don’t Hem Yourself in. Staying in your comfort zone is self defeating in the
+end. Try to make every day one where you get out and discover a little
+something different about the world and others. This will broaden your horizons
+and bring new ideas and opportunities into focus.`,
+      `Assume the Best and Seek for it. Don't wait for others to live up to your
+expectations. Every person has a goldmine of worth in them, just as every
+situation can be turned to some good. If you let yourself believe this, you will
+find yourself discovering ways to make it true for you.`,
+      `When in Doubt, Ask For Help! Don't let your sense of self sufficiency leave you
+on the horns of a dilemma or lead you into disaster. If you are uncertain of
+something or someone then get input from others you trust.`,
     ],
   },
   {
