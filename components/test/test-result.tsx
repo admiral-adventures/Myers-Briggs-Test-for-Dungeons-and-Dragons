@@ -70,7 +70,7 @@ export default function TestResult(props: TestResultProps) {
         id="description"
         as="h2"
         my={8}
-        fontSize={`calc(4 * ${theme.fontSizes.md})`}
+        fontSize="lg"
         textAlign="center"
       >
         {personalityClassGroup.epithet}
