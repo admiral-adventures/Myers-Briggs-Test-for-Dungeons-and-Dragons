@@ -2796,44 +2796,36 @@ something or someone then get input from others you trust.`,
     ],
   },
   {
-    type: "ISFJ",
-    name: "Introverted Sensing Feeling Judging",
-    nameDescription: "“Love only grows by sharing. You can only have more for yourself by giving it away to others.” - Brian Tracy",
-    epithet: "The Defender",
-    description: `In their unassuming, understated way, Defenders help make the world go round. Hardworking and devoted, people with this personality type feel a deep sense of responsibility to those around them. Defenders can be counted on to meet deadlines, remember birthdays and special occasions, uphold traditions, and shower their loved ones with gestures of care and support. But they rarely demand recognition for all that they do, preferring instead to operate behind the scenes.
-This is a capable, can-do personality type, with a wealth of versatile gifts. Though sensitive and caring, Defenders also have excellent analytical abilities and an eye for detail. And despite their reserve, they tend to have well-developed people skills and robust social relationships. Defenders are truly more than the sum of their parts, and their varied strengths shine in even the most ordinary aspects of their daily lives.`,
+    type: "ISFP",
+    name: "Introverted Sensing Feeling Perceiving",
+    nameDescription: "“I change during the course of a day. I wake and I am one person - and when I go to sleep I know for certain I am somebody else.” - Bob Dylan",
+    epithet: "The Adventurer",
+    description: `Adventurers are true artists – although not necessarily in the conventional sense. For this personality type, life itself is a canvas for self-expression. From what they wear to how they spend their free time, Adventurers act in ways that vividly reflect who they are as unique individuals.
+And every Adventurer is certainly unique. Driven by curiosity and eager to try new things, people with this personality often have a fascinating array of passions and interests. With their exploratory spirits and their ability to find joy in everyday life, Adventurers can be among the most interesting people you’ll ever meet. The only irony? Unassuming and humble, Adventurers tend to see themselves as “just doing their own thing,” so they may not even realize how remarkable they really are.`,
     jungianFunctionalPreference: {
-      dominant: "Half-Orc FIGHTER - Samurai",
-      auxiliary: "High Elf WIZARD - School of War",
+      dominant: "Human ROGUE - Swashbuckler",
+      auxiliary: "Human BARBARIAN - Wild Magic",
       tertiary: "TBD",
       inferior: " TBD",
     },
     generalTraits: [
-      "Catelyn Stark - Game of Thrones",
-      "Samwise Gamgee - The Lord of the Rings",
-      "Captain America - Avengers",
-      "Triss Merigold - The Witcher",
-      "Obi-Wan Kenobi - Star Wars",
-      "Leonard McCoy - Star Trek",
+      "Eowyn - The Lord of the Rings",
+      "Finn - Star Wars",
+      "Thea Queen - Arrow",
+      "Captain Marvel - Marvel Comics",
+      "Rogue - X Men",
+      "Black Panther - Marvel Comics",
     ],
-    relationshipStrengths: [
-      "SUPPORTIVE – Defenders truly enjoy helping others, and they happily share their knowledge, attention, and expertise with anyone who needs it. People with this personality type strive for win-win situations, choosing teamwork over competition whenever possible.",
-      "RELIABLE – Rather than working in sporadic, excited bursts that leave things half finished, Defenders are meticulous and careful. They take a steady approach, ensuring that things are done to the highest standard – and often going well beyond what is required.",
-      "OBSERVANT – Defender personalities have a talent for noticing things, particularly about other people. They pay attention to the smallest details of what someone says and does, giving them unexpected insights into other people’s lives and emotions.",
-      "ENTHUSIASTIC – When the goal is right, Defenders apply all of their gifts to something that they believe will make a real, positive difference in people’s lives – whether that’s fighting poverty with a global initiative or simply making a customer’s day.",
-      "HARDWORKING – Defenders don’t just get their work done – they take pride in it. People with this personality type often form an emotional attachment to the projects and organizations that they’ve dedicated themselves to, and they won’t rest until they’ve done their share – or more than their share – to be of help.",
-      "GOOD PRACTICAL SKILLS – This personality type offers the rare combination of an altruistic nature and hard-won practicality. Defenders don’t just hope to help others. They take action – meaning that they’re more than happy to roll up their sleeves and do what’s necessary to care for their friends, family, and anyone else who needs it.",
-    ],
+    
     relationshipWeaknesses: [
-      "OVERLY HUMBLE – Defenders are so concerned with other people’s feelings that they may refuse to make their thoughts known or to take any duly earned credit for their contributions. And they often downplay their efforts entirely when they think that they could have done some minor aspect of a task better.",
-      "TAKING THINGS PERSONALLY – Although they might try to hide it, people with this personality type are deeply sensitive to others’ opinions, and they can be thrown off-balance if someone doesn’t appreciate, approve of, or agree with them. When they encounter criticism or disagreement – even if it’s well intentioned – Defenders may feel as if they’re experiencing a personal attack.",
-      "REPRESSING THEIR FEELINGS – Private and reserved, Defenders tend to internalize their feelings, particularly negative ones. This can create misunderstandings in their relationships. Eventually, all of their repressed feelings and resentments may boil over in a sudden, uncharacteristic outburst of frustration.",
-      "OVERCOMMITTED – Defenders’ dutifulness can create situations where they are overwhelmed but unwilling to relax their standards or ask for help. As a result, Defender personalities may suffer silently, trying to do everything themselves, even when it’s simply impossible.",
-      "RELUCTANT TO CHANGE – Defenders are among the personality types that struggle the most with change. Breaking with tradition isn’t easy for Defenders, who place great value on history and precedent. Even when change is necessary, they may wait until the situation reaches a breaking point before altering course.",
-      "TOO ALTRUISTIC – Defenders’ giving, generous nature can leave them vulnerable to being taken advantage of by others. It can be hard for people with this personality type to rock the boat and stand up to someone who isn’t pulling their own weight.",
+      "FIERCELY INDEPENDENT – Freedom of expression is often Adventurers’ top priority. Anything that interferes with that, like traditions and hard rules, creates a sense of oppression for Adventurer personalities. This can make more rigidly structured academics and work a challenge.",
+      "UNPREDICTABLE – Adventurers’ dislike long-term commitments and plans. The tendency to actively avoid planning for the future can cause strain in Adventurers’ romantic relationships and financial hardship later in life.",
+      "EASILY STRESSED – Adventurers live in the present, full of emotion. When situations get out of control, people with this personality type (especially Turbulent ones) can shut down, losing their characteristic charm and creativity in favor of gnashing teeth.",
+      "OVERLY COMPETITIVE – Adventurers can escalate small things into intense competitions, turning down long-term success in their search for glory in the moment, and are unhappy when they lose.",
+      "FLUCTUATING SELF-ESTEEM – It’s demanded that skills be quantified, but that’s hard to do with Adventurers’ strengths of sensitivity and artistry. Adventurers’ efforts are often dismissed, a hurtful and damaging blow, especially early in life. Adventurers can start to believe the naysayers without strong support.",
     ],
-    successDefinition: `1. THE GIFT OF LOYALTY - I tend to feel most energized and effective when I am showing up for someone who needs my help.  My most distinctive trait is loyalty. Rare is it when I allow a friendship or relationship to fade away from lack of effort. Instead, I invest a great deal of energy into maintaining strong connections with my loved ones – and not just by sending “How are you doing?” texts. I am known for dropping everything and lending a hand whenever a friend or family member is going through a hard time.
-    2. THE HIGHEST STANDARDS - I am known for my humility, and I rarely seek the spotlight.  For me, “good enough” is rarely good enough. I can be meticulous to the point of perfectionism. I take my responsibilities personally, consistently going above and beyond and doing everything that I can to exceed others’ expectations. `,
+    successDefinition: `1. LIVING IN HARMONY - Unless I take time for myself, I can end up feeling lost in the tide of everyday life, constantly reacting to external circumstances instead of making my own way. Creative and free-spirited, I march to the beat of my own drum, and it would be easy to assume that I don’t particularly worry what other people think of me. But this isn’t the case – I am  thoughtful and perceptive, able to pick up on people’s unspoken feelings and opinions, and it can upset me if I don’t feel liked, approved of, or appreciated. When faced with criticism, it can be a challenge for me not to get caught up in the heat of the moment. If I encounter harsh or seemingly unfair criticism, I may even lose my temper in spectacular fashion. 
+    2. THE BEAUTY OF AN OPEN MIND - I want to live in a world where me, and everyone else, have the freedom to live as I see fit, without judgment. I embrace a flexible, adaptable approach to life. Some people thrive on strict schedules and routines, but not me. I take each day as it comes, doing what feels right to me in the moment. And I make sure to leave plenty of room in their life for the unexpected, with the result that many of my most cherished memories are of spontaneous, spur-of-the-moment outings and adventures, whether by myself or with my loved ones.`,
     strengths: [
       `You are adept at seeing the right balance, the best way to make the world look
 and feel good. This talent enables you to make your world reflect your inner self
