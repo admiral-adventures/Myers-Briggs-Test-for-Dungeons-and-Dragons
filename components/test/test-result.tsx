@@ -68,7 +68,7 @@ export default function TestResult(props: TestResultProps) {
       <Heading
         scrollMarginTop={8}
         id="description"
-        as="h2"
+        as="h1"
         my={8}
         fontSize="lg"
         textAlign="center"
