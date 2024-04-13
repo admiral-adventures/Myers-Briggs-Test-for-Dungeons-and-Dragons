@@ -2798,7 +2798,7 @@ something or someone then get input from others you trust.`,
   {
     type: "ISFP",
     name: "Introverted Sensing Feeling Perceiving",
-    nameDescription: "“I change during the course of a day. I wake and I am one person, and when I go to sleep I know for certain I am somebody else.” - Bob Dylan",
+    nameDescription: "“I change during the course of a day. I wake and I am one person - and when I go to sleep I know for certain I am somebody else.” - Bob Dylan",
     epithet: "The Adventurer",
     description: `Adventurers are true artists – although not necessarily in the conventional sense. For this personality type, life itself is a canvas for self-expression. From what they wear to how they spend their free time, Adventurers act in ways that vividly reflect who they are as unique individuals.
 And every Adventurer is certainly unique. Driven by curiosity and eager to try new things, people with this personality often have a fascinating array of passions and interests. With their exploratory spirits and their ability to find joy in everyday life, Adventurers can be among the most interesting people you’ll ever meet. The only irony? Unassuming and humble, Adventurers tend to see themselves as “just doing their own thing,” so they may not even realize how remarkable they really are.
