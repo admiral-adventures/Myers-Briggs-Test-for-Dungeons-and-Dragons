@@ -2049,7 +2049,7 @@ it.`,
       inferior: " TBD",
     },
     generalTraits: [
-      "Petyr Baelish "Littlefinger" - Game of Thrones",
+      "Petyr Baelish - Game of Thrones",
       "Tywin Lannister - Game of Thrones",
       "Yennefer of Vengerberg - The Witcher",
       "Gandalf the Grey - The Lord of the Rings",
