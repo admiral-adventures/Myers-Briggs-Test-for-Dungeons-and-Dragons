@@ -35,29 +35,8 @@ Protagonists are born leaders, which explains why these personalities can be fou
       "INTENSE – When it comes to self-improvement, Protagonists are rarely short on energy or determination. But they may not recognize that not everyone shares these qualities. At times, Protagonists may push others to make changes that they aren’t ready for – or simply aren’t interested in making in the first place.",
       "OVERLY EMPATHETIC – Compassion is among this personality type’s greatest strengths. But Protagonists have a tendency to take on other people’s problems as their own – a habit that can leave them emotionally and physically exhausted.",
     ],
-    successDefinition: `1. SPEAKING UP FOR WHAT IS RIGHT
-
-Changing people’s minds is no easy task – but if anyone can do it, it’s Protagonists.
-
-Protagonists tend to be vocal about their values, including authenticity and altruism. When something strikes them as unjust or wrong, they speak up. But they rarely come across as brash or pushy, as their sensitivity and insight guide them to speak in ways that resonate with others.
-
-These personality types have an uncanny ability to pick up on people’s underlying motivations and beliefs. At times, they may not even understand how they come to grasp another person’s mind and heart so quickly. These flashes of insight can make Protagonists incredibly persuasive and inspiring communicators.
-
-Protagonists’ secret weapon is their purity of intent. Generally speaking, they are motivated by a sincere wish to do the right thing rather than a desire to manipulate or have power over other people. Even when they disagree with someone, Protagonists search for common ground. The result is that people with this personality type can communicate with an eloquence and sensitivity that are nearly impossible to ignore – particularly when they speak about matters that are close to their hearts. 
-
-2. GETTING INVOLVED
-
-Protagonists are genuine, caring people who talk the talk and walk the walk. Nothing makes them happier than motivating other people to do what’s right.
-
-When Protagonists care about someone, they want to help solve that person’s problems – sometimes at any cost. The good news is that many people are grateful for Protagonists’ assistance and advice. After all, there’s a reason that these personalities have a reputation for helping others improve their lives.
-
-But getting involved in other people’s problems isn’t always a recipe for success. Protagonists tend to have a clear vision of what people can or should do in order to better themselves, but not everyone is ready to make those changes. If Protagonists push too hard, their loved ones may feel resentful or unfairly judged. And while this personality type is known for being insightful, even the wisest Protagonists may sometimes misread a situation or unwittingly give bad advice.
-
-3. LEADING THE WAY
-
-People with this personality type are devoted altruists, ready to face slings and arrows in order to stand up for the people and ideas that they believe in. This strength of conviction bolsters Protagonists’ innate leadership skills, particularly their ability to guide people to work together in service of the greater good.
-
-But their greatest gift might actually be leading by example. In their day-to-day lives, Protagonists reveal how seemingly ordinary situations can be handled with compassion, dedication, and care. For these personalities, even the smallest daily choices and actions – from how they spend their weekend to what they say to a coworker who is struggling – can become an opportunity to lead the way to a brighter future.
+    successDefinition: `1. LEADING THE WAY -  I am a devoted altruists, ready to face slings and arrows in order to stand up for the people and ideas that I believe in. This strength of conviction bolsters my innate leadership skills, particularly my ability to guide people to work together in service of the greater good.
+2. GETTING INVOLVED - I am a genuine, caring person who talks the talk and walks the walk. Nothing makes me happier than motivating other people to do what’s right.  When I care about someone, I want to help solve that person’s problems – sometimes at any cost. The good news is that many people are grateful for my assistance and advice. After all, there’s a reason that these I have a reputation for helping others improve their lives.
 `,
     strengths: [
       "Making others feel valued and important",
@@ -223,69 +202,37 @@ your own competence. Let the feelings of others become a strength rather than a 
     epithet: "The Commander",
     description: `Commanders are natural-born leaders. People with this personality type embody the gifts of charisma and confidence, and project authority in a way that draws crowds together behind a common goal. However, Commanders are also characterized by an often ruthless level of rationality, using their drive, determination and sharp minds to achieve whatever end they’ve set for themselves. Perhaps it is best that they make up only three percent of the population, lest they overwhelm the more timid and sensitive personality types that make up much of the rest of the world – but we have Commanders to thank for many of the businesses and institutions we take for granted every day.`,
     jungianFunctionalPreference: {
-      auxiliary: "Introverted Intuition",
-      dominant: "Extraverted Thinking",
-      inferior: "Introverted Feeling",
-      tertiary: "Extraverted Sensing",
+      dominant: "Half-Elf SORCERER - Draconic",
+      auxiliary: "Mountain Dwarf FIGHTER - Battlemaster",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      "Driven to turn theories into plans",
-      "Highly value knowledge",
-      "Future-oriented",
-      "Natural leaders",
-      "Impatient with inefficiency and incompetence",
-      "Want things structured and orderly",
-      "Excellent verbal communication skills",
-      "Dislike routine, detail-oriented tasks",
-      "Self-confident",
-      "Decisive",
+      "Doctor Strange - Avengers",
+      "Malcolm Merlyn - Arrow",
+      "River Tam - Firefly",
+      "Sauron - The Lord of the Rings",
+      "Khan Noonien Singh - Star Trek",
     ],
     relationshipStrengths: [
-      "Genuinely interested in people's ideas and thoughts",
-      "Enthusiastic and energetic",
-      "Take their commitments very seriously",
-      "Fair-minded and interested in doing the Right Thing",
-      "Very good with money",
-      "Extremely direct and straightforward",
+      "EFFICIENT – Commanders see inefficiency not just as a problem in its own right, but as something that pulls time and energy away from all their future goals, an elaborate sabotage consisting of irrationality and laziness. People with the Commander personality type will root out such behavior wherever they go.",
+      "ENERGETIC – Rather than finding this process taxing Commanders are energized by it, genuinely enjoying leading their teams forward as they implement their plans and goals.",
+      "SELF-CONFIDENT – Commanders couldn’t do this if they were plagued by self-doubt – they trust their abilities, make known their opinions, and believe in their capacities as leaders.",
+      "STRONG-WILLED – Nor do they give up when the going gets tough – Commander personalities strive to achieve their goals, but really nothing is quite as satisfying to them as rising to the challenge of each obstacle in their run to the finish line.",
+      "STRATEGIC THINKERS – Commanders exemplify the difference between moment-to-moment crisis management and navigating the challenges and steps of a bigger plan, and are known for examining every angle of a problem and not just resolving momentary issues, but moving the whole project forward with their solutions.",
+      "CHARISMATIC AND INSPIRING – These qualities combine to create individuals who are able to inspire and invigorate others, who people actually want to be their leaders, and this in turn helps Commanders to accomplish their often ambitious goals that could never be finished alone.",
       "Verbally fluent",
-      "Enhance and encourage knowledge and self-growth in all aspects of life",
-      "Able to leave relationships without looking back",
-      "Able to turn conflict situations into positive lessons",
-      "Able to take constructive criticism well",
-      "Extremely high standards and expectations (both a strength and a weakness)",
-      "Usually have strong affections and sentimental streaks",
-      "Able to dole out discipline",
     ],
     relationshipWeaknesses: [
-      "Their enthusiasm for verbal debates can make them appear argumentative",
-      "Tendency to be challenging and confrontational",
-      'Tend to get involved in "win-lose" conversations',
-      "Tendency to have difficulty listening to others",
-      "Tendency to be critical of opinions and attitudes which don't match their own",
-      "Extremely high standards and expectations (both a strength and a weakness)",
-      "Not naturally in tune with people's feelings and reactions",
-      "May have difficulty expressing love and affection, sometimes seeming awkward or inappropriate",
-      "Can be overpowering and intimidating to others",
-      "Tendency to want to always be in charge, rather than sharing responsibilities",
-      "Can be very harsh and intolerant about messiness or inefficiency",
-      "Tendency to be controlling",
-      "May be slow to give praise or to realize another's need for praise",
-      "If unhappy or underdeveloped, they may be very impersonal, dictatorial, or abrasive",
-      "Tendency to make hasty decisions",
-      "Make explode with terrible tempers when under extreme stress",
+      "STUBBORN AND DOMINANT – Sometimes all this confidence and willpower can go too far, and Commanders are all too capable of digging in their heels, trying to win every single debate and pushing their vision, and theirs alone.",
+      "INTOLERANT – “It’s my way or the highway.” People with the Commander personality type are notoriously unsupportive of any idea that distracts from their primary goals, and even more so of ideas based on emotional considerations. Commanders won’t hesitate a second to make that fact clear to those around them.",
+      "IMPATIENT – Some people need more time to think than others, an intolerable delay to quick-thinking Commanders. They may misinterpret contemplation as stupidity or disinterest in their haste, a terrible mistake for a leader to make.",
+      "ARROGANT – Commander personalities respect quick thoughts and firm convictions, their own qualities, and look down on those who don’t match up. This relationship is a challenge for most other personality types who are perhaps not timid in their own right, but will seem so beside overbearing Commanders.",
+      "POOR HANDLING OF EMOTIONS – All this bluster, alongside the assumed supremacy of rationalism, makes Commanders distant from their own emotional expression and sometimes downright scornful of others’. People with this personality type often trample others’ feelings, inadvertently hurting their partners and friends, especially in emotionally charged situations.",
+      "COLD AND RUTHLESS – Their obsession with efficiency and unwavering belief in the merits of rationalism, especially professionally, makes Commanders incredibly insensitive in pursuing their goals, dismissing personal circumstances, sensitivities, and preferences as irrational and irrelevant.",
     ],
-    successDefinition: `ENTJ people are realists, in the most basic sense of the word. Not only because their thinking is based upon
-a clear view of how things actually are in the world around them, but also because their ideas and strategies
-are structured around those unambiguous, “down to earth”, commonsense beliefs which sum up the
-obvious and undeniable in life. But while ENTJ’s might be pragmatic about the immediate situation before
-them, they are scarcely satisfied with it until it can be made more productive, useful or valuable. The
-ENTJ’s reasoning on such matters is always clear and generally unemotional. If action can improve an item
-or a situation then it ought to be taken, and the ENTJ will always be found in the midst of such action,
-organizing, planning and leading the way forward until the best result possible has been realized. This
-makes success for an ENTJ something that can be clearly seen, a real world result which can be measured.
-And whether measured in dollars, bricks, bread or just happy people, the successful ENTJ knows the result
-is due to their belief that it is just plain commonsense to try and make the best of every situation and get the
-most out if it for the most people.`,
+    successDefinition: `1. A WORTHY CHALLENGE - I am a true powerhouse, and I cultivate an image of being larger than life – and often enough I am. I need to remember though, that my stature comes not just from my own actions, but from the actions of the team that props me up, and that it’s important to recognize the contributions, talents and needs, especially from an emotional perspective, of my support network. 
+    2. STRIVING FOR GREATNESS - At the negotiating table, I am dominant, relentless, and unforgiving. This isn’t because I am coldhearted or vicious per se – it’s more that I genuinely enjoy the challenge, the battle of wits, the repartee that comes from this environment, and if the other side can’t keep up, that’s no reason for me to fold on my own core tenet of ultimate victory.`,
     strengths: [
       `Able to cut straight to the chase in any situation and not be sidetracked by non-essential issues.`,
       `A propensity for leadership which follows naturally from their ability to control and manage real
@@ -452,67 +399,36 @@ happiness`,
     epithet: "The Campaigner",
     description: `Campaigners (ENFPs) are true free spirits – outgoing, openhearted, and open-minded. With their lively, upbeat approach to life, they stand out in any crowd. But even though they can be the life of the party, Campaigners don’t just care about having a good time. These personality types run deep – as does their longing for meaningful, emotional connections with other people.`,
     jungianFunctionalPreference: {
-      auxiliary: "Introverted Feeling",
-      dominant: "Extraverted Intuition",
-      inferior: "Introverted Sensing",
-      tertiary: "Extraverted Thinking",
+      dominant: "Eladrin Spring Elf BARD - College of Glamour",
+      auxiliary: "Human Fey Lineage DRUID - Circle of Dreams",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      `Project-oriented`,
-      `Bright and capable`,
-      `Warmly, genuinely interested in people; great people skills`,
-      `Extremely intuitive and perceptive about people`,
-      `Able to relate to people on their own level`,
-      `Service-oriented; likely to put the needs of others above their own`,
-      `Future-oriented`,
-      `Dislike performing routine tasks`,
-      `Need approval and appreciation from others`,
-      `Cooperative and friendly`,
-      `Creative and energetic`,
-      `Well-developed verbal and written communication skills`,
-      `Natural leaders, but do not like to control people`,
-      `Resist being controlled by others`,
-      `Can work logically and rationally - use their intuition to understand the goal and work backwards
-towards it`,
-      `Usually able to grasp difficult concepts and theories`,
+      `Spider Man - Avengers`,
+      `Frodo Baggins - The Lord of the Rings`,
+      `Qui-Gon - Star Wars`,
+      `Capt James T. Kirk - Star Trek`,
+      `Valeria - 1982 Conan the Barbarian`,
     ],
     relationshipStrengths: [
-      "Good communication skills",
-      "Very perceptive about people's thought and motives",
-      "Motivational, inspirational; bring out the best in others",
-      "Warmly affectionate and affirming",
-      "Fun to be with - lively sense of humor, dramatic, energetic, optimistic",
-      'Strive for "win-win" situations',
-      "Driven to meet other's needs",
-      "Usually loyal and dedicated",
+      "CURIOUS – Campaigners can find beauty and fascination in nearly anything. Imaginative and open-minded, these personalities aren’t afraid to venture beyond their comfort zones in search of new ideas, experiences, and adventures.",
+      "PERCEPTIVE – To people with this personality type, no one is unimportant – which might explain how they can pick up on even the subtlest shifts in another person’s mood or expression. Because they’re so sensitive to other people’s feelings and needs, Campaigners can make full use of their caring, considerate nature.",
+      "ENTHUSIASTIC – When something captures their imagination and inspires them, Campaigners want to share it with anyone who will listen. And they’re just as eager to hear other people’s ideas and opinions – even if those thoughts are wildly different from their own.",
+      "EXCELLENT COMMUNICATORS – Campaigners brim with things to say, but they can be caring listeners as well. This gives them a nearly unmatched ability to have positive and enjoyable conversations with all sorts of people – even people who aren’t particularly sociable or agreeable.",
+      "FESTIVE – Campaigners may live for deep, meaningful conversations, but they can also be spontaneous and lighthearted. These personalities know how to find fun and joy in the present moment – and few things give them more pleasure than sharing their joy with others.",
+      "GOOD NATURED – All of these strengths come together to form a person who is warmhearted and approachable, with an altruistic spirit and a friendly disposition. Campaigners strive to get along with pretty much everyone, and their circles of acquaintances and friends often stretch far and wide.",
     ],
     relationshipWeaknesses: [
-      "Tendency to be smothering",
-      "Their enthusiasm may lead them to be unrealistic",
-      'Uninterested in dealing with "mundane" matters such as cleaning, paying bills, etc.',
-      "Hold onto bad relationships long after they've turned bad",
-      "Extreme dislike of conflict",
-      "Extreme dislike of criticism",
-      "Don't pay attention to their own needs",
-      "Constant quest for the perfect relationship may make them change relationships frequently",
-      "May become bored easily",
-      "Have difficulty scolding or punishing others",
-    ],
-    successDefinition: `ENFPs are motivated in everything that they do by a desire to understand the world around them. They are
-constantly searching about. Mentally and physically, for input that will help them to better understand the
-Big Picture. They are open-minded to new people and new experiences; they’re eager for the opportunity
-to understand what the new people and experiences are all about. ENFPs use their understanding of the
-world to serve the agendas of their value systems. An ENFP’s value system often includes respect for the
-needs and desires of individual people over the needs of a social group. Their respect for the individual
-makes them dislike controlling others, and being controlled by others. ENFPs are passionate about their
-beliefs, whatever they may be. They often stubbornly adhere to their value system regardless of threats to
-its validity. They are more concerned with keeping true to what they believe than they are with
-expectations or demands from the social group that they function within. ENFPs dislike personal criticism,
-because it threatens their validity as an individual and the validity of their value system. ENFPs may
-internalize anger rather than express it; their respect for other individuals makes it difficult for them to hurt
-others. An ENFP’s feeling of success depends upon the availability of opportunities to grow their
-understanding of the world, upon feeling that they’re living true to their personal value system, and upon
-the condition of their closest relationships.`,
+      "PEOPLE PLEASING – Most Campaigners are uncomfortable with the prospect of being disliked. To maintain peace, they may compromise on things that matter to them or allow people to treat them poorly. And when they fail to win someone over, they might lose sleep trying to figure out what to do about it.",
+      "UNFOCUSED – The thrill of a new project – especially one that involves collaborating with other people – can bring out the best in Campaigners. But this personality type is known for having ever-evolving interests, meaning that Campaigners may find it challenging to maintain discipline and focus over the long term.",
+      'DISORGANIZED – Campaigners’ enthusiasm is legendary, but it doesn’t extend to everything. Specifically, people with this personality type may try to avoid boring, practical matters, such as chores, maintenance, or paperwork. The resulting sense of disorganization can become a major source of stress in their lives.',
+      "OVERLY ACCOMODATING – Campaigner personalities feel called to uplift others, and they may find themselves saying yes whenever anyone asks them for guidance or help. But unless they set boundaries, even the most energetic Campaigners can become overcommitted, with too little time and energy to tackle the necessities of their own lives.",
+      "OVERLY OPTIMISTIC – Optimism can be among this personality type’s key strengths. But Campaigners’ rosy outlook can lead them to make well-intentioned but naive decisions, such as believing people who haven’t earned their trust. This trait can also make it difficult for Campaigners to accept hard but necessary truths – and to share those truths with others.",
+      "RESTLESS – With their positive, upbeat attitude, Campaigners rarely seem upset or dissatisfied on the outside. But their inner idealism can leave them with a nagging feeling that some major areas of their life just aren’t good enough – whether that’s their work, their home life, or their relationships.",
+     ],
+    successDefinition: `1. THE MAGIC OF EVERYDAY LIFE -  I am independent and creative, always on the lookout for the magic and meaning in everyday life. In my unique way, I can be quite introspective. I can’t help but ponder the deeper meaning and significance of life – even when I should be paying attention to something else. I believe that everything – and everyone – is connected, and I live for the glimmers of insight that I can gain into these connections.
+    2. SEEKING JOY - I am capable of intense thought and feeling – and also of kicking back and having a good time. Even in moments of fun, I want to connect emotionally with others. Few things matter more to me than having genuine, heartfelt conversations with the people I cherish. I believe that everyone deserves to express their feelings, and their empathy and warmth create spaces where even the most timid spirits can feel comfortable opening up.`,
     strengths: [
       `They’re exceptionally perceptive about people and situations. They’re often able to quickly and
 accurately assess where someone is coming from.`,
@@ -641,77 +557,36 @@ negative feedback. If you need feedback and don't have any, ask for it`,
     description: `Quick-witted and audacious, Debaters aren’t afraid to disagree with the status quo. In fact, they’re not afraid to disagree with pretty much anything or anyone. Few things light up people with this personality type more than a bit of verbal sparring – and if the conversation veers into controversial terrain, so much the better.
 It would be a mistake, though, to think of Debaters as disagreeable or mean-spirited. Instead, people with this personality type are knowledgeable and curious, with a playful sense of humor, and they can be incredibly entertaining. They simply have an offbeat, contrarian idea of fun – one that involves a healthy dose of spirited debate.`,
     jungianFunctionalPreference: {
-      auxiliary: "Introverted Thinking",
-      dominant: "Extraverted Intuition",
-      inferior: "Introverted Sensing",
-      tertiary: "Extraverted Feeling",
+      dominant: "Human BARD - College of Eloquence",
+      auxiliary: "Human RANGER - Hunter",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      "Project-oriented",
-      "Enjoy generating ideas and theories",
-      "Creative and ingenious",
-      "Bright and capable",
-      "Flexible and Diverse",
-      "Excellent communication skills",
-      "Enjoy debating issues with other people",
-      "Excellent people skills",
-      "Natural leaders, but do not like to control people",
-      "Resist being controlled by people",
-      "Lively and energetic; able to motivate others",
-      "Highly value knowledge and competence",
-      "Logical, rational thinkers",
-      "Able to grasp difficult concepts and theories",
-      "Enjoy solving difficult problems",
-      "Dislike confining schedules and environments",
-      "Dislike routine, detailed tasks",
+      "Captain Jack Sparrow - Pirates of the Caribbean",
+      "Tyrion Lannister - Game of Thrones",
+      "The Joker - Batman",
+      "Felicity Smoak - Arrow",
+      "Bilbo Baggins - Lord of the Rings",
+      "Subotai - 1982 Conan the Barbarian",
     ],
     relationshipStrengths: [
-      "Enthusiastic, upbeat, and popular",
-      "Can be very charming",
-      "Excellent communication skills",
-      "Extremely interested in self-improvement and growth in their relationships",
-      "Laid-back and flexible, usually easy to get along with",
-      "Big idea-people, always working on a grand scheme or idea",
-      "Usually good at making money, although not so good at managing it",
-      "Take their commitments and relationships very seriously",
-      "Able to move on with their lives after leaving a relationship",
-    ],
+      "KNOWLEDGEABLE – Debaters rarely pass up a good opportunity to learn something new, especially abstract concepts. This information isn’t usually absorbed for any planned purpose as with dedicated studying, people with the Debater personality type just find it fascinating.",
+      "QUICK THINKERS – Debaters have tremendously flexible minds, and are able to shift from idea to idea without effort, drawing on their accumulated knowledge to prove their points, or their opponents’, as they see fit.",
+      "ORIGINAL – Having little attachment to tradition, Debater personalities are able to discard existing systems and methods and pull together disparate ideas from their extensive knowledge base, with a little raw creativity to hold them together, to formulate bold new ideas. If presented with chronic, systemic problems and given rein to solve them, Debaters respond with unabashed glee.",
+      "EXCELLENT BRAINSTORMERS – Nothing is quite as enjoyable to Debaters as analyzing problems from every angle to find the best solutions. Combining their knowledge and originality to splay out every aspect of the subject at hand, rejecting without remorse options that don’t work and presenting ever more possibilities, Debaters are irreplaceable in brainstorming sessions.",
+      "CHARISMATIC – People with the Debater personality type have a way with words and wit that others find intriguing. Their confidence, quick thought and ability to connect disparate ideas in novel ways create a style of communication that is charming, even entertaining, and informative at the same time.",
+      "ENERGETIC – When given a chance to combine these traits to examine an interesting problem, Debaters can be truly impressive in their enthusiasm and energy, having no qualms with putting in long days and nights to find a solution.",
+     ],
     relationshipWeaknesses: [
-      "Always excited by anything new, they may change partners frequently",
-      "Tendency to not follow through on their plans and ideas",
-      "Their love of debate may cause them to provoke arguments",
-      "Big risk-takers and big spenders, not usually good at managing money",
-      `Although they take their commitments seriously, they tend to abandon their relationships which no
-longer offer opportunity for growth`,
+      "VERY ARGUMENTATIVE – If there’s anything Debaters enjoy, it’s the mental exercise of debating an idea, and nothing is sacred. More consensus-oriented personality types rarely appreciate the vigor with which Debater personalities tear down their beliefs and methods, leading to a great deal of tension.",
+      "INSENSITIVE – Being so rational, Debaters often misjudge others feelings and push their debates well past others’ tolerance levels. People with this personality type don’t really consider emotional points to be valid in such debates either, which magnifies the issue tremendously.",
+      "INTOLERANT – Unless people are able to back up their ideas in a round of mental sparring, Debaters are likely to dismiss not just the ideas but the people themselves. Either a suggestion can stand up to rational scrutiny or it’s not worth bothering with.",
+      "CAN FIND IT DIFFICULT TO FOCUS – The same flexibility that allows Debaters to come up with such original plans and ideas makes them readapt perfectly good ones far too often, or to even drop them entirely as the initial excitement wanes and newer thoughts come along. Boredom comes too easily for Debaters, and fresh thoughts are the solution, though not always a helpful one.",
+      `DISLIKE PRACTICAL MATTERS – Debaters are interested in what could be – malleable concepts like ideas and plans that can be adapted and debated. When it comes to hard details and day-to-day execution where creative flair isn’t just unnecessary but actually counter-productive, Debater personalities lose interest, often with the consequence of their plans never seeing the light of day.`,
     ],
-    successDefinition: `ENTP personalities are motivated by possibilities. They love the outside chances; the new or unusual
-combinations lurking within the ordinary everyday world of things and ideas. For them, something is
-always on the up, something is always tantalizing their desire to re-orchestrate life into new patterns and
-shapes; new ways of fulfilling what can be as strong as a never ending desire to beat the odds and win at
-every game in town, or as mild as a quirky personal need for constant variety and change. With their
-thinking tied to the myriad possibilities they see in the world, they act swiftly and decisively upon those
-angles, choices and combinations scarcely noticed by other types, but through which they can build whole
-new frameworks or completely redefine an existing external situation in such a way that it appears new,
-revitalized and once again full of promise. Sameness, stasis, conservatism - even daily routine - can be
-loathsome to fervent ENTP’s, whose drive is always to be into something new, different and full of fresh
-possibilities, and who, given the opportunity, will always be the first to show others a new path to success
-in a venture, or to find a way of doing something that no-one has done before.
-ENTP people measure their success by their “aha” moments, by the sense of satisfaction which comes as
-they spread their newly written maps before them and contemplate the new adventure, design, investigation
-or conquest which has now become their road ahead. What has gone before, previous achievements, ways
-of living - even people met along the way - are often now forgotten or considered passé, mere steps along a
-path which has now brought a new frontier to be exploited for its gifts. Whether it is the search for
-knowledge, money, power, fame or pleasure, the ENTP will be found at the frontline, gazing into the
-distance and discovering new avenues toward, bigger, better or more satisfying outcomes.
-ENTP’s are the great problem solvers, discoverers and re-inventors of the world. Their insights into the
-world around them, their ability to see new ways of putting things together and making them work can
-bring them great success in virtually any industry or human pursuit that interests them. For this reason the
-ENTP is happiest in situations where they can use their intuitive powers freely and have the space in which
-to think upon the aspects and angles which come to them. Without fulfilling work and the freedom to use
-their mind most productively, ENTP’s can quickly tire of a limiting situation. For this reason an open road
-toward success is an extremely important factor in the ENTP’s life. Some, given a little opportunity, will
-clear one for themselves, but of all the types, it is the ENTP who has most need to be aware of the life and
-career situations they might commit to without sufficient thought for the future.`,
+    successDefinition: `1. BREAKING THE RULES - As I see it, most people are too ready to do as they’re told and blindly conform to social norms, pressures, and standards. I enjoy the mental exercise of questioning the prevailing mode of thought, and I take a certain pleasure in uncovering the value of underdogs and outliers. My active mind can’t help but rethink the things that everyone else takes for granted and push them in clever new directions.
+2. THE COST OF CONTRARIANISM - As I see it, most people are too ready to do as they’re told and blindly conform to social norms, pressures, and standards. I enjoy the mental exercise of questioning the prevailing mode of thought, and I take a certain pleasure in uncovering the value of underdogs and outliers. My active mind can’t help but rethink the things that everyone else takes for granted and push myself in clever new directions.`,
     strengths: [
       "The ability to hold many points of view in mind and see their differing merits.",
       "Seeing ways to do things others have not thought of.",
@@ -888,63 +763,35 @@ planned foundations`,
     description: `For Consuls, life is sweetest when it’s shared with others. People with this personality type form the bedrock of many communities, opening their homes – and their hearts – to friends, loved ones, and neighbors.
 This doesn’t mean that Consuls like everyone, or that they’re saints. But Consuls do believe in the power of hospitality and good manners, and they tend to feel a sense of duty to those around them. Generous and reliable, people with this personality type often take it upon themselves – in ways both large and small – to hold their families and their communities together.`,
     jungianFunctionalPreference: {
-      auxiliary: "Introverted Sensing",
-      dominant: "Extraverted Feeling",
-      inferior: "Introverted Thinking",
-      tertiary: "Extraverted Intuition",
+      dominant: "Hill Dwarf CLERIC - Life Domain",
+      auxiliary: "Half-Elf BARD - College of Lore",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      "Organized",
-      "Loyal",
-      "Can be depended on to follow things through to completion",
-      "Enjoy creating order, structure and schedules",
-      "Enjoy interacting with people",
-      "Warm-hearted and sympathetic",
-      "Tend to put others' needs above their own",
-      "Very good at giving practical care",
-      "Very cooperative, good team members",
-      "Practical and down-to-earth",
-      "Value peaceful living and security",
-      "Enjoy variety, but work well with routine tasks",
-      "Need approval from others",
-      "Receive satisfaction from giving to others",
-      "Live in the here and now - dislike theorizing about the futur",
+      "Sansa Stark - Game of Thrones",
+      "Cersei Lannister - Game of Thrones",
+      "Legolas - The Lord of the Rings",
+      "Janice Rand - Star Trek",
+      "Lando Calrissian - Star Wars",      
     ],
     relationshipStrengths: [
-      "Put forth a lot of effort to fulfill their duties and obligations",
-      "Warm, friendly and affirming by nature",
-      "Service-oriented, they want to please others",
-      "Take their commitments very seriously, and seek lifelong relationships",
-      "Responsible and practical, they can be counted to take care of day-to-day necessities",
-      "Generally upbeat and popular, people are drawn towards them",
-      "Generally very good money managers",
-      `Traditionally minded and family-oriented, they will make family celebrations and traditions
-special events`,
-    ],
+      "STRONG PRACTICAL SKILLS – Consuls are excellent managers of day-to-day tasks and routine maintenance, enjoying making sure that those who are close to them are well cared for.",
+      "STRONG SENSE OF DUTY – People with the Consul personality type have a strong sense of responsibility and strive to meet their obligations, though this may sometimes be more from a sense of social expectations than intrinsic drive.",
+      "VERY LOYAL – Valuing stability and security very highly, Consuls are eager to preserve the status quo, which makes them extremely loyal and trustworthy partners and employees. Consuls are true pillars of any groups they belong to – whether it is their family or a community club, people with this personality type can always be relied upon.",
+      "SENSITIVE AND WARM – Helping to ensure that stability, Consul personalities seek harmony and care deeply about other people’s feelings, being careful not to offend or hurt anybody. Consuls are strong team players, and win-win situations are the stuff smiles are made of.",
+      "GOOD AT CONNECTING WITH OTHERS – These qualities come together to make Consuls social, comfortable and well-liked. Consul personalities have a strong need to “belong”, and have no problem with small talk or following social cues in order to help them take an active role in their communities.",
+     ],
     relationshipWeaknesses: [
-      "Generally uncomfortable with change, and moving into new territories",
-      "Extreme dislike of conflict and criticism",
-      "Need a lot of positive affirmation to feel good about themselves",
-      "May be overly status-conscious, and interested in how others see them",
-      `Have very difficult time accepting the end of a relationship, and are likely to take the blame for the
-failure onto their own shoulders", "Have difficulty accepting negative things about people close to them`,
-      "Don't pay enough attention to their own needs, and may be self-sacrificing",
-      "May tend to use guilt manipulation as a way to get what they want",
+      "WORRIED ABOUT THEIR SOCIAL STATUS – These Strengths are related to a chief Weakness: Consuls’ preoccupation with social status and influence, which affects many decisions they make, potentially limiting their creativity and open-mindedness.",
+      "INFLEXIBLE – Consuls place a lot of importance on what is socially acceptable, and can be very cautious, even critical of anything unconventional or outside the mainstream. People with this personality type may also sometimes push their own beliefs too hard in an effort to establish them as mainstream.",
+      "RELUCTANT TO INNOVATE OR IMPROVISE – Just as they can be critical of others’ “unusual” behavior, Consuls may also be unwilling to step out of their own comfort zones, usually for fear of being (or just appearing) different.",
+      "VULNERABLE TO CRITICISM – It can be especially challenging to change these tendencies because Consuls are so conflict-averse. Consul personalities can become very defensive and hurt if someone, especially a person close to them, criticizes their habits, beliefs or traditions.",
+      "OFTEN TOO NEEDY – Consuls need to hear and see a great deal of appreciation. If their efforts go unnoticed, people with the Consul personality type may start fishing for compliments, in an attempt to get reassurance of how much they are valued.",
+      "TOO SELFLESS – The other side of this is that Consuls sometimes try to establish their value with doting attention, something that can quickly overwhelm those who don’t need it, making it ultimately unwelcome. Furthermore, Consuls often neglect their own needs in the process.",      
     ],
-    successDefinition: `The ESFJ is called the “caregiver”, and for good reason. Caring is the very nature of their personality; a
-personality driven by feeling judgments and supported by a strong sense of the world around them. The
-ESFJ not only sees how situations affect themselves and others, they are concerned about it. Everything
-that makes them feel valued and successful is bound inextricably to the value and concern they need to
-exchange with others. “Give and ye shall receive” is the motto of the ESFJ, whose gifts serve the most
-important function in all communal human processes, from the family to the wider world of care giving
-such as hospitality, primary teaching, nursing, aged care, social services, human resources and so on.
-Whilst their judgments might be bound by a somewhat conventional moral code, the ESFJ always stands up
-for what they are certain is the best for others. In some situations this trait can lead them into disaster,
-particularly if they are thrust into an unsuitable role. The ESFJ thrives best where they can make the
-decisions and organize things to suit their own way of seeing the world. Regardless however of their
-particular station in life, the ESFJ is at their best when it involves caring for and about others, measuring
-their success by the happiness and gratitude which is reflected back to them from the people in whose lives
-they play a part.`,
+    successDefinition: `1.  BUILDING RELATIONSHIPS THAT LAST - I rarely miss a birthday or holiday. Devoted to my relationships, I commit even the smallest details of my friends’ and loved ones’ lives to memory. Supportive and outgoing, I can always be spotted at a party – I am the one fluttering around making sure that everyone else is having a good time! But make no mistake, I don’t just breeze through other people’s lives. Loyal to the core, I build lasting relationships, and I can be counted on to show up whenever a helping hand, or a listening ear, is needed.
+    2. THE BEAUTY OF A RESPONSIBLE LIFE - I have a clear moral compass – and it can be nothing short of baffling to me when other people’s actions don’t align with it. I believe that there is a clear right thing to do in nearly every situation. While some may adopt a more lenient, live-and-let-live attitude, I find it difficult not to judge when someone takes a path that strikes me as misguided. As a result, I often struggle to accept it when someone, particularly someone I care about, disagrees with me.`,
     strengths: [
       "A strong sense of what is right and wrong",
       "Easily empathizes with another person",
@@ -1096,61 +943,34 @@ Try to identify the personality type of everyone that you come into contact with
     epithet: "The Entertainer",
     description: `If anyone is to be found spontaneously breaking into song and dance, it is the Entertainer personality type. Entertainers get caught up in the excitement of the moment, and want everyone else to feel that way, too. No other personality type is as generous with their time and energy as Entertainers when it comes to encouraging others, and no other personality type does it with such irresistible style.`,
     jungianFunctionalPreference: {
-      auxiliary: "Introverted Feeling",
-      dominant: "Extraverted Sensing",
-      inferior: "Introverted Intuition",
-      tertiary: "Extraverted Thinking",
+      dominant: "Human ROGUE - Arcane Trickster",
+      auxiliary: "Levistus Tiefling SORCERER - Wild Magic",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      "Live in the present moment",
-      "Are stimulated and excited by new experiences",
-      "Practical and realistic",
-      "Warmly interested in people",
-      "Know how to have a good time, and how to make things fun for others",
-      "Independent and resourceful",
-      "Spontaneous - seldom plan ahead",
-      "Hate structure and routine",
-      "Dislike theory and long written explanations",
-      "Feel special bond with children and animals",
-      "Strongly developed aesthetic appreciation for things",
-      "Great people skills",
+      "Dandelion - The Witcher",
+      "Ygritte - Game of Thrones",
+      "Harley Quinn - Batman",
+      "Peregrin Took - The Lord of the Rings",
     ],
     relationshipStrengths: [
-      "Enthusiastic and fun-loving, they make everything enjoyable",
-      "Clever, witty, direct, and popular, people are drawn towards them",
-      "Earthy and sensual",
-      "Down to earth and practical, able to take care of daily needs",
-      "Artistic and creative, they're likely to have attractive homes",
-      'Flexible and diverse, they "go with the flow" extremely well',
-      "They can leave bad relationships, although it's not easy",
-      "Try to make the most of every moment",
-      "Generous and warm-hearted",
+      "BOLD – Entertainers aren’t known for holding back. Wanting to experience everything there is to experience, people with the Entertainer personality type don’t mind stepping out of their comfort zones when no one else is willing.",
+      "ORIGINAL – Traditions and expectations are secondary to Entertainers, if a consideration at all. Entertainer personalities love to experiment with new styles, and constantly find new ways to stick out in the crowd.",
+      "AESTHETICS AND SHOWMANSHIP – Not stopping at mere outfits, Entertainers inject artistic creativity into their words and actions, too. Every day is a performance, and Entertainers love to put on a show.",
+      "PRACTICAL – To Entertainers, the world is meant to be felt and experienced. Truth is stranger than fiction, and Entertainers prefer to see and do than to wax philosophical about “what-ifs”.",
+      "OBSERVANT – With all this focus on the here and now, on doing and acting, it makes sense that Entertainers are naturals when it comes to noticing real, tangible things and changes.",
+      'EXCELLENT PEOPLE SKILLS – More so than things though, Entertainers love to pay attention to people. They are talkative, witty, and almost never run out of things to discuss. For people with this personality type, happiness and satisfaction stem from the time they spend with the people they enjoy being with. ',
     ],
     relationshipWeaknesses: [
-      "May be frivolous and risky with money",
-      "Tend to be materialistic",
-      "Extreme dislike of criticism, likely to take things extremely personally",
-      "Likely to ignore or escape conflict situations rather than face them",
-      "Lifelong commitments may be a struggle for them - they take things one day at a time",
-      "Don't pay enough attention to their own needs",
-      "Tendency to neglect their health, or even abuse their bodies",
-      "Always excited by something new, they may change partners frequently",
+      "SENSITIVE – Entertainers (especially Turbulent ones) are strongly emotional, and very vulnerable to criticism – they can feel like they’ve been backed into a corner, sometimes reacting badly. This is probably Entertainers’ greatest weakness, because it makes it so hard to address any other weaknesses brought to light.",
+      "CONFLICT AVERSE – Entertainers sometimes ignore and avoid conflict entirely. They tend to say and do what’s needed to get out of such situations, then move on to something more fun.",
+      "EASILY BORED – Without constant excitement, Entertainers find ways to create it themselves. Risky behavior, self-indulgence, and the pleasures of the moment over long-term plans are all things Entertainers get into a little too often.",
+      "POOR LONG-TERM PLANNER – In fact, Entertainer personalities rarely make detailed plans for the future. To them, things come as they come, and they rarely bother with taking the time to lay out steps and consequences, with the belief that they could change at any moment – even with things that can be planned.",
+      "UNFOCUSED – Anything that requires long-term dedication and focus is a particular challenge for Entertainers. In academics, dense, unchanging subjects like Classic Literature are much more difficult than more dynamic, relatable subjects like psychology. The trick for Entertainers is to find day-to-day joy in broader goals, and to tough it out with those tedious things that must be done.",
     ],
-    successDefinition: `ESFP’s can’t help but spontaneously grasp the moment, particularly if it offers a new sensation or
-experience. And while the ESFP might seem to others to only be interested in piling up new experiences, or
-reliving old ones just to savor the quality of the sensations or lively enjoyment they bring, the ESFP has in
-fact a far more subtle relationship to life and the world around them. Indeed, with their curious mixture of
-Extraverted Sensation and Introverted Feeling, the ESFP can show a wealth of complexity in their ways,
-even if to the ESFP themselves, considering such matters is felt to be a tedious and - to their way of seeing
-the world - quite unnecessary task. For this reason, just defining what success means to an ESFP requires
-more than simply assuming that a life filled with satisfying, quality experiences necessarily fulfills this
-criteria, as the ESFP’s true needs and satisfactions will depend greatly on the strength and refinement of
-their Sensation and Feeling functions. But there is one thing that defines all ESFP’s, and that is their
-exuberant ability - and need - to engage with other people and express that which grips them. So, whilst
-success might come through many different paths, and be felt by the ESFP in modes and preferences not
-necessarily understood as success by other types, the successful ESFP will nevertheless always be found
-where they can live in full and open engagement with people and able to express their talents, appreciations
-and joys before the world at large.`,
+    successDefinition: `1.  LIVING WITH PASSION - I love the spotlight, and all the world’s a stage. Many famous people like are indeed actors, but I love putting on a show for my friends too, chatting with a unique and earthy wit, soaking up attention and making every outing feel a bit like a party. Utterly social, I enjoy the simplest things, and there’s no greater joy for me than just having fun with a good group of friends.
+    2.  A SPONTANEOUS SPIRIT- There’s nothing that makes me feel quite as unhappy as realizing that I am boxed in by circumstance, unable to join my friends. The biggest challenge I face is that I am often so focused on immediate pleasures that I neglect the duties and responsibilities that make those luxuries possible. Complex analysis, repetitive tasks, and matching statistics to real consequences are not easy activities for me. I would rather rely on luck or opportunity, or simply ask for help from my extensive circle of friends. `,
     strengths: [
       "A great ability to understand the objective world, its facts and realities.",
       "A talent for entertaining and pleasing others with words and actions.",
@@ -1345,63 +1165,37 @@ someone else’s way will reveal the truth.`,
     epithet: "The Executive",
     description: `Executives are representatives of tradition and order, utilizing their understanding of what is right, wrong and socially acceptable to bring families and communities together. Embracing the values of honesty, dedication and dignity, people with the Executive personality type are valued for their clear advice and guidance, and they happily lead the way on difficult paths. Taking pride in bringing people together, Executives often take on roles as community organizers, working hard to bring everyone together in celebration of cherished local events, or in defense of the traditional values that hold families and communities together.`,
     jungianFunctionalPreference: {
-      auxiliary: "Introverted Sensing",
-      dominant: "Extraverted Thinking",
-      inferior: "Introverted Feeling",
-      tertiary: "Extraverted Intuition",
+      dominant: "Human PALADIN - Oath of Devotion",
+      auxiliary: "Levistus Tiefling SORCERER - Divine Soul",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      "Natural leaders - they like to be in charge",
-      "Value security and tradition",
-      "Loyal",
-      "Hard-working and dependable",
-      "Athletic and wholesome",
-      "Have a clear set of standards and beliefs which they live by",
-      "No patience with incompetence or inefficiency",
-      "Excellent organizational abilities",
-      "Enjoy creating order and structure",
-      "Very thorough",
-      "Will follow projects through to completion",
-      "Straight-forward and honest",
-      "Driven to fulfill their duties",
+      "Boromir - The Lord of the Rings",
+      "Robb Stark - Game of Thrones",
+      "Smaug - The Lord of the Rings",
+      "Leia Organa - Star Wars",
+      "Lt Uhura - Star Trek",
+      "Dart Vadar - Star Wars",
     ],
     relationshipStrengths: [
-      "Generally enthusiastic, upbeat and friendly",
-      "Stable and dependable, they can be counted on to promote security for their families",
-      "Put forth a lot of effort to fulfill their duties and obligations",
-      "Responsible about taking care of day-to-day practical concerns around the house",
-      "Usually good (albeit conservative) with money",
-      "Not personally threatened by conflict or criticism",
-      "Interested in resolving conflict, rather than ignoring it",
-      "Take their commitments very seriously, and seek lifelong relationships",
-      "Able to move on after a relationship breaks up",
-      "Able to administer discipline when necessary",
-    ],
+      "DEDICATED – Seeing things to completion borders on an ethical obligation for Executives. Tasks aren’t simply abandoned because they’ve become difficult or boring – people with the Executive personality type take them up when they are the right thing to do, and they will be finished so long as they remain the right thing to do.",
+      "STRONG-WILLED – A strong will makes this dedication possible, and Executives don’t give up their beliefs because of simple opposition. Executives defend their ideas and principles relentlessly, and must be proven clearly and conclusively wrong for their stance to budge.",
+      "DIRECT AND HONEST – Executives trust facts far more than abstract ideas or opinions. Straightforward statements and information are king, and Executive personalities return the honesty - whether it’s wanted or not.",
+      "LOYAL, PATIENT AND RELIABLE – Executives work to exemplify truthfulness and reliability, considering stability and security very important. When Executives say they’ll do something, they keep their word, making them very responsible members of their families, companies and communities.",
+      "ENJOY CREATING ORDER – Chaos makes things unpredictable, and unpredictable things can’t be trusted when they are needed most – with this in mind, Executives strive to create order and security in their environments by establishing rules, structures and clear roles.",
+      "EXCELLENT ORGANIZERS – This commitment to truth and clear standards makes Executives capable and confident leaders. People with this personality type have no problem distributing tasks and responsibilities to others fairly and objectively, making them excellent administrators.",
+     ],
     relationshipWeaknesses: [
-      "Tendency to believe that they are always right",
-      "Tendency to need to always be in charge",
-      "Impatient with inefficiency and sloppiness",
-      "Not naturally in tune with what others are feeling",
-      "Not naturally good at expressing their feelings and emotions",
-      "May inadvertently hurt others with insensitive language",
-      "Tendency to be materialistic and status-conscious",
-      "Generally uncomfortable with change, and moving into new territories",
-    ],
-    successDefinition: `People with the ESTJ personality type have a high value for social order and structure. Throughout his or
-her life, the ESTJ develops a set of judgment standards that they use to order events and impressions that
-exist in the world. These standards are essentially social principles. The ESTJ believes very strongly in
-their principles, and strongly disapproves of any violation. The ESTJ believes that their principles define
-appropriate behavior and attitudes, and therefore should be followed unconditionally. Just as they naturally
-create rules, and are therefore natural leaders, ESTJ’s also believe in following existing social rules. They
-often lead, but can follow easily if they trust the authority of the system they're following. The ESTJ can be
-quite harsh about the violation of a principle. It is more important to the ESTJ that the principle is honored
-than that they consider the position or feelings of the individual who transgressed against the principle.
-Their harshness of manner may damage personal relationships, until the ESTJ incorporates standards for
-behavior within personal relationships into their system of social rules. The ESTJ truly enjoys being around
-other people, and wants to promote traditional relationships. An ESTJ may feel successful if they are able
-to live their lives within their defined system of principles, but their true and lasting success will come from
-the ability to create and sustain good and lasting principles, and thus to address all situations in their life
-adequately and consistently.`,
+      "INFLEXIBLE AND STUBBORN – The problem with being so fixated on what works is that Executives too often dismiss what might work better. Everything is opinion until proven, and Executive personalities are reluctant to trust an opinion long enough for it to have that chance.",
+      "UNCOMFORTABLE WITH UNCONVENTIONAL SITUATIONS – Executives are strong adherents to tradition and when suddenly forced to try unvetted solutions, they become uncomfortable and stressed. New ideas suggest that their methods weren’t good enough, and abandoning what has always worked before in favor of something that may yet fail risks their image of reliability.",
+      "JUDGMENTAL – Executives have strong convictions about what is right, wrong, and socially acceptable. Executives’ compulsion to create order often extends to all things and everyone, ignoring the possibility that there are two right ways to get things done. Executives do not hesitate to let these “deviants” know what they think, considering it their duty to set things right.",
+      "TOO FOCUSED ON SOCIAL STATUS – Executives take pride in the respect of their friends, colleagues and community and while difficult to admit, are very concerned with public opinion. Executives (especially Turbulent ones) can get so caught up in meeting others’ expectations that they fail to address their own needs.",
+      "DIFFICULT TO RELAX – This need for respect fosters a need to maintain their dignity, which can make it difficult to cut loose and relax for risk of looking the fool, even in good fun.",
+      "DIFFICULTY EXPRESSING EMOTION – This is all evidence of Executives’ greatest weakness: expressing emotions and feeling empathy. People with the Executive personality type get so caught up in the facts and most effective methods that they forget to think of what makes others happy, or of their sensitivity. A detour can be breathtakingly beautiful, a joy for the family, but Executives may only see the consequence of arriving at their destination an hour late, hurting their loved ones by rejecting the notion too harshly.",
+     ],
+    successDefinition: `1. A GREATER RESPONSIBILITY - I am the classic image of the model citizen: I help my neighbors, uphold the law, and try to make sure that everyone participates in the communities and organizations I hold so dear.  The main challenge for me is to recognize that not everyone follows the same path or contributes in the same way. A true leader recognizes the strength of the individual, as well as that of the group, and helps bring those individuals’ ideas to the table. That way, I really do have all the facts, and are able to lead the charge in directions that work for everyone.
+    2. LEADING BY EXAMPLE - I am aware of my surroundings and live in a world of clear, verifiable facts – the surety of my knowledge means that even against heavy resistance, I stick to my principles and push an unclouded vision of what is and is not acceptable. My opinions aren’t just empty talk either, I am more than willing to dive into the most challenging projects, improving action plans and sorting details along the way, making even the most complicated tasks seem easy and approachable.`,
     strengths: [
       `They believe strongly in doing their duty, and perform out of a sense of duty, rather than an
 expectation of getting something in return.`,
@@ -1571,81 +1365,36 @@ tangible benefits to becoming a better-rounded person.`,
     description: `Entrepreneurs always have an impact on their immediate surroundings – the best way to spot them at a party is to look for the whirling eddy of people flitting about them as they move from group to group. Laughing and entertaining with a blunt and earthy humor, Entrepreneur personalities love to be the center of attention. If an audience member is asked to come on stage, Entrepreneurs volunteer – or volunteer a shy friend.
 Theory, abstract concepts and plodding discussions about global issues and their implications don’t keep Entrepreneurs interested for long. Entrepreneurs keep their conversation energetic, with a good dose of intelligence, but they like to talk about what is – or better yet, to just go out and do it. Entrepreneurs leap before they look, fixing their mistakes as they go, rather than sitting idle, preparing contingencies and escape clauses.`,
     jungianFunctionalPreference: {
-      auxiliary: "Introverted Thinking",
-      dominant: "Extraverted Sensing",
-      inferior: "Introverted Intuition",
-      tertiary: "Extraverted Feeling",
+      dominant: "Lightfoot Halfling WARLOCK - Archfey",
+      auxiliary: "Wood Elf RANGER - Gloom Stalker",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      "Action-oriented",
-      "Live in the present moment",
-      "Dislike abstract theory without practical application",
-      "Like to see immediate results for their efforts",
-      "Fast-paced and energetic",
-      "Flexible and adaptable",
-      "Resourceful",
-      "Seldom work from a plan - make things up as they go",
-      "Fun to be around",
-      "Highly observant",
-      "Excellent memory for details",
-      "Excellent people skills",
-      "Good-natured",
-      "Excellent ability to see an immediate problem and quickly devise a solution",
-      "Attracted to adventure and risk",
-      "May be flashy or showy",
-      "Like initiating things - not necessarily following them through to completion",
+      "Jaime Lannister - Game of Thrones",
+      "Rocket - Avengers",
+      "Poe Dameron - Star wars",
+      "Thos - Avengers",
+      "Wolverine - X Men",
     ],
     relationshipStrengths: [
-      "Can be quite charming",
-      "Witty, clever, and popular",
-      "Earthy and sensual",
-      "Not personally threatened by conflict or criticism",
-      "Excellent and clear-headed dealing with emergency situations",
-      "Enthusiastic and fun-loving, they try to make everything enjoyable",
-      'As "big kids" themselves, they\'re eager, willing and able to spend time with their kids',
-      "Likely to enjoy lavishing their loved ones with big gifts (both a strength and a weakness)",
-    ],
+      "BOLD – People with the Entrepreneur personality type are full of life and energy. There is no greater joy for Entrepreneurs than pushing boundaries and discovering and using new things and ideas.",
+      "RATIONAL AND PRACTICAL – Entrepreneurs love knowledge and philosophy, but not for their own sake. What’s fun for Entrepreneur personalities is finding ideas that are actionable and drilling into the details so they can put them to use. If a discussion is completely arbitrary, there are better uses for Entrepreneurs’ time.",
+      "ORIGINAL – Combining their boldness and practicality, Entrepreneurs love to experiment with new ideas and solutions. They put things together in ways no one else would think to.",
+      "PERCEPTIVE – This originality is helped by Entrepreneurs’ ability to notice when things change – and when they need to change! Small shifts in habits and appearances stick out to Entrepreneurs, and they use these observations to help create connections with others.",
+      "DIRECT – This perceptive skill isn’t used for mind games – Entrepreneurs prefer to communicate clearly, with direct and factual questions and answers. Things are what they are.",
+      "SOCIABLE – All these qualities pull together to make a natural group leader in Entrepreneurs. This isn’t something that they actively seek – people with this personality type just have a knack for making excellent use of social interactions and networking opportunities.",
+     ],
     relationshipWeaknesses: [
-      "Not naturally in tune with what others are feeling",
-      "Not naturally good at expressing feelings and emotions",
-      "May inadvertently hurt others with insensitive language",
-      "May be very good with money, but highly risky with it as well",
-      "Living in the present, they're not usually good long-range planners",
-      "May fall into the habit of ignoring conflict, rather than solving it",
-      "Don't naturally make lifelong commitments - they take things one day at a time",
-      "Prone to get bored easily",
-      "More likely than other type to leave relationships quickly when they get bored",
-      "Likely to enjoy lavishing their loved ones with big gifts (both a strength and a weakness)",
+      "INSENSITIVE – Feelings and emotions come second to facts and “reality” for Entrepreneurs. Emotionally charged situations are awkward, uncomfortable affairs, and Entrepreneurs’ blunt honesty doesn’t help here. These personalities often have a lot of trouble acknowledging and expressing their own feelings as well.",
+      "IMPATIENT – Entrepreneurs move at their own pace to keep themselves excited. Slowing down because someone else “doesn’t get it” or having to stay focused on a single detail for too long is extremely challenging for Entrepreneurs.",
+      "RISK-PRONE – This impatience can lead Entrepreneurs to push into uncharted territory without thinking of the long-term consequences. Entrepreneur personalities sometimes intentionally combat boredom with extra risk.",
+      "UNSTRUCTURED – Entrepreneurs see an opportunity – to fix a problem, to advance, to have fun – and seize the moment, often ignoring rules and social expectations in the process. This may get things done, but it can create unexpected social fallout.",
+      "MAY MISS THE BIGGER PICTURE – Living in the moment can cause Entrepreneurs to miss the forest for the trees. People with this personality type love to solve problems here and now, perhaps too much. All parts of a project can be perfect, but the project will still fail if those parts do not fit together.",
+      "DEFIANT – Entrepreneurs won’t be boxed in. Repetition, hardline rules, sitting quietly while they are lectured at – this isn’t how Entrepreneurs live their lives. They are action-oriented and hands-on. Environments like school and much entry-level work can be so tedious that they’re intolerable, requiring extraordinary effort from Entrepreneurs to stay focused long enough to get to freer positions.",
     ],
-    successDefinition: `With a dominant function of Extraverted Sensing, and an auxiliary function of Introverted Thinking, people
-with the ESTP personality type have a heightened need for sensory experience and for tactile engagement
-with their physical environment. The ESTP is most comfortable when they can treat life as a big game in
-which they must be quick to use their skills in order to win. In such a game-playing scenario, the ESTP is
-most likely to be the winner, as no other personality type is as quick on their feet as the ESTP.
-ESTP’s have an amazingly ability to size up people in an instant and come up with an accurate ballpark
-understanding of where they are coming from. The ESTP cannot help using this skill, it is natural for them,
-but it brings them great satisfaction to be able to use this skill to enact some personal gain, or to “win the
-game.” The ESTP is also strongly driven to tangibly interact with their immediate physical environment.
-This need manifests itself in many ways, most commonly as an attraction to sports or physical challenges,
-and as a desire to always be doing something. ESTP’s are the great Doers. If you want to make something
-happen quickly, ask an ESTP. These inherent skills make the ESTP likely to find success professionally as
-salespeople or professional athletes. However, any career that capitalizes on their people skills or their
-ability to maneuver within their physical world AND gives them immediate feedback is likely to be a good
-fit for the ESTP.
-The ESTP’s need to be engaged with their immediate, external world makes success on a personal level
-more challenging. They feel happiest when they are outside of themselves, but personal success requires
-going within to get to know the self. However, once these needs are recognized, they are not mutually
-exclusive. The ESTP who feeds their constant drive for new sensory experiences as well as their need for
-real reflection upon those experiences and impressions will find a deeper level of personal satisfaction than
-the ESTP who allows his immediate needs for sensory experiences to yank him about.
-However, even those ESTP’s who have developed their ability to reflect on matters will always be
-connected at some base level to the strong desire for new experiences, and will get their “bread and butter”
-feelings of success from conquering challenges in their physical environment. ESTP’s need to know
-they’ve got the goods, won the moment, done the job. Once given a task that intrigues them, or having
-discovered something new to be tried, very little will stop them from doing all they can to meet the
-challenge, and thereby achieve what they consider to be a personal success. Success to an ESTP is usually
-not measured in ongoing terms, but in transient moments of achievement, moments which bring the ESTP
-the needed feeling of having won the day.`,
+    successDefinition: `1. DIVING RIGHT IN - I am the likeliest person to make a lifestyle of risky behavior. I live in the moment and dive into the action – I am the eye of the storm. I enjoy drama, passion, and pleasure, not for emotional thrills, but because it’s so stimulating to my logical mind. I am forced to make critical decisions based on factual, immediate reality in a process of rapid-fire rational stimulus response.
+    2. THE PATH LESS TRAVELED - Sometimes my instantaneous observation and action is just what’s required, as in some corporate environments, and especially in emergencies. With perhaps the most perceptive, unfiltered view of anyone, I have a unique skill in noticing small changes. Whether a shift in facial expression, a new clothing style, or a broken habit, I pick up on hidden thoughts and motives where most would be lucky to pick up anything specific at all. I use these observations immediately, calling out the change and asking questions, often with little regard for sensitivity. I should remember that not everyone wants their secrets and decisions broadcast.`,
     strengths: [
       `A great talent for reading people and knowing “where they’re at” by just watching their behavior
 and mannerisms.`,
@@ -1851,55 +1600,35 @@ best will come.`,
 While they have lofty goals and ambitions, Advocates shouldn’t be mistaken for idle dreamers. People with this personality type care about integrity, and they’re rarely satisfied until they’ve done what they know to be right. Conscientious to the core, they move through life with a clear sense of their values, and they aim never to lose sight of what truly matters – not according to other people or society at large, but according to their own wisdom and intuition.
 `,
     jungianFunctionalPreference: {
-      auxiliary: "Extraverted Feeling",
-      dominant: "Introverted Intuition",
-      inferior: "Extraverted Sensing",
-      tertiary: "Introverted Thinking",
+      dominant: "Silver Dragonborn PALADIN - Oath of Redemption",
+      auxiliary: "Moon Half-Elf WARLOCK - The Celestial",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      "Intuitively understand people and situations",
-      "Idealistic",
-      "Highly principled",
-      "Complex and deep",
-      "Natural leaders",
-      "Sensitive and compassionate towards people",
-      "Service-oriented",
-      "Future-oriented",
-      "Value deep, authentic relationships",
-      "Reserved about expressing their true selves",
-      "Dislike dealing with details unless they enhance or promote their vision",
-      "Constantly seeking meaning and purpose in everything",
-      "Creative and visionary",
-      "Intense and tightly-wound",
-      `Can work logically and rationally - use their intuition to understand the goal and work backwards
-towards it`,
+      "Jon Snow - Game of Thrones",
+      "Aragorn - The Lord of the Rings",
+      "Galadriel - The Lord of the Rings",
+      "Mathew Murdock - Daredevil",
+      "Capt Jean-Luc Piccard - Star Trek",
+      "Pual Atreides - Dune",
     ],
     relationshipStrengths: [
-      "INFJ Strengths",
-      "Warm and affirming by nature",
-      "Dedicated to achieving the ultimate relationship",
-      "Sensitive and concerned for others' feelings",
-      "Usually have good communication skills, especially written",
-      "Take their commitments very seriously, and seek lifelong relationships",
-      "Have very high expectations for themselves and others (both a strength and weakness)",
-      "Good listeners",
-      "Are able to move on after a relationship has ended (once they're sure it's over)",
+      "CREATIVE – Advocates aren’t exactly like everyone else – and that’s a wonderful thing. People with this personality type embrace their creative side, always on the lookout for opportunities to express themselves and think outside the box.",
+      "INSIGHTFUL – These personalities know all too well that appearances can be misleading. Advocates strive to move beyond superficiality and seek out the deeper truths in life. This can give them an almost uncanny ability to understand people’s true motivations, feelings, and needs.",
+      "PRINCIPLED – Advocates tend to have strong beliefs and values, particularly when it comes to matters of ethics. When Advocates talk about topics close to their heart, their conviction and heartfelt idealism can inspire and persuade even the sternest of skeptics.",
+      "PASSIONATE – Advocates crave a sense of purpose in life. Rather than living on autopilot or sticking to the status quo, they want to chase after their ideals. This isn’t a personality type that shies away from big dreams – in fact, Advocates are energized and impassioned by the beauty of their visions for the future.",
+      "ALTRUISTIC – People with this personality type aren’t happy to succeed at another person’s expense. Advocates want to use their strengths for the greater good, and they rarely lose sight of how their words and actions might affect others. In their heart of hearts, they want to make the world a better place, starting with the people around them.",
     ],
     relationshipWeaknesses: [
-      "Tendency to hold back part of themselves",
-      "Not good with money or practical day-to-day life necessities",
-      "Extreme dislike of conflict and criticism",
-      "Have very high expectations for themselves and others (both a strength and weakness)",
-      "Have difficulty leaving a bad relationship",
+      "SENSITIVE TO CRITICISM – Advocates aren’t averse to feedback – that is, unless they believe that someone is challenging their most cherished principles or values. When it comes to the issues that are near and dear to them, people with this personality type can become defensive or dismissive.",  
+      "RELUCTANT TO OPEN UP – Advocates value honesty and authenticity, but they’re also private. They may find it difficult to open up and be vulnerable about their struggles, not wanting to burden someone else with their issues. Unfortunately, when Advocates don’t ask for help, they may inadvertently hold themselves back or create distance in their relationships.",
+      "PERFECTIONIST – The Advocate personality type is all but defined by idealism. While this is a wonderful quality in many ways, it doesn’t always leave room for the messiness of real life. Advocates might find it difficult to appreciate their jobs, living situations, or relationships if they’re continually fixating on imperfections and wondering whether they should be looking for something better.",
+      "AVOIDING THE ORDINARY – Advocates yearn to do extraordinary things with their lives. But it’s hard to achieve anything extraordinary without breaking it down into small, manageable steps. Unless they translate their dreams into everyday routines and to-do lists, Advocates may struggle to turn their grand visions into reality.",
+      "PRONE TO BURNOUT – Advocates’ perfectionism and reserve leave them with few options for letting off steam. People with this personality type can exhaust themselves if they don’t balance their drive to help others with necessary self-care and rest.",
     ],
-    successDefinition: `People with the INFJ personality type are intense and often are perfectionists. They have deep insights into
-many aspects of life, and usually have very high standards for their own understanding and
-accomplishments, as well as those of others. They are service-oriented and empathetic to other individuals.
-The INFJ strives for the ideal in every aspect of their life. An INFJ's feeling of success is centered on their
-own level of understanding and accomplishment, their usefulness or service to others, and the condition of
-their personal relationships. The INFJ feels successful when they have used their very deep understanding
-of something to do a real service for someone. We often see INFJ personality types as counselors and
-teachers, or in the medical and health fields.`,
+    successDefinition: `1. A PERSONAL MISSION - I feel that my life has a unique purpose – a mission that I was put onto this earth to fulfill. For me, one of the most rewarding aspects of life is seeking out this purpose – and then, once I’ve found it, striving to do it justice.
+2. SEEKING PURPOSE - I see helping others as my mission in life, and I am always looking for ways to step in and speak up for what is right. I also aspire to fix society’s deeper problems, in the hope that unfairness and hardship can become things of the past. `,
     strengths: [
       `They're extremely insightful, and see things that are not obvious to others. This ability to see
 patterns and meanings in the world can help the INFJ in many different ways. INFJ’s usually have
@@ -2065,64 +1794,37 @@ learning to let go of your passion and intensity for a respite.`,
 Idealistic and empathetic, Mediators long for deep, soulful relationships, and they feel called to help others. But because this personality type makes up such a small portion of the population, Mediators may sometimes feel lonely or invisible, adrift in a world that doesn’t seem to appreciate the traits that make them unique.
 `,
     jungianFunctionalPreference: {
-      auxiliary: "Extraverted Intuition",
-      dominant: "Introverted Feeling",
-      inferior: "Extraverted Thinking",
-      tertiary: "Introverted Sensing",
+      dominant: "Aasimar CLERIC - Peace Domain",
+      auxiliary: "Human MONK - Way of Mercy",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      "Strong value systems",
-      "Warmly interested in people",
-      "Service-oriented, usually putting the needs of others above their own",
+      "Frodo Baggins - The Lord of the Rings",
+      "Arwen - The Lord of the Rings",
+      "Fox Mulder - X Files",
       "Loyal and devoted to people and causes",
-      "Future-oriented",
-      "Growth-oriented; always want to be growing in a positive direction",
-      "Creative and inspirational",
-      "Flexible and laid-back, unless a ruling principle is violated",
-      "Sensitive and complex",
-      "Dislike dealing with details and routine work",
-      'Original and individualistic - "out of the mainstream"',
-      "Excellent written communication skills",
-      "Prefer to work alone, and may have problems working on teams",
-      "Value deep and authentic relationships",
-      "Want to be seen and appreciated for who they are",
+      "Luke Skywalker - Star Wars",
+      "Scarlet Witch - Avengers",      
     ],
     relationshipStrengths: [
-      "Warmly concerned and caring towards others",
-      "Sensitive and perceptive about what others are feeling",
-      "Loyal and committed - they want lifelong relationships",
-      "Deep capacity for love and caring",
-      "Driven to meet other's needs",
-      'Strive for "win-win" situations',
-      "Nurturing, supportive and encouraging",
-      "Likely to recognize and appreciate other's need for space",
-      "Able to express themselves well",
-      "Flexible and diverse",
+      "EMPATHETIC – Mediators don’t just care about other people in an abstract sense. These personalities can actually feel another person’s emotions, from joy and elation to sorrow and regret. Because of this sensitivity, Mediators tend to be thoughtful and kindhearted, and they hate the idea of hurting anyone, even unintentionally.",
+      "GENEROUS – Mediators rarely enjoy succeeding at other people’s expense. They feel called to share the good things in their lives, give credit where it’s due, and uplift the people around them. These personalities want to contribute to a world where every voice is heard and no one’s needs go unmet.",
+      "OPEN-MINDED – Tolerant and accepting, Mediators try not to judge anyone else’s beliefs, lifestyles, or decisions. This is a personality type that prefers compassion to fault-finding, and many Mediators feel empathy even for those who have done wrong. Because they’re so accepting, Mediators often become confidants for their friends and loved ones – and occasionally for total strangers.",
+      "CREATIVE – Mediators love to see things from unconventional perspectives. Few things give them more pleasure than allowing their minds to wander through all sorts of ideas and possibilities and daydreams. It’s no wonder, then, that many Mediators are drawn to creative pursuits – or that this personality type is well represented among writers and artists.",
+      "PASSIONATE – When an idea or movement captures their imagination, Mediators want to give their whole heart to it. People with this personality type may not always be outspoken, but that doesn’t diminish their strong feelings for a cause that speaks to their beliefs and convictions.",
+      "IDEALISTIC – Mediators strive to follow their conscience, even when doing the right thing isn’t easy or convenient. They rarely lose sight of their desire to live a meaningful, purpose-filled life – one that helps others and leaves the world a better place.",
     ],
     relationshipWeaknesses: [
-      "May tend to be shy and reserved",
-      'Don\'t like to have their "space" invaded',
-      "Extreme dislike of conflict",
-      "Extreme dislike of criticism",
-      "Strong need to receive praise and positive affirmation",
-      "May react very emotionally to stressful situations",
-      "Have difficulty leaving a bad relationship",
-      "Have difficulty scolding or punishing others",
-      "Tend to be reserved about expressing their feelings",
-      "Perfectionist tendencies may cause them to not give themselves enough credit",
-      `Tendency to blame themselves for problems, and hold everything on their own
-shoulders`,
+      "UNREALISTIC – Nothing in this world is perfect – and that can be a difficult truth for Mediators to accept. People with this personality type can be hopeless romantics, with rose-colored visions of what their lives should be like. This can set Mediators up for disappointment when reality inevitably falls short of their dreams.",
+      "SELF-ISOLATING – Mediators long to connect with others, but they don’t always know how. Especially in new environments, Mediators may be reluctant to put themselves out there in ways that would help them make new friends or become involved in a new community. As a result, people with this personality type may sometimes feel lonely or isolated.",
+      "UNFOCUSED – Mediators’ imaginative, introspective nature doesn’t always lend itself to productivity. Many Mediators get frustrated by how difficult they find it to buckle down and get things done. The problem isn’t that they are incapable – rather, it’s that they run into problems when they become so caught up in different ideas and ideals that they fail to commit to a course of action.",
+      "EMOTIONALLY VULNERABLE – The emotional attunement of these personalities is among their greatest strengths. But unless Mediators establish boundaries, they can be at risk of absorbing other people’s negative moods or attitudes.",
+      "DESPERATE TO PLEASE – Conflict tends to be stressful for Mediators, who yearn for harmony and acceptance. When someone dislikes or disapproves of them, these personalities may become fixated on trying to clear the air and change that person’s mind. Unfortunately, Mediators’ desire to please others can drain their energy, eclipsing their inner wisdom and their awareness of their own needs.",
+      "SELF-CRITICAL – Mediators believe in their unique potential, and they desperately want to live up to it. But this can cause them to have unrealistic expectations for themselves. When Mediators fail to live up to these visions, they may accuse themselves of being useless or selfish or woefully inadequate. Taken too far, this self-criticism can discourage Mediators, leading them to give up on even their dearest dreams.",
     ],
-    successDefinition: `INFP’s are creative, sensitive souls who take their lives very seriously. They seek
-harmony and authenticity in their relationships with others. They value creativity,
-spirituality, and honoring the individual self above all else. They are very tuned into
-inequity and unfairness against people, and get great satisfaction from conquering such
-injustices. An INFP is a perfectionist who will rarely allow themselves to feel successful,
-although they will be keenly aware of failures. INFP’s also get satisfaction from being in
-touch with their creativity. For the INFP, personal success depends upon the condition of
-their closest relationships, the development of their creative abilities, and the continual
-support of humanity by serving people in need, fighting against injustice, or in some
-other way working to make the world a better place to be.`,
+    successDefinition: `1. THE GIFT OF EMPATHY - I share a sincere curiosity about the depths of human nature. Introspective to the core, I am exquisitely attuned to my own thoughts and feelings, but I yearn to understand the people around me as well. I am compassionate and nonjudgmental, always willing to hear another person’s story. When someone opens up to me or turns to me for comfort, T feel honored to listen and be of help.
+    2. IN SEARCH OF A CALLING - Like flowers in the spring, my creativity and idealism can bloom even after the darkest of seasons. Although I know the world will never be perfect, I still care about making it better however I can. This quiet belief in doing the right thing may explain why I so often inspire compassion, kindness, and beauty wherever I go.`,
     strengths: [
       `Highly creative, artistic and spiritual, they can produce wonderful works of art,
 music and literature. INFP’s are natural artists. They will find great satisfaction if
@@ -2341,73 +2043,37 @@ it.`,
     epithet: "The Architect",
     description: `It can be lonely at the top. As one of the rarest personality types – and one of the most capable – Architects (INTJs) know this all too well. Rational and quick-witted, Architects pride themselves on their ability to think for themselves, not to mention their uncanny knack for seeing right through phoniness and hypocrisy. But because their minds are never at rest, Architects may struggle to find people who can keep up with their nonstop analysis of everything around them.`,
     jungianFunctionalPreference: {
-      auxiliary: "Extraverted Thinking",
-      dominant: "Introverted Intuition",
-      inferior: "Extraverted Sensing",
-      tertiary: "Introverted Feeling",
+      dominant: "Human FIGHTER - Arcane Archer",
+      auxiliary: "High Elf ROGUE - Mastermind",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      "Able to absorb extremely complex theoretical and complex material",
-      "Driven to create order and structure from theoretical abstractions",
-      "Supreme strategists",
-      "Future-oriented",
-      'See the global, "big picture"',
-      "Strong insights and intuitions, which they trust implicitly",
-      "Value their own opinions over others",
-      "Love difficult theoretical challenges",
-      "Bored when dealing with mundane routine",
-      "Value knowledge and efficiency",
-      "Have no patience with inefficiency and confusion",
-      `Have very high standards for performance, which they apply to themselves most
-strongly`,
-      "Reserved and detached from others",
-      "Calm, collected and analytical",
-      "Extremely logical and rational",
-      "Original and independent",
-      "Natural leaders, but will follow those they can fully support",
-      "Creative, ingenious, innovative, and resourceful",
-      "Work best alone, and prefer to work alone",
+      "Petyr Baelish "Littlefinger" - Game of Thrones",
+      "Tywin Lannister - Game of Thrones",
+      "Yennefer of Vengerberg - The Witcher",
+      "Gandalf the Grey - The Lord of the Rings",
+      "Katniss Everdeen - The Hunger Games",
+      "Seven of Nine - Star Trek Voyager",
+      "The Emperor - Star Wars ",
     ],
     relationshipStrengths: [
-      "Not threatened by conflict or criticism",
-      "Usually self-confident",
-      "Take their relationships and commitments seriously",
-      "Generally extremely intelligent and capable",
-      `Able to leave a relationship which should be ended, although they may dwell on it
-in their minds for awhile afterwards`,
-      'Interested in "optimizing" their relationships',
-      "Good listeners",
-    ],
+      "RATIONAL – Architects pride themselves on the power of their minds. They can reframe nearly any challenge as an opportunity to hone their rational thinking skills and expand their knowledge – and with this mindset, they can devise inventive solutions to even the most arduous of problems.",
+      "INFORMED – Few personality types are as devoted as Architects to developing rational, correct, and evidence-based opinions. Rather than hunches or half-baked assumptions, they base their conclusions on research and analysis. This gives them the conviction that they need to stand up for their ideas, even in the face of disagreement.",
+      "INDEPENDENT – For these personalities, conformity is more or less synonymous with mediocrity. Creative and self-motivated, Architects strive to do things their own way. They can imagine few things more frustrating than allowing arbitrary rules or conventions to stand in the way of their success.",
+      "DETERMINED – This personality type is known for being ambitious and goal-oriented. Architects won’t rest until they’ve achieved their own definition of success – which usually entails mastering the subjects and pursuits that matter to them.",
+      "CURIOUS – Architects are open to new ideas – as long as those ideas are rational and evidence-based, that is. Skeptical by nature, Architects are especially drawn to offbeat or contrarian points of view. And if the facts prove them wrong, they are generally happy to revise their opinions.",
+      'ORIGINAL – Without Architects, the world would be a far less interesting place. This personality type’s rebellious streak is responsible for some of history’s most unconventional ideas and inventions. Even in their everyday lives, Architects force the people around them to consider new (and sometimes startling) ways of looking at things. ',
+      ],
     relationshipWeaknesses: [
-      "Not naturally in tune with others feelings; may be insensitive at times",
-      `May tend to respond to conflict with logic and reason, rather than the desired
-emotional support`,
-      "Not naturally good at expressing feelings and affections",
-      "Tendency to believe that they're always right",
-      "Tendency to be unwilling or unable to accept blame",
-      "Their constant quest to improve everything may be taxing on relationships",
-      "Tend to hold back part of themselves",
+      "ARROGANT – Architects might be knowledgeable, but they’re not infallible. Their self-assurance can blind them to useful input from other people – especially anyone they deem to be intellectually inferior. These personalities can also come across as needlessly harsh or single-minded in trying to prove others wrong.",
+      "DISMISSIVE OF EMOTIONS – For Architects, rationality is king. But emotional context often matters more than people with this personality type care to admit. Architects can get impatient with anyone who seems to value feelings more than facts. Unfortunately, ignoring emotion is its own type of bias – one that can cloud Architects’ judgment.",
+      "OVERLY CRITICAL – These personalities tend to have a great deal of self-control, particularly when it comes to thoughts and feelings. When the people in their lives fail to match their level of restraint, Architects can appear scathingly critical. But this criticism can be unfair, based on arbitrary standards rather than a full understanding of human nature.",
+      "COMBATIVE – Architects hate blindly following anything without understanding why. This includes restrictions and the authority figures who impose them. People with this personality type can get caught up in arguing about useless rules and regulations – but sometimes these battles are distractions from more important matters.",
+      "SOCIALLY CLUELESS – Architects’ relentless rationality can lead to frustration in their social lives. Their efforts to defy expectations may leave them feeling isolated or disconnected from other people. At times, they may become cynical about the value of relationships altogether, questioning the importance of love and connection.",
     ],
-    successDefinition: `People with the INTJ personality type are serious, analytical and often perfectionist. They
-look at a problem or idea from multiple perspectives and systematically analyze it with
-objective logic, discarding things that turn out to be problematic, and evolving their own
-understanding of something when new information turns out to be useful. There is no
-other personality type who does this as naturally as the INTJ. They are natural scientists
-and mathematicians. Once given an idea, they are driven to understand it as thoroughly as
-possible. They usually have very high standards for their own understanding and
-accomplishments, and generally will only value and consider other individuals who have
-shown that they meet or surpass the INTJ's own understanding on a given issue. INTJ’s
-value clarity and conciseness, and have little esteem for behaviors and attitudes that are
-purely social. Social "niceties" often seem unnecessary and perhaps even not genuine to
-the INTJ, who is always seeking to improve their substantive understanding. INTJ's
-highly value social interaction that is centered around the meaningful exchange of ideas,
-but they usually dismiss the importance of being friendly or likeable in other social
-contexts, and they are likely to be uncomfortable with interactions that are primarily
-emotional, rather than logical. INTJ’s value structure, order, knowledge, competence, and
-logic. Above all, they value their own ideas and intuitions about the world. An INTJ's
-feeling of success depends primarily upon their own level of understanding and
-accomplishment, but also depends upon the level of structure in their life, and their ability
-to respect the intelligence and competence of those who share their life.`,
+    successDefinition: `1. A THIRST FOR KNOWLEDGE - I don’t just learn new things for show. I genuinely enjoy expanding the limits of my knowledge.
+    2. THE CHESS GAME OF LIFE - Life is like a giant game of chess. Relying on strategy rather than chance, I contemplate the strengths and weaknesses of each move before I make it. And I never lose faith that, with enough ingenuity and insight, I can find a way to win – no matter what challenges might arise along the way.`,
     strengths: [
       `The INTJ's mind is naturally geared towards systematically analyzing information from
 many contextual perspectives, and rejecting or retaining information as they become
@@ -2623,78 +2289,35 @@ Extravert in your own style.`,
     epithet: "The Logician",
     description: `Logicians pride themselves on their unique perspectives and vigorous intellect. They can’t help but puzzle over the mysteries of the universe – which may explain why some of the most influential philosophers and scientists of all time have been Logicians. This personality type is fairly rare, but with their creativity and inventiveness, Logicians aren’t afraid to stand out from the crowd.`,
     jungianFunctionalPreference: {
-      auxiliary: "Extraverted Intuition",
-      dominant: "Introverted Thinking",
-      inferior: "Extraverted Feeling",
-      tertiary: "Introverted Sensing",
+      dominant: "Astral Elf DRUID - Circle of Stars",
+      auxiliary: "Rock Gnome WIZARD - School of Illusion",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      "Love theory and abstract ideas",
-      `Truth Seekers - they want to understand things by analyzing underlying principles
-and structures`,
-      "Value knowledge and competence above all else",
-      "Have very high standards for performance, which they apply to themselves",
-      "Independent and original, possibly eccentric",
-      "Work best alone, and value autonomy",
-      "Have no desire to lead or follow",
-      "Dislike mundane detail",
-      "Not particularly interested in the practical application of their work",
-      "Creative and insightful",
-      "Future-oriented",
-      "Usually brilliant and ingenious",
-      "Trust their own insights and opinions above others",
-      `Live primarily inside their own minds, and may appear to be detached and
-uninvolved with other people`,
+      "Lord Varys - Game of Thrones",
+      "Neo - The Matrix",
+      "Bruce Banner - Avengers",
+      "Aemon Targaryen - Game of Thrones",
+      "Spock - Star Trek",
+      "Elrond - The Lord of the Rings ",     
     ],
     relationshipStrengths: [
-      `They feel love and affection for those close to them which is almost childlike in
-its purity`,
-      "Generally laid-back and easy-going, willing to defer to their mates",
-      "Approach things which interest them very enthusiastically",
-      "Richly imaginative and creative",
-      "Do not feel personally threatened by conflict or criticism",
-      "Usually are not demanding, with simple daily needs",
+      "ANALYTICAL – Logicians analyze everything that they come across, from research data to the behavior of the people around them. This gives them a knack for spotting unexpected patterns and connections that other personality types might overlook.",
+      "ORIGINAL – Thanks to their unrelenting imagination, Logicians can come up with creative, counterintuitive ideas that wouldn’t occur to most people. Not all of these ideas are feasible, of course, but Logicians’ willingness to think outside the box can produce remarkable innovations.",
+      "OPEN-MINDED – Logicians are driven by curiosity and an intense desire to learn everything that they can. People with this personality type tend to be receptive to new ideas and ways of doing things – as long as those ideas are supported by sound reasoning.",
+      "CURIOUS – These personalities are always casting about for new pursuits, hobbies, and areas of research. One week, they might be obsessed with geophysics, and the next, they might lose themselves in videos about guitar building. When inspiration strikes, Logicians go all in on their newfound interest, learning everything that they can.",
+      "OBJECTIVE – Logicians care about the truth. Rather than taking comfort in ideology or received ideas, they want to understand what’s really going on beneath the surface of things. As a result, they can be relied upon to combat bias and misinformation, even when it isn’t easy to do so – and they expect other people to be honest with them in return.",
     ],
     relationshipWeaknesses: [
-      "Not naturally in tune with others' feelings; slow to respond to emotional needs",
-      "Not naturally good at expressing their own feelings and emotions",
-      "Tend to be suspicious and distrusting of others",
-      `Not usually good at practical matters, such as money management, unless their
-work involves these concerns`,
-      "They have difficulty leaving bad relationships",
-      `Tend to \`blow off\` conflict situations by ignoring them, or else they \`blow up\` in
-heated anger`,
+      "DISCONNECTED – Logicians can get lost in their own train of thought, even when they’re with other people. When these personalities finally resurface with something to say, they may find that the conversation has moved on without them. This can cause them to feel disconnected from other people, especially in large social gatherings.",
+      "INSENSITIVE – People with this personality type see rationality as the key to a better, happier world. At times, they may underestimate the importance of such irrational values as emotion, compassion, etiquette, and tradition. As a result, they may inadvertently come across as insensitive or unkind, even though their intentions are generally good.",
+      "DISSATISFIED – Logicians can’t help but imagine how things could be better than they already are. These personalities are constantly on the lookout for problems to solve, topics to learn, and new ways to approach things. Taken too far, this mindset can become overwhelming, with Logicians constantly trying to reinvent the wheel rather than reliably addressing their needs and responsibilities.",
+      "IMPATIENT – Logicians take pride in their knowledge and in sharing their ideas. When it comes to explaining their rationale, however, they aren’t always patient. If their conversation partner doesn’t follow along or seem sufficiently interested, Logicians may give up with a dismissive “never mind.”",
+      "PERFECTIONIST – Logicians want to get things done, but their quest for perfection can get in the way. At times, these personalities may get so lost in analyzing various options that they never reach a decision. They may also give up on projects that don’t match the ideal vision in their mind.",
     ],
-    successDefinition: `People with the INTP personality type are global thinkers. They see everything as one
-giant Entity that is connected, and seek knowledge about that Entity. They constantly
-seek the Truth, and have ultimate respect for the Truth. It is not easy for the INTP to
-reach a conclusion about the Truth. Their auxiliary function of Extraverted Intuition
-allows them to absorb the many complexities in our world, and they are driven to
-consider each of these complexities before reaching a conclusion. Once they have
-reached a conclusion, or discovered a Truth, they are *very* particular about the way that
-Truth is expressed and understood. They want to know that the principles of their
-understanding have been understood correctly, and demand absolute precision and
-correctness from others when describing these principles. They also apply these standards
-to themselves when communicating their knowledge. If they take the time to develop
-their communication so that it meets their own approval, they can be extremely good
-educational writers.
-In addition to their immense respect for metaphysical principles, facts, and Truths, the
-INTP highly respects logic and the way that the mind works logically when seeking to
-master some subject or situation. They get great pleasure from engaging in logical acts
-that require quick, spatial reasoning, such as mind games, or time-based IQ tests. The
-INTP shines in this realm. Introverted Thinking is an "action-based" kind of logic. In the
-case of the INTP (as opposed to ISTP), the action may or may not occur in a physical
-place outside of the INTP's mind, but it is experienced with lightning speed in the current
-moment, based on current objects, using subjectively understood "actions" of reason.
-The INTP is happiest in situations in which they can use logic regularly in an effort to
-uncover Truths about the Entity. Their ability to be effective in these efforts, as well as
-their ability to deal with people and feel comfortable with their place in the world, will be
-in large part dependent on the development of Extraverted Intuition. Although they have
-more simple needs from interpersonal relationships than most other types have, it's very
-important that they keep up their extraverted relationships, rather than going it alone.
-INTP’s who isolate themselves rarely feel happy or successful. The INTP's feeling of
-success depends upon their opportunities to exercise their active mind, their opportunities
-to seek and find Truth, and the condition of their relationships and extraverted life.`,
+    successDefinition: `1. ELEMENTARY MY DEAR WATSON - I love to analyze patterns. Without necessarily knowing how I do it, I often have a Sherlock Holmes–like knack for spotting discrepancies and irregularities. In other words, it’s a bad idea to lie to me.
+    2. MYSTERIES OF THE UNIVERSE - I want to understand everything in the universe, but one area in particular tends to mystify me: human nature. I feel most at home in the realm of logic and rationality. As a result, I can find myself baffled by the illogical, irrational ways that feelings and emotions influence people’s behavior – including my own.`,
     strengths: [
       `They have a natural ability to focus and get \`into the zone\` when working on a problem.
 They can absorb their minds completely with an issue, and work it through with amazing
@@ -2929,65 +2552,37 @@ Remember that a positive attitude often creates positive situations.`,
     description: `In their unassuming, understated way, Defenders help make the world go round. Hardworking and devoted, people with this personality type feel a deep sense of responsibility to those around them. Defenders can be counted on to meet deadlines, remember birthdays and special occasions, uphold traditions, and shower their loved ones with gestures of care and support. But they rarely demand recognition for all that they do, preferring instead to operate behind the scenes.
 This is a capable, can-do personality type, with a wealth of versatile gifts. Though sensitive and caring, Defenders also have excellent analytical abilities and an eye for detail. And despite their reserve, they tend to have well-developed people skills and robust social relationships. Defenders are truly more than the sum of their parts, and their varied strengths shine in even the most ordinary aspects of their daily lives.`,
     jungianFunctionalPreference: {
-      auxiliary: "Extraverted Feeling",
-      dominant: "Introverted Sensing",
-      inferior: "Extraverted Intuition",
-      tertiary: "Introverted Thinking",
+      dominant: "Half-Orc FIGHTER - Samurai",
+      auxiliary: "High Elf WIZARD - School of War",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      `Large, rich inner store of information which they gather about people`,
-      `Highly observant and aware of people's feelings and reactions`,
-      `Excellent memory for details which are important to them`,
-      `Very in-tune with their surroundings - excellent sense of space and function`,
-      `Can be depended on to follow things through to completion`,
-      `Will work long and hard to see that jobs get done`,
-      `Stable, practical, down-to-earth - they dislike working with theory and abstract
-thought`,
-      `Dislike doing things which don't make sense to them`,
-      `Value security, tradition, and peaceful living`,
-      `Service-oriented: focused on what people need and want`,
-      `Kind and considerate`,
-      `Likely to put others' needs above their own`,
-      `Learn best with hands-on training`,
-      `Enjoy creating structure and order`,
-      `Take their responsibilities seriously`,
-      `Extremely uncomfortable with conflict and confrontation`,
+      "Catelyn Stark - Game of Thrones",
+      "Samwise Gamgee - The Lord of the Rings",
+      "Captain America - Avengers",
+      "Triss Merigold - The Witcher",
+      "Obi-Wan Kenobi - Star Wars",
+      "Leonard McCoy - Star Trek",
     ],
     relationshipStrengths: [
-      "Warm, friendly and affirming by nature",
-      "Service-oriented, wanting to please others",
-      "Good listeners",
-      "Will put forth lots of effort to fulfill their duties and obligations",
-      "Excellent organizational capabilities",
-      "Good at taking care of practical matters and daily needs",
-      "Usually good (albeit conservative) at handling money",
-      "Take their commitments seriously, and seek lifelong relationships",
+      "SUPPORTIVE – Defenders truly enjoy helping others, and they happily share their knowledge, attention, and expertise with anyone who needs it. People with this personality type strive for win-win situations, choosing teamwork over competition whenever possible.",
+      "RELIABLE – Rather than working in sporadic, excited bursts that leave things half finished, Defenders are meticulous and careful. They take a steady approach, ensuring that things are done to the highest standard – and often going well beyond what is required.",
+      "OBSERVANT – Defender personalities have a talent for noticing things, particularly about other people. They pay attention to the smallest details of what someone says and does, giving them unexpected insights into other people’s lives and emotions.",
+      "ENTHUSIASTIC – When the goal is right, Defenders apply all of their gifts to something that they believe will make a real, positive difference in people’s lives – whether that’s fighting poverty with a global initiative or simply making a customer’s day.",
+      "HARDWORKING – Defenders don’t just get their work done – they take pride in it. People with this personality type often form an emotional attachment to the projects and organizations that they’ve dedicated themselves to, and they won’t rest until they’ve done their share – or more than their share – to be of help.",
+      "GOOD PRACTICAL SKILLS – This personality type offers the rare combination of an altruistic nature and hard-won practicality. Defenders don’t just hope to help others. They take action – meaning that they’re more than happy to roll up their sleeves and do what’s necessary to care for their friends, family, and anyone else who needs it.",
     ],
     relationshipWeaknesses: [
-      "Don't pay enough attention to their own needs",
-      "May have difficulty branching out into new territory",
-      "Extreme dislike of conflict and criticism",
-      `Unlikely to express their needs, which may cause pent-up frustrations to build
-inside`,
-      "Have difficulty leaving a bad relationship",
-      "Have difficulty moving on after the end of a relationship",
+      "OVERLY HUMBLE – Defenders are so concerned with other people’s feelings that they may refuse to make their thoughts known or to take any duly earned credit for their contributions. And they often downplay their efforts entirely when they think that they could have done some minor aspect of a task better.",
+      "TAKING THINGS PERSONALLY – Although they might try to hide it, people with this personality type are deeply sensitive to others’ opinions, and they can be thrown off-balance if someone doesn’t appreciate, approve of, or agree with them. When they encounter criticism or disagreement – even if it’s well intentioned – Defenders may feel as if they’re experiencing a personal attack.",
+      "REPRESSING THEIR FEELINGS – Private and reserved, Defenders tend to internalize their feelings, particularly negative ones. This can create misunderstandings in their relationships. Eventually, all of their repressed feelings and resentments may boil over in a sudden, uncharacteristic outburst of frustration.",
+      "OVERCOMMITTED – Defenders’ dutifulness can create situations where they are overwhelmed but unwilling to relax their standards or ask for help. As a result, Defender personalities may suffer silently, trying to do everything themselves, even when it’s simply impossible.",
+      "RELUCTANT TO CHANGE – Defenders are among the personality types that struggle the most with change. Breaking with tradition isn’t easy for Defenders, who place great value on history and precedent. Even when change is necessary, they may wait until the situation reaches a breaking point before altering course.",
+      "TOO ALTRUISTIC – Defenders’ giving, generous nature can leave them vulnerable to being taken advantage of by others. It can be hard for people with this personality type to rock the boat and stand up to someone who isn’t pulling their own weight.",
     ],
-    successDefinition: `ISFJ’s are the homemakers, caretakers and facilitators of the world. Their strong sense of
-duty, hard-working tendencies and ability to respond quickly to what is suitable to a
-particular situation are great assets. With a dominant function that quickly grasps the
-qualities inherent within the external world, and a secondary function that weighs such
-perceptions against their value within this world, the ISFJ has a great talent for
-discovering the aesthetic and essential qualities compatible with and relevant to a
-particular real world situation. This means that, not only within the world of objects, but
-also in their relationships with people, ISFJ’s are gifted with the ability to recognize and
-understand the comfort and surroundings suitable to a secure and pleasing existence. And
-they can do this with a decisiveness which might make others wonder if the ISFJ was not
-in fact getting their answers from some form of intuitive understanding rather than what
-is really a vast library of carefully related memory images and value judgments. An ISFJ
-will always feel best when their world a place of quality and reassurance, both for
-themselves and others. Success for an ISFJ means being able to fulfill a role providing
-value for others and ordering their world in a way in which safety and security is
-balanced against a genuine respect for the aesthetic and positive qualities of life.`,
+    successDefinition: `1. THE GIFT OF LOYALTY - I tend to feel most energized and effective when I am showing up for someone who needs my help.  My most distinctive trait is loyalty. Rare is it when I allow a friendship or relationship to fade away from lack of effort. Instead, I invest a great deal of energy into maintaining strong connections with my loved ones – and not just by sending “How are you doing?” texts. I am known for dropping everything and lending a hand whenever a friend or family member is going through a hard time.
+    2. THE HIGHEST STANDARDS - I am known for my humility, and I rarely seek the spotlight.  For me, “good enough” is rarely good enough. I can be meticulous to the point of perfectionism. I take my responsibilities personally, consistently going above and beyond and doing everything that I can to exceed others’ expectations. `,
     strengths: [
       `You are adept at seeing the right balance, the best way to make the world look
 and feel good. This talent enables you to make your world reflect your inner self
@@ -3209,64 +2804,36 @@ something or someone then get input from others you trust.`,
 And every Adventurer is certainly unique. Driven by curiosity and eager to try new things, people with this personality often have a fascinating array of passions and interests. With their exploratory spirits and their ability to find joy in everyday life, Adventurers can be among the most interesting people you’ll ever meet. The only irony? Unassuming and humble, Adventurers tend to see themselves as “just doing their own thing,” so they may not even realize how remarkable they really are.
 `,
     jungianFunctionalPreference: {
-      auxiliary: "Extraverted Sensing",
-      dominant: "Introverted Feeling",
-      inferior: "Extraverted Thinking",
-      tertiary: "Introverted Intuition",
+      dominant: "Human ROGUE - Swashbuckler",
+      auxiliary: "Human BARBARIAN - Wild Magic",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      `Keen awareness of their environment`,
-      `Live in the present moment`,
-      `Enjoy a slower pace - they like to take time to savor the present moment`,
-      `Dislike dealing with theory or abstract thought, unless they see a practical
-application`,
-      `Faithful and loyal to people and ideas which are important to them`,
-      `Individualistic, having no desire to lead or follow`,
-      `Take things seriously, although they frequently appear not to`,
-      `Special bond with children and animals`,
-      `Quiet and reserved, except with people they know extremely well`,
-      `Trusting, sensitive, and kind`,
-      `Service-oriented; they're driven to help others`,
-      `Extremely well-developed appreciation for aesthetic beauty`,
-      `Likely to be original and unconventional`,
-      `Learn best with hands-on training`,
-      `Hate being confined to strict schedules and regimens`,
-      `Need space and freedom to do things their own way`,
-      `Dislike mundane, routine tasks, but will perform them if necessary`,
+      "Eowyn - The Lord of the Rings",
+      "Finn - Star Wars",
+      "Thea Queen - Arrow",
+      "Captain Marvel - Marvel Comics",
+      "Rogue - X Men",
+      "Black Panther - Marvel Comics",     
     ],
     relationshipStrengths: [
-      `Warm, friendly and affirming by nature`,
-      `Usually optimistic`,
-      `Good listeners`,
-      `Good at dealing with practical day-to-day concerns`,
-      `Flexible and laid-back, usually willing to defer to their mates`,
-      `Their love of aesthetic beauty and appreciation for function makes them likely to
-have attractive, functional homes`,
-      `Take their commitments seriously, and seek lifelong relationships`,
-      `Likely to value and respect other's personal space`,
-      `Likely to enjoy showing their affection through acts and deeds`,
-      `Sensuous and earthy`,
+      "CHARMING – People with the Adventurer personality type are relaxed and warm, and their “live and let live” attitude naturally makes them likable and popular."`,
+      "SENSITIVE TO OTHERS – Adventurers easily relate to others’ emotions, helping them to establish harmony and good will, and minimize conflict.",
+      "IMAGINATIVE – Being so aware of others’ emotions, Adventurer personalities use creativity and insight to craft bold ideas that speak to people’s hearts. While it’s hard to explain this quality on a resume, this vivid imagination and exploratory spirit help Adventurers in unexpected ways.",
+      "PASSIONATE – Beneath Adventurers’ quiet shyness beats an intensely feeling heart. When people with this personality type are caught up in something exciting and interesting, they can leave everything else in the dust.",
+      "CURIOUS – Ideas are well and good, but Adventurers need to see and explore for themselves whether their ideas ring true. Work revolving around the sciences may seem a poor match for their traits, but a boldly artistic and humanistic vision is often exactly what research needs to move forward – if Adventurers are given the freedom they need to do so.",
+      "ARTISTIC – Adventurers are able to show their creativity in tangible ways and with stunning beauty. Whether writing a song, painting an emotion, or presenting a statistic in a graph, Adventurers have a way of visualizing things that resonates with their audience.", 
     ],
     relationshipWeaknesses: [
-      `Not good at long-range financial (or other) planning`,
-      `Extreme dislike of conflict and criticism`,
-      `Focused on enjoying the present moment, they may appear lazy or slow-moving
-at times`,
-      `Need to have their own space, and dislike having it invaded`,
-      `May be slow to show their affection with words`,
-      `Tendency to hold back their thoughts and feelings, unless drawn out`,
-      `May become overly cynical and practical`,
+      "FIERCELY INDEPENDENT – Freedom of expression is often Adventurers’ top priority. Anything that interferes with that, like traditions and hard rules, creates a sense of oppression for Adventurer personalities. This can make more rigidly structured academics and work a challenge.",
+      "UNPREDICTABLE – Adventurers’ dislike long-term commitments and plans. The tendency to actively avoid planning for the future can cause strain in Adventurers’ romantic relationships and financial hardship later in life.",
+      "EASILY STRESSED – Adventurers live in the present, full of emotion. When situations get out of control, people with this personality type (especially Turbulent ones) can shut down, losing their characteristic charm and creativity in favor of gnashing teeth.",
+      "OVERLY COMPETITIVE – Adventurers can escalate small things into intense competitions, turning down long-term success in their search for glory in the moment, and are unhappy when they lose.",
+      "FLUCTUATING SELF-ESTEEM – It’s demanded that skills be quantified, but that’s hard to do with Adventurers’ strengths of sensitivity and artistry. Adventurers’ efforts are often dismissed, a hurtful and damaging blow, especially early in life. Adventurers can start to believe the naysayers without strong support."`,
     ],
-    successDefinition: `ISFP’s are creative, sensitive souls with a great capacity for love. They seek harmony,
-validation, and affection in their relationships with others. They value creativity and
-spirituality. Very sensitive and easily hurt by rejection and harshness, they are sometimes
-drawn to turn their love towards creatures who will love them back unconditionally, such
-as animals and small children. They believe heartily in unconditional love, and in an
-individual's right to be themselves without being judged harshly for who they are. Of all
-of the types, the ISFP is most likely to believe that "Love is the answer." For the ISFP,
-personal success depends upon the condition of their closest relationships, their aesthetic
-environment and the development of their artistic creativity, their spiritual development,
-and how much they feel valued and accepted for their individual contributions.`,
+    successDefinition: `1. LIVING IN HARMONY - Unless I take time for myself, I can end up feeling lost in the tide of everyday life, constantly reacting to external circumstances instead of making my own way. Creative and free-spirited, I march to the beat of my own drum, and it would be easy to assume that I don’t particularly worry what other people think of me. But this isn’t the case – I am  thoughtful and perceptive, able to pick up on people’s unspoken feelings and opinions, and it can upset me if I don’t feel liked, approved of, or appreciated. When faced with criticism, it can be a challenge for me not to get caught up in the heat of the moment. If I encounter harsh or seemingly unfair criticism, I may even lose my temper in spectacular fashion. 
+    2. THE BEAUTY OF AN OPEN MIND - I want to live in a world where me, and everyone else, have the freedom to live as I see fit, without judgment. I embrace a flexible, adaptable approach to life. Some people thrive on strict schedules and routines, but not me. I take each day as it comes, doing what feels right to me in the moment. And I make sure to leave plenty of room in their life for the unexpected, with the result that many of my most cherished memories are of spontaneous, spur-of-the-moment outings and adventures, whether by myself or with my loved ones.`,
     strengths: [
       `Highly creative, artistic and spiritual, they can produce wonderful works of art,
 music and literature. ISFP’s are natural artists. They will find great satisfaction if
@@ -3483,70 +3050,36 @@ it.`,
 This personality type makes up a good portion of the overall population, and while Logisticians may not be particularly flashy or attention-seeking, they do more than their share to keep society on a sturdy, stable foundation. In their families and their communities, Logisticians often earn respect for their reliability, their practicality, and their ability to stay grounded and logical, even in the most stressful situations.
 `,
     jungianFunctionalPreference: {
-      auxiliary: "Extraverted Thinking",
-      dominant: "Introverted Sensing",
-      inferior: "Extraverted Intuition",
-      tertiary: "Introverted Feeling",
+      dominant: "Human Fey WIZARD - School of Abjuration",
+      auxiliary: "Human MONK - Way of the Kensai",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      `Value tradition, security, and peaceful living`,
-      `Will work long and hard to fulfill duties`,
-      `Can be depended on to follow through on tasks`,
-      `Loyal and faithful`,
-      `Stable, practical and down-to-earth`,
-      `Family-minded`,
-      `Dislike doing things which don't make sense to them`,
-      `Dislike abstract theory, unless they see the practical application`,
-      `Natural leaders`,
-      `Prefer to work alone, but work well in teams when necessary`,
-      `Extremely observant, they take in facts via their senses and store them internally`,
-      `Vast, rich inner store of facts which they rely on to understand problems which
-they encounter in their lives`,
-      `Profound respect for facts and concrete information`,
-      `Make decisions objectively, applying logic and rational thinking`,
-      `Dislike change, unless they are shown it's benefit in a concrete way`,
-      `Have strong opinions about the way things should be done`,
-      `Appreciate structured, orderly environments`,
-      `Have very high standards for their own behavior and the behavior of others`,
-      `Not naturally in-tune with other people's feelings`,
-      `Able to accomplish almost anything if they put their minds to it`,
-      `Community minded \`good citizens\``,
+      "Eddard Stark - Game of Thrones",
+      "Geralt of Rivia - The Witcher",
+      "Dana Scully - X Files",
+      "Thorin Oakenshield - The Lord of the Rings",
+      "Stannis Baratheon - Game of Thrones",
+      "Saruman - The Lord of the Rings",     
     ],
     relationshipStrengths: [
-      "Honor their commitments",
-      "Take their relationship roles very seriously",
-      "Usually able to communicate what's on their minds with precision",
-      "Good listeners",
-      "Extremely good (albeit conservative) with money",
-      "Able to take constructive criticism well",
-      "Able to tolerate conflict situations without emotional upheaval",
-      "Able to dole out punishment or criticism when called for",
+      "HONEST AND DIRECT – Integrity is the heart of the Logistician personality type. Emotional manipulation, mind games and reassuring lies all run counter to Logisticians’ preference for managing the reality of the situations they encounter with plain and simple honesty.",
+      "STRONG-WILLED AND DUTIFUL – Logisticians embody that integrity in their actions too, working hard and staying focused on their goals. Patient and determined, people with the Logistician personality type meet their obligations, period.",
+      "VERY RESPONSIBLE – Logisticians’ word is a promise, and a promise means everything. Logisticians would rather run themselves into the ground with extra days and lost sleep than fail to deliver the results they said they would. Loyalty is a strong sentiment for Logistician personalities, and they fulfill their duties to the people and organizations they’ve committed themselves to.",
+      "CALM AND PRACTICAL – None of their promises would mean much if Logisticians lost their tempers and broke down at every sign of hardship – they keep their feet on the ground and make clear, rational decisions. Peoples’ preferences are a factor to consider in this process, and Logisticians work to make the best use of individual qualities, but these decisions are made with effectiveness in mind more so than empathy. The same applies to criticisms, for others and themselves.",
+      "CREATE AND ENFORCE ORDER – The primary goal of any Logistician is to be effective in what they’ve chosen to do, and they believe that this is accomplished best when everyone involved knows exactly what is going on and why. Unclear guidelines and people who break established rules undermine this effort, and are rarely tolerated by Logisticians. Structure and rules foster dependability; chaos creates unforeseen setbacks and missed deadlines. ",
+      "JACKS-OF-ALL-TRADES – Much like Analyst personality types, Logisticians are proud repositories of knowledge, though the emphasis is more on facts and statistics than concepts and underlying principles. This allows Logisticians to apply themselves to a variety of situations, picking up and applying new data and grasping the details of challenging situations as a matter of course.",
     ],
     relationshipWeaknesses: [
-      "Tendency to believe that they're always right",
-      'Tendency to get involved in "win-lose" conversations',
-      "Not naturally in-tune with what others are feeling",
-      "Their value for structure may seem rigid to others",
-      "Not likely to give enough praise or affirmation to their loved ones",
+      "STUBBORN – The facts are the facts, and Logisticians tend to resist any new idea that isn’t supported by them. This factual decision-making process also makes it difficult for people with the Logistician personality type to accept that they were wrong about something – but anyone can miss a detail, even them.",
+      "INSENSITIVE – While not intentionally harsh, Logisticians often hurt more sensitive types’ feelings by the simple mantra that honesty is the best policy. Logistician personalities may take emotions into consideration, but really only so far as to determine the most effective way to say what needs to be said.",
+      "ALWAYS BY THE BOOK – Logisticians believe that things work best with clearly defined rules, but this makes them reluctant to bend those rules or try new things, even when the downside is minimal. Truly unstructured environments leave Logisticians all but paralyzed.",
+      "JUDGEMENTAL – Opinions are opinions and facts are facts, and Logisticians are unlikely to respect people who disagree with those facts, or especially those who remain willfully ignorant of them.",
+      "OFTEN UNREASONABLY BLAME THEMSELVES – All this can combine to make Logisticians believe they are the only ones who can see projects through reliably. As they load themselves with extra work and responsibilities, turning away good intentions and helpful ideas, Logisticians sooner or later hit a tipping point where they simply can’t deliver. Since they’ve heaped the responsibility on themselves, Logisticians then believe the responsibility for failure is theirs alone to bear.",
     ],
-    successDefinition: `People with the ISTJ personality type are serious, methodical, analytical, and hard working. They store knowledge gained from their experiences, and use this knowledge to
-tackle new problems and ideas. They will work a problem through to its identified
-conclusion. They work towards defined goals; their analytical objectivity gives them the
-tendency to make goal-oriented decisions that are not waylaid by the concerns of
-individuals. They're uncomfortable with ideas that are completely new to them, or that
-are totally theoretical in nature. Since they have no direct experience with the new
-concept, they have no tools for knowing how to deal with it or what to think about it.
-They need to get the framework for a new concept before they're able to deal with it. An
-experienced ISTJ is usually a very capable person, and makes an excellent manager.
-ISTJ’s have great value for the "tried and true" approach, and are reluctant to adopt new
-systems until direct experience proves the validity of the new system. They internalize
-and value the rules and structure of the society in which they live, and disapprove of
-behaviors that go against these rules. ISTJ’s highly value the cornerstone institutions of
-society such as Family, Work, and Church. Their hard-working, dedicated nature is
-especially well-suited for holding up such institutions. An ISTJ's feeling of success
-depends upon being able to use their experience for the benefit of an institution, and also
-upon the level of structure and lack of chaos in their life, and in the health and welfare of
-their family or other social structure.`,
+    successDefinition: `1. A LIFE OF INTEGRITY - For me, a lack of structure offers not freedom, but chaos. The core of my self-respect comes from a sense of personal integrity. I believe that there is a right way to proceed in any situation – and that anyone who pretends otherwise is probably trying to bend the rules to suit their own purposes. I have a deep respect for structure and tradition, and I am often drawn to organizations, workplaces, and educational settings that offer clear hierarchies and expectations.
+    2. PICKING UP THE SLACK - I may find myself doing other people’s work – and not getting credit for it.  My dedication is an admirable quality, and it drives many of my accomplishments. But it can also become a weakness that other people take advantage of. With my strong work ethic and sense of duty, I may routinely find myself shouldering other people’s responsibilities. Even if I don’t complain about the situation, I can end up exhausted or discouraged if I am constantly expected – or taking it upon myself – to pick up the slack for my colleagues, friends, or loved ones.`,
     strengths: [
       `Their desire to execute known systems against concrete facts makes them happy
 to chunk through large amounts of routine work.`,
@@ -3709,81 +3242,36 @@ Virtuosos explore ideas through creating, troubleshooting, trial and error and f
 Virtuosos enjoy lending a hand and sharing their experience, especially with the people they care about, and it’s a shame they’re so uncommon, making up only about five percent of the population. Virtuoso women are especially rare, and the typical gender roles that society tends to expect can be a poor fit – they’ll often be seen as tomboys from a young age.
 `,
     jungianFunctionalPreference: {
-      auxiliary: "Extraverted Sensing",
-      dominant: "Introverted Thinking",
-      inferior: "Extraverted Feeling",
-      tertiary: "Introverted Intuition",
+      dominant: "Rock Gnome ARTIFICER - Artillerist",
+      auxiliary: "Human RANGER - Monster Slayer",
+      tertiary: "TBD",
+      inferior: " TBD",
     },
     generalTraits: [
-      `Interested in how and why things work`,
-      `Do not function well in regimented, structured environments; they will either feel
-stifled or become intensely bored`,
-      `Constantly gather facts about their environment and store them away`,
-      `Have an excellent ability to apply logic and reason to their immense store of facts
-to solve problems or discover how things work`,
-      `Learn best \`hands-on\``,
-      `Usually able to master theory and abstract thinking, but don't particularly like
-dealing with it unless they see a practical application`,
-      `Action-oriented \`doers\``,
-      `Focused on living in the present, rather than the future`,
-      `Love variety and new experiences`,
-      `Highly practical and realistic`,
-      `Excellent \`trouble-shooters\`, able to quickly find solutions to a wide variety of
-practical problems`,
-      `Results-oriented; they like to see immediate results for their efforts`,
-      `Usually laid-back and easy-going with people`,
-      `Risk-takers who thrive on action`,
-      `Independent and determined - usually dislike committing themselves`,
-      `Usually quite self-confident`,
+      "Arya Stark - Game of Thrones",
+      "Indiana Jones - Raiders of the Lost Ark",
+      "Hawkeye - Avengers",
+      "Han Solo - Star Wars",
+      "Montgomery Scott - Star Trek",      
     ],
     relationshipStrengths: [
-      "Good listeners",
-      "Usually self-confident",
-      "Generally optimistic and fun to be with",
-      "Practical and realistic, they handle daily concerns",
-      "Are not threatened by conflict or criticism",
-      "Able to leave a relationship with relative ease once it is over",
-      "Able to administer punishment, although they're not interested in doing so",
-      "Likely to respect other's needs for space and privacy",
+      "OPTIMISTIC AND ENERGETIC – Virtuosos are usually up to their elbows in some project or other. Cheerful and good-natured, people with the Virtuoso personality type (especially Assertive ones) rarely get stressed out, preferring to go with the flow.",
+      "CREATIVE AND PRACTICAL– Virtuosos are very imaginative when it comes to practical things, mechanics, and crafts. Novel ideas come easily, and they love using their hands to put them into action.",
+      "SPONTANEOUS AND RATIONAL – Combining spontaneity with logic, Virtuosos can switch mindsets to fit new situations with little effort, making them flexible and versatile individuals.",
+      "KNOW HOW TO PRIORITIZE – This flexibility comes with some unpredictability, but Virtuoso personalities are able to store their spontaneity for a rainy day, releasing their energy just when it’s needed most.",
+      "GREAT IN A CRISIS – With all this hands-on creativity and spontaneity, it’s no wonder that Virtuosos are naturals in crisis situations. People with this personality type usually enjoy a little physical risk, and they aren’t afraid to get their hands dirty when the situation calls for it.",
+      "RELAXED – Through all this, Virtuosos are able to stay quite relaxed. They live in the moment and go with the flow, refusing to worry too much about the future.",   
     ],
     relationshipWeaknesses: [
-      "Living entirely in the present, they have difficulty with long-term commitments",
-      "Not naturally good at expressing feelings and emotions",
-      "Not tuned in to what others are feeling, they may be insensitive at times",
-      "Tendency to be overly private and hold back part of themselves",
-      "Need a lot of personal space, which they don't like to have invaded",
-      "They thrive on action and excitement, and may stir things up to create it",
+      "STUBBORN – As easily as Virtuosos go with the flow, they can also ignore it entirely, and usually move in another direction with little apology or sensitivity. If someone tries to change Virtuosos’ habits, lifestyle or ideas through criticism, they can become quite blunt in their irritation.",
+      "INSENSITIVE – Virtuosos use logic, and even when they try to meet others halfway with empathy and emotional sensitivity, it rarely seems to quite come out right, if anything is even said at all.",
+      "PRIVATE AND RESERVED – Virtuoso personalities are notoriously difficult to get to know. They are true introverts, keeping their personal matters to themselves, and often just prefer silence to small talk.",
+      "EASILY BORED – Virtuosos enjoy novelty, which makes them excellent tinkerers, but much less reliable when it comes to focusing on things long-term. Once something is understood, Virtuosos tend to simply move on to something new and more interesting.",
+      "DISLIKE COMMITMENT – Long-term commitments are particularly onerous for Virtuosos. They prefer to take things day-by-day, and the feeling of being locked into something for a long time is downright oppressive. This can be a particular challenge in Virtuosos’ romantic relationships.",
+      "RISKY BEHAVIOR – This stubbornness, difficulty with others’ emotions, focus on the moment, and easy boredom can lead to unnecessary and unhelpful boundary-pushing, just for fun. Virtuosos have been known to escalate conflict and danger just to see where it goes, something that can have disastrous consequences for everyone around if they lose control of the situation.",
     ],
-    successDefinition: `People with the ISTP personality type are action-oriented thinkers. They are highly tuned
-into their immediate environment, and driven to interact with it in a hands-on fashion. It
-is by working with things in their environment that they experience and understand life.
-By working physically with their environment, they have a natural and immediate
-understanding of how things work, and how best to achieve their identified goals.
-Although they constantly use logic to determine how to best manipulate objects in their
-immediate situation, they are not naturally analytical in a more objective sense. When
-they step back to methodically analyze the relationship between objects in their world,
-they often lose touch with their understanding. Their understanding is intimately tied into
-their physical experience with reality. It is immediate and holistic. They are naturally "in sync" with the physical world, and value life largely in terms of their ability to flow with
-and conquer the physical challenges presented to them. Although they think about and
-value past experiences, they live almost entirely in the here and now. ISTP’s are natural
-mechanics, athletes, musicians, technicians, and engineers. They excel at tasks that
-require a great deal of tactile mastery, as well as quick, logic-based action. ISTP’s are
-most comfortable using their known skills, rather than being thrown into situations with
-which they have no personal experience. The nuances of variation in each individual
-situation will bring a sense of newness and freshness to the experience for the ISTP.
-ISTP’s often resist and rebel situations that are entirely new, or that require a great deal
-of structured planning and thinking. This way of thinking is foreign to the ISTP, and
-therefore uncomfortable. When someone tries to push or control the ISTP into these
-situations, he or she is likely to "walk away" from that person without looking back.
-Their resistance to structure may cause them to quit school early, quit jobs that they find
-stifling, or quit relationships that have too many expectations. ISTP’s are often likeable
-and have more friends and social interaction than is normal for an Introvert. The ISTP
-genuinely enjoys the company of their friends, and needs their input in his or her physical
-world to maintain their understanding of their own place in the world. An ISTP's feeling
-of success is dependent primarily upon their mastery of their physical world, but is also
-dependent upon the existence of strong, reliable, interpersonal relationships. Without
-these relationships, the ISTP is likely to avoid relationships, isolate him or herself, and
-feel very vulnerable to rejection and hurt.`,
+    successDefinition: `1. DEFYING THE RULES - I have a particular difficulty in predicting emotions, but this is just a natural extension of my fairness, given how difficult it is to gauge my emotions and motivations. However, my tendency to explore my relationships through my actions rather than through empathy can lead to some very frustrating situations. I struggle with boundaries and guidelines, preferring the freedom to move about and color outside the lines if I need to.
+    2.  DARE TO DIFFER - Rather than some sort of vision quest though, I am merely exploring the viability of a new interest when I make these seismic shifts. While my mechanical tendencies can make me appear simple at a glance, I am actually quite enigmatic. Friendly but very private, calm but suddenly spontaneous, extremely curious but unable to stay focused on formal studies, I can be a challenge to predict, even by my friends and loved ones. I can seem very loyal and steady for a while, but I tend to build up a store of impulsive energy that explodes without warning, taking my interests in bold new directions.`,
     strengths: [
       `They have a natural ability to focus and \`become one\` with their immediate
 environment. This ability allows them to be great athletes, dancers, and
