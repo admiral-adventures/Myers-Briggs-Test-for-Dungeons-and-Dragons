@@ -20,7 +20,8 @@ export default function HomePage() {
           direction="column"
           justifyContent="center"
           alignItems="center"
-        ><Image
+        >
+          <Image
             src="/your-image-path.jpg"
             alt="D&D Image"
             height={200}
