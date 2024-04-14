@@ -24,10 +24,10 @@ export default function HomePage() {
         >
           <div style={{ marginBottom: "1rem" }}>
             <Image
-              src="https://i.imgur.com/G2WjqgI.png"
+              src="https://i.imgur.com/5F14Do7.png"
               alt="D&D Image"
               height={200}
-              width={743}
+              width={800}
             />
           </div>
           <Heading
