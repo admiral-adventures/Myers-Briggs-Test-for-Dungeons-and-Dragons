@@ -45,7 +45,7 @@ export default function HomePage() {
                 color: "white",
               }}
             >
-              Welcome to D&D Personality Test
+              Welcome to the D&D Personality Test
             </Highlight>
           </Heading>
           <Text
