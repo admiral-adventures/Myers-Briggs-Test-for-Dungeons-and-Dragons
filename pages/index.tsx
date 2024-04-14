@@ -22,7 +22,7 @@ export default function HomePage() {
           alignItems="center"
         >
           <Image
-            src="/your-image-path.jpg"
+            src={`/images/mbti/logo.png`}
             alt="D&D Image"
             height={200}
             width={743}
