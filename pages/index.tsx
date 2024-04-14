@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Heading, Text, Highlight, Flex, Button } from "@chakra-ui/react";
 import { FiArrowRight } from "react-icons/fi";
+import Image from "next/image"; 
 
 import MainLayout from "../components/layouts/main-layout";
 
