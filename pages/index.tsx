@@ -21,13 +21,6 @@ export default function HomePage() {
           justifyContent="center"
           alignItems="center"
         >
-          <Image
-            src={`/images/mbti/logo.png`}
-            alt="D&D Image"
-            height={200}
-            width={743}
-            mb={4} // Add margin bottom for spacing
-          />
           <Heading
             as="h1"
             lineHeight="tall"
