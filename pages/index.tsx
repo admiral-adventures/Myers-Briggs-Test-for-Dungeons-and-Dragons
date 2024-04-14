@@ -22,13 +22,14 @@ export default function HomePage() {
           justifyContent="center"
           alignItems="center"
         >
-          <Image
-            src="https://imgur.com/AXokTiO"
-            alt="D&D Image"
-            height={200}
-            width={743}
-            mb={4}
-       />
+          <div style={{ marginBottom: "1rem" }}>
+            <Image
+              src="https://imgur.com/AXokTiO"
+              alt="D&D Image"
+              height={200}
+              width={743}
+            />
+          </div>
           <Heading
             as="h1"
             lineHeight="tall"
