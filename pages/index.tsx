@@ -24,7 +24,7 @@ export default function HomePage() {
         >
           <div style={{ marginBottom: "1rem" }}>
             <Image
-              src="https://imgur.com/AXokTiO"
+              src="https://i.imgur.com/AXokTiO.png"
               alt="D&D Image"
               height={200}
               width={743}
