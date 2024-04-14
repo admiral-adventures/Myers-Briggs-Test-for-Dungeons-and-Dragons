@@ -28,6 +28,7 @@ export default function HomePage() {
               alt="D&D Image"
               height={200}
               width={743}
+              onError={(e) => console.error("Image load error:", e)}
             />
           </div>
           <Heading
