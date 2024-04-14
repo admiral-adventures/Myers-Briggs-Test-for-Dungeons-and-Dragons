@@ -27,7 +27,7 @@ export default function HomePage() {
             height={200}
             width={743}
             mb={4}
-       >
+       />
           <Heading
             as="h1"
             lineHeight="tall"
