@@ -20,7 +20,13 @@ export default function HomePage() {
           direction="column"
           justifyContent="center"
           alignItems="center"
-        >
+        ><Image
+            src="/your-image-path.jpg"
+            alt="D&D Image"
+            height={200}
+            width={743}
+            mb={4} // Add margin bottom for spacing
+          />
           <Heading
             as="h1"
             lineHeight="tall"
