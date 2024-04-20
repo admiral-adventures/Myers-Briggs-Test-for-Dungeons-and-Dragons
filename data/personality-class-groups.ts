@@ -52,11 +52,10 @@ Protagonists are born leaders, which explains why these personalities can be fou
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -110,11 +109,10 @@ Protagonists are born leaders, which explains why these personalities can be fou
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -168,11 +166,10 @@ Protagonists are born leaders, which explains why these personalities can be fou
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -223,13 +220,14 @@ It would be a mistake, though, to think of Debaters as disagreeable or mean-spir
       "Debaters tend to get so wrapped up in their ideas that the lose sight of the other players at the session.",
       "Debaters tend to love conversing about ideas which may come across to other players as argumentative.",
     ],
-    potentialProblemAreas: ["To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below."],
+    potentialProblemAreas: [
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+    ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -283,11 +281,10 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -339,11 +336,10 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -398,11 +394,10 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -457,11 +452,10 @@ Theory, abstract concepts and plodding discussions about global issues and their
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -516,11 +510,10 @@ While they have lofty goals and ambitions, Advocates shouldn’t be mistaken for
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -576,11 +569,10 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -635,11 +627,10 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -692,11 +683,10 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -752,11 +742,10 @@ This is a capable, can-do personality type, with a wealth of versatile gifts. Th
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -811,11 +800,10 @@ And every Adventurer is certainly unique. Driven by curiosity and eager to try n
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -871,11 +859,10 @@ This personality type makes up a good portion of the overall population, and whi
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
   {
@@ -932,11 +919,10 @@ Virtuosos enjoy lending a hand and sharing their experience, especially with the
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
-    solutions: "TBD",
-    livingHappilyTips: "TBD",
+    solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is you DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider a hiring a professional DM.",
+    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
-      "TBD",
-      "TBD",
+      "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
   },
 ];
