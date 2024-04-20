@@ -11,6 +11,7 @@ import {
   Td,
   UnorderedList,
   ListItem,
+  Button,
 } from "@chakra-ui/react";
 
 import {
@@ -302,6 +303,13 @@ export default function TestResult(props: TestResultProps) {
           )}
         </UnorderedList>
       )}
+      <Button
+        mt={4} // Margin top for spacing
+        colorScheme="blue" // Use Chakra UI color scheme for light blue
+        onClick={() => window.open("https://admiraladventures.games/pregenerated-characters", "_blank")}
+      >
+        Download Character Sheet
+      </Button>
       <Heading
         scrollMarginTop={8}
         id="explanation-of-problems"
