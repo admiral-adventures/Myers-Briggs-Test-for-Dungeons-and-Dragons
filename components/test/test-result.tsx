@@ -380,7 +380,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-       Our Resumes 
+       My Resume 
       </Heading>
       {personalityClassGroup.livingHappilyTips
         .split(/\.\n+/g)
