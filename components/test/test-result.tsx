@@ -268,7 +268,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        Potential Problem Areas
+        Download Your Character Sheet
       </Heading>
       {personalityClassGroup.potentialProblemAreas.length === 1 ? (
         personalityClassGroup.potentialProblemAreas[0]
