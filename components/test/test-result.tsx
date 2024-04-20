@@ -318,7 +318,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        TBD
+        About Admiral Adventures
       </Heading>
       {personalityClassGroup.explanationOfProblems
         .split(/\.\n+/g)
