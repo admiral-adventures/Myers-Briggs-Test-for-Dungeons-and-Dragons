@@ -39,27 +39,14 @@ Protagonists are born leaders, which explains why these personalities can be fou
 2. GETTING INVOLVED - I am a genuine, caring person who talks the talk and walks the walk. Nothing makes me happier than motivating other people to do what’s right.  When I care about someone, I want to help solve that person’s problems – sometimes at any cost. The good news is that many people are grateful for my assistance and advice. After all, there’s a reason that these I have a reputation for helping others improve their lives.
 `,
     strengths: [
-      "Making others feel valued and important",
-      "Quickly seeing the positive and negative aspects of a human situation",
-      "Expressing their feelings clearly",
-      "Offering loyalty and commitment to partners, family and work mates",
-      "Trying to always find the solution which works for everyone",
-      "Encouraging humor and self expression in others",
-      "Finding ways to help others fulfill their needs",
-      "Affirming positive community values",
-      "Naturally falling into leadership roles in their community",
+      "Protagonists tend to find a solution which works for everyone.",
+      "Protagonists tend to make others at the table feel valued and important.",
+      "Protagonists tend to let their feelings be known in a constructive manner.",
     ],
     gifts: [
-      `Understanding and empathizing with the feelings of others; realizing “where they are coming
-from”.`,
-      `A talent for creative expression which can turn ordinary things and situations into something
-magical.`,
-      `An enhanced feeling of connection with and sensitivity to the world around them.`,
-      `The ability to see many facets of a problem and the many ways it might be resolved for the best.`,
-      `The ability to make creative and valuable use of time spent alone.`,
-      `Openness to the spiritual connections between all things`,
-      `They become increasingly creative, visionary and empathetic, and are therefore effective and kind
-managers of businesses, people, and various situations that life presents.`,
+      "Protagonist may present themselves as arrogant when they feel they are right.",
+      "Protagonist may be impatient with players who exhibit a slow pace of play.",
+      "Protagonist may be very critical of flaws displayed by other players.",
     ],
     potentialProblemAreas: [
       `With any gift of strength, there is an associated weakness. Without "bad", there would be no "good".
@@ -234,25 +221,16 @@ your own competence. Let the feelings of others become a strength rather than a 
     successDefinition: `1. A WORTHY CHALLENGE - I am a true powerhouse, and I cultivate an image of being larger than life – and often enough I am. I need to remember though, that my stature comes not just from my own actions, but from the actions of the team that props me up, and that it’s important to recognize the contributions, talents and needs, especially from an emotional perspective, of my support network. 
     2. STRIVING FOR GREATNESS - At the negotiating table, I am dominant, relentless, and unforgiving. This isn’t because I am coldhearted or vicious per se – it’s more that I genuinely enjoy the challenge, the battle of wits, the repartee that comes from this environment, and if the other side can’t keep up, that’s no reason for me to fold on my own core tenet of ultimate victory.`,
     strengths: [
-      `Able to cut straight to the chase in any situation and not be sidetracked by non-essential issues.`,
-      `A propensity for leadership which follows naturally from their ability to control and manage real
-time/real world situations.`,
-      `A talent for factual analysis unbiased by prejudice or emotion.`,
-      `A “can do” approach to life which makes the working environment a positive place for them.`,
-      `A strong regard for positive social and economic institutions, structure and government.`,
-      `Second to none time and space management skills, everything organized and in its place.`,
-      `Able to constantly synthesize and adapt new ideas and concepts into strategies for business, social,
-financial or environmental development.`,
-    ],
+      "Commanders tend to “cut straight to the chase” and not get sidetracked by non-essential issues.",
+      "Commanders tend to step up to a leadership position which may help keep the session moving forward.",
+      "Commanders tend to involve others in decision making which helps with player cohesion and direction.",
+ ],
     gifts: [
-      `A talent for creating great benefits through the addressing of social justice issues.`,
-      `The ability to recognize and mediate their potentials in accord with the expectations of others.`,
-      `An approach to life which includes an awareness of the differences between their needs and those
-of others.`,
-      `Able to know when to stop and take stock of life and recognize the qualities of the moment.`,
-      `A talent for showing others the way to get past difficulties in their outer life`,
-      `A broadening of their own ambitions which includes rather than excludes others from the decision
-making and the benefits which flow from their achievement.`,
+      "Commanders may take every decision not made in agreement with their rational beliefs as a personal rejection.",
+      "Commanders may become obsessed with small obstructions and difficulties to the point where the overall plan
+is forgotten.",
+      "Commanders may become childishly petulant or angered when confronted by situations which require feeling
+judgments.",
     ],
     potentialProblemAreas: [
       `May be unable to understand other people’s needs where these differ from their own.`,
@@ -430,28 +408,14 @@ happiness`,
     successDefinition: `1. THE MAGIC OF EVERYDAY LIFE -  I am independent and creative, always on the lookout for the magic and meaning in everyday life. In my unique way, I can be quite introspective. I can’t help but ponder the deeper meaning and significance of life – even when I should be paying attention to something else. I believe that everything – and everyone – is connected, and I live for the glimmers of insight that I can gain into these connections.
     2. SEEKING JOY - I am capable of intense thought and feeling – and also of kicking back and having a good time. Even in moments of fun, I want to connect emotionally with others. Few things matter more to me than having genuine, heartfelt conversations with the people I cherish. I believe that everyone deserves to express their feelings, and their empathy and warmth create spaces where even the most timid spirits can feel comfortable opening up.`,
     strengths: [
-      `They’re exceptionally perceptive about people and situations. They’re often able to quickly and
-accurately assess where someone is coming from.`,
-      `They accept and value people as individuals, and are strongly egalitarian. They believe that
-individuals have the right to be themselves, and are very tolerant and accepting of most people.`,
-      `They’re often deep and intelligent, and may be quite brilliant in their ability to tie things together.
-They’re wired to look for connections in the external world, and so they may mentally put things
-together more easily than others.`,
-      `Their interest in understanding the world usually makes them in tune with what’s socially
-acceptable and what isn’t. This may help them to be popular and likeable.`,
-      `They’re highly creative. This ability may be used in an artistic way, or may be used to generate
-ideas and new ways of thinking.`,
+      "Campaigners are very tolerant of other players which helps with session cohesion.",
+      "Campaigners are highly creative which tends to help solve intractable problems that may be preventing the session from moving forward.",
+      "Campaigners tend to know what is socially unacceptable and generally will be liked by the other players.",
     ],
     gifts: [
-      `They will have the ability to follow through on projects they’ve begun.`,
-      `They will be less gullible and malleable, and generally more able to discern between “good” and
-“bad”, rather than accepting everything without question.`,
-      `They may be highly artistic.`,
-      `They will have the ability to focus and concentrate deeply on tasks. This enhanced ability to think
-and process information internally will make them more capable on many levels.`,
-      `They will balance out their desire to meet new people and have new experiences with the desire to
-put their understanding to use in some way.`,
-      `They will find more meaning and purpose in their lives.`,
+      "Campaigners may feel intense anger towards people who criticize them or try to control them during a session.",
+      "Campaigners may blame their problems or issues on other players.",
+      "Campaigners may have a difficult time committing to a long campaign.",
     ],
     potentialProblemAreas: [
       `May be what many would call a “sucker”; vulnerable to schemers and con artists.`,
@@ -588,23 +552,14 @@ It would be a mistake, though, to think of Debaters as disagreeable or mean-spir
     successDefinition: `1. BREAKING THE RULES - As I see it, most people are too ready to do as they’re told and blindly conform to social norms, pressures, and standards. I enjoy the mental exercise of questioning the prevailing mode of thought, and I take a certain pleasure in uncovering the value of underdogs and outliers. My active mind can’t help but rethink the things that everyone else takes for granted and push them in clever new directions.
 2. THE COST OF CONTRARIANISM - As I see it, most people are too ready to do as they’re told and blindly conform to social norms, pressures, and standards. I enjoy the mental exercise of questioning the prevailing mode of thought, and I take a certain pleasure in uncovering the value of underdogs and outliers. My active mind can’t help but rethink the things that everyone else takes for granted and push myself in clever new directions.`,
     strengths: [
-      "The ability to hold many points of view in mind and see their differing merits.",
-      "Seeing ways to do things others have not thought of.",
-      "Able to give quick and diverse answers to any question of interest.",
-      "Seeing the other side of a situation and making it known.",
-      "Being able to juggle many differing jobs or processes at the one time.",
-      "Easily capable of holding your own in any argument or discussion.",
-      "The ability to quickly find the best or most useful side of others.",
-      `Seeing the many connections between events and things which are not immediately obvious to
-others.`,
+      "Debaters tend to be fairly “laid-back” and easy to get along with which helps facilitate player cohesion.",
+      "Debaters tend to understand new things quickly which prevents slowing sessions down to explain things.",
+      "Debaters tend to be good at spotting connections others may miss which may help keep the sessions moving forward.",
     ],
     gifts: [
-      "The ability to solve puzzles and problems that have no obvious way to resolution.",
-      "The ability to define schematically a new structure or design and know it will work.",
-      "Knowing and giving to others the very thing they need when they are not sure themselves.",
-      "A talent for innovative creation in writing, music or the visual arts.",
-      `The gift of knowing which new ideas or changes will enhance rather than detract from their
-relationships with others`,
+      "Debaters tend to have difficulty making decisions and may prefer to “wait and see” which may contribute to slow decision making among players.",
+      "Debaters tend to get so wrapped up in their ideas that the lose sight of the other players at the session.",
+      "Debaters tend to love conversing about ideas which may come across to other players as argumentative.",
     ],
     potentialProblemAreas: [
       `The inability to maintain a comfortable situation or relationship once its possibilities have been
@@ -793,20 +748,14 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
     successDefinition: `1.  BUILDING RELATIONSHIPS THAT LAST - I rarely miss a birthday or holiday. Devoted to my relationships, I commit even the smallest details of my friends’ and loved ones’ lives to memory. Supportive and outgoing, I can always be spotted at a party – I am the one fluttering around making sure that everyone else is having a good time! But make no mistake, I don’t just breeze through other people’s lives. Loyal to the core, I build lasting relationships, and I can be counted on to show up whenever a helping hand, or a listening ear, is needed.
     2. THE BEAUTY OF A RESPONSIBLE LIFE - I have a clear moral compass – and it can be nothing short of baffling to me when other people’s actions don’t align with it. I believe that there is a clear right thing to do in nearly every situation. While some may adopt a more lenient, live-and-let-live attitude, I find it difficult not to judge when someone takes a path that strikes me as misguided. As a result, I often struggle to accept it when someone, particularly someone I care about, disagrees with me.`,
     strengths: [
-      "A strong sense of what is right and wrong",
-      "Easily empathizes with another person",
-      "Able to share feelings with other people",
-      "Cares greatly about the welfare of others",
-      "Open, honest and forthright about the way they see things",
-      "Sensitive to the needs of others, particularly those judged to be less fortunate.",
+      "Consuls tend to make decisions based on their emotions and concern for others, thus they may make game decision that will keep a group together above any other consideration.",
+      "Consuls tend to be sensitive to the needs and feelings of others, thus they will be a calming influence when conflict between players arises in a session.",
+      "Consuls tend to judge people and situations based upon their “gut feelings,” thus they tend to make choices quickly which helps keep game sessions moving forward.",
     ],
     gifts: [
-      "Very sensitive to how any situation might be inwardly affecting another person",
-      "Able to see the potential in any human environment for enabling the comfort and safety of others",
-      "A flair for dramatic illustration and story telling which makes them excellent teachers of the young",
-      "Able to make strong, people oriented administrative decisions",
-      "A skill with fashion and decoration which makes people feel good about themselves",
-      "Able to see outside the “square” and adjust their values to the facts of a situation.",
+      "Consuls are quick to share their opinions, which may lead to overly harsh judgements of other players in the session.",
+      "Consuls may show a strong desire to exert control over their environment which may lead to other players feeling bullied in a game session.",
+      "Consuls usually desire to be appreciated and they may become intolerant towards other players that show indifference to them.",
     ],
     potentialProblemAreas: [
       "May be unable to correctly judge what really is for the best",
@@ -972,31 +921,14 @@ Try to identify the personality type of everyone that you come into contact with
     successDefinition: `1.  LIVING WITH PASSION - I love the spotlight, and all the world’s a stage. Many famous people like are indeed actors, but I love putting on a show for my friends too, chatting with a unique and earthy wit, soaking up attention and making every outing feel a bit like a party. Utterly social, I enjoy the simplest things, and there’s no greater joy for me than just having fun with a good group of friends.
     2.  A SPONTANEOUS SPIRIT- There’s nothing that makes me feel quite as unhappy as realizing that I am boxed in by circumstance, unable to join my friends. The biggest challenge I face is that I am often so focused on immediate pleasures that I neglect the duties and responsibilities that make those luxuries possible. Complex analysis, repetitive tasks, and matching statistics to real consequences are not easy activities for me. I would rather rely on luck or opportunity, or simply ask for help from my extensive circle of friends. `,
     strengths: [
-      "A great ability to understand the objective world, its facts and realities.",
-      "A talent for entertaining and pleasing others with words and actions.",
-      "An aptitude for getting the most out of any situation or place.",
-      "Very skilled at finding the best of things for themselves and others.",
-      "A warm and generous attitude both as a giver and receiver.",
-      "Exceptional natural musical and dramatic skills.",
-      "A detailed and finely nuanced appreciation of the outside world.",
-      "Adept at detecting and recognizing the effects of minute changes to their environment.",
-      "A talent for learning to do practically anything by just watching and doing.",
-      "A reassuring and practical sense of the world which supports others.",
+      "Entertainers liven up a table and spread infectious enthusiasm during game sessions.",
+      "Entertainers love being part of the team and work well with other players during sessions.",
+      "Entertainers are practical problem solvers and will help keep the game moving forward.",
     ],
     gifts: [
-      `Their refined tastes will make it a joy for others to be in their company and homes.`,
-      `Their ability to weigh the value of their actions gives great force to their talent for entertaining
-people of all tastes.`,
-      `They will quickly differentiate between those things which are of greater and lesser importance to
-a situation.`,
-      `They will not just seek entertainment and things for their own sake, but will seek always to find
-that which they feel will provide the most value and reward for themselves and others.`,
-      `The ESFP who augments their ability to recognize opportunities (Extraverted Sensing) with a
-strong internal value system (Introverted Feeling) will find themselves more likely to attract, and
-be attracted into, very rewarding relationships with others - particularly with those of the opposite
-sex.`,
-      `They will recognize and promote the talents of others.`,
-      `They can be counted on to defend the best and most life promoting aspects of the world.`,
+      "Entertainers are easily bored and may detach from the game session if they are not having fun.",
+      "Entertainers may struggle to stay focused during sessions, building up resentment towards other players.",
+      "Entertainers will avoid conflict and may not contribute to discussions designed to minimize future conflict.",
     ],
     potentialProblemAreas: [
       `May be seen by others as unnecessarily coarse in their behavior and life choices.`,
@@ -1197,23 +1129,14 @@ someone else’s way will reveal the truth.`,
     successDefinition: `1. A GREATER RESPONSIBILITY - I am the classic image of the model citizen: I help my neighbors, uphold the law, and try to make sure that everyone participates in the communities and organizations I hold so dear.  The main challenge for me is to recognize that not everyone follows the same path or contributes in the same way. A true leader recognizes the strength of the individual, as well as that of the group, and helps bring those individuals’ ideas to the table. That way, I really do have all the facts, and are able to lead the charge in directions that work for everyone.
     2. LEADING BY EXAMPLE - I am aware of my surroundings and live in a world of clear, verifiable facts – the surety of my knowledge means that even against heavy resistance, I stick to my principles and push an unclouded vision of what is and is not acceptable. My opinions aren’t just empty talk either, I am more than willing to dive into the most challenging projects, improving action plans and sorting details along the way, making even the most complicated tasks seem easy and approachable.`,
     strengths: [
-      `They believe strongly in doing their duty, and perform out of a sense of duty, rather than an
-expectation of getting something in return.`,
-      `They usually have a good memory.`,
-      `They're natural leaders.`,
-      `They are usually good strategists and \`game\` players.`,
-      `They are generally law-abiding and hard working.`,
-      `They are Loyal -- to their family, friends, country, etc.`,
+      "Executives tend to be assertive and take-charge type of people which helps fill the leadership role that may be required in a game session.",
+      "Executives are good at remembering things and thus can help keep a session moving forward by remembering a key detail from several sessions prior.",
+      "Executives can spot new patterns or connections and thus recognize there is another option for the players to consider that may help keep the game moving forward.",
     ],
     gifts: [
-      `They understand and create effective and fair principles that are unconditional, and in so doing,
-they perform a great social service.`,
-      `They may make outstanding Judges and Politicians.`,
-      `They live their life in a highly ethical and moral manner.`,
-      `They are great strategists, and may make great military commanders.`,
-      `They're able to create systems for behavior to meet all of the needs that they encounter in life. In
-such a way, they are satisfied because their world is organized in a principle-centric way that is
-effective and enduring.`,
+      "Executives place a high value on rules and traditions, thus they can introduce tension in a session by being rigid, stubborn, and unyielding to actions and ideas of other players.",
+      "Executives may rush to judgement and may came across to other players as harsh or abrasive.",
+      "Executives focus on facts and logic which may come across as argumentative to other emotion-based players.",
     ],
     potentialProblemAreas: [
       `May be unaware or uncaring of how they come across to others.`,
@@ -1396,30 +1319,14 @@ Theory, abstract concepts and plodding discussions about global issues and their
     successDefinition: `1. DIVING RIGHT IN - I am the likeliest person to make a lifestyle of risky behavior. I live in the moment and dive into the action – I am the eye of the storm. I enjoy drama, passion, and pleasure, not for emotional thrills, but because it’s so stimulating to my logical mind. I am forced to make critical decisions based on factual, immediate reality in a process of rapid-fire rational stimulus response.
     2. THE PATH LESS TRAVELED - Sometimes my instantaneous observation and action is just what’s required, as in some corporate environments, and especially in emergencies. With perhaps the most perceptive, unfiltered view of anyone, I have a unique skill in noticing small changes. Whether a shift in facial expression, a new clothing style, or a broken habit, I pick up on hidden thoughts and motives where most would be lucky to pick up anything specific at all. I use these observations immediately, calling out the change and asking questions, often with little regard for sensitivity. I should remember that not everyone wants their secrets and decisions broadcast.`,
     strengths: [
-      `A great talent for reading people and knowing “where they’re at” by just watching their behavior
-and mannerisms.`,
-      `The ability to draw upon an extremely detailed and ready knowledge of the physical world around
-them at a moment’s notice.`,
-      `A competitive flair which drives them to win out in difficult situations. ESTP’s love to have the
-odds stacked against them, which makes them great troubleshooters or the type of salespeople who
-can cold canvass a winning deal from the hardest client.`,
-      `A mental toughness which makes them extremely hard to beat. In any contest, the ESTP will
-almost always be the last man standing.`,
-      `A strong, “get after it” mentality that causes them to get things done.`,
+      "Entrepreneurs make decision quickly and will likely help keep the game moving forward.",
+      "Entrepreneurs have strong social skills and may be very persuasive which helps overcome team indecision.",
+      "Entrepreneurs are funny and energetic which helps promote a fun game session.",
     ],
     gifts: [
-      `The ability to recognize when others are uncomfortable or in trouble and deal with their problems.`,
-      `The ability to realize that there is value in meeting other people’s needs in a real way.`,
-      `An understanding that other people may have a different perspective on life, and those other
-perspectives may be useful and valid.`,
-      `An ability to make the most of their winning capabilities over a long term.`,
-      `A special talent for showing others how to make the most of situations. Such ESTP’s can be
-extraordinary teachers of positive life skills.`,
-      `A knack for showing not only how certain things can be done, but how they can be done in a far
-more valuable or efficient way. Such ESTP’s are an asset to any company involved in
-manufacturing.`,
-      `A skill for understanding the behavior of people and predicting patterns. ESTP’s can make very
-good detectives or analysts.`,
+      "Entrepreneurs may act impulsively at times, even if it is not in the best interests of the other players or the game.",
+      "Entrepreneurs are action oriented and may become detached or bored during sessions that slowly build story lines.",
+      "Entrepreneurs may have difficulty with what others think or feel and may come across in sessions as insensitive.",
     ],
     potentialProblemAreas: [
       `Can become morose or even antagonistic in situations offering little promise of advantage or the
@@ -1630,30 +1537,14 @@ While they have lofty goals and ambitions, Advocates shouldn’t be mistaken for
     successDefinition: `1. A PERSONAL MISSION - I feel that my life has a unique purpose – a mission that I was put onto this earth to fulfill. For me, one of the most rewarding aspects of life is seeking out this purpose – and then, once I’ve found it, striving to do it justice.
 2. SEEKING PURPOSE - I see helping others as my mission in life, and I am always looking for ways to step in and speak up for what is right. I also aspire to fix society’s deeper problems, in the hope that unfairness and hardship can become things of the past. `,
     strengths: [
-      `They're extremely insightful, and see things that are not obvious to others. This ability to see
-patterns and meanings in the world can help the INFJ in many different ways. INFJ’s usually have
-a great deal of insight into different people and situations.`,
-      `When given a goal or context, an INFJ is able to generate all kinds of possibilities. They're able to
-see the problem from many different angles.`,
-      `They understand how others are feeling, and are genuinely concerned with others. This natural
-empathy and caring helps to be really effective at helping others through problems. In this manner,
-they make great friends, counselors, teachers, and mates.`,
-      `An INFJ has a \`stick to it\` attitude. They're not afraid of hard work, and will put forth a great deal
-of effort towards something that they believe in. This persistence will help the INFJ to achieve an
-identified goal.`,
-      `Perfectionistic and idealistic, they always strive for the best.`,
-      `Usually intelligent and able to concentrate and focus, the INFJ can usually grasp difficult ideas
-and concepts.`,
+      "Advocates tend to live in the present moment which contributes to efforts of keeping other players focused on the game session.",
+      "Advocates tend to try and please other people in stressful situations which may help diffuse player conflict.",
+      "Advocates tend to pay attention to the world around them which may help inform players about key facts before rash decisions are made. ",
     ],
     gifts: [
-      `They can turn their insightful understanding about a situation into a successful plan of action.`,
-      `The INFJ with well-developed judgment will be able to grasp and process concepts that are
-beyond what their natural intelligence appears to be able to handle.`,
-      `They may achieve a level of understanding that makes them appear wise.`,
-      `The INFJ's perfectionism and idealism, when combined with their empathy and genuine concern
-for others, can cause them to be true servants for people in some fashion. They may be great
-doctors or ministers or counselors. If they have also achieved a good amount of life wisdom, they
-can become powerful forces.`,
+      "Advocates tend to be “single-minded” in their focus which can facilitate indecision among players during sessions.",
+      "Advocates may need time to recharge after stressful situations which may lead them to disengage during a session.",
+      "Advocates may develop deeply held convictions that may be at odds with other players which may contribute to player conflict.",
     ],
     potentialProblemAreas: [
       `May be unaware (and sometimes uncaring) of how they come across to others`,
@@ -1826,62 +1717,14 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
     successDefinition: `1. THE GIFT OF EMPATHY - I share a sincere curiosity about the depths of human nature. Introspective to the core, I am exquisitely attuned to my own thoughts and feelings, but I yearn to understand the people around me as well. I am compassionate and nonjudgmental, always willing to hear another person’s story. When someone opens up to me or turns to me for comfort, T feel honored to listen and be of help.
     2. IN SEARCH OF A CALLING - Like flowers in the spring, my creativity and idealism can bloom even after the darkest of seasons. Although I know the world will never be perfect, I still care about making it better however I can. This quiet belief in doing the right thing may explain why I so often inspire compassion, kindness, and beauty wherever I go.`,
     strengths: [
-      `Highly creative, artistic and spiritual, they can produce wonderful works of art,
-music and literature. INFP’s are natural artists. They will find great satisfaction if
-they encourage and develop their artistic abilities. That doesn't mean that an INFP
-has to be a famous writer or painter in order to be content. Simply the act of
-\`creating\` will be a fulfilling source of renewal and refreshment to the INFP. An
-INFP should allow himself or herself some artistic outlet, because it will add
-enrichment and positive energy to their life.`,
-      `They're more spiritually aware than most people, and are more in touch with their
-soul than others. Most INFP’s have strong Faith. Those that don't may feel as if
-they're missing something important. An INFP should nourish their faith.`,
-      `INFP’s are very aware of social injustice, and empathize with the underdog. Their
-empathy for the underdog and hyper-awareness of social injustice makes them
-extremely compassionate and nurturing towards disadvantaged members of our
-society. INFP’s will feel most useful and fulfilled when they are fighting to help
-people who have been misfortunate in our society. They may be teachers,
-ministers, writers, counselors or psychologists, but they will most likely all spend
-extra time trying to help people with special problems. An INFP can find a
-tremendous amount of satisfaction by enacting some kind of social change that
-will help the underdog.`,
-      `They're usually good listeners who genuinely want to hear about someone's
-problems, and genuinely want to help them. This makes them outstanding
-counselors, and good friends. An INFP may find great satisfaction from
-volunteering as a counselor.`,
-      `They accept and value people as individuals, and are strongly egalitarian. They
-believe that an individual has the right to be themselves, without having their
-attitudes and perspectives brought under scrutiny. Accordingly, they have a great
-deal of tolerance and acceptance dealing with people who might encounter
-negative judgment from society in general. They can see something positive in
-everyone. They believe in individuals. If they give themselves the opportunity, an
-INFP can become a much-needed source of self-esteem and confidence for people
-who cannot find it on their own. In this way, they can nurture a \`sick soul\` back
-to health.`,
-      `Usually deep and intelligent, they're able to grasp difficult concepts with relative
-ease. They usually do quite well academically, and will find that educating their
-minds nourishes their need to think deeply.`,
+     "Mediators tend to focus on the “big picture” which tends to help keep the players pointed in the right direction with regards to the story arc.",
+     "Mediators tend to feel great compassion and empathy to other players which helps reduce player conflict during sessions.",
+     "Mediators care deeply about other people and can develop a very close bond with the other players at the table.",
     ],
     gifts: [
-      `They will have a great deal of insight into people's characters. They will quickly and
-thoroughly understand where a person is coming from by assessing their motives and
-feelings. These well-developed INFP individuals make outstanding psychologists (such
-as Isabel Briggs Myers herself) and counselors. They might also be great fiction writers,
-because they're able to develop very complex, real characters.
-They will quickly understand different situations, and quickly grasp new concepts. They
-will find that they're able to do anything that they put their mind to, although they may
-not find it personally satisfying. Things may seem to come easily to these INFP’s.
-Although they're able to conquer many different kinds of tasks and situations, these
-INFP’s will be happiest doing something that seems truly important to them. Although
-they may find that they can achieve the \`mainstream\` type of success with relative ease,
-they are not likely to find happiness along that path, unless they are living their lives with
-authenticity and depth.
-The INFP who augments their strong, internal value system (Introverted Feeling) with a
-well-developed intuitive way of perceiving the world (Extraverted iNtuition) can be a
-powerful force for social change. Their intense values and strong empathy for the
-underprivileged, combined with a reliable and deeply insightful understanding of the
-world that we live in, creates an individual with the power to make a difference (such as
-Mother Teresa - an INFP).`,
+      "Mediators do not express strong emotions and thus can come across to other players as unwelcoming.",
+      "Mediators explore situations with numerous “what if” scenarios which may contribute to slow decision-making during sessions.",
+      "Mediators tend to be idealists and have high expectations which may lead to resentment when other players don't meet those expectations.",
     ],
     potentialProblemAreas: [
       `May be extremely sensitive to any kind of criticism`,
@@ -2075,36 +1918,14 @@ it.`,
     successDefinition: `1. A THIRST FOR KNOWLEDGE - I don’t just learn new things for show. I genuinely enjoy expanding the limits of my knowledge.
     2. THE CHESS GAME OF LIFE - Life is like a giant game of chess. Relying on strategy rather than chance, I contemplate the strengths and weaknesses of each move before I make it. And I never lose faith that, with enough ingenuity and insight, I can find a way to win – no matter what challenges might arise along the way.`,
     strengths: [
-      `The INTJ's mind is naturally geared towards systematically analyzing information from
-many contextual perspectives, and rejecting or retaining information as they become
-aware of its usefulness or validity. They probably do very well in school, and in any
-pursuit that requires serious analytical thinking.`,
-      `They're extremely insightful, and see things that are not obvious to others. This ability to
-see patterns and meanings in the world can help the INTJ in many different ways.
-When given a goal or context, an INTJ is able to generate all kinds of possibilities.
-They're able to see the problem from many different angles, and come up with a solution
-that fits the needs of the current situation.`,
-      `They don't take criticism personally, and are open to changing their opinions when
-they're shown a better idea or better way of doing something.`,
-      `An INTJ has a \`stick to it\` attitude. They're not afraid of hard work, and will put forth a
-great deal of effort towards something that they are interested in. This persistence will
-help the INTJ to achieve any identified goal.`,
-      `Usually intelligent and able to concentrate and focus, the INTJ can usually grasp difficult
-ideas and concepts.`,
-    ],
+      "Architects tend to be very good listeners which minimizes other players from having to repeat conversations.",
+      "Architects tend to be hard working planners which lends to being very prepared for game session.",
+      "Architects tend to take criticism well which helps facilitate player cohesion.",
+   ],
     gifts: [
-      `They can discriminate well amongst their intuitions and build ingenious systems to meet
-identified goals, or determine a successful plan of action to meet an identified need. In
-such a way, they may be brilliant scientists, doctors, mathematicians, or corporate
-strategists.`,
-      `Their deep understanding, logical abilities, and persistence may enable them to make
-discoveries or uncover new ways of looking at something. In such a way, they may
-perform a great service to society. For example, an INTJ is the likely personality type to
-discover the cure for cancer.`,
-      `The INTJ with well-developed judgment will be able to grasp and process concepts that
-are beyond what their natural intelligence appears to be able to handle.`,
-      `If they have achieved a good amount of life wisdom, an INTJ can become a powerful
-political force.`,
+      "Architects tend to be perfectionists and may even employ manipulation to get specific outcomes.",
+      "Architects tend to be uncomfortable talking about emotions which may lead to other players viewing them as insensitive.",
+      "Architects tend to want to work alone which may lead to conflict with other players.",
     ],
     potentialProblemAreas: [
       `May be unaware (and sometimes uncaring) of how they come across to others`,
@@ -2319,29 +2140,14 @@ Extravert in your own style.`,
     successDefinition: `1. ELEMENTARY MY DEAR WATSON - I love to analyze patterns. Without necessarily knowing how I do it, I often have a Sherlock Holmes–like knack for spotting discrepancies and irregularities. In other words, it’s a bad idea to lie to me.
     2. MYSTERIES OF THE UNIVERSE - I want to understand everything in the universe, but one area in particular tends to mystify me: human nature. I feel most at home in the realm of logic and rationality. As a result, I can find myself baffled by the illogical, irrational ways that feelings and emotions influence people’s behavior – including my own.`,
     strengths: [
-      `They have a natural ability to focus and get \`into the zone\` when working on a problem.
-They can absorb their minds completely with an issue, and work it through with amazing
-speed and accuracy. This ability makes them outstanding trouble-shooters. Since their
-logical abilities are dependent on their experiences, their abilities will increase with time.
-INTP’s with experience are often seen as the \`gurus\` of their professions.`,
-      `Their respect for precision in communication lends them the ability to accurately convey
-their ideas and discoveries in full.`,
-      `They are usually quite intelligent and can grasp difficult concepts.`,
-      `They are often jovial and good-natured, with a good sense of humor.`,
-      `They are not overly demanding in personal relationships, and have simple daily needs.`,
-      `They are often easy and enjoyable to live with.`,
+      "Logicians tend to be flexible and good at thinking “outside the box” which may help move a session forward.",
+      "Logicians tend to think about the “big picture” which may help keep players focused and moving in the right direction.",
+      "Logicians tend to socialize with small groups of individuals that share common interest which may contribute to player cohesion.",
     ],
     gifts: [
-      `They may be exceptionally intelligent, and make ground-breaking discoveries.
-With a well-developed understanding of their environment and the ability to act very
-quickly, they may good athletes.`,
-      `They're typically able to communicate their ideas more concisely than the average INTP
-without sacrificing accuracy.`,
-      `They understand the benefits of close relationships, and understand how to support and
-enhance these relationships.`,
-      `They see the value of principles that are not strictly logical`,
-      `They have attractive and compelling personalities, and are well-liked and accepted by
-most people.`,
+      "Logicians tend to be difficult to know at first which may adversely impact early sessions.",
+      "Logicians tend to struggle with following rules which may slow session play to some degree.",
+      "Logicians tend to like a complete understanding of something before they are willing to share an opinion or take an action.",
     ],
     potentialProblemAreas: [
       `The INTP gets \`stuck in a rut\` and only does those things that are known and
@@ -2584,39 +2390,14 @@ This is a capable, can-do personality type, with a wealth of versatile gifts. Th
     successDefinition: `1. THE GIFT OF LOYALTY - I tend to feel most energized and effective when I am showing up for someone who needs my help.  My most distinctive trait is loyalty. Rare is it when I allow a friendship or relationship to fade away from lack of effort. Instead, I invest a great deal of energy into maintaining strong connections with my loved ones – and not just by sending “How are you doing?” texts. I am known for dropping everything and lending a hand whenever a friend or family member is going through a hard time.
     2. THE HIGHEST STANDARDS - I am known for my humility, and I rarely seek the spotlight.  For me, “good enough” is rarely good enough. I can be meticulous to the point of perfectionism. I take my responsibilities personally, consistently going above and beyond and doing everything that I can to exceed others’ expectations. `,
     strengths: [
-      `You are adept at seeing the right balance, the best way to make the world look
-and feel good. This talent enables you to make your world reflect your inner self
-and become a place of security and growth in which others can feel at ease too.`,
-      `You have a gift for knowing what will make another person feel better about the
-world and themselves. Your valuable input to their world comes back to you in
-ways which aid your own personal development.`,
-      `You see clearly what is right and wrong, what grates on yourself and others, what
-works for harmony and what does not. Your clear recognition of these things
-gains you the confidence and respect of others.`,
-      `You have a great memory for things, places and events, their curious details and
-the relationships between them. More than this, you also remember what was both
-good and bad about these things. These skills show in your ability to give no
-nonsense advice and aid to others`,
-      `Within yourself you know, even if others do not realize it, that for as long as they
-are trying to do their best, you will hold the line with them to the very end. You
-see this as simply doing the right thing, but in fact it is a special virtue and makes
-you one of the most worthy of partners and friends when the chips are down.`,
-      `You work hard to get the job done, and you can be counted on the stay with it till
-it is finished.`,
+      "Defenders tend to be very perceptive and remember details about other people, such as NPCs, that other players may have forgotten about.",
+      "Defenders tend to focus on developing social harmony and connection, thus they can help reduce player conflict when it arises during a session.",
+      "Defenders are planners and tend to be very well-organized and thus can help keep players focused on executing the task at hand during a session.",
     ],
     gifts: [
-      `Work is never a chore to you, but a gift you offer to the world.`,
-      `In your relationships you are able to clearly show others how you feel about them.`,
-      `Others will always feel at ease in your home and presence.`,
-      `Your efforts always seem to be appreciated by those around you.`,
-      `You will try to find pleasing ways to settle differences and to find the most
-satisfying solutions to both your own and others difficulties.`,
-      `More often than not, you will know exactly the right thing to do, say, buy or
-create to make things better or move things toward a valid human solution to a
-problem`,
-      `You will clearly see the conditions underlying a situation and their effects on the
-persons within it, enabling you to see ways of changing things for the better. In
-this sense, you may be a powerful agent for social justice.`,
+      "Defenders tend to bottle up their feelings which may result in negative feelings towards other players.",
+      "Defenders are practical, which may limit their ability to consider new ideas to solve a problem put forth by other players.",
+      "Defenders are creatures of habit and may dislike the smallest inconsistency with the application of rule interpretations.",
     ],
     potentialProblemAreas: [
       `May find difficulty expressing their feelings without fear or anger.`,
@@ -2834,40 +2615,15 @@ And every Adventurer is certainly unique. Driven by curiosity and eager to try n
     successDefinition: `1. LIVING IN HARMONY - Unless I take time for myself, I can end up feeling lost in the tide of everyday life, constantly reacting to external circumstances instead of making my own way. Creative and free-spirited, I march to the beat of my own drum, and it would be easy to assume that I don’t particularly worry what other people think of me. But this isn’t the case – I am  thoughtful and perceptive, able to pick up on people’s unspoken feelings and opinions, and it can upset me if I don’t feel liked, approved of, or appreciated. When faced with criticism, it can be a challenge for me not to get caught up in the heat of the moment. If I encounter harsh or seemingly unfair criticism, I may even lose my temper in spectacular fashion. 
     2. THE BEAUTY OF AN OPEN MIND - I want to live in a world where me, and everyone else, have the freedom to live as I see fit, without judgment. I embrace a flexible, adaptable approach to life. Some people thrive on strict schedules and routines, but not me. I take each day as it comes, doing what feels right to me in the moment. And I make sure to leave plenty of room in their life for the unexpected, with the result that many of my most cherished memories are of spontaneous, spur-of-the-moment outings and adventures, whether by myself or with my loved ones.`,
     strengths: [
-      `You are adept at seeing the right balance, the best way to make the world look
-and feel good. This talent enables you to make your world reflect your inner self
-and become a place of security and growth in which others can feel at ease too.`,
-      `You have a gift for knowing what will make another person feel better about the
-world and themselves. Your valuable input to their world comes back to you in
-ways which aid your own personal development.`,
-      `You see clearly what is right and wrong, what grates on yourself and others, what
-works for harmony and what does not. Your clear recognition of these things
-gains you the confidence and respect of others.`,
-      `You have a great memory for things, places and events, their curious details and
-the relationships between them. More than this, you also remember what was both
-good and bad about these things. These skills show in your ability to give no
-nonsense advice and aid to others`,
-      `Within yourself you know, even if others do not realize it, that for as long as they
-are trying to do their best, you will hold the line with them to the very end. You
-see this as simply doing the right thing, but in fact it is a special virtue and makes
-you one of the most worthy of partners and friends when the chips are down.`,
-      `You work hard to get the job done, and you can be counted on the stay with it till
-it is finished.`,
-    ],
+      "Adventurers are calm and quiet, which can help with game tasks that require focus.",
+      "Adventurers pay close attention to details presented in game sessions.",
+      "Adventurers use creativity to promote ideas that connect with other players at the table.",
+   ],
     gifts: [
-      `Work is never a chore to you, but a gift you offer to the world.`,
-      `In your relationships you are able to clearly show others how you feel about them.`,
-      `Others will always feel at ease in your home and presence.`,
-      `Your efforts always seem to be appreciated by those around you.`,
-      `You will try to find pleasing ways to settle differences and to find the most
-satisfying solutions to both your own and others difficulties.`,
-      `More often than not, you will know exactly the right thing to do, say, buy or
-create to make things better or move things toward a valid human solution to a
-problem`,
-      `You will clearly see the conditions underlying a situation and their effects on the
-persons within it, enabling you to see ways of changing things for the better. In
-this sense, you may be a powerful agent for social justice.`,
-    ],
+      "Adventurers are unpredictable and may not like to play by the game rules.",
+      "Adventurers are overly competitive and need to win, even if it drives other players crazy.",
+      "Adventurers may tend to split from the party and “go it alone” just to prove other players wrong.",
+ ],
     potentialProblemAreas: [
       `May find difficulty expressing their feelings without fear or anger.`,
       `May be unable to correctly judge what really is for the best`,
@@ -3085,31 +2841,14 @@ This personality type makes up a good portion of the overall population, and whi
     successDefinition: `1. A LIFE OF INTEGRITY - For me, a lack of structure offers not freedom, but chaos. The core of my self-respect comes from a sense of personal integrity. I believe that there is a right way to proceed in any situation – and that anyone who pretends otherwise is probably trying to bend the rules to suit their own purposes. I have a deep respect for structure and tradition, and I am often drawn to organizations, workplaces, and educational settings that offer clear hierarchies and expectations.
     2. PICKING UP THE SLACK - I may find myself doing other people’s work – and not getting credit for it.  My dedication is an admirable quality, and it drives many of my accomplishments. But it can also become a weakness that other people take advantage of. With my strong work ethic and sense of duty, I may routinely find myself shouldering other people’s responsibilities. Even if I don’t complain about the situation, I can end up exhausted or discouraged if I am constantly expected – or taking it upon myself – to pick up the slack for my colleagues, friends, or loved ones.`,
     strengths: [
-      `Their desire to execute known systems against concrete facts makes them happy
-to chunk through large amounts of routine work.`,
-      `With their respect for rules and order, they value honesty and integrity and seek to
-live with these ideals.`,
-      `An ISTJ has a \`stick to it\` attitude. They're not afraid of hard work, and will put
-forth a great deal of effort towards something that they are interested in. This
-persistence will help the ISTJ to achieve any identified goal.`,
-      `The ISTJ's value for social structure makes them more interested in being social
-than is true for many Introverts.`,
+      "Logisticians tend to carefully plan things out which may help keep the session moving forward by helping disorganized players.",
+      "Logisticians prefer to follow rules and procedures and thus can assist with quickly resolving rule interpretations that may slow down a session.",
+      "Logisticians can focus on the task at hand and thus can help resolve moments of indecision during sessions.",
     ],
     gifts: [
-      `They will move beyond an expectation that others should follow rules into a
-dedication and willingness to work hard to uphold standards themselves.`,
-      `They show a dedication to maintaining personal relationships that lends them a
-respect for individual differences.`,
-      `They will use their inner store of facts for the benefit of an institution or society in
-general, rather than to satisfy their own interests.`,
-      `The more they develop their Extraverted Thinking, the better they will become at
-strategizing. They will be able to brainstorm multiple possible solutions to
-problems.`,
-      `ISTJ’s are often uncomfortable with decisions based on values rather than on
-objective criteria, but the more they develop their Extraverted Thinking, the more
-likely they will become able to use Introverted Feeling as a positive force rather
-than strictly a negative one. This will allow them to understand a value judgment
-that is based on personal perspective rather than social obligation.`,
+      "Logisticians tend to be direct and honest with other players which may lead to hurt feelings.",
+      "Logisticians tend to be stubborn and may resist alternative solutions provided by other players.",
+      "Logisticians tend to look at rational explanations for events and may push back at attempts to quickly move the session along that don't make sense.",
     ],
     potentialProblemAreas: [
       `Excessive love of food and drink`,
@@ -3277,29 +3016,14 @@ Virtuosos enjoy lending a hand and sharing their experience, especially with the
     successDefinition: `1. DEFYING THE RULES - I have a particular difficulty in predicting emotions, but this is just a natural extension of my fairness, given how difficult it is to gauge my emotions and motivations. However, my tendency to explore my relationships through my actions rather than through empathy can lead to some very frustrating situations. I struggle with boundaries and guidelines, preferring the freedom to move about and color outside the lines if I need to.
     2.  DARE TO DIFFER - Rather than some sort of vision quest though, I am merely exploring the viability of a new interest when I make these seismic shifts. While my mechanical tendencies can make me appear simple at a glance, I am actually quite enigmatic. Friendly but very private, calm but suddenly spontaneous, extremely curious but unable to stay focused on formal studies, I can be a challenge to predict, even by my friends and loved ones. I can seem very loyal and steady for a while, but I tend to build up a store of impulsive energy that explodes without warning, taking my interests in bold new directions.`,
     strengths: [
-      `They have a natural ability to focus and \`become one\` with their immediate
-environment. This ability allows them to be great athletes, dancers, and
-musicians. They have an innately graceful connection with the physical world.`,
-      `They are highly in tune with their physical surroundings, and therefore have well developed aesthetic appreciation. They appreciate beauty. If they are so inclined,
-they may develop their ability to control the physical world into some form of art
-expression, and become artists.`,
-      `They are exceptional troubleshooters in emergency situations. They can quickly
-take in the current situation and apply logic immediately to take steps that control
-the problem. Since the ISTP's use of logic is based on their personal experience,
-their ability to troubleshoot will get better and better as they gain more
-experience. For this reason, ISTP’s who are mechanics, technicians, and computer
-analysts (for example) often achieve \`guru\` status after they have been working in
-the field for a long time.`,
-      `They're very sensual and earthy people. They usually a good deal of sex appeal
-and attractive sensuality.`,
+      "Virtuosos are results oriented and thus will quickly assist in finding a solution to a game related problem.",
+      "Virtuosos prefer to focus on the here and now and thus tend to avoid being distracted during game sessions.",
+      "Virtuosos actions are based upon careful observation and thought, which usually helps keep a game session on track.",
     ],
     gifts: [
-      `They have attractive and compelling personalities, and are well-liked and
-accepted by most people.`,
-      `They're usually quite intelligent, and can work through difficult problems.`,
-      `They understand the benefits of close relationships, and understand how to
-support and enhance these relationships.`,
-      `They can handle just about any task that they are presented with.`,
+      "Virtuosos are known for being quiet and thus may not actively engage with other players.",
+      "Virtuosos are not well tuned to emotions and may become cold or insensitive to other players during a session.",
+      "Virtuosos may sometimes lash out in sudden outbursts of emotion during highly charged situations.",
     ],
     potentialProblemAreas: [
       `The ISTP gets \`stuck in a rut\` and only does those things that are known and
