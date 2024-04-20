@@ -105,8 +105,7 @@ Protagonists are born leaders, which explains why these personalities can be fou
     gifts: [
       "Commanders may take every decision not made in agreement with their rational beliefs as a personal rejection.",
       "Commanders may become obsessed with small obstructions and difficulties to the point where the overall plan is forgotten.",
-      "Commanders may become childishly petulant or angered when confronted by situations which require feeling
-judgments.",
+      "Commanders may become childishly petulant or angered when confronted by situations which require feeling judgments.",
     ],
     potentialProblemAreas: [
       "TBD",
