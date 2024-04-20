@@ -336,6 +336,13 @@ export default function TestResult(props: TestResultProps) {
             {`${explanationOfProblem}`}
           </Text>
         ))}
+      <Button
+        mt={4} // Margin top for spacing
+        colorScheme="blue" // Use Chakra UI color scheme for light blue
+        onClick={() => window.open("https://admiraladventures.games", "_blank")}
+      >
+        Visit Our Website
+      </Button>
       <Heading
         scrollMarginTop={8}
         id="solutions"
@@ -358,6 +365,13 @@ export default function TestResult(props: TestResultProps) {
             {`${solution}`}
           </Text>
         ))}
+      <Button
+        mt={4} // Margin top for spacing
+        colorScheme="blue" // Use Chakra UI color scheme for light blue
+        onClick={() => window.open("https://startplaying.games/gm/admiral-adventures", "_blank")}
+      >
+        Book a Session
+      </Button>
       <Heading
         scrollMarginTop={8}
         id="living-happily-tips"
@@ -380,6 +394,13 @@ export default function TestResult(props: TestResultProps) {
             {`${tips}`}
           </Text>
         ))}
+            <Button
+        mt={4} // Margin top for spacing
+        colorScheme="blue" // Use Chakra UI color scheme for light blue
+        onClick={() => window.open("https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile", "_blank")}
+      >
+        LinkeIn Profile
+      </Button>
       {personalityClassGroup.suggestions !== undefined &&
         personalityClassGroup.suggestions.length === 1 && (
           <>
@@ -456,6 +477,13 @@ export default function TestResult(props: TestResultProps) {
           </ListItem>
         ))}
       </UnorderedList>
+      <Button
+        mt={4} // Margin top for spacing
+        colorScheme="blue" // Use Chakra UI color scheme for light blue
+        onClick={() => window.open("https://buymeacoffee.com/admiraladventures", "_blank")}
+      >
+        Buy me a Coffee
+      </Button>
     </Flex>
   );
 }
