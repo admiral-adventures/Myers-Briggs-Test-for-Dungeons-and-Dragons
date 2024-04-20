@@ -310,7 +310,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        Explanation of Problems
+        TBD
       </Heading>
       {personalityClassGroup.explanationOfProblems
         .split(/\.\n+/g)
@@ -336,7 +336,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        Solutions
+        TBD
       </Heading>
       {personalityClassGroup.solutions
         .split(/\.\n+/g)
@@ -358,7 +358,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        Living Happily Tips
+        TBD
       </Heading>
       {personalityClassGroup.livingHappilyTips
         .split(/\.\n+/g)
@@ -435,7 +435,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        Ten Rules to Live to Achieve Success
+        TBD
       </Heading>
       <UnorderedList w="full">
         {personalityClassGroup.tenRulesToLive.map((rule, index) => (
