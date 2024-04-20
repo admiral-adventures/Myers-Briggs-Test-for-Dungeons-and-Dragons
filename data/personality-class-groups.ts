@@ -98,7 +98,7 @@ Protagonists are born leaders, which explains why these personalities can be fou
     successDefinition: `1. A WORTHY CHALLENGE - I am a true powerhouse, and I cultivate an image of being larger than life – and often enough I am. I need to remember though, that my stature comes not just from my own actions, but from the actions of the team that props me up, and that it’s important to recognize the contributions, talents and needs, especially from an emotional perspective, of my support network. 
     2. STRIVING FOR GREATNESS - At the negotiating table, I am dominant, relentless, and unforgiving. This isn’t because I am coldhearted or vicious per se – it’s more that I genuinely enjoy the challenge, the battle of wits, the repartee that comes from this environment, and if the other side can’t keep up, that’s no reason for me to fold on my own core tenet of ultimate victory.`,
     strengths: [
-      "Commanders tend to cut straight to the chase and not get sidetracked by non-essential issues.",
+      "Commanders tend to “cut straight to the chase” and do not get sidetracked by non-essential issues.",
       "Commanders tend to step up to a leadership position which may help keep the session moving forward.",
       "Commanders tend to involve others in decision making which helps with player cohesion and direction.",
  ],
@@ -277,7 +277,7 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
     2. THE BEAUTY OF A RESPONSIBLE LIFE - I have a clear moral compass – and it can be nothing short of baffling to me when other people’s actions don’t align with it. I believe that there is a clear right thing to do in nearly every situation. While some may adopt a more lenient, live-and-let-live attitude, I find it difficult not to judge when someone takes a path that strikes me as misguided. As a result, I often struggle to accept it when someone, particularly someone I care about, disagrees with me.`,
     strengths: [
       "Consuls tend to make decisions based on their emotions and concern for others, thus they may make game decision that will keep a group together above any other consideration.",
-      "Consuls tend to be sensitive to the needs and feelings of others thus they will be a calming influence when conflict between players arises in a session.",
+      "Consuls tend to be sensitive to the needs and feelings of others, thus they will be a calming influence when conflict between players arises in a session.",
       "Consuls tend to judge people and situations based upon their gut feelings thus they tend to make choices quickly which helps keep game sessions moving forward.",
     ],
     gifts: [
@@ -393,7 +393,7 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
     successDefinition: `1. A GREATER RESPONSIBILITY - I am the classic image of the model citizen: I help my neighbors, uphold the law, and try to make sure that everyone participates in the communities and organizations I hold so dear.  The main challenge for me is to recognize that not everyone follows the same path or contributes in the same way. A true leader recognizes the strength of the individual, as well as that of the group, and helps bring those individuals’ ideas to the table. That way, I really do have all the facts, and are able to lead the charge in directions that work for everyone.
     2. LEADING BY EXAMPLE - I am aware of my surroundings and live in a world of clear, verifiable facts – the surety of my knowledge means that even against heavy resistance, I stick to my principles and push an unclouded vision of what is and is not acceptable. My opinions aren’t just empty talk either, I am more than willing to dive into the most challenging projects, improving action plans and sorting details along the way, making even the most complicated tasks seem easy and approachable.`,
     strengths: [
-      "Executives tend to be assertive and take-charge type of people which helps fill the leadership role that may be required in a game session.",
+      "Executives tend to be assertive and “take-charge” type of people which helps fill the leadership role that may be required in a game session.",
       "Executives are good at remembering things and thus can help keep a session moving forward by remembering a key detail from several sessions prior.",
       "Executives can spot new patterns or connections and thus recognize there is another option for the players to consider that may help keep the game moving forward.",
     ],
@@ -518,7 +518,7 @@ While they have lofty goals and ambitions, Advocates shouldn’t be mistaken for
       "Advocates tend to pay attention to the world around them which may help inform players about key facts before rash decisions are made. ",
     ],
     gifts: [
-      "Advocates tend to be single-minded in their focus which can facilitate indecision among players during sessions.",
+      "Advocates tend to be “single-minded” in their focus which can facilitate indecision among players during sessions.",
       "Advocates may need time to recharge after stressful situations which may lead them to disengage during a session.",
       "Advocates may develop deeply held convictions that may be at odds with other players which may contribute to player conflict.",
     ],
@@ -552,7 +552,6 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
       "Frodo Baggins - The Lord of the Rings",
       "Arwen - The Lord of the Rings",
       "Fox Mulder - X Files",
-      "Loyal and devoted to people and causes",
       "Luke Skywalker - Star Wars",
       "Scarlet Witch - Avengers",      
     ],
@@ -575,7 +574,7 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
     successDefinition: `1. THE GIFT OF EMPATHY - I share a sincere curiosity about the depths of human nature. Introspective to the core, I am exquisitely attuned to my own thoughts and feelings, but I yearn to understand the people around me as well. I am compassionate and nonjudgmental, always willing to hear another person’s story. When someone opens up to me or turns to me for comfort, T feel honored to listen and be of help.
     2. IN SEARCH OF A CALLING - Like flowers in the spring, my creativity and idealism can bloom even after the darkest of seasons. Although I know the world will never be perfect, I still care about making it better however I can. This quiet belief in doing the right thing may explain why I so often inspire compassion, kindness, and beauty wherever I go.`,
     strengths: [
-     "Mediators tend to focus on the big picture which tends to help keep the players pointed in the right direction with regards to the story arc.",
+     "Mediators tend to focus on the “big picture” which tends to help keep the players pointed in the right direction with regards to the story arc.",
      "Mediators tend to feel great compassion and empathy to other players which helps reduce player conflict during sessions.",
      "Mediators care deeply about other people and can develop a very close bond with the other players at the table.",
     ],
@@ -693,8 +692,8 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
     successDefinition: `1. ELEMENTARY MY DEAR WATSON - I love to analyze patterns. Without necessarily knowing how I do it, I often have a Sherlock Holmes–like knack for spotting discrepancies and irregularities. In other words, it’s a bad idea to lie to me.
     2. MYSTERIES OF THE UNIVERSE - I want to understand everything in the universe, but one area in particular tends to mystify me: human nature. I feel most at home in the realm of logic and rationality. As a result, I can find myself baffled by the illogical, irrational ways that feelings and emotions influence people’s behavior – including my own.`,
     strengths: [
-      "Logicians tend to be flexible and good at thinking outside the box which may help move a session forward.",
-      "Logicians tend to think about the big picture which may help keep players focused and moving in the right direction.",
+      "Logicians tend to be flexible and good at thinking “outside the box” which may help move a session forward.",
+      "Logicians tend to think about the “big picture” which may help keep players focused and moving in the right direction.",
       "Logicians tend to socialize with small groups of individuals that share common interest which may contribute to player cohesion.",
     ],
     gifts: [
