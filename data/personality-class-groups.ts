@@ -166,7 +166,7 @@ Protagonists are born leaders, which explains why these personalities can be fou
       "Campaigners may blame their problems or issues on other players.",
       "Campaigners may have a difficult time committing to a long campaign.",
     ],
-    potentialProblemAreas: : [
+    potentialProblemAreas: [
       "TBD",
       "TBD",
     ],
