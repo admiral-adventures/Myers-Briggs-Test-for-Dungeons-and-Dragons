@@ -344,7 +344,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        Can't Find a Group to Play With? Hire a Professional DM!
+      Can&apos;t Find a Group to Play With? Hire a Professional DM!
       </Heading>
       {personalityClassGroup.solutions
         .split(/\.\n+/g)
