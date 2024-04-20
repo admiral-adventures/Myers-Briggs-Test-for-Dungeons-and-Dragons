@@ -226,7 +226,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        Strengths
+        Positive Table Behaviors
       </Heading>
       <UnorderedList w="full">
         {personalityClassGroup.strengths.map((strength, index) => (
@@ -247,7 +247,7 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        Special Gifts
+        Negative Table Behaviors
       </Heading>
       <UnorderedList w="full">
         {personalityClassGroup.gifts.map((gift, index) => (
