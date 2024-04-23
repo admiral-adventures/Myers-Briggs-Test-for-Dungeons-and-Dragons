@@ -306,7 +306,7 @@ export default function TestResult(props: TestResultProps) {
       <Button
         mt={2} // Margin top for spacing
         colorScheme="blue" // Use Chakra UI color scheme for light blue
-        onClick={() => window.open("https://admiraladventures.games/pregenerated-characters", "_blank")}
+        onClick={() => window.open("https://admiraladventures.com/pregenerated-characters", "_blank")}
       >
         Download Character Sheet
       </Button>
@@ -339,7 +339,7 @@ export default function TestResult(props: TestResultProps) {
       <Button
         mt={2} // Margin top for spacing
         colorScheme="blue" // Use Chakra UI color scheme for light blue
-        onClick={() => window.open("https://admiraladventures.games", "_blank")}
+        onClick={() => window.open("https://admiraladventures.com", "_blank")}
       >
         Visit Our Website
       </Button>
