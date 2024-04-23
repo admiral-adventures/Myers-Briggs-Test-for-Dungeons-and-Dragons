@@ -17,7 +17,7 @@ export default function Footer() {
       <Text>
         This personality test is designed to support leadership development and team training. Visit us at {" "}
         <Link
-          href="https://www.admiraladventures.games/"
+          href="https://www.admiraladventures.com/"
           target="_blank"
         >
           <Button
