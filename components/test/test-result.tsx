@@ -166,9 +166,7 @@ export default function TestResult(props: TestResultProps) {
         key={index}
         textAlign="justify"
       >
-        {relationshipStrength.split(' ').map((word, index) => (
-          word.toUpperCase() === word ? <strong key={index}>{word}</strong> : word
-        ))}
+        {relationshipStrengths}
       </ListItem>
     )
   )}
