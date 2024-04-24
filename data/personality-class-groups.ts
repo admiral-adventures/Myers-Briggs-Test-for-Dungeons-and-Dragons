@@ -750,9 +750,9 @@ This is a capable, can-do personality type, with a wealth of versatile gifts. Th
   },
   {
     type: "ISFP",
-    name: "Introverted Sensing Feeling Perceiving",
+    name: "The Adventurer",
     nameDescription: "“I change during the course of a day. I wake and I am one person - and when I go to sleep I know for certain I am somebody else.” - Bob Dylan",
-    epithet: "The Adventurer",
+    epithet: "Introverted Sensing Feeling Perceiving",
     description: `Adventurers are true artists – although not necessarily in the conventional sense. For this personality type, life itself is a canvas for self-expression. From what they wear to how they spend their free time, Adventurers act in ways that vividly reflect who they are as unique individuals.
 And every Adventurer is certainly unique. Driven by curiosity and eager to try new things, people with this personality often have a fascinating array of passions and interests. With their exploratory spirits and their ability to find joy in everyday life, Adventurers can be among the most interesting people you’ll ever meet. The only irony? Unassuming and humble, Adventurers tend to see themselves as “just doing their own thing,” so they may not even realize how remarkable they really are.`,
     jungianFunctionalPreference: {
@@ -784,7 +784,7 @@ And every Adventurer is certainly unique. Driven by curiosity and eager to try n
       "OVERLY COMPETITIVE – Adventurers can escalate small things into intense competitions, turning down long-term success in their search for glory in the moment, and are unhappy when they lose.",
       "FLUCTUATING SELF-ESTEEM – It’s demanded that skills be quantified, but that’s hard to do with Adventurers’ strengths of sensitivity and artistry. Adventurers’ efforts are often dismissed, a hurtful and damaging blow, especially early in life. Adventurers can start to believe the naysayers without strong support.",
     ],
-    successDefinition: `LIVING IN HARMONY - Unless I take time for myself, I can end up feeling lost in the tide of everyday life, constantly reacting to external circumstances instead of making my own way. Creative and free-spirited, I march to the beat of my own drum, and it would be easy to assume that I don’t particularly worry what other people think of me. But this isn’t the case – I am  thoughtful and perceptive, able to pick up on people’s unspoken feelings and opinions, and it can upset me if I don’t feel liked, approved of, or appreciated. When faced with criticism, it can be a challenge for me not to get caught up in the heat of the moment. If I encounter harsh or seemingly unfair criticism, I may even lose my temper in spectacular fashion.
+    successDefinition: `1. LIVING IN HARMONY - Unless I take time for myself, I can end up feeling lost in the tide of everyday life, constantly reacting to external circumstances instead of making my own way. Creative and free-spirited, I march to the beat of my own drum, and it would be easy to assume that I don’t particularly worry what other people think of me. But this isn’t the case – I am  thoughtful and perceptive, able to pick up on people’s unspoken feelings and opinions, and it can upset me if I don’t feel liked, approved of, or appreciated. When faced with criticism, it can be a challenge for me not to get caught up in the heat of the moment. If I encounter harsh or seemingly unfair criticism, I may even lose my temper in spectacular fashion.
     2. THE BEAUTY OF AN OPEN MIND - I want to live in a world where me, and everyone else, have the freedom to live as I see fit, without judgment. I embrace a flexible, adaptable approach to life. Some people thrive on strict schedules and routines, but not me. I take each day as it comes, doing what feels right to me in the moment. And I make sure to leave plenty of room in their life for the unexpected, with the result that many of my most cherished memories are of spontaneous, spur-of-the-moment outings and adventures, whether by myself or with my loved ones.`,
     strengths: [
       "Adventurers are calm and quiet, which can help with game tasks that require focus.",
