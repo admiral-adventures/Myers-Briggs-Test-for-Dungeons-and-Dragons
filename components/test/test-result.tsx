@@ -166,7 +166,11 @@ export default function TestResult(props: TestResultProps) {
               key={index}
               textAlign="justify"
             >
-              {relationshipStrength}
+              {personalityClassGroup.relationshipStrengths.map((relationshipStrength, index) => (
+    <ListItem my={2} key={index} textAlign="justify">
+      {relationshipStrength.split(' ').map((word, index) => (
+        word.toUpperCase() === word ? <strong key={index}>{word}</strong> : word
+      )).join(' ')}
             </ListItem>
           )
         )}
