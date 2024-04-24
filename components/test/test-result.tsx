@@ -166,7 +166,7 @@ export default function TestResult(props: TestResultProps) {
         key={index}
         textAlign="justify"
       >
-        {relationshipStrengths}
+        {relationshipStrength}
       </ListItem>
     )
   )}
