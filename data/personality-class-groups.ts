@@ -3,9 +3,9 @@ import { PersonalityClassGroup } from "../lib/personality-test";
 export const personalityClassGroup: PersonalityClassGroup[] = [
   {
     type: "ENFJ",
-    name: "Extraverted Intuitive Feeling Judging",
+    name: "The Protagonist",
     nameDescription: "“When the whole world is silent, even one voice becomes powerful.” - Malala Yousafzai",
-    epithet: "The Protagonist",
+    epithet: "Extraverted iNtuitive Feeling Judging",
     description: `Protagonists (ENFJs) feel called to serve a greater purpose in life. Thoughtful and idealistic, these personality types strive to have a positive impact on other people and the world around them. They rarely shy away from an opportunity to do the right thing, even when doing so is far from easy.
 Protagonists are born leaders, which explains why these personalities can be found among many notable politicians, coaches, and teachers. Their passion and charisma allow them to inspire others not just in their careers but in every arena of their lives, including their relationships. Few things bring Protagonists a deeper sense of joy and fulfillment than guiding friends and loved ones to grow into their best selves.`,
     jungianFunctionalPreference: {
@@ -60,9 +60,9 @@ Protagonists are born leaders, which explains why these personalities can be fou
   },
   {
     type: "ENTJ",
-    name: "Extraverted Intuitive Thinking Judging",
+    name: "The Commander",
     nameDescription: "“Your time is limited, so don’t waste it living someone else’s life.” - Steve Jobs",
-    epithet: "The Commander",
+    epithet: "Extraverted iNtuitive Thinking Judging",
     description: `Commanders are natural-born leaders. People with this personality type embody the gifts of charisma and confidence, and project authority in a way that draws crowds together behind a common goal. However, Commanders are also characterized by an often ruthless level of rationality, using their drive, determination and sharp minds to achieve whatever end they’ve set for themselves. Perhaps it is best that they make up only three percent of the population, lest they overwhelm the more timid and sensitive personality types that make up much of the rest of the world – but we have Commanders to thank for many of the businesses and institutions we take for granted every day.`,
     jungianFunctionalPreference: {
       dominant: "Half-Elf SORCERER - Draconic",
@@ -117,9 +117,9 @@ Protagonists are born leaders, which explains why these personalities can be fou
   },
   {
     type: "ENFP",
-    name: "Extraverted Intuitive Feeling Perceiving",
+    name: "The Campaigner",
     nameDescription: "“It doesn’t interest me what you do for a living. I want to know what you ache for – and if you dare to dream of meeting your heart’s longing.” - Oriah Mountain Dreamer",
-    epithet: "The Campaigner",
+    epithet: "Extraverted iNtuitive Feeling Perceiving",
     description: `Campaigners (ENFPs) are true free spirits – outgoing, openhearted, and open-minded. With their lively, upbeat approach to life, they stand out in any crowd. But even though they can be the life of the party, Campaigners don’t just care about having a good time. These personality types run deep – as does their longing for meaningful, emotional connections with other people.`,
     jungianFunctionalPreference: {
       dominant: "Eladrin Spring Elf BARD - College of Glamour",
@@ -174,9 +174,9 @@ Protagonists are born leaders, which explains why these personalities can be fou
   },
   {
     type: "ENTP",
-    name: "Extraverted Intuitive Thinking Perceiving",
+    name: "The Debater",
     nameDescription: "“Follow the path of the unsafe, independent thinker. Expose your ideas to the dangers of controversy.” - Thomas J. Watson",
-    epithet: "The Debater",
+    epithet: "Extraverted iNtuitive Thinking Perceiving",
     description: `Quick-witted and audacious, Debaters aren’t afraid to disagree with the status quo. In fact, they’re not afraid to disagree with pretty much anything or anyone. Few things light up people with this personality type more than a bit of verbal sparring – and if the conversation veers into controversial terrain, so much the better.
 It would be a mistake, though, to think of Debaters as disagreeable or mean-spirited. Instead, people with this personality type are knowledgeable and curious, with a playful sense of humor, and they can be incredibly entertaining. They simply have an offbeat, contrarian idea of fun – one that involves a healthy dose of spirited debate.`,
     jungianFunctionalPreference: {
@@ -232,9 +232,9 @@ It would be a mistake, though, to think of Debaters as disagreeable or mean-spir
   },
   {
     type: "ESFJ",
-    name: "Extraverted Sensing Feeling Judging",
+    name: "The Consul",
     nameDescription: "“Encourage, lift, and strengthen one another. For the positive energy spread to one will be felt by us all.” - Deborah Day",
-    epithet: "The Consul",
+    epithet: "Extraverted Sensing Feeling Judging",
     description: `For Consuls, life is sweetest when it’s shared with others. People with this personality type form the bedrock of many communities, opening their homes – and their hearts – to friends, loved ones, and neighbors.
 This doesn’t mean that Consuls like everyone, or that they’re saints. But Consuls do believe in the power of hospitality and good manners, and they tend to feel a sense of duty to those around them. Generous and reliable, people with this personality type often take it upon themselves – in ways both large and small – to hold their families and their communities together.`,
     jungianFunctionalPreference: {
@@ -289,9 +289,9 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
   },
   {
     type: "ESFP",
-    name: "Extraverted Sensing Feeling Perceiving",
+    name: "The Entertainer",
     nameDescription: "“Live for each second without hesitation.” - Elton John",
-    epithet: "The Entertainer",
+    epithet: "Extraverted Sensing Feeling Perceiving",
     description: `If anyone is to be found spontaneously breaking into song and dance, it is the Entertainer personality type. Entertainers get caught up in the excitement of the moment, and want everyone else to feel that way, too. No other personality type is as generous with their time and energy as Entertainers when it comes to encouraging others, and no other personality type does it with such irresistible style.`,
     jungianFunctionalPreference: {
       dominant: "Human ROGUE - Arcane Trickster",
@@ -344,9 +344,9 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
   },
   {
     type: "ESTJ",
-    name: " Extraverted Sensing Thinking Judging",
+    name: "The Executive",
     nameDescription: "“Good order is the foundation of all things.” - Edmund Burke",
-    epithet: "The Executive",
+    epithet: "Extraverted Sensing Thinking Judging",
     description: `Executives are representatives of tradition and order, utilizing their understanding of what is right, wrong and socially acceptable to bring families and communities together. Embracing the values of honesty, dedication and dignity, people with the Executive personality type are valued for their clear advice and guidance, and they happily lead the way on difficult paths. Taking pride in bringing people together, Executives often take on roles as community organizers, working hard to bring everyone together in celebration of cherished local events, or in defense of the traditional values that hold families and communities together.`,
     jungianFunctionalPreference: {
       dominant: "Human PALADIN - Oath of Devotion",
@@ -402,9 +402,9 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
   },
   {
     type: "ESTP",
-    name: "Extraverted Sensing Thinking Perceiving",
+    name: "The Entrepreneur",
     nameDescription: "“Life is either a daring adventure or nothing at all.” - Helen Keller",
-    epithet: "The Entrepreneur",
+    epithet: "Extraverted Sensing Thinking Perceiving",
     description: `Entrepreneurs always have an impact on their immediate surroundings – the best way to spot them at a party is to look for the whirling eddy of people flitting about them as they move from group to group. Laughing and entertaining with a blunt and earthy humor, Entrepreneur personalities love to be the center of attention. If an audience member is asked to come on stage, Entrepreneurs volunteer – or volunteer a shy friend.
 Theory, abstract concepts and plodding discussions about global issues and their implications don’t keep Entrepreneurs interested for long. Entrepreneurs keep their conversation energetic, with a good dose of intelligence, but they like to talk about what is – or better yet, to just go out and do it. Entrepreneurs leap before they look, fixing their mistakes as they go, rather than sitting idle, preparing contingencies and escape clauses.`,
     jungianFunctionalPreference: {
@@ -460,9 +460,9 @@ Theory, abstract concepts and plodding discussions about global issues and their
   },
   {
     type: "INFJ",
-    name: "Introverted iNtuitive Feeling Judging",
+    name: "The Advocate",
     nameDescription: "“Treat people as if they were what they ought to be and you help them to become what they are capable of being.” - Johann Wolfgang Von Goethe",
-    epithet: "The Advocate",
+    epithet: "Introverted iNtuitive Feeling Judging",
     description: `Advocates (INFJs) may be the rarest personality type of all, but they certainly leave their mark on the world. Idealistic and principled, they aren’t content to coast through life – they want to stand up and make a difference. For Advocate personalities, success doesn’t come from money or status but from seeking fulfillment, helping others, and being a force for good in the world.
 While they have lofty goals and ambitions, Advocates shouldn’t be mistaken for idle dreamers. People with this personality type care about integrity, and they’re rarely satisfied until they’ve done what they know to be right. Conscientious to the core, they move through life with a clear sense of their values, and they aim never to lose sight of what truly matters – not according to other people or society at large, but according to their own wisdom and intuition.
 `,
@@ -518,9 +518,9 @@ While they have lofty goals and ambitions, Advocates shouldn’t be mistaken for
   },
   {
     type: "INFP",
-    name: "Introverted Intuitive Feeling Perceiving",
+    name: "The Mediator",
     nameDescription: "“All that is gold does not glitter; not all those who wander are lost; the old that is strong does not wither; deep roots are not reached by the frost.” - J. R. R. Tolkien",
-    epithet: "The Mediator",
+    epithet: "Introverted iNtuitive Feeling Perceiving",
     description: `Although they may seem quiet or unassuming, Mediators (INFPs) have vibrant, passionate inner lives. Creative and imaginative, they happily lose themselves in daydreams, inventing all sorts of stories and conversations in their minds. These personalities are known for their sensitivity – Mediators can have profound emotional responses to music, art, nature, and the people around them.
 Idealistic and empathetic, Mediators long for deep, soulful relationships, and they feel called to help others. But because this personality type makes up such a small portion of the population, Mediators may sometimes feel lonely or invisible, adrift in a world that doesn’t seem to appreciate the traits that make them unique.
 `,
@@ -577,9 +577,9 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
   },
   {
     type: "INTJ",
-    name: "Introverted Intuitive Thinking Judging",
+    name: "The Architect",
     nameDescription: "“Thought constitutes the greatness of man. Man is a reed, the feeblest thing in nature, but he is a thinking reed.” - Blaise Pascal",
-    epithet: "The Architect",
+    epithet: "Introverted iNtuitive Thinking Judging",
     description: `It can be lonely at the top. As one of the rarest personality types – and one of the most capable – Architects (INTJs) know this all too well. Rational and quick-witted, Architects pride themselves on their ability to think for themselves, not to mention their uncanny knack for seeing right through phoniness and hypocrisy. But because their minds are never at rest, Architects may struggle to find people who can keep up with their nonstop analysis of everything around them.`,
     jungianFunctionalPreference: {
       dominant: "Human FIGHTER - Arcane Archer",
@@ -635,9 +635,9 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
   },
   {
     type: "INTP",
-    name: "Introverted Intuitive Thinking Perceiving",
+    name: "The Logician",
     nameDescription: "“The important thing is not to stop questioning. Curiosity has its own reason for existence.” - Albert Einstein",
-    epithet: "The Logician",
+    epithet: "Introverted iNtuitive Thinking Perceiving",
     description: `Logicians pride themselves on their unique perspectives and vigorous intellect. They can’t help but puzzle over the mysteries of the universe – which may explain why some of the most influential philosophers and scientists of all time have been Logicians. This personality type is fairly rare, but with their creativity and inventiveness, Logicians aren’t afraid to stand out from the crowd.`,
     jungianFunctionalPreference: {
       dominant: "Astral Elf DRUID - Circle of Stars",
@@ -691,9 +691,9 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
   },
   {
     type: "ISFJ",
-    name: "Introverted Sensing Feeling Judging",
+    name: "The Defender",
     nameDescription: "“Love only grows by sharing. You can only have more for yourself by giving it away to others.” - Brian Tracy",
-    epithet: "The Defender",
+    epithet: "Introverted Sensing Feeling Judging",
     description: `In their unassuming, understated way, Defenders help make the world go round. Hardworking and devoted, people with this personality type feel a deep sense of responsibility to those around them. Defenders can be counted on to meet deadlines, remember birthdays and special occasions, uphold traditions, and shower their loved ones with gestures of care and support. But they rarely demand recognition for all that they do, preferring instead to operate behind the scenes.
 This is a capable, can-do personality type, with a wealth of versatile gifts. Though sensitive and caring, Defenders also have excellent analytical abilities and an eye for detail. And despite their reserve, they tend to have well-developed people skills and robust social relationships. Defenders are truly more than the sum of their parts, and their varied strengths shine in even the most ordinary aspects of their daily lives.`,
     jungianFunctionalPreference: {
@@ -808,9 +808,9 @@ And every Adventurer is certainly unique. Driven by curiosity and eager to try n
   },
   {
     type: "ISTJ",
-    name: "Introverted Sensing Thinking Judging",
+    name: "The Logistician",
     nameDescription: "“I’d be more frightened by not using whatever abilities I’d been given. I’d be more frightened by procrastination and laziness.” - Denzel Washington",
-    epithet: "The Logistician",
+    epithet: "Introverted Sensing Thinking Judging",
     description: `Logisticians pride themselves on their integrity. People with this personality type mean what they say, and when they commit to doing something, they make sure to follow through.
 This personality type makes up a good portion of the overall population, and while Logisticians may not be particularly flashy or attention-seeking, they do more than their share to keep society on a sturdy, stable foundation. In their families and their communities, Logisticians often earn respect for their reliability, their practicality, and their ability to stay grounded and logical, even in the most stressful situations.
 `,
@@ -867,9 +867,9 @@ This personality type makes up a good portion of the overall population, and whi
   },
   {
     type: "ISTP",
-    name: "Introverted Sensing Thinking Perceiving",
+    name: "The Virtuoso",
     nameDescription: "“I wanted to live the life, a different life. I didn’t want to go to the same place every day and see the same people and do the same job. I wanted interesting challenges.” - Harrison Ford",
-    epithet: "The Virtuoso",
+    epithet: "Introverted Sensing Thinking Perceiving",
     description: `Virtuosos love to explore with their hands and their eyes, touching and examining the world around them with cool rationalism and spirited curiosity. People with this personality type are natural Makers, moving from project to project, building the useful and the superfluous for the fun of it, and learning from their environment as they go. Often mechanics and engineers, Virtuosos find no greater joy than in getting their hands dirty pulling things apart and putting them back together, just a little bit better than they were before.
 Virtuosos explore ideas through creating, troubleshooting, trial and error and first-hand experience. They enjoy having other people take an interest in their projects and sometimes don’t even mind them getting into their space. Of course, that’s on the condition that those people don’t interfere with Virtuosos’ principles and freedom, and they’ll need to be open to Virtuosos returning the interest in kind.
 Virtuosos enjoy lending a hand and sharing their experience, especially with the people they care about, and it’s a shame they’re so uncommon, making up only about five percent of the population. Virtuoso women are especially rare, and the typical gender roles that society tends to expect can be a poor fit – they’ll often be seen as tomboys from a young age.
