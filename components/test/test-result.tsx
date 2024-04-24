@@ -148,33 +148,31 @@ export default function TestResult(props: TestResultProps) {
           </ListItem>
         ))}
       </UnorderedList>
-      <Heading
-        scrollMarginTop={8}
-        id="relationship-strengths"
-        my={4}
-        as="h2"
-        size="md"
-        textAlign="center"
+<Heading
+  scrollMarginTop={8}
+  id="relationship-strengths"
+  my={4}
+  as="h2"
+  size="md"
+  textAlign="center"
+>
+  Character Personality Traits
+</Heading>
+<UnorderedList w="full">
+  {personalityClassGroup.relationshipStrengths.map(
+    (relationshipStrength, index) => (
+      <ListItem
+        my={2}
+        key={index}
+        textAlign="justify"
       >
-        Character Personality Traits
-      </Heading>
-      <UnorderedList w="full">
-        {personalityClassGroup.relationshipStrengths.map(
-          (relationshipStrength, index) => (
-            <ListItem
-              my={2}
-              key={index}
-              textAlign="justify"
-            >
-              {personalityClassGroup.relationshipStrengths.map((relationshipStrength, index) => (
-    <ListItem my={2} key={index} textAlign="justify">
-      {relationshipStrength.split(' ').map((word, index) => (
-        word.toUpperCase() === word ? <strong key={index}>{word}</strong> : word
-      )).join(' ')}
-            </ListItem>
-          )
-        )}
-      </UnorderedList>
+        {relationshipStrength.split(' ').map((word, index) => (
+          word.toUpperCase() === word ? <strong key={index}>{word}</strong> : word
+        ))}
+      </ListItem>
+    )
+  )}
+</UnorderedList>
       <Heading
         scrollMarginTop={8}
         id="relationship-weaknesses"
