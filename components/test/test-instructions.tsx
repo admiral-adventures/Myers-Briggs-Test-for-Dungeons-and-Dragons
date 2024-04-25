@@ -25,20 +25,21 @@ export default function TestInstructions(props: TestInstructionsProps) {
         gap={2}
       >
         <Text>
-          Completing the test should only take 15 minutes or so. Here is several
+          Completing the test should only take 15 minutes. Here are several
           hints about how to complete this test:
         </Text>
         <UnorderedList spacing={2}>
           <ListItem>
-            There are no right answers to any of these questions.
+            These questions are about how you would approach situations if you were an actual character in a typical D&D game.
           </ListItem>
           <ListItem>
-            Answer the questions quickly, do not over-analyze them. Some seem
-            worded poorly. Go with what feels best.
+            Answer the questions in a way that would feel natural for you - not the way you wish to be perceived. 
           </ListItem>
           <ListItem>
-            Answer the questions as “the way you are”, not “the way you’d like
-            to be seen by others”.
+            Do not assume a race, background, class, or subclass when answering any of the questions.
+          </ListItem>          
+          <ListItem>
+            When answering questions, do not factor in how your decisions may affect the other players you are playing with.
           </ListItem>
         </UnorderedList>
       </Flex>
