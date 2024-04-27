@@ -387,10 +387,10 @@ export const personalityTest: TestQuestion[] = [
   },
   {
     no: 46,
-    question: "WScenario: Your adventure team just completed a quest with an old and intelligent wizard that became a mentor to you. Which is a better compliment to give the old man when you finally bid him farewell: ",
+    question: "Scenario: Your adventure team just completed a quest with an old and intelligent wizard that became a mentor to you. Which compliment below feels like the better compliment to give the gentleman : ",
     answerOptions: [
-      { type: "A", answer: "“There is a very logical wizard”", score: "T" },
-      { type: "B", answer: "“There is a very sentimental mentor”", score: "F" },
+      { type: "A", answer: "“There goes a very logical wizard”", score: "T" },
+      { type: "B", answer: "“There goes a very sentimental mentor”", score: "F" },
     ],
   },
   {
@@ -431,7 +431,7 @@ export const personalityTest: TestQuestion[] = [
   },
   {
     no: 51,
-    question: "Scenario: Your character acquires a mysterious and powerful potion. Do you:v ",
+    question: "Scenario: Your character acquires a mysterious and powerful potion. Do you: ",
     answerOptions: [
       { type: "A", answer: "Find someone to cast the “Identify” spell to find out exactly what it is", score: "S" },
       { type: "B", answer: "Experiment cautiously, curious about its potential effects", score: "N" },
@@ -553,8 +553,8 @@ export const personalityTest: TestQuestion[] = [
     no: 66,
     question: "Scenario: Your adventure team has been tasked to infiltrate an enemy army in order to gain valuable information necessary to defeat them. What is a more difficult approach for you: ",
     answerOptions: [
-      { type: "A", answer: "Identifying and bonding with others in order to gleam information", score: "S" },
-      { type: "B", answer: "Utilizing and manipulating others in order to gleam information", score: "N" },
+      { type: "A", answer: "Identifying and bonding with others in order to glean information", score: "S" },
+      { type: "B", answer: "Utilizing and manipulating others in order to glean information", score: "N" },
     ],
   },
   {
