@@ -381,7 +381,7 @@ export const personalityTest: TestQuestion[] = [
     no: 45,
     question: "Scenario: Your adventure team has found a magic item shop and is excited to add some magical weapons to your inventory. Do you: ",
     answerOptions: [
-      { type: "A", answer: "Only inquire about the weapons the shop keeper has on han", score: "S" },
+      { type: "A", answer: "Only inquire about the weapons the shop keeper has on hand", score: "S" },
       { type: "B", answer: "Ask if they could create or acquire a special weapon based on your design and research", score: "N" },
     ],
   },
