@@ -311,7 +311,7 @@ export const personalityTest: TestQuestion[] = [
   },
   {
     no: 37,
-    question: "Scenario: Your adventure team encounters a wounded soldier in the forest. Do you: ",
+    question: "Scenario: Your adventure team encounters a wounded creature in the forest. Do you: ",
     answerOptions: [
       { type: "A", answer: "Prioritize immediate action, applying first aid and healing", score: "S" },
       { type: "B", answer: "Analyze the creature's behavior to understand the cause of its injuries", score: "N" },
