@@ -399,7 +399,7 @@ export default function TestResult(props: TestResultProps) {
         colorScheme="blue" // Use Chakra UI color scheme for light blue
         onClick={() => window.open("https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile", "_blank")}
       >
-        LinkeIn Profile
+        LinkedIn Profile
       </Button>
       {personalityClassGroup.suggestions !== undefined &&
         personalityClassGroup.suggestions.length === 1 && (
