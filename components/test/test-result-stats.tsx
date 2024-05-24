@@ -9,12 +9,13 @@ interface TestResultStatsProps {
 function ScoreStats(props: {
   testScores: PersonalityClass["type"][];
   targetScore: PersonalityClass["type"];
-  totalQuestions: number;
+  totalQuestions: { [key: string]: number };
 }) {
   const totalForPair = props.testScores.filter(
     (score) => score === props.targetScore
   ).length;
-  const percentage = ((totalForPair / props.totalQuestions) * 100).toFixed(0);
+  const totalQuestionsForPair = props.totalQuestions[props.targetScore];
+  const percentage = ((totalForPair / totalQuestionsForPair) * 100).toFixed(0);
 
   return (
     <Flex py={1} px={2} gap={2} rounded="md" justifyContent="space-between" bg="white">
@@ -25,7 +26,12 @@ function ScoreStats(props: {
 }
 
 export default function TestResultStats(props: TestResultStatsProps) {
-  const totalQuestions = 70; // Total number of questions in the MBTI quiz
+  const totalQuestions = {
+    E: 10, // Total number of questions for Extroverted/Introverted pair
+    S: 20, // Total number of questions for Sensing/Intuitive pair
+    T: 20, // Total number of questions for Thinking/Feeling pair
+    P: 20, // Total number of questions for Perceiving/Judging pair
+  };
   const statsColorScheme = ["red", "blue", "yellow", "purple", "orange", "green", "pink", "teal"];
 
   return (
