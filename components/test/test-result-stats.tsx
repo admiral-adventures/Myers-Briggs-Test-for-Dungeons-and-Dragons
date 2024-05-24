@@ -7,12 +7,13 @@ interface TestResultStatsProps {
   testResult: TestResult;
 }
 
-function PairScoreStats(props: {
+function ScoreStats(props: {
   testScores: PersonalityClass["type"][];
-  pair: string;
+  targetScore: PersonalityClass["type"];
 }) {
-  const pairCount = props.testScores.filter(score => score === props.pair).length;
-  const totalPairsCount = props.testScores.length / 4; // Total pairs count
+  const testScoresFiltered = props.testScores.filter(
+    (score) => score === props.targetScore
+  );
 
   return (
     <Flex
@@ -24,12 +25,12 @@ function PairScoreStats(props: {
       bg="white"
     >
       <Text fontWeight="semibold">
-        {((pairCount / totalPairsCount) * 100)
+        {((testScoresFiltered.length / props.testScores.length) * 100)
           .toFixed(2)
           .replace(/[.,]0+$/, "")}
         %
       </Text>
-      <Text>({pairCount})</Text>
+      <Text>({testScoresFiltered.length})</Text>
     </Flex>
   );
 }
@@ -72,7 +73,7 @@ export default function TestResultStats(props: TestResultStatsProps) {
       >
         Scores
       </Heading>
-      {["EI", "SN", "TF", "JP"].map((pair, index) => (
+      {personalityClasses.map((personalityClass, index) => (
         <Flex
           key={index}
           p={2}
@@ -85,11 +86,11 @@ export default function TestResultStats(props: TestResultStatsProps) {
             fontWeight="semibold"
             color="white"
           >
-            {pair}
+            {personalityClass.description}
           </Text>
-          <PairScoreStats
+          <ScoreStats
             testScores={props.testResult.testScores}
-            pair={pair}
+            targetScore={personalityClass.type}
           />
         </Flex>
       ))}
