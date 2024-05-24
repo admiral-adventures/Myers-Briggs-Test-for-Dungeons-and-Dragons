@@ -135,13 +135,21 @@ export function getPersonalityClassGroupByTestScores(
     }
   );
 
-  const personalityClassGroupType = `${
-    scoreCount.E >= scoreCount.I ? "E" : "I"
-  }${scoreCount.S >= scoreCount.N ? "S" : "N"}${
-    scoreCount.T >= scoreCount.F ? "T" : "F"
-  }${scoreCount.J >= scoreCount.P ? "J" : "P"}`;
+  // Random selection for Extroverted/Introverted
+  const extrovertedOrIntroverted = scoreCount.E === scoreCount.I ? (Math.random() >= 0.5 ? "E" : "I") : (scoreCount.E >= scoreCount.I ? "E" : "I");
 
-  return personalityClassGroup.find(
+  // Random selection for Sensing/Intuition
+  const sensingOrIntuition = scoreCount.S === scoreCount.N ? (Math.random() >= 0.5 ? "S" : "N") : (scoreCount.S >= scoreCount.N ? "S" : "N");
+
+  // Random selection for Thinking/Feeling
+  const thinkingOrFeeling = scoreCount.T === scoreCount.F ? (Math.random() >= 0.5 ? "T" : "F") : (scoreCount.T >= scoreCount.F ? "T" : "F");
+
+  // Random selection for Judging/Perceiving
+  const judgingOrPerceiving = scoreCount.J === scoreCount.P ? (Math.random() >= 0.5 ? "J" : "P") : (scoreCount.J >= scoreCount.P ? "J" : "P");
+
+  const personalityClassGroupType = `${extrovertedOrIntroverted}${sensingOrIntuition}${thinkingOrFeeling}${judgingOrPerceiving}`;
+
+ return personalityClassGroup.find(
     ({ type }) => personalityClassGroupType === type
   )!;
 }
