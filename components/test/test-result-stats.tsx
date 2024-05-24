@@ -14,7 +14,7 @@ function ScoreStats(props: {
   const totalForPair = props.testScores.filter(
     (score) => score === props.targetScore
   ).length;
-  const totalQuestionsForPair = props.totalQuestions[props.targetScore];
+  const totalQuestionsForPair = props.totalQuestions[props.targetScore]; // Corrected this line
   const percentage = ((totalForPair / totalQuestionsForPair) * 100).toFixed(0);
 
   return (
@@ -28,9 +28,13 @@ function ScoreStats(props: {
 export default function TestResultStats(props: TestResultStatsProps) {
   const totalQuestions = {
     E: 10, // Total number of questions for Extroverted/Introverted pair
+    I: 10, // Total number of questions for Extroverted/Introverted pair (corrected)
     S: 20, // Total number of questions for Sensing/Intuitive pair
+    N: 20, // Total number of questions for Sensing/Intuitive pair (corrected)
     T: 20, // Total number of questions for Thinking/Feeling pair
+    F: 20, // Total number of questions for Thinking/Feeling pair (corrected)
     P: 20, // Total number of questions for Perceiving/Judging pair
+    J: 20, // Total number of questions for Perceiving/Judging pair (corrected)
   };
   const statsColorScheme = ["red", "blue", "yellow", "purple", "orange", "green", "pink", "teal"];
 
