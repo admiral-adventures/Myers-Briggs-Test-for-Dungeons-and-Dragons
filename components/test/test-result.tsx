@@ -16,24 +16,11 @@ import {
 
 import {
   TestResult as ITestResult,
-  PersonalityClassGroup,
   getPersonalityClassGroupByTestScores,
 } from "../../lib/personality-test";
 
 interface TestResultProps {
   testResult: ITestResult;
-}
-
-function MailtoLinkForTestResult(testResult:ITestResult, personalityClassGroup:PersonalityClassGroup) {
-  const subjectText = 'My Myers-Briggs D&D Character Type';
-  const bodyText = [
-    `My character type is "${personalityClassGroup.type} - ${personalityClassGroup.name}"`,
-    '',
-    JSON.stringify(testResult),
-  ].join('\n');
-  const recipientEmail = '';// 'Broderick Berkhout <broderick.v.berkhout@gmail.com>';
-  const uri = `mailto:${encodeURIComponent(recipientEmail)}?subject=${encodeURIComponent(subjectText)}&body=${encodeURIComponent(bodyText)}`;
-  return uri;
 }
 
 export default function TestResult(props: TestResultProps) {
@@ -356,12 +343,6 @@ export default function TestResult(props: TestResultProps) {
       >
         Visit Our Website
       </Button>
-      <a
-        href={MailtoLinkForTestResult(props.testResult, personalityClassGroup)}
-        rel="noopener noreferrer"
-        target="_blank">
-        Email Results
-      </a>
       <Heading
         scrollMarginTop={8}
         id="solutions"
@@ -506,4 +487,3 @@ export default function TestResult(props: TestResultProps) {
     </Flex>
   );
 }
-
