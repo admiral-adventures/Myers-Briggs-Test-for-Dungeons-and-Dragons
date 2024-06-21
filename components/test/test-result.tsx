@@ -16,11 +16,31 @@ import {
 
 import {
   TestResult as ITestResult,
+  PersonalityClassGroup,
   getPersonalityClassGroupByTestScores,
 } from "../../lib/personality-test";
 
 interface TestResultProps {
   testResult: ITestResult;
+}
+
+function MailtoLinkForTestResult(
+  testResult: ITestResult,
+  personalityClassGroup: PersonalityClassGroup
+) {
+  const subjectText = "My Myers-Briggs D&D Character Type";
+  const bodyText = [
+    `My character type is "${personalityClassGroup.type} - ${personalityClassGroup.name}"`,
+    "",
+    JSON.stringify(testResult),
+  ].join("\n");
+  const recipientEmail = ""; // Replace with actual recipient email if needed
+  const uri = `mailto:${encodeURIComponent(
+    recipientEmail
+  )}?subject=${encodeURIComponent(subjectText)}&body=${encodeURIComponent(
+    bodyText
+  )}`;
+  return uri;
 }
 
 export default function TestResult(props: TestResultProps) {
@@ -41,11 +61,7 @@ export default function TestResult(props: TestResultProps) {
       alignItems="center"
       direction="column"
     >
-      <Heading
-        id={personalityClassGroup.type}
-        as="h1"
-        textAlign="center"
-      >
+      <Heading id={personalityClassGroup.type} as="h1" textAlign="center">
         <Highlight
           query={personalityClassGroup.type}
           styles={{ color: "primary.500" }}
@@ -53,11 +69,7 @@ export default function TestResult(props: TestResultProps) {
           {`${personalityClassGroup.type} - ${personalityClassGroup.name}`}
         </Highlight>
       </Heading>
-      <Text
-        fontSize="lg"
-        fontWeight="bold"
-        textAlign="center"
-      >
+      <Text fontSize="lg" fontWeight="bold" textAlign="center">
         {personalityClassGroup.nameDescription}
       </Text>
       <Image
@@ -78,15 +90,9 @@ export default function TestResult(props: TestResultProps) {
       </Heading>
       {personalityClassGroup.description
         .split(/\.\n+/g)
-        .map((description) =>
-          description.endsWith(".") ? description : `${description}.`
-        )
         .map((description, index) => (
-          <Text
-            key={index}
-            textAlign="justify"
-          >
-            {`${description}`}
+          <Text key={index} textAlign="justify">
+            {`${description}.`}
           </Text>
         ))}
       <Heading
@@ -139,38 +145,30 @@ export default function TestResult(props: TestResultProps) {
       </Heading>
       <UnorderedList>
         {personalityClassGroup.generalTraits.map((trait, index) => (
-          <ListItem
-            my={2}
-            key={index}
-            textAlign="justify"
-          >
+          <ListItem key={index} textAlign="justify">
             {trait}
           </ListItem>
         ))}
       </UnorderedList>
-<Heading
-  scrollMarginTop={8}
-  id="relationship-strengths"
-  my={4}
-  as="h2"
-  size="md"
-  textAlign="center"
->
-  Character Personality Traits
-</Heading>
-<UnorderedList w="full">
-  {personalityClassGroup.relationshipStrengths.map(
-    (relationshipStrength, index) => (
-      <ListItem
-        my={2}
-        key={index}
-        textAlign="justify"
+      <Heading
+        scrollMarginTop={8}
+        id="relationship-strengths"
+        my={4}
+        as="h2"
+        size="md"
+        textAlign="center"
       >
-        {relationshipStrength}
-      </ListItem>
-    )
-  )}
-</UnorderedList>
+        Character Personality Traits
+      </Heading>
+      <UnorderedList w="full">
+        {personalityClassGroup.relationshipStrengths.map(
+          (relationshipStrength, index) => (
+            <ListItem key={index} textAlign="justify">
+              {relationshipStrength}
+            </ListItem>
+          )
+        )}
+      </UnorderedList>
       <Heading
         scrollMarginTop={8}
         id="relationship-weaknesses"
@@ -184,11 +182,7 @@ export default function TestResult(props: TestResultProps) {
       <UnorderedList w="full">
         {personalityClassGroup.relationshipWeaknesses.map(
           (relationshipWeakness, index) => (
-            <ListItem
-              my={2}
-              key={index}
-              textAlign="justify"
-            >
+            <ListItem key={index} textAlign="justify">
               {relationshipWeakness}
             </ListItem>
           )
@@ -206,17 +200,9 @@ export default function TestResult(props: TestResultProps) {
       </Heading>
       {personalityClassGroup.successDefinition
         .split(/\.\n+/g)
-        .map((successDefinition) =>
-          successDefinition.endsWith(".")
-            ? successDefinition
-            : `${successDefinition}.`
-        )
         .map((successDefinition, index) => (
-          <Text
-            key={index}
-            textAlign="justify"
-          >
-            {`${successDefinition}`}
+          <Text key={index} textAlign="justify">
+            {`${successDefinition}.`}
           </Text>
         ))}
       <Heading
@@ -231,11 +217,7 @@ export default function TestResult(props: TestResultProps) {
       </Heading>
       <UnorderedList w="full">
         {personalityClassGroup.strengths.map((strength, index) => (
-          <ListItem
-            my={2}
-            key={index}
-            textAlign="justify"
-          >
+          <ListItem key={index} textAlign="justify">
             {strength}
           </ListItem>
         ))}
@@ -252,11 +234,7 @@ export default function TestResult(props: TestResultProps) {
       </Heading>
       <UnorderedList w="full">
         {personalityClassGroup.gifts.map((gift, index) => (
-          <ListItem
-            my={2}
-            key={index}
-            textAlign="justify"
-          >
+          <ListItem key={index} textAlign="justify">
             {gift}
           </ListItem>
         ))}
@@ -274,29 +252,16 @@ export default function TestResult(props: TestResultProps) {
       {personalityClassGroup.potentialProblemAreas.length === 1 ? (
         personalityClassGroup.potentialProblemAreas[0]
           .split(/\.\n+/g)
-          .map((potentialProblemArea) =>
-            potentialProblemArea.endsWith(".")
-              ? potentialProblemArea
-              : `${potentialProblemArea}.`
-          )
           .map((potentialProblemArea, index) => (
-            <Text
-              key={index}
-              textAlign="justify"
-              alignSelf="start"
-            >
-              {`${potentialProblemArea}`}
+            <Text key={index} textAlign="justify" alignSelf="start">
+              {`${potentialProblemArea}.`}
             </Text>
           ))
       ) : (
         <UnorderedList w="full">
           {personalityClassGroup.potentialProblemAreas.map(
             (potentialProblemArea, index) => (
-              <ListItem
-                my={2}
-                key={index}
-                textAlign="justify"
-              >
+              <ListItem key={index} textAlign="justify">
                 {potentialProblemArea}
               </ListItem>
             )
@@ -306,10 +271,29 @@ export default function TestResult(props: TestResultProps) {
       <Button
         mt={2} // Margin top for spacing
         colorScheme="blue" // Use Chakra UI color scheme for light blue
-        onClick={() => window.open("https://admiraladventures.com/pregenerated-characters", "_blank")}
+        onClick={() =>
+          window.open(
+            "https://admiraladventures.com/pregenerated-characters",
+            "_blank"
+          )
+        }
       >
         Download Character Sheet
       </Button>
+
+      <Button
+        mt={2} // Margin top for spacing
+        colorScheme="blue" // Use Chakra UI color scheme for light blue
+        onClick={() =>
+          window.open(
+            MailtoLinkForTestResult(props.testResult, personalityClassGroup),
+            "_blank"
+          )
+        }
+      >
+        Email Results
+      </Button>
+
       <Heading
         scrollMarginTop={8}
         id="explanation-of-problems"
@@ -322,27 +306,21 @@ export default function TestResult(props: TestResultProps) {
       </Heading>
       {personalityClassGroup.explanationOfProblems
         .split(/\.\n+/g)
-        .map((explanationOfProblem) =>
-          explanationOfProblem.endsWith(".")
-            ? explanationOfProblem
-            : `${explanationOfProblem}.`
-        )
         .map((explanationOfProblem, index) => (
-          <Text
-            key={index}
-            textAlign="justify"
-            alignSelf="start"
-          >
-            {`${explanationOfProblem}`}
+          <Text key={index} textAlign="justify" alignSelf="start">
+            {`${explanationOfProblem}.`}
           </Text>
         ))}
       <Button
         mt={2} // Margin top for spacing
         colorScheme="blue" // Use Chakra UI color scheme for light blue
-        onClick={() => window.open("https://admiraladventures.com", "_blank")}
+        onClick={() =>
+          window.open("https://admiraladventures.com", "_blank")
+        }
       >
         Visit Our Website
       </Button>
+
       <Heading
         scrollMarginTop={8}
         id="solutions"
@@ -351,27 +329,28 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-      Can&apos;t Find a Group to Play With? Hire a Professional DM!
+        Can't Find a Group to Play With? Hire a Professional DM!
       </Heading>
       {personalityClassGroup.solutions
         .split(/\.\n+/g)
-        .map((solution) => (solution.endsWith(".") ? solution : `${solution}.`))
         .map((solution, index) => (
-          <Text
-            key={index}
-            textAlign="justify"
-            alignSelf="start"
-          >
-            {`${solution}`}
+          <Text key={index} textAlign="justify" alignSelf="start">
+            {`${solution}.`}
           </Text>
         ))}
       <Button
         mt={2} // Margin top for spacing
         colorScheme="blue" // Use Chakra UI color scheme for light blue
-        onClick={() => window.open("https://startplaying.games/gm/admiral-adventures", "_blank")}
+        onClick={() =>
+          window.open(
+            "https://startplaying.games/gm/admiral-adventures",
+            "_blank"
+          )
+        }
       >
         Book a Session
       </Button>
+
       <Heading
         scrollMarginTop={8}
         id="living-happily-tips"
@@ -380,27 +359,28 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-       My Resume 
+        My Resume
       </Heading>
       {personalityClassGroup.livingHappilyTips
         .split(/\.\n+/g)
-        .map((tips) => (tips.endsWith(".") ? tips : `${tips}.`))
         .map((tips, index) => (
-          <Text
-            key={index}
-            textAlign="justify"
-            alignSelf="start"
-          >
-            {`${tips}`}
+          <Text key={index} textAlign="justify" alignSelf="start">
+            {`${tips}.`}
           </Text>
         ))}
-            <Button
+      <Button
         mt={2} // Margin top for spacing
         colorScheme="blue" // Use Chakra UI color scheme for light blue
-        onClick={() => window.open("https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile", "_blank")}
+        onClick={() =>
+          window.open(
+            "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
+            "_blank"
+          )
+        }
       >
         LinkedIn Profile
       </Button>
+
       {personalityClassGroup.suggestions !== undefined &&
         personalityClassGroup.suggestions.length === 1 && (
           <>
@@ -416,20 +396,14 @@ export default function TestResult(props: TestResultProps) {
             </Heading>
             {personalityClassGroup.suggestions[0]
               .split(/\.\n+/g)
-              .map((suggestion) =>
-                suggestion.endsWith(".") ? suggestion : `${suggestion}.`
-              )
               .map((suggestion, index) => (
-                <Text
-                  key={index}
-                  textAlign="justify"
-                  alignSelf="start"
-                >
-                  {`${suggestion}`}
+                <Text key={index} textAlign="justify" alignSelf="start">
+                  {`${suggestion}.`}
                 </Text>
               ))}
           </>
         )}
+
       {personalityClassGroup.suggestions !== undefined &&
         personalityClassGroup.suggestions.length > 1 && (
           <>
@@ -444,18 +418,15 @@ export default function TestResult(props: TestResultProps) {
               Specific Suggestions
             </Heading>
             <UnorderedList w="full">
-              {personalityClassGroup.suggestions!.map((suggestion, index) => (
-                <ListItem
-                  my={2}
-                  key={index}
-                  textAlign="justify"
-                >
+              {personalityClassGroup.suggestions.map((suggestion, index) => (
+                <ListItem key={index} textAlign="justify">
                   {suggestion}
                 </ListItem>
               ))}
             </UnorderedList>
           </>
         )}
+
       <Heading
         scrollMarginTop={8}
         id="ten-rules-to-live-to-achieve-success"
@@ -468,11 +439,7 @@ export default function TestResult(props: TestResultProps) {
       </Heading>
       <UnorderedList w="full">
         {personalityClassGroup.tenRulesToLive.map((rule, index) => (
-          <ListItem
-            my={2}
-            key={index}
-            textAlign="justify"
-          >
+          <ListItem key={index} textAlign="justify">
             {rule}
           </ListItem>
         ))}
@@ -480,10 +447,16 @@ export default function TestResult(props: TestResultProps) {
       <Button
         mt={2} // Margin top for spacing
         colorScheme="blue" // Use Chakra UI color scheme for light blue
-        onClick={() => window.open("https://buymeacoffee.com/admiraladventures", "_blank")}
+        onClick={() =>
+          window.open(
+            "https://buymeacoffee.com/admiraladventures",
+            "_blank"
+          )
+        }
       >
         ☕️
       </Button>
     </Flex>
   );
 }
+
