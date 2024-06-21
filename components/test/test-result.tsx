@@ -362,6 +362,12 @@ export default function TestResult(props: TestResultProps) {
       >
         Visit Our Website
       </Button>
+      <a
+        href={MailtoLinkForTestResult(props.testResult, personalityClassGroup)}
+        rel="noopener noreferrer"
+        target="_blank">
+        Email Results
+      </a>
       <Heading
         scrollMarginTop={8}
         id="solutions"
