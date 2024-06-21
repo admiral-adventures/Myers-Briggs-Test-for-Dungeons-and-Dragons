@@ -1,6 +1,5 @@
-import { Flex, Text, Heading } from "@chakra-ui/react";
-import { personalityClasses } from "../../data/personality-classes";
 import { PersonalityClass, TestResult } from "../../lib/personality-test";
+import { Flex, Text, Heading, Link } from "@chakra-ui/react"; // Import necessary components from Chakra UI
 
 interface TestResultStatsProps {
   testResult: TestResult;
@@ -14,7 +13,7 @@ function ScoreStats(props: {
   const totalForPair = props.testScores.filter(
     (score) => score === props.targetScore
   ).length;
-  const totalQuestionsForPair = props.totalQuestions[props.targetScore]; // Corrected this line
+  const totalQuestionsForPair = props.totalQuestions[props.targetScore];
   const percentage = ((totalForPair / totalQuestionsForPair) * 100).toFixed(0);
 
   return (
@@ -27,16 +26,29 @@ function ScoreStats(props: {
 
 export default function TestResultStats(props: TestResultStatsProps) {
   const totalQuestions = {
-    E: 10, // Total number of questions for Extroverted/Introverted pair
-    I: 10, // Total number of questions for Extroverted/Introverted pair (corrected)
-    S: 20, // Total number of questions for Sensing/Intuitive pair
-    N: 20, // Total number of questions for Sensing/Intuitive pair (corrected)
-    T: 20, // Total number of questions for Thinking/Feeling pair
-    F: 20, // Total number of questions for Thinking/Feeling pair (corrected)
-    P: 20, // Total number of questions for Perceiving/Judging pair
-    J: 20, // Total number of questions for Perceiving/Judging pair (corrected)
+    E: 10,
+    I: 10,
+    S: 20,
+    N: 20,
+    T: 20,
+    F: 20,
+    P: 20,
+    J: 20,
   };
   const statsColorScheme = ["red", "blue", "yellow", "purple", "orange", "green", "pink", "teal"];
+
+  function MailtoLinkForTestResult(testResult: TestResult) {
+    const personalityClass = testResult.testScores.map(score => score.charAt(0)).join('');
+    const subjectText = 'My Myers-Briggs D&D Character Type';
+    const bodyText = [
+      `My character type is "${personalityClass.type} - ${personalityClass.name}"`,
+      '',
+      JSON.stringify(testResult),
+    ].join('\n');
+    const recipientEmail = ''; // Insert your recipient email here if needed
+    const uri = `mailto:${encodeURIComponent(recipientEmail)}?subject=${encodeURIComponent(subjectText)}&body=${encodeURIComponent(bodyText)}`;
+    return uri;
+  }
 
   return (
     <Flex
@@ -62,6 +74,7 @@ export default function TestResultStats(props: TestResultStatsProps) {
           justifyContent="space-between"
           alignItems="center"
           bg={`${statsColorScheme[index]}.500`}
+          mb={2} // Add margin bottom for spacing
         >
           <Text fontWeight="semibold" color="white">
             {personalityClass.description}
@@ -73,6 +86,18 @@ export default function TestResultStats(props: TestResultStatsProps) {
           />
         </Flex>
       ))}
+      {/* Email Results Button */}
+      <Flex justifyContent="center" mt={2}>
+        <Link
+          href={MailtoLinkForTestResult(props.testResult)}
+          rel="noopener noreferrer"
+          target="_blank"
+          colorScheme="blue" // Use Chakra UI color scheme for light blue
+        >
+          Email Results
+        </Link>
+      </Flex>
     </Flex>
   );
 }
+
