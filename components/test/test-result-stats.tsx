@@ -1,5 +1,6 @@
+import { Flex, Text, Heading, Link } from "@chakra-ui/react";
+import { personalityClasses } from "../../data/personality-classes";
 import { PersonalityClass, TestResult } from "../../lib/personality-test";
-import { Flex, Text, Heading, Link } from "@chakra-ui/react"; // Import necessary components from Chakra UI
 
 interface TestResultStatsProps {
   testResult: TestResult;
@@ -38,7 +39,14 @@ export default function TestResultStats(props: TestResultStatsProps) {
   const statsColorScheme = ["red", "blue", "yellow", "purple", "orange", "green", "pink", "teal"];
 
   function MailtoLinkForTestResult(testResult: TestResult) {
-    const personalityClass = testResult.testScores.map(score => score.charAt(0)).join('');
+    const personalityClass = personalityClasses.find(
+      (pc) => pc.type === testResult.testScores.join("")
+    );
+
+    if (!personalityClass) {
+      throw new Error("Personality class not found for test scores.");
+    }
+
     const subjectText = 'My Myers-Briggs D&D Character Type';
     const bodyText = [
       `My character type is "${personalityClass.type} - ${personalityClass.name}"`,
@@ -100,4 +108,3 @@ export default function TestResultStats(props: TestResultStatsProps) {
     </Flex>
   );
 }
-
