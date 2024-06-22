@@ -49,7 +49,7 @@ Protagonists are born leaders, which explains why these personalities can be fou
       "Protagonist may be very critical of flaws displayed by other players.",
     ],
     potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -106,7 +106,7 @@ Protagonists are born leaders, which explains why these personalities can be fou
       "Commanders may become childishly petulant or angered when confronted by situations which require feeling judgments.",
     ],
     potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -163,7 +163,7 @@ Protagonists are born leaders, which explains why these personalities can be fou
       "Campaigners may have a difficult time committing to a long campaign.",
     ],
     potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -221,7 +221,7 @@ It would be a mistake, though, to think of Debaters as disagreeable or mean-spir
       "Debaters tend to love conversing about ideas which may come across to other players as argumentative.",
     ],
     potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -278,7 +278,7 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
       "Consuls usually desire to be appreciated and they may become intolerant towards other players that show indifference to them.",
     ],
     potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -333,7 +333,7 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
       "Entertainers will avoid conflict and may not contribute to discussions designed to minimize future conflict.",
     ],
     potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -391,7 +391,7 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
       "Executives focus on facts and logic which may come across as argumentative to other emotion-based players.",
     ],
    potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -449,7 +449,7 @@ Theory, abstract concepts and plodding discussions about global issues and their
       "Entrepreneurs may have difficulty with what others think or feel and may come across in sessions as insensitive.",
     ],
     potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -507,7 +507,7 @@ While they have lofty goals and ambitions, Advocates shouldn’t be mistaken for
       "Advocates may develop deeply held convictions that may be at odds with other players which may contribute to player conflict.",
     ],
     potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -566,7 +566,7 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
       "Mediators tend to be idealists and have high expectations which may lead to resentment when other players don't meet those expectations.",
     ],
     potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -624,7 +624,7 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
       "Architects tend to want to work alone which may lead to conflict with other players.",
     ],
    potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -680,7 +680,7 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
       "Logicians tend to like a complete understanding of something before they are willing to share an opinion or take an action.",
     ],
     potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -739,7 +739,7 @@ This is a capable, can-do personality type, with a wealth of versatile gifts. Th
       "Defenders are creatures of habit and may dislike the smallest inconsistency with the application of rule interpretations.",
     ],
     potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -797,7 +797,7 @@ And every Adventurer is certainly unique. Driven by curiosity and eager to try n
       "Adventurers may tend to split from the party and “go it alone” just to prove other players wrong.",
  ],
     potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -856,7 +856,7 @@ This personality type makes up a good portion of the overall population, and whi
       "Logisticians tend to look at rational explanations for events and may push back at attempts to quickly move the session along that don't make sense.",
     ],
     potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
@@ -916,7 +916,7 @@ Virtuosos enjoy lending a hand and sharing their experience, especially with the
       "Virtuosos may sometimes lash out in sudden outbursts of emotion during highly charged situations.",
     ],
     potentialProblemAreas: [
-      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the button below.",
+      "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
     explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
