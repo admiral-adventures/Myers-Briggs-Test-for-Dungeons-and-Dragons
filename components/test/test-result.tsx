@@ -417,7 +417,7 @@ export default function TestResult(props: TestResultProps) {
             <Button
         mt={2} // Margin top for spacing
         colorScheme="blue" // Use Chakra UI color scheme for light blue
-        onClick={() => window.open("https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile", "_blank")}
+        onClick={() => window.location.href = MailtoLinkForTestResult(props.testResult, personalityClassGroup)}
       >
         LinkedIn Profile
       </Button>
