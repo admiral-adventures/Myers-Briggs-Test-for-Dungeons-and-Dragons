@@ -16,11 +16,24 @@ import {
 
 import {
   TestResult as ITestResult,
+  PersonalityClassGroup,
   getPersonalityClassGroupByTestScores,
 } from "../../lib/personality-test";
 
 interface TestResultProps {
   testResult: ITestResult;
+}
+
+function MailtoLinkForTestResult(testResult:ITestResult, personalityClassGroup:PersonalityClassGroup) {
+  const subjectText = 'My Myers-Briggs D&D Character Type';
+  const bodyText = [
+    `My character type is "${personalityClassGroup.type} - ${personalityClassGroup.name}"`,
+    '',
+    JSON.stringify(testResult),
+  ].join('\n');
+  const recipientEmail = '';// 'Broderick Berkhout <broderick.v.berkhout@gmail.com>';
+  const uri = `mailto:${encodeURIComponent(recipientEmail)}?subject=${encodeURIComponent(subjectText)}&body=${encodeURIComponent(bodyText)}`;
+  return uri;
 }
 
 export default function TestResult(props: TestResultProps) {
@@ -309,6 +322,13 @@ export default function TestResult(props: TestResultProps) {
         onClick={() => window.open("https://admiraladventures.com/pregenerated-characters", "_blank")}
       >
         Download Character Sheet
+      </Button>
+      <Button
+        mt={2} // Margin top for spacing
+        colorScheme="blue" // Use Chakra UI color scheme for light blue
+        onClick={() => window.open(MailtoLinkForTestResult(props.testResult, personalityClassGroup), "_blank")}
+      >
+        Email Results
       </Button>
       <Heading
         scrollMarginTop={8}
