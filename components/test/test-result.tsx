@@ -31,7 +31,7 @@ function MailtoLinkForTestResult(testResult:ITestResult, personalityClassGroup:P
     '',
     JSON.stringify(testResult),
   ].join('\n');
-  const recipientEmail = '';// 'Broderick Berkhout <broderick.v.berkhout@gmail.com>';
+  const recipientEmail = 'brody.berkhout@admiraladventures.com';// 'Brody Berkhout <brody.berkhout@admiraladventures.com>';
   const uri = `mailto:${encodeURIComponent(recipientEmail)}?subject=${encodeURIComponent(subjectText)}&body=${encodeURIComponent(bodyText)}`;
   return uri;
 }
@@ -326,7 +326,7 @@ export default function TestResult(props: TestResultProps) {
       <Button
         mt={2} // Margin top for spacing
         colorScheme="blue" // Use Chakra UI color scheme for light blue
-        onClick={() => window.open(MailtoLinkForTestResult(props.testResult, personalityClassGroup), "_blank")}
+        onClick={() => window.location.href = MailtoLinkForTestResult(props.testResult, personalityClassGroup)}
       >
         Email Results
       </Button>
