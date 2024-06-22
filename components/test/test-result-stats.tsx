@@ -36,7 +36,7 @@ export default function TestResultStats(props: TestResultStatsProps) {
     P: 20, // Total number of questions for Perceiving/Judging pair
     J: 20, // Total number of questions for Perceiving/Judging pair (corrected)
   };
-  const statsColorScheme = ["red", "blue", "yellow", "purple", "orange", "green", "pink", "teal"];
+  const statsColorScheme = ["red", "pink", "blue", "purple", "yellow", "orange", "green", "teal"];
 
   return (
     <Flex
