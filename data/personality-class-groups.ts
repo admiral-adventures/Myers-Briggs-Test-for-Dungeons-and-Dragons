@@ -526,7 +526,7 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
 `,
     jungianFunctionalPreference: {
       dominant: "MONK - Way of Mercy",
-      auxiliary: "CLERIC - Peace Domainy",
+      auxiliary: "CLERIC - Peace Domain",
       tertiary: "RANGER - Beast Master",
       inferior: "SORCERER - Aberrant",
     },
