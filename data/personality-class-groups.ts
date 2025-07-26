@@ -9,10 +9,10 @@ export const personalityClassGroup: PersonalityClassGroup[] = [
     description: `Protagonists (ENFJs) feel called to serve a greater purpose in life. Thoughtful and idealistic, these personality types strive to have a positive impact on other people and the world around them. They rarely shy away from an opportunity to do the right thing, even when doing so is far from easy.
 Protagonists are born leaders, which explains why these personalities can be found among many notable politicians, coaches, and teachers. Their passion and charisma allow them to inspire others not just in their careers but in every arena of their lives, including their relationships. Few things bring Protagonists a deeper sense of joy and fulfillment than guiding friends and loved ones to grow into their best selves.`,
     jungianFunctionalPreference: {
-      dominant: "Human BARBARIAN - Path of the Ancestral Guardian",
-      auxiliary: "Drow PALADIN - Oath of the Crown",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "PALADIN - Oath of the Crown",
+      auxiliary: "CLERIC - Knowledge Domain",
+      tertiary: "BARD - College of Swords",
+      inferior: "WIZARD - Evocation",
     },
     generalTraits: [
       "Daenerys Targaryen - Game of Thrones",
@@ -65,10 +65,10 @@ Protagonists are born leaders, which explains why these personalities can be fou
     epithet: "Extroverted iNtuitive Thinking Judging",
     description: `Commanders are natural-born leaders. People with this personality type embody the gifts of charisma and confidence, and project authority in a way that draws crowds together behind a common goal. However, Commanders are also characterized by an often ruthless level of rationality, using their drive, determination and sharp minds to achieve whatever end they’ve set for themselves. Perhaps it is best that they make up only three percent of the population, lest they overwhelm the more timid and sensitive personality types that make up much of the rest of the world – but we have Commanders to thank for many of the businesses and institutions we take for granted every day.`,
     jungianFunctionalPreference: {
-      dominant: "Half-Elf SORCERER - Draconic",
-      auxiliary: "Mountain Dwarf FIGHTER - Battlemaster",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "FIGHTER - Battlemaster",
+      auxiliary: "CLERIC - Storm Domain",
+      tertiary: "ROGUE - Soulknife",
+      inferior: "SORCERER - Draconic",
     },
     generalTraits: [
       "Doctor Strange - Avengers",
@@ -122,10 +122,10 @@ Protagonists are born leaders, which explains why these personalities can be fou
     epithet: "Extroverted iNtuitive Feeling Perceiving",
     description: `Campaigners (ENFPs) are true free spirits – outgoing, openhearted, and open-minded. With their lively, upbeat approach to life, they stand out in any crowd. But even though they can be the life of the party, Campaigners don’t just care about having a good time. These personality types run deep – as does their longing for meaningful, emotional connections with other people.`,
     jungianFunctionalPreference: {
-      dominant: "Eladrin Spring Elf BARD - College of Glamour",
-      auxiliary: "Human Fey Lineage DRUID - Circle of Dreams",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "BARBARIAN - World Tree",
+      auxiliary: "DRUID - Circle of Dreams",
+      tertiary: "BARD - College of Glamour",
+      inferior: "WARLOCK - Genie",
     },
     generalTraits: [
       `Spider Man - Avengers`,
@@ -180,10 +180,10 @@ Protagonists are born leaders, which explains why these personalities can be fou
     description: `Quick-witted and audacious, Debaters aren’t afraid to disagree with the status quo. In fact, they’re not afraid to disagree with pretty much anything or anyone. Few things light up people with this personality type more than a bit of verbal sparring – and if the conversation veers into controversial terrain, so much the better.
 It would be a mistake, though, to think of Debaters as disagreeable or mean-spirited. Instead, people with this personality type are knowledgeable and curious, with a playful sense of humor, and they can be incredibly entertaining. They simply have an offbeat, contrarian idea of fun – one that involves a healthy dose of spirited debate.`,
     jungianFunctionalPreference: {
-      dominant: "Human BARD - College of Eloquence",
-      auxiliary: "Human RANGER - Hunter",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "RANGER - Hunter",
+      auxiliary: "BARD - College of Eloquence",
+      tertiary: "RANGER - Fey Wanderer",
+      inferior: "WIZARD - Necromancy",
     },
     generalTraits: [
       "Captain Jack Sparrow - Pirates of the Caribbean",
@@ -238,10 +238,10 @@ It would be a mistake, though, to think of Debaters as disagreeable or mean-spir
     description: `For Consuls, life is sweetest when it’s shared with others. People with this personality type form the bedrock of many communities, opening their homes – and their hearts – to friends, loved ones, and neighbors.
 This doesn’t mean that Consuls like everyone, or that they’re saints. But Consuls do believe in the power of hospitality and good manners, and they tend to feel a sense of duty to those around them. Generous and reliable, people with this personality type often take it upon themselves – in ways both large and small – to hold their families and their communities together.`,
     jungianFunctionalPreference: {
-      dominant: "Hill Dwarf CLERIC - Life Domain",
-      auxiliary: "Half-Elf BARD - College of Lore",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "FIGHTER - Champion",
+      auxiliary: "CLERIC - Life Domain",
+      tertiary: "BARD - College of Lore",
+      inferior: "WIZARD - Enchantment",
     },
     generalTraits: [
       "Sansa Stark - Game of Thrones",
@@ -294,10 +294,10 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
     epithet: "Extroverted Sensing Feeling Perceiving",
     description: `If anyone is to be found spontaneously breaking into song and dance, it is the Entertainer personality type. Entertainers get caught up in the excitement of the moment, and want everyone else to feel that way, too. No other personality type is as generous with their time and energy as Entertainers when it comes to encouraging others, and no other personality type does it with such irresistible style.`,
     jungianFunctionalPreference: {
-      dominant: "Human ROGUE - Arcane Trickster",
-      auxiliary: "Levistus Tiefling SORCERER - Wild Magic",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "MONK - Drunken Master",
+      auxiliary: "DRUID - Circle of the Moon",
+      tertiary: "ROGUE - Arcane Trickster",
+      inferior: "SORCERER - Wild Magic",
     },
     generalTraits: [
       "Dandelion - The Witcher",
@@ -349,10 +349,10 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
     epithet: "Extroverted Sensing Thinking Judging",
     description: `Executives are representatives of tradition and order, utilizing their understanding of what is right, wrong and socially acceptable to bring families and communities together. Embracing the values of honesty, dedication and dignity, people with the Executive personality type are valued for their clear advice and guidance, and they happily lead the way on difficult paths. Taking pride in bringing people together, Executives often take on roles as community organizers, working hard to bring everyone together in celebration of cherished local events, or in defense of the traditional values that hold families and communities together.`,
     jungianFunctionalPreference: {
-      dominant: "Human PALADIN - Oath of Devotion",
-      auxiliary: "Levistus Tiefling SORCERER - Divine Soul",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "PALADIN - Oath of Devotion",
+      auxiliary: "DRUID - Circle of the Shepherd",
+      tertiary: "ROGUE - Scout",
+      inferior: "SORCERER - Divine Soul",
     },
     generalTraits: [
       "Boromir - The Lord of the Rings",
@@ -408,10 +408,10 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
     description: `Entrepreneurs always have an impact on their immediate surroundings – the best way to spot them at a party is to look for the whirling eddy of people flitting about them as they move from group to group. Laughing and entertaining with a blunt and earthy humor, Entrepreneur personalities love to be the center of attention. If an audience member is asked to come on stage, Entrepreneurs volunteer – or volunteer a shy friend.
 Theory, abstract concepts and plodding discussions about global issues and their implications don’t keep Entrepreneurs interested for long. Entrepreneurs keep their conversation energetic, with a good dose of intelligence, but they like to talk about what is – or better yet, to just go out and do it. Entrepreneurs leap before they look, fixing their mistakes as they go, rather than sitting idle, preparing contingencies and escape clauses.`,
     jungianFunctionalPreference: {
-      dominant: "Lightfoot Halfling WARLOCK - Archfey",
-      auxiliary: "Wood Elf RANGER - Gloom Stalker",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "RANGER - Gloom Stalker",
+      auxiliary: "CLERIC - Trickery Domain",
+      tertiary: "ROGUE - Thief",
+      inferior: "WARLOCK - The Archfey",
     },
     generalTraits: [
       "Jaime Lannister - Game of Thrones",
@@ -467,10 +467,10 @@ Theory, abstract concepts and plodding discussions about global issues and their
 While they have lofty goals and ambitions, Advocates shouldn’t be mistaken for idle dreamers. People with this personality type care about integrity, and they’re rarely satisfied until they’ve done what they know to be right. Conscientious to the core, they move through life with a clear sense of their values, and they aim never to lose sight of what truly matters – not according to other people or society at large, but according to their own wisdom and intuition.
 `,
     jungianFunctionalPreference: {
-      dominant: "Silver Dragonborn PALADIN - Oath of Redemption",
-      auxiliary: "Moon Half-Elf WARLOCK - The Celestial",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "PALADIN - Oath of Redemption",
+      auxiliary: "CLERIC - War Domain",
+      tertiary: "ROGUE - Assassin",
+      inferior: "WARLOCK - The Celestial",
     },
     generalTraits: [
       "Jon Snow - Game of Thrones",
@@ -525,10 +525,10 @@ While they have lofty goals and ambitions, Advocates shouldn’t be mistaken for
 Idealistic and empathetic, Mediators long for deep, soulful relationships, and they feel called to help others. But because this personality type makes up such a small portion of the population, Mediators may sometimes feel lonely or invisible, adrift in a world that doesn’t seem to appreciate the traits that make them unique.
 `,
     jungianFunctionalPreference: {
-      dominant: "Aasimar CLERIC - Peace Domain",
-      auxiliary: "Human MONK - Way of Mercy",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "MONK - Way of Mercy",
+      auxiliary: "CLERIC - Peace Domainy",
+      tertiary: "RANGER - Beast Master",
+      inferior: "SORCERER - Aberrant",
     },
     generalTraits: [
       "Frodo Baggins - The Lord of the Rings",
@@ -582,10 +582,10 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
     epithet: "Introverted iNtuitive Thinking Judging",
     description: `It can be lonely at the top. As one of the rarest personality types – and one of the most capable – Architects (INTJs) know this all too well. Rational and quick-witted, Architects pride themselves on their ability to think for themselves, not to mention their uncanny knack for seeing right through phoniness and hypocrisy. But because their minds are never at rest, Architects may struggle to find people who can keep up with their nonstop analysis of everything around them.`,
     jungianFunctionalPreference: {
-      dominant: "Human FIGHTER - Arcane Archer",
-      auxiliary: "High Elf ROGUE - Mastermind",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "FIGHTER - Arcane Archer",
+      auxiliary: "BARD - College of Whispers",
+      tertiary: "ROGUE - Mastermind",
+      inferior: "WARLOCK - The Great Old One",
     },
     generalTraits: [
       "Petyr Baelish - Game of Thrones",
@@ -640,10 +640,10 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
     epithet: "Introverted iNtuitive Thinking Perceiving",
     description: `Logicians pride themselves on their unique perspectives and vigorous intellect. They can’t help but puzzle over the mysteries of the universe – which may explain why some of the most influential philosophers and scientists of all time have been Logicians. This personality type is fairly rare, but with their creativity and inventiveness, Logicians aren’t afraid to stand out from the crowd.`,
     jungianFunctionalPreference: {
-      dominant: "Astral Elf DRUID - Circle of Stars",
-      auxiliary: "Rock Gnome WIZARD - School of Illusion",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "BARBARIAN - Ancestral Guardian",
+      auxiliary: "DRUID - Circle of Stars",
+      tertiary: "RANGER - Horizon Walker",
+      inferior: "WIZARD - Illusion",
     },
     generalTraits: [
       "Lord Varys - Game of Thrones",
@@ -697,10 +697,10 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
     description: `In their unassuming, understated way, Defenders help make the world go round. Hardworking and devoted, people with this personality type feel a deep sense of responsibility to those around them. Defenders can be counted on to meet deadlines, remember birthdays and special occasions, uphold traditions, and shower their loved ones with gestures of care and support. But they rarely demand recognition for all that they do, preferring instead to operate behind the scenes.
 This is a capable, can-do personality type, with a wealth of versatile gifts. Though sensitive and caring, Defenders also have excellent analytical abilities and an eye for detail. And despite their reserve, they tend to have well-developed people skills and robust social relationships. Defenders are truly more than the sum of their parts, and their varied strengths shine in even the most ordinary aspects of their daily lives.`,
     jungianFunctionalPreference: {
-      dominant: "Half-Orc FIGHTER - Samurai",
-      auxiliary: "High Elf WIZARD - School of War",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "FIGHTER - Samurai",
+      auxiliary: "CLERIC - Order Domain",
+      tertiary: "RANGER - Drakewarden",
+      inferior: "WIZARD - War",
     },
     generalTraits: [
       "Catelyn Stark - Game of Thrones",
@@ -756,10 +756,10 @@ This is a capable, can-do personality type, with a wealth of versatile gifts. Th
     description: `Adventurers are true artists – although not necessarily in the conventional sense. For this personality type, life itself is a canvas for self-expression. From what they wear to how they spend their free time, Adventurers act in ways that vividly reflect who they are as unique individuals.
 And every Adventurer is certainly unique. Driven by curiosity and eager to try new things, people with this personality often have a fascinating array of passions and interests. With their exploratory spirits and their ability to find joy in everyday life, Adventurers can be among the most interesting people you’ll ever meet. The only irony? Unassuming and humble, Adventurers tend to see themselves as “just doing their own thing,” so they may not even realize how remarkable they really are.`,
     jungianFunctionalPreference: {
-      dominant: "Human ROGUE - Swashbuckler",
-      auxiliary: "Human BARBARIAN - Wild Magic",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "BARBARIAN - Berserker",
+      auxiliary: "HDRUID - Circle of the Land",
+      tertiary: "ROGUE - Swashbuckler",
+      inferior: "BARD - College of Creation",
     },
     generalTraits: [
       "Eowyn - The Lord of the Rings",
@@ -815,10 +815,10 @@ And every Adventurer is certainly unique. Driven by curiosity and eager to try n
 This personality type makes up a good portion of the overall population, and while Logisticians may not be particularly flashy or attention-seeking, they do more than their share to keep society on a sturdy, stable foundation. In their families and their communities, Logisticians often earn respect for their reliability, their practicality, and their ability to stay grounded and logical, even in the most stressful situations.
 `,
     jungianFunctionalPreference: {
-      dominant: "Human Fey WIZARD - School of Abjuration",
-      auxiliary: "Human MONK - Way of the Kensai",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "MONK - Way of the Kensai",
+      auxiliary: "CLERIC - Twilight Domain",
+      tertiary: "ROGUE - Inquisitive",
+      inferior: "WIZARD - Abjuration",
     },
     generalTraits: [
       "Eddard Stark - Game of Thrones",
@@ -875,10 +875,10 @@ Virtuosos explore ideas through creating, troubleshooting, trial and error and f
 Virtuosos enjoy lending a hand and sharing their experience, especially with the people they care about, and it’s a shame they’re so uncommon, making up only about five percent of the population. Virtuoso women are especially rare, and the typical gender roles that society tends to expect can be a poor fit – they’ll often be seen as tomboys from a young age.
 `,
     jungianFunctionalPreference: {
-      dominant: "Rock Gnome ARTIFICER - Artillerist",
-      auxiliary: "Human RANGER - Monster Slayer",
-      tertiary: "TBD",
-      inferior: " TBD",
+      dominant: "RANGER - Monster Slayer",
+      auxiliary: "BARD - College of Dance",
+      tertiary: "ROGUE - Phantom",
+      inferior: "ARTIFICER - Artillerist",
     },
     generalTraits: [
       "Arya Stark - Game of Thrones",
