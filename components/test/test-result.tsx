@@ -319,7 +319,8 @@ export default function TestResult(props: TestResultProps) {
       <Button
         mt={2} // Margin top for spacing
         colorScheme="blue" // Use Chakra UI color scheme for light blue
-        onClick={() => window.open("https://admiraladventures.com/-pre-gen-characters#${personalityClassGroup.type}", "_blank")}
+        onClick={() => window.open(`https://admiraladventures.com/-pre-gen-characters#${personalityClassGroup.type}`, "_blank")
+}
       >
         Download Character Sheet
       </Button>
