@@ -115,25 +115,25 @@ export default function TestResult(props: TestResultProps) {
       <Table>
         <Tbody>
           <Tr>
-            <Th>Option 1</Th>
+            <Th>Fighter Option</Th>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.dominant}
             </Td>
           </Tr>
           <Tr>
-            <Th>Option 2</Th>
+            <Th>Cleric Option</Th>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.auxiliary}
             </Td>
           </Tr>
           <Tr>
-            <Th>Option 3</Th>
+            <Th>Rogue Option</Th>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.tertiary}
             </Td>
           </Tr>
           <Tr>
-            <Th>Option 4</Th>
+            <Th>Wizard Option</Th>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.inferior}
             </Td>
