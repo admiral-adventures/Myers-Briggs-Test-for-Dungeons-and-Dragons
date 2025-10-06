@@ -19,30 +19,51 @@ export default function TestInstructions(props: TestInstructionsProps) {
       direction="column"
       gap={8}
     >
-      <Heading>Instructions</Heading>
+      <Heading>Guidelines</Heading>
+
       <Flex
         direction="column"
         gap={2}
       >
-        <Text>
-          Completing the test should only take 15 minutes. Here are several
-          hints about how to complete this test:
-        </Text>
         <UnorderedList spacing={2}>
           <ListItem>
-            These questions are about how you would approach situations if you were an actual character in a typical D&D game.
+            Answer as if you were an actual D&D character in a typical game scenario.
           </ListItem>
           <ListItem>
-            Answer the questions in a way that would feel natural for you - not the way you wish to be perceived. 
+            Respond honestly — choose what feels natural to you,{" "}
+            <Text as="span" fontWeight="semibold">
+              not
+            </Text>{" "}
+            how you wish to be perceived.
           </ListItem>
           <ListItem>
-            Do not assume a race, background, class, or subclass when answering any of the questions.
-          </ListItem>          
+            Do{" "}
+            <Text as="span" fontWeight="semibold">
+              not
+            </Text>{" "}
+            assume a specific race, background, class, or subclass.
+          </ListItem>
           <ListItem>
-            When answering questions, do not factor in how your decisions may affect the other players you are playing with.
+            Do{" "}
+            <Text as="span" fontWeight="semibold">
+              not
+            </Text>{" "}
+            consider how your choices might affect other players — answer as if you’re acting alone.
           </ListItem>
         </UnorderedList>
+
+        <Text>
+          If your answers result in a perfect 50/50 split on any of the four
+          personality dimensions (e.g., Introversion vs. Extroversion), the
+          system will randomly select one option to display. To view the
+          alternate result, click{" "}
+          <Text as="span" fontWeight="semibold">
+            “Test Result History”
+          </Text>{" "}
+          until it appears.
+        </Text>
       </Flex>
+
       <Button
         w="min-content"
         colorScheme="primary"
