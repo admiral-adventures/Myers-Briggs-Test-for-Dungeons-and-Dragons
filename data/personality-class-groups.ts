@@ -18,7 +18,7 @@ Protagonists are born leaders, which explains why these personalities can be fou
       "Daenerys Targaryen - Game of Thrones",
       "Morpheus - The Matrix",
       "Laurel Lance - Arrow",
-      "Charles Xavier - The X Men",
+      "Charles Xavier - The X-Men",
       "Padme Amidala - Star Wars",      
     ],
     relationshipStrengths: [
@@ -418,7 +418,7 @@ Theory, abstract concepts and plodding discussions about global issues and their
       "Rocket - Avengers",
       "Poe Dameron - Star Wars",
       "Thos - Avengers",
-      "Wolverine - X Men",
+      "Wolverine - ",
     ],
     relationshipStrengths: [
       "BOLD – People with the Entrepreneur personality type are full of life and energy. There is no greater joy for Entrepreneurs than pushing boundaries and discovering and using new things and ideas.",
@@ -766,7 +766,7 @@ And every Adventurer is certainly unique. Driven by curiosity and eager to try n
       "Finn - Star Wars",
       "Thea Queen - Arrow",
       "Captain Marvel - Marvel Comics",
-      "Rogue - X Men",
+      "Rogue - ",
       "Black Panther - Marvel Comics",
     ],    
     relationshipStrengths: [
