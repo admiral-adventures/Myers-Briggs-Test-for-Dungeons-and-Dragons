@@ -51,9 +51,9 @@ Protagonists are born leaders, which explains why these personalities can be fou
     potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -65,7 +65,7 @@ Protagonists are born leaders, which explains why these personalities can be fou
     epithet: "Extroverted iNtuitive Thinking Judging",
     description: `Commanders are natural-born leaders. People with this personality type embody the gifts of charisma and confidence, and project authority in a way that draws crowds together behind a common goal. However, Commanders are also characterized by an often ruthless level of rationality, using their drive, determination and sharp minds to achieve whatever end they’ve set for themselves. Perhaps it is best that they make up only three percent of the population, lest they overwhelm the more timid and sensitive personality types that make up much of the rest of the world – but we have Commanders to thank for many of the businesses and institutions we take for granted every day.`,
     jungianFunctionalPreference: {
-      dominant: "FIGHTER - Battlemaster",
+      dominant: "FIGHTER - Battle Master",
       auxiliary: "CLERIC - Storm Domain",
       tertiary: "ROGUE - Soulknife",
       inferior: "SORCERER - Draconic",
@@ -108,9 +108,9 @@ Protagonists are born leaders, which explains why these personalities can be fou
     potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -165,9 +165,9 @@ Protagonists are born leaders, which explains why these personalities can be fou
     potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -223,9 +223,9 @@ It would be a mistake, though, to think of Debaters as disagreeable or mean-spir
     potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -280,9 +280,9 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
     potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -335,9 +335,9 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
     potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -360,7 +360,7 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
       "Smaug - The Lord of the Rings",
       "Leia Organa - Star Wars",
       "Lt Uhura - Star Trek",
-      "Dart Vadar - Star Wars",
+      "Darth Vader - Star Wars",
     ],
     relationshipStrengths: [
       "DEDICATED – Seeing things to completion borders on an ethical obligation for Executives. Tasks aren’t simply abandoned because they’ve become difficult or boring – people with the Executive personality type take them up when they are the right thing to do, and they will be finished so long as they remain the right thing to do.",
@@ -393,9 +393,9 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
    potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -416,7 +416,7 @@ Theory, abstract concepts and plodding discussions about global issues and their
     generalTraits: [
       "Jaime Lannister - Game of Thrones",
       "Rocket - Avengers",
-      "Poe Dameron - Star wars",
+      "Poe Dameron - Star Wars",
       "Thos - Avengers",
       "Wolverine - X Men",
     ],
@@ -451,9 +451,9 @@ Theory, abstract concepts and plodding discussions about global issues and their
     potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -509,9 +509,9 @@ While they have lofty goals and ambitions, Advocates shouldn’t be mistaken for
     potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -568,9 +568,9 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
     potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -626,9 +626,9 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
    potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -682,9 +682,9 @@ Idealistic and empathetic, Mediators long for deep, soulful relationships, and t
     potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -741,9 +741,9 @@ This is a capable, can-do personality type, with a wealth of versatile gifts. Th
     potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -799,9 +799,9 @@ And every Adventurer is certainly unique. Driven by curiosity and eager to try n
     potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -815,7 +815,7 @@ And every Adventurer is certainly unique. Driven by curiosity and eager to try n
 This personality type makes up a good portion of the overall population, and while Logisticians may not be particularly flashy or attention-seeking, they do more than their share to keep society on a sturdy, stable foundation. In their families and their communities, Logisticians often earn respect for their reliability, their practicality, and their ability to stay grounded and logical, even in the most stressful situations.
 `,
     jungianFunctionalPreference: {
-      dominant: "MONK - Way of the Kensai",
+      dominant: "MONK - Way of the Kensei",
       auxiliary: "CLERIC - Twilight Domain",
       tertiary: "ROGUE - Inquisitive",
       inferior: "WIZARD - Abjuration",
@@ -858,9 +858,9 @@ This personality type makes up a good portion of the overall population, and whi
     potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
@@ -918,9 +918,9 @@ Virtuosos enjoy lending a hand and sharing their experience, especially with the
     potentialProblemAreas: [
       "To download a PDF copy of the character sheets for the Race and Class Options listed for your specific personality type, select the Download PDF button below. Admiral Adventures is also interested in collecting the test results. We will provide a 10% discount when you sign up for any of our games and will add you to our monthly newsletter email distribution list. The test results only include the answers to the test questions.",
     ],
-    explanationOfProblems: "Admiral Adventures bridges online role playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
+    explanationOfProblems: "Admiral Adventures bridges online role-playing games with leadership development in the workplace. Play games. Support veterans. Empower yourself.",
     solutions: "Do you have trouble finding a group to play with? Do you find it difficult to keep a table together for those long campaigns? Is your DM inexperienced and unprepared? Do you find your combat encounters dull and boring? Do you feel that the mood is not being set right at your table? If any of these are true, you should consider hiring a professional DM.",
-    livingHappilyTips: "I am a retired Navy Capatin that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
+    livingHappilyTips: "I am a retired Navy Captain that commanded three nuclear powered submarines. I started playing D&D back in 1981.",
     tenRulesToLive: [
       "Surveys and websites like this that are free to use are not easy to create. It takes research and a lot of code development. If you like what you see, support a veteran and buy me a coffee. Roll Initiative!",
     ],
