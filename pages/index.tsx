@@ -52,7 +52,16 @@ export default function HomePage() {
             fontSize="xl"
             align="center"
           >
-            This test will help you to identify a character to play that is better aligned with your personality type.
+            This test will identify your Myers-Briggs personality type and suggest what kind of Dungeons & Dragons Player Character (PC) best fits your personality strengths and preferences.
+
+Research shows that playing a character aligned with your personality can reduce table conflict and make your RPG sessions more enjoyable.
+
+When you finish the test, your results page will include:
+• Four recommended PC options based on classic party roles (Fighter, Cleric, Rogue, and Wizard). Each includes a downloadable pre-generated character sheet (PDF).
+• Recommended PC Personality Traits, Flaws, and Ideals.
+• A summary of your positive and negative table behaviors during gameplay.
+
+The test takes about 15 minutes to complete.
           </Text>
           <Link href="/test">
             <Button
