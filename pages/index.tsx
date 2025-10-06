@@ -1,7 +1,15 @@
 import Link from "next/link";
-import { Heading, Text, Highlight, Flex, Button } from "@chakra-ui/react";
+import {
+  Heading,
+  Text,
+  Highlight,
+  Flex,
+  Button,
+  UnorderedList,
+  ListItem,
+} from "@chakra-ui/react";
 import { FiArrowRight } from "react-icons/fi";
-import Image from "next/image"; 
+import Image from "next/image";
 
 import MainLayout from "../components/layouts/main-layout";
 
@@ -24,17 +32,13 @@ export default function HomePage() {
         >
           <div style={{ marginBottom: "1rem" }}>
             <Image
-              src="/images/mbti/Logo1.png" 
+              src="/images/mbti/Logo1.png"
               alt="D&D Image"
               height={200}
               width={800}
             />
           </div>
-          <Heading
-            as="h1"
-            lineHeight="tall"
-            textAlign="center"
-          >
+          <Heading as="h1" lineHeight="tall" textAlign="center">
             <Highlight
               query="D&D Personality Test"
               styles={{
@@ -48,21 +52,44 @@ export default function HomePage() {
               Welcome to the D&D Personality Test
             </Highlight>
           </Heading>
-          <Text
-            fontSize="xl"
-            align="center"
-          >
-            This test will identify your Myers-Briggs personality type and suggest what kind of Dungeons & Dragons Player Character (PC) best fits your personality strengths and preferences.
 
-Research shows that playing a character aligned with your personality can reduce table conflict and make your RPG sessions more enjoyable.
+          <Flex direction="column" gap={4} align="center">
+            <Text fontSize="xl" align="center">
+              This test will identify your Myers-Briggs personality type and
+              suggest what kind of Dungeons & Dragons Player Character (PC) best
+              fits your personality strengths and preferences.
+            </Text>
 
-When you finish the test, your results page will include:
-• Four recommended PC options based on classic party roles (Fighter, Cleric, Rogue, and Wizard). Each includes a downloadable pre-generated character sheet (PDF).
-• Recommended PC Personality Traits, Flaws, and Ideals.
-• A summary of your positive and negative table behaviors during gameplay.
+            <Text align="center">
+              Research shows that playing a character aligned with your
+              personality can reduce table conflict and make your RPG sessions
+              more enjoyable.
+            </Text>
 
-The test takes about 15 minutes to complete.
-          </Text>
+            <Text align="center">
+              When you finish the test, your results page will include:
+            </Text>
+
+            <UnorderedList spacing={2} textAlign="left">
+              <ListItem>
+                Four recommended PC options based on classic party roles
+                (Fighter, Cleric, Rogue, and Wizard). Each includes a
+                downloadable pre-generated character sheet (PDF).
+              </ListItem>
+              <ListItem>
+                Recommended PC <strong>Personality Traits, Flaws, and Ideals</strong>.
+              </ListItem>
+              <ListItem>
+                A summary of your positive and negative{" "}
+                <strong>table behaviors</strong> during gameplay.
+              </ListItem>
+            </UnorderedList>
+
+            <Text fontWeight="semibold" align="center">
+              The test takes about 15 minutes to complete.
+            </Text>
+          </Flex>
+
           <Link href="/test">
             <Button
               w="min-content"
