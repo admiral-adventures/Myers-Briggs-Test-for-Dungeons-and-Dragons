@@ -371,7 +371,7 @@ export const personalityTest: TestQuestion[] = [
   },
   {
     no: 44,
-    question: "Scenario: Your adventure team has requested an audience with a dwarven counsel while looking for help to repel an invasion from the underdark. Your character has been tasked to speak on behalf of the team. Do you: ",
+    question: "Scenario: Your adventure team has requested an audience with a dwarven counsil while looking for help to repel an invasion from the underdark. Your character has been tasked to speak on behalf of the team. Do you: ",
     answerOptions: [
       { type: "A", answer: "State your case based on the facts", score: "S" },
       { type: "B", answer: "Advocate for the bigger principles involved", score: "N" },
