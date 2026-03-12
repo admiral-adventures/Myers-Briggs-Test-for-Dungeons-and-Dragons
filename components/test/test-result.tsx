@@ -45,10 +45,10 @@ export default function TestResult(props: TestResultProps) {
   
   const [selectedType, setSelectedType] = useState(initialGroup.type);
   
-  const personalityClassGroup = getPersonalityClassGroupByTestScores(
+  const personalityClassGroup =
     selectedType === initialGroup.type
-      ? props.testResult.testScores
-      : { ...props.testResult.testScores, type: selectedType }
+      ? initialGroup
+      : getPersonalityClassGroupByTestScores(props.testResult.testScores);
   );
 
   return (
