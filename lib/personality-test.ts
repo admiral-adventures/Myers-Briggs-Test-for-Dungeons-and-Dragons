@@ -154,6 +154,14 @@ export function getPersonalityClassGroupByTestScores(
   )!;
 }
 
+export function getPersonalityClassGroupByType(
+  type: PersonalityClassGroup["type"]
+) {
+  return personalityClassGroup.find(
+    (group) => group.type === type
+  )!;
+}
+
 export function getSavedTestResult(id: number) {
   return Future.make<Result<Option<TestResult>, Error>>((resolve) => {
     getDb()
