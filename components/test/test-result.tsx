@@ -158,6 +158,59 @@ export default function TestResult(props: TestResultProps) {
       maxW="500px"
       justifyItems="center"
     >
+    
+    <Button
+      bg="#FFFFCC"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Entertainer
+        <br />
+        ESFP
+      </Text>
+    </Button>
+    
+    <Button
+      bg="#FFFFCC"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Entrepreneur
+        <br />
+        ESTP
+      </Text>
+    </Button>
+    
+    <Button
+      bg="#FFFFCC"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Adventurer
+        <br />
+        ISFP
+      </Text>
+    </Button>
+    
+    <Button
+      bg="#FFFFCC"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Virtuoso
+        <br />
+        ISTP
+      </Text>
+    </Button>
+    
     </SimpleGrid>
       <Heading
         scrollMarginTop={8}
