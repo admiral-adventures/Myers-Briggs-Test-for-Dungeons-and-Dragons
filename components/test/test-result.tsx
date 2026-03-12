@@ -210,7 +210,163 @@ export default function TestResult(props: TestResultProps) {
         ISTP
       </Text>
     </Button>
+
+    <Button
+      bg="#CCECFF"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Consul
+        <br />
+        ESFJ
+      </Text>
+    </Button>
     
+    <Button
+      bg="#CCECFF"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Executive
+        <br />
+        ESTJ
+      </Text>
+    </Button>
+    
+    <Button
+      bg="#CCECFF"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Defender
+        <br />
+        ISFJ
+      </Text>
+    </Button>
+    
+    <Button
+      bg="#CCECFF"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Logistician
+        <br />
+        ISTJ
+      </Text>
+    </Button>
+    
+    <Button
+      bg="#C1D892"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Campaigner
+        <br />
+        ENFP
+      </Text>
+    </Button>
+    
+    <Button
+      bg="#C1D892"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Protagonist
+        <br />
+        ENFJ
+      </Text>
+    </Button>
+    
+    <Button
+      bg="#C1D892"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Mediator
+        <br />
+        INFP
+      </Text>
+    </Button>
+    
+    <Button
+      bg="#C1D892"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Advocate
+        <br />
+        INFJ
+      </Text>
+    </Button>
+    
+    <Button
+      bg="#CBBFE8"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Logician
+        <br />
+        INTP
+      </Text>
+    </Button>
+    
+    <Button
+      bg="#CBBFE8"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Debater
+        <br />
+        ENTP
+      </Text>
+    </Button>
+    
+    <Button
+      bg="#CBBFE8"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Commander
+        <br />
+        ENTJ
+      </Text>
+    </Button>
+    
+    <Button
+      bg="#CBBFE8"
+      h="60px"
+      w="100%"
+      whiteSpace="normal"
+    >
+      <Text fontWeight="bold" textAlign="center" color="black">
+        Architect
+        <br />
+        INTJ
+      </Text>
+    </Button>
+      
     </SimpleGrid>
       <Heading
         scrollMarginTop={8}
