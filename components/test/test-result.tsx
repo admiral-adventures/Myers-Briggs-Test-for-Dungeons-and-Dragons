@@ -48,8 +48,10 @@ export default function TestResult(props: TestResultProps) {
   const personalityClassGroup =
     selectedType === initialGroup.type
       ? initialGroup
-      : getPersonalityClassGroupByTestScores(props.testResult.testScores);
-  );
+      : getPersonalityClassGroupByTestScores(
+          props.testResult.testScores,
+          selectedType
+        );
 
   return (
     <Flex
