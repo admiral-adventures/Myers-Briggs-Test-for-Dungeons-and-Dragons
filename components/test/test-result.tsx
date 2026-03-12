@@ -12,6 +12,7 @@ import {
   UnorderedList,
   ListItem,
   Button,
+  SimpleGrid,
 } from "@chakra-ui/react";
 
 import {
@@ -140,6 +141,24 @@ export default function TestResult(props: TestResultProps) {
           </Tr>
         </Tbody>
       </Table>
+      <Heading
+        scrollMarginTop={8}
+        my={6}
+        as="h2"
+        size="md"
+        textAlign="center"
+      >
+        Explore Other Character Types
+    </Heading>
+    
+    <SimpleGrid
+      columns={4}
+      spacing={3}
+      w="full"
+      maxW="500px"
+      justifyItems="center"
+    >
+    </SimpleGrid>
       <Heading
         scrollMarginTop={8}
         id="general-traits"
