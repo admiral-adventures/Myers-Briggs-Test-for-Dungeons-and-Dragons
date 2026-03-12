@@ -172,6 +172,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#FFFFCC"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("ESFP")}
     >
@@ -186,6 +187,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#FFFFCC"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("ESTP")}
     >
@@ -200,6 +202,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#FFFFCC"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("ISFP")}
     >
@@ -214,6 +217,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#FFFFCC"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("ISTP")}
     >
@@ -228,6 +232,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#CCECFF"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("ESFJ")}
     >
@@ -242,6 +247,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#CCECFF"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("ESTJ")}
     >
@@ -256,6 +262,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#CCECFF"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("ISFJ")}
     >
@@ -270,6 +277,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#CCECFF"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("ISTJ")}
     >
@@ -284,6 +292,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#C1D892"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("ENFP")}
     >
@@ -298,6 +307,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#C1D892"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("ENFJ")}
     >
@@ -312,6 +322,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#C1D892"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("INFP")}
     >
@@ -326,6 +337,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#C1D892"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("INFJ")}
     >
@@ -340,6 +352,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#CBBFE8"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("INTP")}
     >
@@ -354,6 +367,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#CBBFE8"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("ENTP")}
     >
@@ -368,6 +382,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#CBBFE8"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("ENTJ")}
     >
@@ -382,6 +397,7 @@ export default function TestResult(props: TestResultProps) {
       bg="#CBBFE8"
       h="60px"
       w="100%"
+      border="2px solid black"
       whiteSpace="normal"
       onClick={() => setSelectedType("INTJ")}
     >
