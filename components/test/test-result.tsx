@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useState } from "react";
 import {
   Flex,
   Heading,
@@ -38,8 +39,16 @@ function MailtoLinkForTestResult(testResult:ITestResult, personalityClassGroup:P
 }
 
 export default function TestResult(props: TestResultProps) {
-  const personalityClassGroup = getPersonalityClassGroupByTestScores(
+  const initialGroup = getPersonalityClassGroupByTestScores(
     props.testResult.testScores
+  );
+  
+  const [selectedType, setSelectedType] = useState(initialGroup.type);
+  
+  const personalityClassGroup = getPersonalityClassGroupByTestScores(
+    selectedType === initialGroup.type
+      ? props.testResult.testScores
+      : { ...props.testResult.testScores, type: selectedType }
   );
 
   return (
@@ -164,6 +173,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("ESFP")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Entertainer
@@ -177,6 +187,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("ESTP")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Entrepreneur
@@ -190,6 +201,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("ISFP")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Adventurer
@@ -203,6 +215,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("ISTP")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Virtuoso
@@ -216,6 +229,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("ESFJ")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Consul
@@ -229,6 +243,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("ESTJ")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Executive
@@ -242,6 +257,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("ISFJ")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Defender
@@ -255,6 +271,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("ISTJ")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Logistician
@@ -268,6 +285,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("ENFP")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Campaigner
@@ -281,6 +299,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("ENFJ")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Protagonist
@@ -294,6 +313,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("INFP")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Mediator
@@ -307,6 +327,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("INFJ")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Advocate
@@ -320,6 +341,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("INTP")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Logician
@@ -333,6 +355,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("ENTP")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Debater
@@ -346,6 +369,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("ENTJ")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Commander
@@ -359,6 +383,7 @@ export default function TestResult(props: TestResultProps) {
       h="60px"
       w="100%"
       whiteSpace="normal"
+      onClick={() => setSelectedType("INTJ")}
     >
       <Text fontWeight="bold" textAlign="center" color="black">
         Architect
