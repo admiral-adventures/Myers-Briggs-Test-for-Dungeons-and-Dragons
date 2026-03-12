@@ -20,6 +20,7 @@ import {
   TestResult as ITestResult,
   PersonalityClassGroup,
   getPersonalityClassGroupByTestScores,
+  getPersonalityClassGroupByType,
 } from "../../lib/personality-test";
 
 interface TestResultProps {
@@ -48,7 +49,7 @@ export default function TestResult(props: TestResultProps) {
   const personalityClassGroup =
     selectedType === initialGroup.type
       ? initialGroup
-      : getPersonalityClassGroupByTestScores(props.testResult.testScores);
+      : getPersonalityClassGroupByType(selectedType);
 
   return (
     <Flex
