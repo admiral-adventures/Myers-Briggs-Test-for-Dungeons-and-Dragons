@@ -176,7 +176,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("ESFP")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Entertainer
         <br />
         ESFP
@@ -191,7 +197,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("ESTP")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Entrepreneur
         <br />
         ESTP
@@ -206,7 +218,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("ISFP")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Adventurer
         <br />
         ISFP
@@ -221,7 +239,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("ISTP")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Virtuoso
         <br />
         ISTP
@@ -236,7 +260,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("ESFJ")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Consul
         <br />
         ESFJ
@@ -251,7 +281,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("ESTJ")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Executive
         <br />
         ESTJ
@@ -266,7 +302,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("ISFJ")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Defender
         <br />
         ISFJ
@@ -281,7 +323,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("ISTJ")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Logistician
         <br />
         ISTJ
@@ -296,7 +344,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("ENFP")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Campaigner
         <br />
         ENFP
@@ -311,7 +365,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("ENFJ")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Protagonist
         <br />
         ENFJ
@@ -326,7 +386,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("INFP")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Mediator
         <br />
         INFP
@@ -341,7 +407,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("INFJ")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Advocate
         <br />
         INFJ
@@ -356,7 +428,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("INTP")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Logician
         <br />
         INTP
@@ -371,7 +449,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("ENTP")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Debater
         <br />
         ENTP
@@ -386,7 +470,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("ENTJ")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Commander
         <br />
         ENTJ
@@ -401,7 +491,13 @@ export default function TestResult(props: TestResultProps) {
       whiteSpace="normal"
       onClick={() => setSelectedType("INTJ")}
     >
-      <Text fontWeight="bold" textAlign="center" color="black">
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
         Architect
         <br />
         INTJ
