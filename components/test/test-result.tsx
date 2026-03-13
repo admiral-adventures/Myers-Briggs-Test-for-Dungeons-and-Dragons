@@ -419,28 +419,7 @@ export default function TestResult(props: TestResultProps) {
         INFJ
       </Text>
     </Button>
-    
-    <Button
-      bg="#CBBFE8"
-      h="60px"
-      w="100%"
-      border="2px solid black"
-      whiteSpace="normal"
-      onClick={() => setSelectedType("INTP")}
-    >
-      <Text
-        fontWeight="bold"
-        textAlign="center"
-        color="black"
-        fontSize={{ base: "xs", sm: "sm", md: "md" }}
-        whiteSpace="nowrap"
-      >
-        Logician
-        <br />
-        INTP
-      </Text>
-    </Button>
-    
+      
     <Button
       bg="#CBBFE8"
       h="60px"
@@ -482,7 +461,28 @@ export default function TestResult(props: TestResultProps) {
         ENTJ
       </Text>
     </Button>
-    
+
+    <Button
+      bg="#CBBFE8"
+      h="60px"
+      w="100%"
+      border="2px solid black"
+      whiteSpace="normal"
+      onClick={() => setSelectedType("INTP")}
+    >
+      <Text
+        fontWeight="bold"
+        textAlign="center"
+        color="black"
+        fontSize={{ base: "xs", sm: "sm", md: "md" }}
+        whiteSpace="nowrap"
+      >
+        Logician
+        <br />
+        INTP
+      </Text>
+    </Button>
+      
     <Button
       bg="#CBBFE8"
       h="60px"
