@@ -34,6 +34,7 @@ export default function MainLayout(props: MainLayoutProps) {
         minH="calc(100vh - 80px)"
         justifyContent="center"
         alignItems="center"
+        bg="yellow.50"
       >
         {props.children}
       </Flex>
