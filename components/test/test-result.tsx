@@ -448,8 +448,7 @@ export default function TestResult(props: TestResultProps) {
               key={index}
               textAlign="justify"
             >
-              <Text as="span" mr={2}>🟢</Text>
-              {relationshipStrength}
+              {"🟢 "}{relationshipStrength}
             </ListItem>
           )
         )}
@@ -472,8 +471,7 @@ export default function TestResult(props: TestResultProps) {
                 key={index}
                 textAlign="justify"
               >
-                <Text as="span" mr={2}>🔴</Text>
-                {relationshipWeakness}
+                {"🔴 "}{relationshipWeakness}
               </ListItem>
             )
           )}
