@@ -440,19 +440,19 @@ export default function TestResult(props: TestResultProps) {
 >
   Character Personality Traits
 </Heading>
-<UnorderedList w="full">
-  {personalityClassGroup.relationshipStrengths.map(
-    (relationshipStrength, index) => (
-      <ListItem
-        my={2}
-        key={index}
-        textAlign="justify"
-      >
-        {relationshipStrength}
-      </ListItem>
-    )
-  )}
-</UnorderedList>
+      <UnorderedList w="full" styleType="none">
+        {personalityClassGroup.relationshipStrengths.map(
+          (relationshipStrength, index) => (
+            <ListItem
+              my={2}
+              key={index}
+              textAlign="justify"
+            >
+              🟢 {relationshipStrength}
+            </ListItem>
+          )
+        )}
+      </UnorderedList>
       <Heading
         scrollMarginTop={8}
         id="relationship-weaknesses"
@@ -463,20 +463,19 @@ export default function TestResult(props: TestResultProps) {
       >
         Character Flaws
       </Heading>
-      <UnorderedList w="full">
-        {personalityClassGroup.relationshipWeaknesses.map(
-          (relationshipWeakness, index) => (
-            <ListItem
-              my={2}
-              key={index}
-              textAlign="justify"
-            >
-              {relationshipWeakness}
-            </ListItem>
-          )
-        )}
-      </UnorderedList>
-      <Heading
+        <UnorderedList w="full" styleType="none">
+          {personalityClassGroup.relationshipWeaknesses.map(
+            (relationshipWeakness, index) => (
+              <ListItem
+                my={2}
+                key={index}
+                textAlign="justify"
+              >
+                🔴 {relationshipWeakness}
+              </ListItem>
+            )
+          )}
+        </UnorderedList>
         scrollMarginTop={8}
         id="success-definition"
         my={4}
