@@ -41,6 +41,10 @@ function MailtoLinkForTestResult(testResult:ITestResult, personalityClassGroup:P
   return uri;
 }
 
+function getPCFilePath(type: string, role: string, gender: string) {
+  return `/PCs/${type}-${role}-${gender}.pdf`;
+}
+
 export default function TestResult(props: TestResultProps) {
   const initialGroup = getPersonalityClassGroupByTestScores(
     props.testResult.testScores
@@ -142,10 +146,23 @@ export default function TestResult(props: TestResultProps) {
             </Td>
             <Td>
               <HStack spacing={3}>
-                <Button size="sm" colorScheme="blue">
+                <Button
+                  size="sm"
+                  colorScheme="blue"
+                  as="a"
+                  href={getPCFilePath(personalityClassGroup.type, "Fighter", "Male")}
+                  download
+                >
                   Male
                 </Button>
-                <Button size="sm" colorScheme="pink">
+                
+                <Button
+                  size="sm"
+                  colorScheme="pink"
+                  as="a"
+                  href={getPCFilePath(personalityClassGroup.type, "Fighter", "Female")}
+                  download
+                >
                   Female
                 </Button>
               </HStack>
@@ -159,10 +176,23 @@ export default function TestResult(props: TestResultProps) {
             </Td>
             <Td>
               <HStack spacing={3}>
-                <Button size="sm" colorScheme="blue">
+                <Button
+                  size="sm"
+                  colorScheme="blue"
+                  as="a"
+                  href={getPCFilePath(personalityClassGroup.type, "Cleric", "Male")}
+                  download
+                >
                   Male
                 </Button>
-                <Button size="sm" colorScheme="pink">
+                
+                <Button
+                  size="sm"
+                  colorScheme="pink"
+                  as="a"
+                  href={getPCFilePath(personalityClassGroup.type, "Cleric", "Female")}
+                  download
+                >
                   Female
                 </Button>
               </HStack>
@@ -176,10 +206,23 @@ export default function TestResult(props: TestResultProps) {
             </Td>
             <Td>
               <HStack spacing={3}>
-                <Button size="sm" colorScheme="blue">
+                <Button
+                  size="sm"
+                  colorScheme="blue"
+                  as="a"
+                  href={getPCFilePath(personalityClassGroup.type, "Rogue", "Male")}
+                  download
+                >
                   Male
                 </Button>
-                <Button size="sm" colorScheme="pink">
+                
+                <Button
+                  size="sm"
+                  colorScheme="pink"
+                  as="a"
+                  href={getPCFilePath(personalityClassGroup.type, "Rogue", "Female")}
+                  download
+                >
                   Female
                 </Button>
               </HStack>
@@ -193,10 +236,23 @@ export default function TestResult(props: TestResultProps) {
             </Td>
             <Td>
               <HStack spacing={3}>
-                <Button size="sm" colorScheme="blue">
+                <Button
+                  size="sm"
+                  colorScheme="blue"
+                  as="a"
+                  href={getPCFilePath(personalityClassGroup.type, "Wizard", "Male")}
+                  download
+                >
                   Male
                 </Button>
-                <Button size="sm" colorScheme="pink">
+                
+                <Button
+                  size="sm"
+                  colorScheme="pink"
+                  as="a"
+                  href={getPCFilePath(personalityClassGroup.type, "Wizard", "Female")}
+                  download
+                >
                   Female
                 </Button>
               </HStack>
