@@ -6,6 +6,7 @@ import {
   Highlight,
   Text,
   Table,
+  Thread,
   Tbody,
   Tr,
   Th,
@@ -13,6 +14,7 @@ import {
   UnorderedList,
   ListItem,
   Button,
+  HStack,
   SimpleGrid,
 } from "@chakra-ui/react";
 
@@ -122,32 +124,85 @@ export default function TestResult(props: TestResultProps) {
       >
         Character Race and Class Options
       </Heading>
-      <Table>
-        <Tbody>
+      <Table variant="simple">
+        <Thead bg="gray.100">
           <Tr>
-            <Th>Fighter Option</Th>
+            <Th>Classic D&D Party Member</Th>
+            <Th>Class (Subclass) Option</Th>
+            <Th>Download PC Sheet</Th>
+          </Tr>
+        </Thead>
+      
+        <Tbody>
+      
+          <Tr>
+            <Td fontWeight="bold">FIGHTER</Td>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.dominant}
             </Td>
+            <Td>
+              <HStack spacing={3}>
+                <Button size="sm" colorScheme="blue">
+                  Male
+                </Button>
+                <Button size="sm" colorScheme="pink">
+                  Female
+                </Button>
+              </HStack>
+            </Td>
           </Tr>
+      
           <Tr>
-            <Th>Cleric Option</Th>
+            <Td fontWeight="bold">CLERIC</Td>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.auxiliary}
             </Td>
+            <Td>
+              <HStack spacing={3}>
+                <Button size="sm" colorScheme="blue">
+                  Male
+                </Button>
+                <Button size="sm" colorScheme="pink">
+                  Female
+                </Button>
+              </HStack>
+            </Td>
           </Tr>
+      
           <Tr>
-            <Th>Rogue Option</Th>
+            <Td fontWeight="bold">ROGUE</Td>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.tertiary}
             </Td>
+            <Td>
+              <HStack spacing={3}>
+                <Button size="sm" colorScheme="blue">
+                  Male
+                </Button>
+                <Button size="sm" colorScheme="pink">
+                  Female
+                </Button>
+              </HStack>
+            </Td>
           </Tr>
+      
           <Tr>
-            <Th>Wizard Option</Th>
+            <Td fontWeight="bold">WIZARD</Td>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.inferior}
             </Td>
+            <Td>
+              <HStack spacing={3}>
+                <Button size="sm" colorScheme="blue">
+                  Male
+                </Button>
+                <Button size="sm" colorScheme="pink">
+                  Female
+                </Button>
+              </HStack>
+            </Td>
           </Tr>
+      
         </Tbody>
       </Table>
       <Heading
