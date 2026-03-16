@@ -45,6 +45,18 @@ function getPCFilePath(type: string, role: string, gender: string) {
   return `/PCs/${type}-${role}-${gender}.pdf`;
 }
 
+function getClassNameFromPreference(preference: string) {
+  return preference.split(" - ")[0];
+}
+
+function getClassIconPath(preference: string) {
+  const className = getClassNameFromPreference(preference);
+  const formatted =
+    className.charAt(0).toUpperCase() +
+    className.slice(1).toLowerCase();
+  return `/Class Icons/${formatted}.jpeg`;
+}
+
 export default function TestResult(props: TestResultProps) {
   const initialGroup = getPersonalityClassGroupByTestScores(
     props.testResult.testScores
@@ -146,7 +158,19 @@ export default function TestResult(props: TestResultProps) {
           <Tr bg="gray.50">
             <Td fontWeight="bold">FIGHTER</Td>
             <Td>
-              {personalityClassGroup.jungianFunctionalPreference.dominant}
+              <HStack spacing={3}>
+                <Image
+                  src={getClassIconPath(
+                    personalityClassGroup.jungianFunctionalPreference.dominant
+                  )}
+                  alt="class icon"
+                  width={32}
+                  height={32}
+                />
+                <Text>
+                  {personalityClassGroup.jungianFunctionalPreference.dominant}
+                </Text>
+              </HStack>
             </Td>
             <Td>
               <HStack spacing={3}>
@@ -176,7 +200,19 @@ export default function TestResult(props: TestResultProps) {
           <Tr bg="gray.100">
             <Td fontWeight="bold">CLERIC</Td>
             <Td>
-              {personalityClassGroup.jungianFunctionalPreference.auxiliary}
+              <HStack spacing={3}>
+                <Image
+                  src={getClassIconPath(
+                    personalityClassGroup.jungianFunctionalPreference.auxiliary
+                  )}
+                  alt="class icon"
+                  width={32}
+                  height={32}
+                />
+                <Text>
+                  {personalityClassGroup.jungianFunctionalPreference.auxiliary}
+                </Text>
+              </HStack>
             </Td>
             <Td>
               <HStack spacing={3}>
@@ -206,7 +242,19 @@ export default function TestResult(props: TestResultProps) {
           <Tr bg="gray.50">
             <Td fontWeight="bold">ROGUE</Td>
             <Td>
-              {personalityClassGroup.jungianFunctionalPreference.tertiary}
+              <HStack spacing={3}>
+                <Image
+                  src={getClassIconPath(
+                    personalityClassGroup.jungianFunctionalPreference.tertiary
+                  )}
+                  alt="class icon"
+                  width={32}
+                  height={32}
+                />
+                <Text>
+                  {personalityClassGroup.jungianFunctionalPreference.tertiary}
+                </Text>
+              </HStack>
             </Td>
             <Td>
               <HStack spacing={3}>
@@ -236,7 +284,19 @@ export default function TestResult(props: TestResultProps) {
           <Tr bg="gray.100">
             <Td fontWeight="bold">WIZARD</Td>
             <Td>
-              {personalityClassGroup.jungianFunctionalPreference.inferior}
+              <HStack spacing={3}>
+                <Image
+                  src={getClassIconPath(
+                    personalityClassGroup.jungianFunctionalPreference.inferior
+                  )}
+                  alt="class icon"
+                  width={32}
+                  height={32}
+                />
+                <Text>
+                  {personalityClassGroup.jungianFunctionalPreference.inferior}
+                </Text>
+              </HStack>
             </Td>
             <Td>
               <HStack spacing={3}>
