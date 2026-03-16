@@ -126,10 +126,14 @@ export default function TestResult(props: TestResultProps) {
         size="md"
         textAlign="center"
       >
-        Character Race and Class Options
+        Character Class and Subclass Options
       </Heading>
-      <Table variant="striped" size="sm">
-        <Thead bg="gray.100">
+      <Table 
+        variant="striped" size="sm"
+        border="2px solid black"
+        borderRadius="md"
+      >
+        <Thead bg="gray.100" borderBottom="2px solid black">
           <Tr>
             <Th>Classic D&D Party Member</Th>
             <Th>Class (Subclass) Option</Th>
@@ -139,7 +143,7 @@ export default function TestResult(props: TestResultProps) {
       
         <Tbody>
       
-          <Tr>
+          <Tr bg="gray.50">
             <Td fontWeight="bold">FIGHTER</Td>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.dominant}
@@ -169,7 +173,7 @@ export default function TestResult(props: TestResultProps) {
             </Td>
           </Tr>
       
-          <Tr>
+          <Tr bg="gray.100">
             <Td fontWeight="bold">CLERIC</Td>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.auxiliary}
@@ -199,7 +203,7 @@ export default function TestResult(props: TestResultProps) {
             </Td>
           </Tr>
       
-          <Tr>
+          <Tr bg="gray.50">
             <Td fontWeight="bold">ROGUE</Td>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.tertiary}
@@ -229,7 +233,7 @@ export default function TestResult(props: TestResultProps) {
             </Td>
           </Tr>
       
-          <Tr>
+          <Tr bg="gray.100">
             <Td fontWeight="bold">WIZARD</Td>
             <Td>
               {personalityClassGroup.jungianFunctionalPreference.inferior}
