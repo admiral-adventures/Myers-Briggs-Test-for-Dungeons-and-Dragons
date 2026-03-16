@@ -124,7 +124,7 @@ export default function TestResult(props: TestResultProps) {
       >
         Character Race and Class Options
       </Heading>
-      <Table variant="simple">
+      <Table variant="striped" size="sm">
         <Thead bg="gray.100">
           <Tr>
             <Th>Classic D&D Party Member</Th>
