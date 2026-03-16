@@ -757,7 +757,7 @@ This is a capable, can-do personality type, with a wealth of versatile gifts. Th
 And every Adventurer is certainly unique. Driven by curiosity and eager to try new things, people with this personality often have a fascinating array of passions and interests. With their exploratory spirits and their ability to find joy in everyday life, Adventurers can be among the most interesting people you’ll ever meet. The only irony? Unassuming and humble, Adventurers tend to see themselves as “just doing their own thing,” so they may not even realize how remarkable they really are.`,
     jungianFunctionalPreference: {
       dominant: "BARBARIAN - Berserker",
-      auxiliary: "HDRUID - Circle of the Land",
+      auxiliary: "DRUID - Circle of the Land",
       tertiary: "ROGUE - Swashbuckler",
       inferior: "BARD - College of Creation",
     },
