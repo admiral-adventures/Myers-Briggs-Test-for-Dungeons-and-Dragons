@@ -322,9 +322,24 @@ export default function TestResult(props: TestResultProps) {
               </HStack>
             </Td>
           </Tr>
-      
         </Tbody>
       </Table>
+      <Text
+        fontSize="sm"
+        textAlign="center"
+        mt={3}
+      >
+        If you like your pre-generated PC sheet, please buy me a coffee. 
+        The tailored PC sheet you just downloaded took a lot of hard work to create.
+      </Text>
+
+      <Button
+        mt={2}
+        colorScheme="blue"
+        onClick={() => window.open("https://buymeacoffee.com/admiraladventures", "_blank")}
+      >
+        ☕️
+      </Button>
       <Heading
         scrollMarginTop={8}
         my={6}
