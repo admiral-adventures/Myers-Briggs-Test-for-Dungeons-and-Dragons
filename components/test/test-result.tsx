@@ -325,7 +325,8 @@ export default function TestResult(props: TestResultProps) {
         </Tbody>
       </Table>
       <Text
-        fontSize="sm"
+        fontSize="md"
+        fontWeight="bold"
         textAlign="center"
         mt={3}
       >
