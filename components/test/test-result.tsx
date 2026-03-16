@@ -167,7 +167,7 @@ export default function TestResult(props: TestResultProps) {
                   width={32}
                   height={32}
                 />
-                <Text>
+                <Text fontWeight="bold">
                   {personalityClassGroup.jungianFunctionalPreference.dominant}
                 </Text>
               </HStack>
@@ -209,7 +209,7 @@ export default function TestResult(props: TestResultProps) {
                   width={32}
                   height={32}
                 />
-                <Text>
+                <Text fontWeight="bold">
                   {personalityClassGroup.jungianFunctionalPreference.auxiliary}
                 </Text>
               </HStack>
@@ -251,7 +251,7 @@ export default function TestResult(props: TestResultProps) {
                   width={32}
                   height={32}
                 />
-                <Text>
+                <Text fontWeight="bold">
                   {personalityClassGroup.jungianFunctionalPreference.tertiary}
                 </Text>
               </HStack>
@@ -293,7 +293,7 @@ export default function TestResult(props: TestResultProps) {
                   width={32}
                   height={32}
                 />
-                <Text>
+                <Text fontWeight="bold">
                   {personalityClassGroup.jungianFunctionalPreference.inferior}
                 </Text>
               </HStack>
