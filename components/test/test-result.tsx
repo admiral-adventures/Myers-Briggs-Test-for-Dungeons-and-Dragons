@@ -6,7 +6,7 @@ import {
   Highlight,
   Text,
   Table,
-  Thread,
+  Thead,
   Tbody,
   Tr,
   Th,
