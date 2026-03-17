@@ -26,34 +26,33 @@ function TraitBar(props: {
 }) {
   const percentage = ((props.count / props.total) * 100).toFixed(0);
 
-    return (
-      <Flex direction="column" w="full" gap={1}>
-        <Text fontWeight="bold" color="black">
-          {props.label}
-        </Text>
-    
-        <Flex align="center" w="100%" gap={2}>
+  return (
+    <Flex direction="column" w="full" gap={1}>
+      <Text fontWeight="bold" color="black">
+        {props.label}
+      </Text>
+  
+      <Flex align="center" w="100%" gap={2}>
+        <Box
+          flex="1"
+          h="14px"
+          bg="gray.200"
+          rounded="md"
+          overflow="hidden"
+        >
           <Box
-            flex="1"
-            h="14px"
-            bg="gray.200"
+            h="100%"
+            bg={`${props.color}.500`}
+            w={`${percentage}%`}
             rounded="md"
-            overflow="hidden"
-          >
-            <Box
-              h="100%"
-              bg={`${props.color}.500`}
-              w={`${percentage}%`}
-              rounded="md"
-            />
-          </Box>
-    
-          <Text fontWeight="semibold" minW="40px">
-            {percentage}%
-          </Text>
-        </Flex>
+          />
+        </Box>
+  
+        <Text fontWeight="semibold" minW="40px">
+          {percentage}%
+        </Text>
       </Flex>
-    );
+    </Flex>
   );
 }
 
