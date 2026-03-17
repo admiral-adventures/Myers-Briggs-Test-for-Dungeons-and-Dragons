@@ -136,7 +136,11 @@ export default function TestResult(props: TestResultProps) {
       >
         Character Class and Subclass Options
       </Heading>
-      <Stack spacing={4} w="full">
+      <SimpleGrid
+        columns={{ base: 1, md: 2 }}
+        spacing={6}
+        w="full"
+      >
       
         {/* FIGHTER CARD */}
         <Box
@@ -382,7 +386,7 @@ export default function TestResult(props: TestResultProps) {
           </Stack>
         </Box>
       
-      </Stack>
+      </SimpleGrid>
       <Text
         fontSize="md"
         fontWeight="bold"
