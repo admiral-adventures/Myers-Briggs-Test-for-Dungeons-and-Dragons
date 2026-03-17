@@ -5,6 +5,8 @@ interface TestResultStatsProps {
   testResult: TestResult;
 }
 
+type TraitKey = "E" | "I" | "S" | "N" | "T" | "F" | "P" | "J";
+
 function TraitBar(props: {
   label: string;
   count: number;
@@ -37,7 +39,7 @@ function TraitBar(props: {
 }
 
 export default function TestResultStats(props: TestResultStatsProps) {
-  const totalQuestions = {
+  const totalQuestions: Record<TraitKey, number> = {
     E: 10, // Total number of questions for Extroverted/Introverted pair
     I: 10, // Total number of questions for Extroverted/Introverted pair (corrected)
     S: 20, // Total number of questions for Sensing/Intuitive pair
@@ -49,14 +51,14 @@ export default function TestResultStats(props: TestResultStatsProps) {
   };
   const statsColorScheme = ["red", "pink", "blue", "purple", "yellow", "orange", "green", "teal"];
 
-  const traitPairs = [
+  const traitPairs: { a: TraitKey; b: TraitKey; colors: string[] }[] = [
     { a: "E", b: "I", colors: ["red", "pink"] },
     { a: "S", b: "N", colors: ["blue", "purple"] },
     { a: "T", b: "F", colors: ["yellow", "orange"] },
     { a: "P", b: "J", colors: ["green", "teal"] },
   ];
 
-  function countTrait(trait: string) {
+  function countTrait(trait: TraitKey) {
   return props.testResult.testScores.filter(
     (score) => score === trait
   ).length;
