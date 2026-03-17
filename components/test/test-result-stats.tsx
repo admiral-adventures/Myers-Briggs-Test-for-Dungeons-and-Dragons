@@ -68,7 +68,7 @@ export default function TestResultStats(props: TestResultStatsProps) {
     <Flex
       my={4}
       mx={{ base: 0, lg: 4 }}
-      w="full"
+      w={{ base: "full", lg: "20%" }}
       h="min-content"
       p={2}
       gap={4}
