@@ -144,7 +144,7 @@ export default function TestResult(props: TestResultProps) {
       
         {/* FIGHTER CARD */}
         <Box
-          border="1px solid black"
+          border="2px solid black"
           bg="gray.100"
           borderRadius="lg"
           p={4}
@@ -207,7 +207,7 @@ export default function TestResult(props: TestResultProps) {
       
         {/* CLERIC CARD */}
         <Box
-          border="1px solid black"
+          border="2px solid black"
           bg="gray.100"
           borderRadius="lg"
           p={4}
@@ -270,7 +270,7 @@ export default function TestResult(props: TestResultProps) {
       
         {/* ROGUE CARD */}
         <Box
-          border="1px solid black"
+          border="2px solid black"
           bg="gray.100"
           borderRadius="lg"
           p={4}
@@ -333,7 +333,7 @@ export default function TestResult(props: TestResultProps) {
       
         {/* WIZARD CARD */}
         <Box
-          border="1px solid black"
+          border="2px solid black"
           bg="gray.100"
           borderRadius="lg"
           p={4}
