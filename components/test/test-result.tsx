@@ -5,12 +5,8 @@ import {
   Heading,
   Highlight,
   Text,
-  Table,
-  Thead,
-  Tbody,
-  Tr,
-  Th,
-  Td,
+  Box,
+  Stack,
   UnorderedList,
   ListItem,
   Button,
@@ -140,190 +136,233 @@ export default function TestResult(props: TestResultProps) {
       >
         Character Class and Subclass Options
       </Heading>
-      <Table 
-        variant="striped" size="sm"
-        border="2px solid black"
-        borderRadius="md"
-      >
-        <Thead bg="gray.100" borderBottom="2px solid black">
-          <Tr>
-            <Th>Classic D&D Party Member</Th>
-            <Th>Class (Subclass) Option</Th>
-            <Th>Download PC Sheet</Th>
-          </Tr>
-        </Thead>
+      <Stack spacing={4} w="full">
       
-        <Tbody>
+        {/* FIGHTER CARD */}
+        <Box
+          border="1px solid"
+          borderColor="gray.200"
+          borderRadius="lg"
+          p={4}
+          boxShadow="sm"
+        >
+          <Stack spacing={3}>
       
-          <Tr bg="gray.50">
-            <Td fontWeight="bold">FIGHTER</Td>
-            <Td>
-              <HStack spacing={3}>
-                <Image
-                  src={getClassIconPath(
-                    personalityClassGroup.jungianFunctionalPreference.dominant
-                  )}
-                  alt="class icon"
-                  width={32}
-                  height={32}
-                />
-                <Text fontWeight="bold">
-                  {personalityClassGroup.jungianFunctionalPreference.dominant}
-                </Text>
-              </HStack>
-            </Td>
-            <Td>
-              <HStack spacing={3}>
-                <Button
-                  size="sm"
-                  colorScheme="blue"
-                  as="a"
-                  href={getPCFilePath(personalityClassGroup.type, "Fighter", "Male")}
-                  download
-                >
-                  Male
-                </Button>
-                
-                <Button
-                  size="sm"
-                  colorScheme="pink"
-                  as="a"
-                  href={getPCFilePath(personalityClassGroup.type, "Fighter", "Female")}
-                  download
-                >
-                  Female
-                </Button>
-              </HStack>
-            </Td>
-          </Tr>
+            <Text fontWeight="bold" fontSize="md">
+              FIGHTER
+            </Text>
       
-          <Tr bg="gray.100">
-            <Td fontWeight="bold">CLERIC</Td>
-            <Td>
-              <HStack spacing={3}>
-                <Image
-                  src={getClassIconPath(
-                    personalityClassGroup.jungianFunctionalPreference.auxiliary
-                  )}
-                  alt="class icon"
-                  width={32}
-                  height={32}
-                />
-                <Text fontWeight="bold">
-                  {personalityClassGroup.jungianFunctionalPreference.auxiliary}
-                </Text>
-              </HStack>
-            </Td>
-            <Td>
-              <HStack spacing={3}>
-                <Button
-                  size="sm"
-                  colorScheme="blue"
-                  as="a"
-                  href={getPCFilePath(personalityClassGroup.type, "Cleric", "Male")}
-                  download
-                >
-                  Male
-                </Button>
-                
-                <Button
-                  size="sm"
-                  colorScheme="pink"
-                  as="a"
-                  href={getPCFilePath(personalityClassGroup.type, "Cleric", "Female")}
-                  download
-                >
-                  Female
-                </Button>
-              </HStack>
-            </Td>
-          </Tr>
+            <HStack spacing={3}>
+              <Image
+                src={getClassIconPath(
+                  personalityClassGroup.jungianFunctionalPreference.dominant
+                )}
+                alt="class icon"
+                width={36}
+                height={36}
+              />
+              <Text fontWeight="bold">
+                {personalityClassGroup.jungianFunctionalPreference.dominant}
+              </Text>
+            </HStack>
       
-          <Tr bg="gray.50">
-            <Td fontWeight="bold">ROGUE</Td>
-            <Td>
-              <HStack spacing={3}>
-                <Image
-                  src={getClassIconPath(
-                    personalityClassGroup.jungianFunctionalPreference.tertiary
-                  )}
-                  alt="class icon"
-                  width={32}
-                  height={32}
-                />
-                <Text fontWeight="bold">
-                  {personalityClassGroup.jungianFunctionalPreference.tertiary}
-                </Text>
-              </HStack>
-            </Td>
-            <Td>
-              <HStack spacing={3}>
-                <Button
-                  size="sm"
-                  colorScheme="blue"
-                  as="a"
-                  href={getPCFilePath(personalityClassGroup.type, "Rogue", "Male")}
-                  download
-                >
-                  Male
-                </Button>
-                
-                <Button
-                  size="sm"
-                  colorScheme="pink"
-                  as="a"
-                  href={getPCFilePath(personalityClassGroup.type, "Rogue", "Female")}
-                  download
-                >
-                  Female
-                </Button>
-              </HStack>
-            </Td>
-          </Tr>
+            <Stack
+              direction={{ base: "column", sm: "row" }}
+              spacing={3}
+            >
+              <Button
+                size="md"
+                colorScheme="blue"
+                as="a"
+                href={getPCFilePath(personalityClassGroup.type, "Fighter", "Male")}
+                download
+              >
+                Male
+              </Button>
       
-          <Tr bg="gray.100">
-            <Td fontWeight="bold">WIZARD</Td>
-            <Td>
-              <HStack spacing={3}>
-                <Image
-                  src={getClassIconPath(
-                    personalityClassGroup.jungianFunctionalPreference.inferior
-                  )}
-                  alt="class icon"
-                  width={32}
-                  height={32}
-                />
-                <Text fontWeight="bold">
-                  {personalityClassGroup.jungianFunctionalPreference.inferior}
-                </Text>
-              </HStack>
-            </Td>
-            <Td>
-              <HStack spacing={3}>
-                <Button
-                  size="sm"
-                  colorScheme="blue"
-                  as="a"
-                  href={getPCFilePath(personalityClassGroup.type, "Wizard", "Male")}
-                  download
-                >
-                  Male
-                </Button>
-                
-                <Button
-                  size="sm"
-                  colorScheme="pink"
-                  as="a"
-                  href={getPCFilePath(personalityClassGroup.type, "Wizard", "Female")}
-                  download
-                >
-                  Female
-                </Button>
-              </HStack>
-            </Td>
-          </Tr>
-        </Tbody>
-      </Table>
+              <Button
+                size="md"
+                colorScheme="pink"
+                as="a"
+                href={getPCFilePath(personalityClassGroup.type, "Fighter", "Female")}
+                download
+              >
+                Female
+              </Button>
+            </Stack>
+      
+          </Stack>
+        </Box>
+      
+        {/* CLERIC CARD */}
+        <Box
+          border="1px solid"
+          borderColor="gray.200"
+          borderRadius="lg"
+          p={4}
+          boxShadow="sm"
+        >
+          <Stack spacing={3}>
+      
+            <Text fontWeight="bold" fontSize="md">
+              CLERIC
+            </Text>
+      
+            <HStack spacing={3}>
+              <Image
+                src={getClassIconPath(
+                  personalityClassGroup.jungianFunctionalPreference.auxiliary
+                )}
+                alt="class icon"
+                width={36}
+                height={36}
+              />
+              <Text fontWeight="bold">
+                {personalityClassGroup.jungianFunctionalPreference.auxiliary}
+              </Text>
+            </HStack>
+      
+            <Stack
+              direction={{ base: "column", sm: "row" }}
+              spacing={3}
+            >
+              <Button
+                size="md"
+                colorScheme="blue"
+                as="a"
+                href={getPCFilePath(personalityClassGroup.type, "Cleric", "Male")}
+                download
+              >
+                Male
+              </Button>
+      
+              <Button
+                size="md"
+                colorScheme="pink"
+                as="a"
+                href={getPCFilePath(personalityClassGroup.type, "Cleric", "Female")}
+                download
+              >
+                Female
+              </Button>
+            </Stack>
+      
+          </Stack>
+        </Box>
+      
+        {/* ROGUE CARD */}
+        <Box
+          border="1px solid"
+          borderColor="gray.200"
+          borderRadius="lg"
+          p={4}
+          boxShadow="sm"
+        >
+          <Stack spacing={3}>
+      
+            <Text fontWeight="bold" fontSize="md">
+              ROGUE
+            </Text>
+      
+            <HStack spacing={3}>
+              <Image
+                src={getClassIconPath(
+                  personalityClassGroup.jungianFunctionalPreference.tertiary
+                )}
+                alt="class icon"
+                width={36}
+                height={36}
+              />
+              <Text fontWeight="bold">
+                {personalityClassGroup.jungianFunctionalPreference.tertiary}
+              </Text>
+            </HStack>
+      
+            <Stack
+              direction={{ base: "column", sm: "row" }}
+              spacing={3}
+            >
+              <Button
+                size="md"
+                colorScheme="blue"
+                as="a"
+                href={getPCFilePath(personalityClassGroup.type, "Rogue", "Male")}
+                download
+              >
+                Male
+              </Button>
+      
+              <Button
+                size="md"
+                colorScheme="pink"
+                as="a"
+                href={getPCFilePath(personalityClassGroup.type, "Rogue", "Female")}
+                download
+              >
+                Female
+              </Button>
+            </Stack>
+      
+          </Stack>
+        </Box>
+      
+        {/* WIZARD CARD */}
+        <Box
+          border="1px solid"
+          borderColor="gray.200"
+          borderRadius="lg"
+          p={4}
+          boxShadow="sm"
+        >
+          <Stack spacing={3}>
+      
+            <Text fontWeight="bold" fontSize="md">
+              WIZARD
+            </Text>
+      
+            <HStack spacing={3}>
+              <Image
+                src={getClassIconPath(
+                  personalityClassGroup.jungianFunctionalPreference.inferior
+                )}
+                alt="class icon"
+                width={36}
+                height={36}
+              />
+              <Text fontWeight="bold">
+                {personalityClassGroup.jungianFunctionalPreference.inferior}
+              </Text>
+            </HStack>
+      
+            <Stack
+              direction={{ base: "column", sm: "row" }}
+              spacing={3}
+            >
+              <Button
+                size="md"
+                colorScheme="blue"
+                as="a"
+                href={getPCFilePath(personalityClassGroup.type, "Wizard", "Male")}
+                download
+              >
+                Male
+              </Button>
+      
+              <Button
+                size="md"
+                colorScheme="pink"
+                as="a"
+                href={getPCFilePath(personalityClassGroup.type, "Wizard", "Female")}
+                download
+              >
+                Female
+              </Button>
+            </Stack>
+      
+          </Stack>
+        </Box>
+      
+      </Stack>
       <Text
         fontSize="md"
         fontWeight="bold"
