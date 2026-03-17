@@ -153,7 +153,7 @@ export default function TestResult(props: TestResultProps) {
         >
           <Stack spacing={3}>
       
-            <Text fontWeight="bold" fontSize="md" textAlign="center">
+            <Text fontWeight="bold" fontSize="lg" textAlign="center">
               FIGHTER OPTION
             </Text>
       
@@ -216,7 +216,7 @@ export default function TestResult(props: TestResultProps) {
         >
           <Stack spacing={3}>
       
-            <Text fontWeight="bold" fontSize="md" textAlign="center">
+            <Text fontWeight="bold" fontSize="lg" textAlign="center">
               CLERIC OPTION
             </Text>
       
@@ -279,7 +279,7 @@ export default function TestResult(props: TestResultProps) {
         >
           <Stack spacing={3}>
       
-            <Text fontWeight="bold" fontSize="md" textAlign="center">
+            <Text fontWeight="bold" fontSize="lg" textAlign="center">
               ROGUE OPTION
             </Text>
       
@@ -342,7 +342,7 @@ export default function TestResult(props: TestResultProps) {
         >
           <Stack spacing={3}>
       
-            <Text fontWeight="bold" fontSize="md" textAlign="center">
+            <Text fontWeight="bold" fontSize="lg" textAlign="center">
               WIZARD OPTION
             </Text>
       
