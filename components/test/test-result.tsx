@@ -234,7 +234,6 @@ export default function TestResult(props: TestResultProps) {
               justify="center"
               align="center"
             >
-            >
               <Button
                 size="md"
                 bg="#99CCFF"
@@ -296,7 +295,6 @@ export default function TestResult(props: TestResultProps) {
               justify="center"
               align="center"
             >
-            >
               <Button
                 size="md"
                 bg="#99CCFF"
@@ -357,7 +355,6 @@ export default function TestResult(props: TestResultProps) {
               spacing={3}
               justify="center"
               align="center"
-            >
             >
               <Button
                 size="md"
