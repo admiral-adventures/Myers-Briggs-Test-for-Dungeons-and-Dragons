@@ -154,7 +154,7 @@ export default function TestResult(props: TestResultProps) {
           <Stack spacing={3}>
       
             <Text fontWeight="bold" fontSize="md" textAlign="center">
-              FIGHTER
+              FIGHTER OPTION
             </Text>
       
             <HStack spacing={3} justify="center">
@@ -185,7 +185,7 @@ export default function TestResult(props: TestResultProps) {
                 href={getPCFilePath(personalityClassGroup.type, "Fighter", "Male")}
                 download
               >
-                Male
+                Download PC (Male)
               </Button>
 
               <Button
@@ -196,7 +196,7 @@ export default function TestResult(props: TestResultProps) {
                 href={getPCFilePath(personalityClassGroup.type, "Fighter", "Female")}
                 download
               >
-                Female
+                Download PC (Female)
               </Button>
             </Stack>
       
@@ -215,7 +215,7 @@ export default function TestResult(props: TestResultProps) {
           <Stack spacing={3}>
       
             <Text fontWeight="bold" fontSize="md" textAlign="center">
-              CLERIC
+              CLERIC OPTION
             </Text>
       
             <HStack spacing={3} justify="center">
@@ -246,7 +246,7 @@ export default function TestResult(props: TestResultProps) {
                 href={getPCFilePath(personalityClassGroup.type, "Cleric", "Male")}
                 download
               >
-                Male
+                Download PC (Male)
               </Button>
       
               <Button
@@ -257,7 +257,7 @@ export default function TestResult(props: TestResultProps) {
                 href={getPCFilePath(personalityClassGroup.type, "Cleric", "Female")}
                 download
               >
-                Female
+                Download PC (Female)
               </Button>
             </Stack>
       
@@ -276,7 +276,7 @@ export default function TestResult(props: TestResultProps) {
           <Stack spacing={3}>
       
             <Text fontWeight="bold" fontSize="md" textAlign="center">
-              ROGUE
+              ROGUE OPTION
             </Text>
       
             <HStack spacing={3} justify="center">
@@ -307,7 +307,7 @@ export default function TestResult(props: TestResultProps) {
                 href={getPCFilePath(personalityClassGroup.type, "Rogue", "Male")}
                 download
               >
-                Male
+                Download PC (Male)
               </Button>
       
               <Button
@@ -318,7 +318,7 @@ export default function TestResult(props: TestResultProps) {
                 href={getPCFilePath(personalityClassGroup.type, "Rogue", "Female")}
                 download
               >
-                Female
+                Download PC (Female)
               </Button>
             </Stack>
       
@@ -337,7 +337,7 @@ export default function TestResult(props: TestResultProps) {
           <Stack spacing={3}>
       
             <Text fontWeight="bold" fontSize="md" textAlign="center">
-              WIZARD
+              WIZARD OPTION
             </Text>
       
             <HStack spacing={3} justify="center">
@@ -368,7 +368,7 @@ export default function TestResult(props: TestResultProps) {
                 href={getPCFilePath(personalityClassGroup.type, "Wizard", "Male")}
                 download
               >
-                Male
+                Download PC (Male)
               </Button>
       
               <Button
@@ -379,7 +379,7 @@ export default function TestResult(props: TestResultProps) {
                 href={getPCFilePath(personalityClassGroup.type, "Wizard", "Female")}
                 download
               >
-                Female
+                Download PC (Female)
               </Button>
             </Stack>
       
