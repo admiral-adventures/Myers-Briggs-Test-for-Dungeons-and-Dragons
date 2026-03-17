@@ -181,6 +181,7 @@ export default function TestResult(props: TestResultProps) {
                 size="md"
                 bg="#99CCFF"
                 color="black"
+                border="2px solid black"
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Fighter", "Male")}
                 download
@@ -192,6 +193,7 @@ export default function TestResult(props: TestResultProps) {
                 size="md"
                 bg="#FFFFCC"
                 color="black"
+                border="2px solid black"               
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Fighter", "Female")}
                 download
@@ -242,6 +244,7 @@ export default function TestResult(props: TestResultProps) {
                 size="md"
                 bg="#99CCFF"
                 color="black"
+                border="2px solid black"  
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Cleric", "Male")}
                 download
@@ -253,6 +256,7 @@ export default function TestResult(props: TestResultProps) {
                 size="md"
                 bg="#FFFFCC"
                 color="black"
+                border="2px solid black"  
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Cleric", "Female")}
                 download
@@ -303,6 +307,7 @@ export default function TestResult(props: TestResultProps) {
                 size="md"
                 bg="#99CCFF"
                 color="black"
+                border="2px solid black"  
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Rogue", "Male")}
                 download
@@ -314,6 +319,7 @@ export default function TestResult(props: TestResultProps) {
                 size="md"
                 bg="#FFFFCC"
                 color="black"
+                border="2px solid black"  
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Rogue", "Female")}
                 download
@@ -364,6 +370,7 @@ export default function TestResult(props: TestResultProps) {
                 size="md"
                 bg="#99CCFF"
                 color="black"
+                border="2px solid black"  
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Wizard", "Male")}
                 download
@@ -375,6 +382,7 @@ export default function TestResult(props: TestResultProps) {
                 size="md"
                 bg="#FFFFCC"
                 color="black"
+                border="2px solid black"  
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Wizard", "Female")}
                 download
