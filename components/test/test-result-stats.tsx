@@ -1,26 +1,37 @@
-import { Flex, Text, Heading } from "@chakra-ui/react";
-import { personalityClasses } from "../../data/personality-classes";
-import { PersonalityClass, TestResult } from "../../lib/personality-test";
+import { Flex, Text, Heading, Box } from "@chakra-ui/react";
+import { TestResult } from "../../lib/personality-test";
 
 interface TestResultStatsProps {
   testResult: TestResult;
 }
 
-function ScoreStats(props: {
-  testScores: PersonalityClass["type"][];
-  targetScore: PersonalityClass["type"];
-  totalQuestions: { [key: string]: number };
+function TraitBar(props: {
+  label: string;
+  count: number;
+  total: number;
+  color: string;
 }) {
-  const totalForPair = props.testScores.filter(
-    (score) => score === props.targetScore
-  ).length;
-  const totalQuestionsForPair = props.totalQuestions[props.targetScore]; // Corrected this line
-  const percentage = ((totalForPair / totalQuestionsForPair) * 100).toFixed(0);
+  const percentage = ((props.count / props.total) * 100).toFixed(0);
 
   return (
-    <Flex py={1} px={2} gap={2} rounded="md" justifyContent="space-between" bg="white">
-      <Text fontWeight="semibold">{percentage}%</Text>
-      <Text>({totalForPair})</Text>
+    <Flex direction="column" w="full" gap={1}>
+      <Text fontWeight="bold" color="black">
+        {props.label} {percentage}%
+      </Text>
+
+      <Box
+        w="100%"
+        h="14px"
+        bg="gray.200"
+        rounded="md"
+        overflow="hidden"
+      >
+        <Box
+          h="100%"
+          bg={`${props.color}.500`}
+          w={`${percentage}%`}
+        />
+      </Box>
     </Flex>
   );
 }
@@ -38,11 +49,24 @@ export default function TestResultStats(props: TestResultStatsProps) {
   };
   const statsColorScheme = ["red", "pink", "blue", "purple", "yellow", "orange", "green", "teal"];
 
+  const traitPairs = [
+    { a: "E", b: "I", colors: ["red", "pink"] },
+    { a: "S", b: "N", colors: ["blue", "purple"] },
+    { a: "T", b: "F", colors: ["yellow", "orange"] },
+    { a: "P", b: "J", colors: ["green", "teal"] },
+  ];
+
+  function countTrait(trait: string) {
+  return props.testResult.testScores.filter(
+    (score) => score === trait
+  ).length;
+}
+  
   return (
     <Flex
       my={4}
       mx={{ base: 0, lg: 4 }}
-      w={{ base: "full", lg: "25%" }}
+      w="full"
       h="min-content"
       p={2}
       gap={4}
@@ -54,25 +78,37 @@ export default function TestResultStats(props: TestResultStatsProps) {
       <Heading as="h1" textAlign="center" fontSize="lg">
         Scores
       </Heading>
-      {personalityClasses.map((personalityClass, index) => (
-        <Flex
-          key={index}
-          p={2}
-          rounded="md"
-          justifyContent="space-between"
-          alignItems="center"
-          bg={`${statsColorScheme[index]}.500`}
-        >
-          <Text fontWeight="semibold" color="white">
-            {personalityClass.description}
-          </Text>
-          <ScoreStats
-            testScores={props.testResult.testScores}
-            targetScore={personalityClass.type}
-            totalQuestions={totalQuestions}
-          />
-        </Flex>
-      ))}
+      {traitPairs.map((pair, index) => {
+        const countA = countTrait(pair.a);
+        const countB = countTrait(pair.b);
+        const total = totalQuestions[pair.a];
+      
+        return (
+          <Box
+            key={index}
+            bg="gray.100"
+            p={3}
+            rounded="md"
+            w="full"
+          >
+            <Flex direction="column" gap={3}>
+              <TraitBar
+                label={pair.a}
+                count={countA}
+                total={total}
+                color={pair.colors[0]}
+              />
+      
+              <TraitBar
+                label={pair.b}
+                count={countB}
+                total={total}
+                color={pair.colors[1]}
+              />
+            </Flex>
+          </Box>
+        );
+      })}
     </Flex>
   );
 }
