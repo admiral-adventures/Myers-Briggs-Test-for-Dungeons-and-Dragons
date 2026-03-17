@@ -140,19 +140,20 @@ export default function TestResult(props: TestResultProps) {
       
         {/* FIGHTER CARD */}
         <Box
-          border="1px solid"
-          borderColor="gray.200"
+          border="1px solid black"
+          bg="gray.100"
           borderRadius="lg"
           p={4}
           boxShadow="sm"
+          textAlign="center"
         >
           <Stack spacing={3}>
       
-            <Text fontWeight="bold" fontSize="md">
+            <Text fontWeight="bold" fontSize="md" textAlign="center">
               FIGHTER
             </Text>
       
-            <HStack spacing={3}>
+            <HStack spacing={3} justify="center">
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.dominant
@@ -169,20 +170,24 @@ export default function TestResult(props: TestResultProps) {
             <Stack
               direction={{ base: "column", sm: "row" }}
               spacing={3}
+              justify="center"
+              align="center"
             >
               <Button
                 size="md"
-                colorScheme="blue"
+                bg="#99CCFF"
+                color="black"
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Fighter", "Male")}
                 download
               >
                 Male
               </Button>
-      
+
               <Button
                 size="md"
-                colorScheme="pink"
+                bg="#FFFFCC"
+                color="black"
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Fighter", "Female")}
                 download
@@ -196,19 +201,20 @@ export default function TestResult(props: TestResultProps) {
       
         {/* CLERIC CARD */}
         <Box
-          border="1px solid"
-          borderColor="gray.200"
+          border="1px solid black"
+          bg="gray.100"
           borderRadius="lg"
           p={4}
           boxShadow="sm"
+          textAlign="center"
         >
           <Stack spacing={3}>
       
-            <Text fontWeight="bold" fontSize="md">
+            <Text fontWeight="bold" fontSize="md" textAlign="center">
               CLERIC
             </Text>
       
-            <HStack spacing={3}>
+            <HStack spacing={3} justify="center">
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.auxiliary
@@ -225,10 +231,14 @@ export default function TestResult(props: TestResultProps) {
             <Stack
               direction={{ base: "column", sm: "row" }}
               spacing={3}
+              justify="center"
+              align="center"
+            >
             >
               <Button
                 size="md"
-                colorScheme="blue"
+                bg="#99CCFF"
+                color="black"
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Cleric", "Male")}
                 download
@@ -238,7 +248,8 @@ export default function TestResult(props: TestResultProps) {
       
               <Button
                 size="md"
-                colorScheme="pink"
+                bg="#FFFFCC"
+                color="black"
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Cleric", "Female")}
                 download
@@ -252,19 +263,20 @@ export default function TestResult(props: TestResultProps) {
       
         {/* ROGUE CARD */}
         <Box
-          border="1px solid"
-          borderColor="gray.200"
+          border="1px solid black"
+          bg="gray.100"
           borderRadius="lg"
           p={4}
           boxShadow="sm"
+          textAlign="center"
         >
           <Stack spacing={3}>
       
-            <Text fontWeight="bold" fontSize="md">
+            <Text fontWeight="bold" fontSize="md" textAlign="center">
               ROGUE
             </Text>
       
-            <HStack spacing={3}>
+            <HStack spacing={3} justify="center">
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.tertiary
@@ -281,10 +293,14 @@ export default function TestResult(props: TestResultProps) {
             <Stack
               direction={{ base: "column", sm: "row" }}
               spacing={3}
+              justify="center"
+              align="center"
+            >
             >
               <Button
                 size="md"
-                colorScheme="blue"
+                bg="#99CCFF"
+                color="black"
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Rogue", "Male")}
                 download
@@ -294,7 +310,8 @@ export default function TestResult(props: TestResultProps) {
       
               <Button
                 size="md"
-                colorScheme="pink"
+                bg="#FFFFCC"
+                color="black"
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Rogue", "Female")}
                 download
@@ -308,19 +325,20 @@ export default function TestResult(props: TestResultProps) {
       
         {/* WIZARD CARD */}
         <Box
-          border="1px solid"
-          borderColor="gray.200"
+          border="1px solid black"
+          bg="gray.100"
           borderRadius="lg"
           p={4}
           boxShadow="sm"
+          textAlign="center"
         >
           <Stack spacing={3}>
       
-            <Text fontWeight="bold" fontSize="md">
+            <Text fontWeight="bold" fontSize="md" textAlign="center">
               WIZARD
             </Text>
       
-            <HStack spacing={3}>
+            <HStack spacing={3} justify="center">
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.inferior
@@ -337,10 +355,14 @@ export default function TestResult(props: TestResultProps) {
             <Stack
               direction={{ base: "column", sm: "row" }}
               spacing={3}
+              justify="center"
+              align="center"
+            >
             >
               <Button
                 size="md"
-                colorScheme="blue"
+                bg="#99CCFF"
+                color="black"
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Wizard", "Male")}
                 download
@@ -350,7 +372,8 @@ export default function TestResult(props: TestResultProps) {
       
               <Button
                 size="md"
-                colorScheme="pink"
+                bg="#FFFFCC"
+                color="black"
                 as="a"
                 href={getPCFilePath(personalityClassGroup.type, "Wizard", "Female")}
                 download
