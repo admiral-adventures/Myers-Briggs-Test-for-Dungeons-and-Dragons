@@ -7,6 +7,17 @@ interface TestResultStatsProps {
 
 type TraitKey = "E" | "I" | "S" | "N" | "T" | "F" | "P" | "J";
 
+const traitNames: Record<TraitKey, string> = {
+  E: "Extroverted",
+  I: "Introverted",
+  S: "Sensing",
+  N: "Intuitive",
+  T: "Thinking",
+  F: "Feeling",
+  P: "Perceiving",
+  J: "Judging",
+};
+
 function TraitBar(props: {
   label: string;
   count: number;
@@ -15,26 +26,34 @@ function TraitBar(props: {
 }) {
   const percentage = ((props.count / props.total) * 100).toFixed(0);
 
-  return (
-    <Flex direction="column" w="full" gap={1}>
-      <Text fontWeight="bold" color="black">
-        {props.label} {percentage}%
-      </Text>
-
-      <Box
-        w="100%"
-        h="14px"
-        bg="gray.200"
-        rounded="md"
-        overflow="hidden"
-      >
-        <Box
-          h="100%"
-          bg={`${props.color}.500`}
-          w={`${percentage}%`}
-        />
-      </Box>
-    </Flex>
+    return (
+      <Flex direction="column" w="full" gap={1}>
+        <Text fontWeight="bold" color="black">
+          {props.label}
+        </Text>
+    
+        <Flex align="center" w="100%" gap={2}>
+          <Box
+            flex="1"
+            h="14px"
+            bg="gray.200"
+            rounded="md"
+            overflow="hidden"
+          >
+            <Box
+              h="100%"
+              bg={`${props.color}.500`}
+              w={`${percentage}%`}
+              rounded="md"
+            />
+          </Box>
+    
+          <Text fontWeight="semibold" minW="40px">
+            {percentage}%
+          </Text>
+        </Flex>
+      </Flex>
+    );
   );
 }
 
@@ -92,17 +111,18 @@ export default function TestResultStats(props: TestResultStatsProps) {
             p={3}
             rounded="md"
             w="full"
+            border="2px solid black"
           >
             <Flex direction="column" gap={3}>
               <TraitBar
-                label={pair.a}
+                label={traitNames[pair.a]}
                 count={countA}
                 total={total}
                 color={pair.colors[0]}
               />
       
               <TraitBar
-                label={pair.b}
+                label={traitNames[pair.b]}
                 count={countB}
                 total={total}
                 color={pair.colors[1]}
