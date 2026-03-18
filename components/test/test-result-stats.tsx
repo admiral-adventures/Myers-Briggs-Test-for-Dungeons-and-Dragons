@@ -27,7 +27,7 @@ function TraitBar(props: {
   const percentage = ((props.count / props.total) * 100).toFixed(0);
 
   return (
-    <Flex direction="column" w="full" gap={0.5}>
+    <Flex direction="column" w="full" gap={0.3}>
       <Text fontWeight="bold" color="black">
         {props.label}
       </Text>
@@ -107,12 +107,12 @@ export default function TestResultStats(props: TestResultStatsProps) {
           <Box
             key={index}
             bg="gray.100"
-            p={2}
+            p={1}
             rounded="md"
             w="full"
             border="2px solid black"
           >
-            <Flex direction="column" gap={2}>
+            <Flex direction="column" gap={1}>
               <TraitBar
                 label={traitNames[pair.a]}
                 count={countA}
