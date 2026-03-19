@@ -185,8 +185,8 @@ return (
                   personalityClassGroup.jungianFunctionalPreference.dominant
                 )}
                 alt="class icon"
-                width={36}
-                height={36}
+                width={14}
+                height={14}
               />
               <Text fontWeight="bold">
                 {personalityClassGroup.jungianFunctionalPreference.dominant}
@@ -230,8 +230,8 @@ return (
                   personalityClassGroup.jungianFunctionalPreference.auxiliary
                 )}
                 alt="class icon"
-                width={36}
-                height={36}
+                width={14}
+                height={14}
               />
               <Text fontWeight="bold">
                 {personalityClassGroup.jungianFunctionalPreference.auxiliary}
@@ -275,8 +275,8 @@ return (
                   personalityClassGroup.jungianFunctionalPreference.tertiary
                 )}
                 alt="class icon"
-                width={36}
-                height={36}
+                width={14}
+                height={14}
               />
               <Text fontWeight="bold">
                 {personalityClassGroup.jungianFunctionalPreference.tertiary}
@@ -320,8 +320,8 @@ return (
                   personalityClassGroup.jungianFunctionalPreference.inferior
                 )}
                 alt="class icon"
-                width={36}
-                height={36}
+                width={14}
+                height={14}
               />
               <Text fontWeight="bold">
                 {personalityClassGroup.jungianFunctionalPreference.inferior}
