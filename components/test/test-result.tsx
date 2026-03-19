@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { useState } from "react";
 import {
   Flex,
   Heading,
@@ -12,7 +10,16 @@ import {
   Button,
   HStack,
   SimpleGrid,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalBody,
+  ModalCloseButton,
+  useDisclosure,
+  Image,
 } from "@chakra-ui/react";
+import { useState } from "react";
 
 import {
   TestResult as ITestResult,
@@ -59,13 +66,28 @@ export default function TestResult(props: TestResultProps) {
   );
   
   const [selectedType, setSelectedType] = useState(initialGroup.type);
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const [selectedRole, setSelectedRole] = useState<string | null>(null);
   
-  const personalityClassGroup =
-    selectedType === initialGroup.type
-      ? initialGroup
-      : getPersonalityClassGroupByType(selectedType);
+const personalityClassGroup =
+  selectedType === initialGroup.type
+    ? initialGroup
+    : getPersonalityClassGroupByType(selectedType);
 
-  return (
+function handleDownload(gender: string) {
+  if (!selectedRole) return;
+
+  const url = getPCFilePath(
+    personalityClassGroup.type,
+    selectedRole,
+    gender
+  );
+
+  window.open(url, "_blank");
+  onClose();
+}
+
+return (
     <Flex
       my={4}
       w={{
@@ -171,36 +193,18 @@ export default function TestResult(props: TestResultProps) {
               </Text>
             </HStack>
       
-            <Stack
-              direction={{ base: "column", sm: "row" }}
-              spacing={3}
-              justify="center"
-              align="center"
+            <Button
+              size="md"
+              bg="#99CCFF"
+              color="black"
+              border="2px solid black"
+              onClick={() => {
+                setSelectedRole("Fighter");
+                onOpen();
+              }}
             >
-              <Button
-                size="md"
-                bg="#99CCFF"
-                color="black"
-                border="2px solid black"
-                as="a"
-                href={getPCFilePath(personalityClassGroup.type, "Fighter", "Male")}
-                download
-              >
-                Download PC (Male)
-              </Button>
-
-              <Button
-                size="md"
-                bg="#FFFFCC"
-                color="black"
-                border="2px solid black"               
-                as="a"
-                href={getPCFilePath(personalityClassGroup.type, "Fighter", "Female")}
-                download
-              >
-                Download PC (Female)
-              </Button>
-            </Stack>
+              Download PC
+            </Button>
       
           </Stack>
         </Box>
@@ -234,36 +238,18 @@ export default function TestResult(props: TestResultProps) {
               </Text>
             </HStack>
       
-            <Stack
-              direction={{ base: "column", sm: "row" }}
-              spacing={3}
-              justify="center"
-              align="center"
+            <Button
+              size="md"
+              bg="#99CCFF"
+              color="black"
+              border="2px solid black"
+              onClick={() => {
+                setSelectedRole("Cleric");
+                onOpen();
+              }}
             >
-              <Button
-                size="md"
-                bg="#99CCFF"
-                color="black"
-                border="2px solid black"  
-                as="a"
-                href={getPCFilePath(personalityClassGroup.type, "Cleric", "Male")}
-                download
-              >
-                Download PC (Male)
-              </Button>
-      
-              <Button
-                size="md"
-                bg="#FFFFCC"
-                color="black"
-                border="2px solid black"  
-                as="a"
-                href={getPCFilePath(personalityClassGroup.type, "Cleric", "Female")}
-                download
-              >
-                Download PC (Female)
-              </Button>
-            </Stack>
+              Download PC
+            </Button>
       
           </Stack>
         </Box>
@@ -297,36 +283,18 @@ export default function TestResult(props: TestResultProps) {
               </Text>
             </HStack>
       
-            <Stack
-              direction={{ base: "column", sm: "row" }}
-              spacing={3}
-              justify="center"
-              align="center"
+            <Button
+              size="md"
+              bg="#99CCFF"
+              color="black"
+              border="2px solid black"
+              onClick={() => {
+                setSelectedRole("Rogue");
+                onOpen();
+              }}
             >
-              <Button
-                size="md"
-                bg="#99CCFF"
-                color="black"
-                border="2px solid black"  
-                as="a"
-                href={getPCFilePath(personalityClassGroup.type, "Rogue", "Male")}
-                download
-              >
-                Download PC (Male)
-              </Button>
-      
-              <Button
-                size="md"
-                bg="#FFFFCC"
-                color="black"
-                border="2px solid black"  
-                as="a"
-                href={getPCFilePath(personalityClassGroup.type, "Rogue", "Female")}
-                download
-              >
-                Download PC (Female)
-              </Button>
-            </Stack>
+              Download PC
+            </Button>
       
           </Stack>
         </Box>
@@ -360,36 +328,18 @@ export default function TestResult(props: TestResultProps) {
               </Text>
             </HStack>
       
-            <Stack
-              direction={{ base: "column", sm: "row" }}
-              spacing={3}
-              justify="center"
-              align="center"
+            <Button
+              size="md"
+              bg="#99CCFF"
+              color="black"
+              border="2px solid black"
+              onClick={() => {
+                setSelectedRole("Wizard");
+                onOpen();
+              }}
             >
-              <Button
-                size="md"
-                bg="#99CCFF"
-                color="black"
-                border="2px solid black"  
-                as="a"
-                href={getPCFilePath(personalityClassGroup.type, "Wizard", "Male")}
-                download
-              >
-                Download PC (Male)
-              </Button>
-      
-              <Button
-                size="md"
-                bg="#FFFFCC"
-                color="black"
-                border="2px solid black"  
-                as="a"
-                href={getPCFilePath(personalityClassGroup.type, "Wizard", "Female")}
-                download
-              >
-                Download PC (Female)
-              </Button>
-            </Stack>
+              Download PC
+            </Button>
       
           </Stack>
         </Box>
@@ -1132,6 +1082,35 @@ export default function TestResult(props: TestResultProps) {
       >
         ☕️
       </Button>
+
+      <Modal isOpen={isOpen} onClose={onClose} isCentered>
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>Select Character Version</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody pb={6}>
+            <Stack spacing={4}>
+              <Button
+                onClick={() => handleDownload("Male")}
+                bg="#99CCFF"
+                color="black"
+                border="2px solid black"
+              >
+                Male
+              </Button>
+      
+              <Button
+                onClick={() => handleDownload("Female")}
+                bg="#FFFFCC"
+                color="black"
+                border="2px solid black"
+              >
+                Female
+              </Button>
+            </Stack>
+          </ModalBody>
+        </ModalContent>
+      </Modal>  
     </Flex>
   );
 }
