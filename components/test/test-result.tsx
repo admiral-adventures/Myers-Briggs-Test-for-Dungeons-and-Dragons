@@ -1086,7 +1086,11 @@ return (
       <Modal isOpen={isOpen} onClose={onClose} isCentered>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Select Character Version</ModalHeader>
+          <ModalHeader>
+            {selectedRole
+              ? `Select ${selectedRole} Character Version`
+              : "Select Character Version"}
+          </ModalHeader>
           <ModalCloseButton />
           <ModalBody pb={6}>
             <Stack spacing={4}>
