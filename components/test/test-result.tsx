@@ -425,11 +425,13 @@ return (
       </Text>
 
       <Button
-        mt={2}
-        colorScheme="blue"
+        size="md"
+        bg="#99CCFF"
+        color="black"
+        border="2px solid black"
         onClick={() => window.open("https://buymeacoffee.com/admiraladventures", "_blank")}
       >
-        ☕️
+        Buy Me a Coffee ☕️
       </Button>
       <Heading
         scrollMarginTop={8}
