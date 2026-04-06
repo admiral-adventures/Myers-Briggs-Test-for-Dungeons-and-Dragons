@@ -401,8 +401,10 @@ return (
       </SimpleGrid>
 
       <Button
-        mt={4}
-        colorScheme="purple"
+        size="md"
+        bg="#99CCFF"
+        color="black"
+        border="2px solid black"
         onClick={() => {
           setCarouselImages(getCarouselImages());
           setCurrentImageIndex(0);
