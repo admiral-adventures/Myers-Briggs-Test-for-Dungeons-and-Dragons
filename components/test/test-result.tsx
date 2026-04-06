@@ -1205,33 +1205,48 @@ return (
           <ModalHeader color="white" textAlign="center">
             Character Summaries
             </ModalHeader>
-          <ModalCloseButton />
+          <ModalCloseButton
+            color="white"
+            bg="rgba(0, 0, 0, 0.6)"
+            borderRadius="full"
+            size="lg"
+            _hover={{
+              bg: "rgba(255, 255, 255, 0.2)",
+            }}
+          />
 
           <ModalBody pb={6}>
             <Stack spacing={4} align="center">
-              <Image
-                src={carouselImages[currentImageIndex]}
-                alt="Character Summary"
+              <Box
+                overflow="auto"
                 maxH="85vh"
-                maxW="95vw"
-                objectFit="contain"
-                userSelect="none"
-                onTouchStart={(e) => setTouchStartX(e.touches[0].clientX)}
-                onTouchEnd={(e) => {
-                  if (touchStartX === null) return;
-
-                  const touchEndX = e.changedTouches[0].clientX;
-                  const diff = touchStartX - touchEndX;
-
-                  if (diff > 50) {
-                    handleNextImage();
-                  } else if (diff < -50) {
-                    handlePreviousImage();
-                  }
-
-                  setTouchStartX(null);
-                }}
-              />
+                maxW="100%"
+                touchAction="pan-x pan-y pinch-zoom"
+              >
+                <Image
+                  src={carouselImages[currentImageIndex]}
+                  alt="Character art"
+                  maxH="85vh"
+                  maxW="95vw"
+                  objectFit="contain"
+                  userSelect="none"
+                  onTouchStart={(e) => setTouchStartX(e.touches[0].clientX)}
+                  onTouchEnd={(e) => {
+                    if (touchStartX === null) return;
+              
+                    const touchEndX = e.changedTouches[0].clientX;
+                    const diff = touchStartX - touchEndX;
+              
+                    if (diff > 50) {
+                      handleNextImage();
+                    } else if (diff < -50) {
+                      handlePreviousImage();
+                    }
+              
+                    setTouchStartX(null);
+                  }}
+                />
+              </Box>
 
               <HStack spacing={2}>
                 {carouselImages.map((_, index) => (
