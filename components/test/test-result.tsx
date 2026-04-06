@@ -76,6 +76,7 @@ export default function TestResult(props: TestResultProps) {
 
   const [carouselImages, setCarouselImages] = useState<string[]>([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [touchStartX, setTouchStartX] = useState<number | null>(null);
   
 const personalityClassGroup =
   selectedType === initialGroup.type
@@ -1182,20 +1183,51 @@ return (
         </ModalContent>
       </Modal>  
 
-      <Modal isOpen={isCarouselOpen} onClose={onCarouselClose} isCentered size="xl">
+      <Modal isOpen={isCarouselOpen} onClose={onCarouselClose} size="full">
         <ModalOverlay />
-        <ModalContent>
-          <ModalHeader>Character Art Preview</ModalHeader>
+        <ModalContent bg="black">
+          <ModalHeader color="white">Character Summaries</ModalHeader>
           <ModalCloseButton />
 
           <ModalBody pb={6}>
             <Stack spacing={4} align="center">
               <Image
                 src={carouselImages[currentImageIndex]}
-                alt="Character art"
-                maxH="500px"
+                alt="Character Summary"
+                maxH="85vh"
+                maxW="95vw"
                 objectFit="contain"
+                userSelect="none"
+                onTouchStart={(e) => setTouchStartX(e.touches[0].clientX)}
+                onTouchEnd={(e) => {
+                  if (touchStartX === null) return;
+
+                  const touchEndX = e.changedTouches[0].clientX;
+                  const diff = touchStartX - touchEndX;
+
+                  if (diff > 50) {
+                    handleNextImage();
+                  } else if (diff < -50) {
+                    handlePreviousImage();
+                  }
+
+                  setTouchStartX(null);
+                }}
               />
+
+              <HStack spacing={2}>
+                {carouselImages.map((_, index) => (
+                  <Box
+                    key={index}
+                    w="10px"
+                    h="10px"
+                    borderRadius="full"
+                    bg={index === currentImageIndex ? "white" : "gray.500"}
+                    cursor="pointer"
+                    onClick={() => setCurrentImageIndex(index)}
+                  />
+                ))}
+              </HStack>
 
               <HStack spacing={6}>
                 <Button
