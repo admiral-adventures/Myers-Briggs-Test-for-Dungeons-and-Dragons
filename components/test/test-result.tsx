@@ -1215,70 +1215,64 @@ return (
             }}
           />
 
-          <ModalBody pb={6}>
-            <Stack spacing={4} align="center">
-              <Box
-                overflow="auto"
-                maxH="85vh"
-                maxW="100%"
-                style={{ touchAction: "pan-x pan-y pinch-zoom" }}
-              >
-                <Image
-                  src={carouselImages[currentImageIndex]}
-                  alt="Character art"
-                  maxH="85vh"
-                  maxW="95vw"
-                  objectFit="contain"
-                  userSelect="none"
-                  onTouchStart={(e) => setTouchStartX(e.touches[0].clientX)}
-                  onTouchEnd={(e) => {
-                    if (touchStartX === null) return;
-              
-                    const touchEndX = e.changedTouches[0].clientX;
-                    const diff = touchStartX - touchEndX;
-              
-                    if (diff > 50) {
-                      handleNextImage();
-                    } else if (diff < -50) {
-                      handlePreviousImage();
-                    }
-              
-                    setTouchStartX(null);
-                  }}
-                />
-              </Box>
+<ModalBody pb={6}>
+  <Stack spacing={4} align="center">
+    <Box
+      overflow="auto"
+      maxH="85vh"
+      maxW="100%"
+      style={{ touchAction: "pan-x pan-y pinch-zoom" }}
+    >
+      <Image
+        src={carouselImages[currentImageIndex]}
+        alt="Character art"
+        maxH="85vh"
+        maxW="95vw"
+        objectFit="contain"
+        userSelect="none"
+        onTouchStart={(e) => setTouchStartX(e.touches[0].clientX)}
+        onTouchEnd={(e) => {
+          if (touchStartX === null) return;
 
-              <HStack spacing={2}>
-                {carouselImages.map((_, index) => (
-                  <Box
-                    key={index}
-                    w="10px"
-                    h="10px"
-                    borderRadius="full"
-                    bg={index === currentImageIndex ? "white" : "gray.500"}
-                    cursor="pointer"
-                    onClick={() => setCurrentImageIndex(index)}
-                  />
-                ))}
-              </HStack>
+          const touchEndX = e.changedTouches[0].clientX;
+          const diff = touchStartX - touchEndX;
 
-              <HStack spacing={6}>
-                <Button
-                  onClick={handlePreviousImage}
-                  colorScheme="gray"
-                >
-                  ← Previous
-                </Button>
+          if (diff > 50) {
+            handleNextImage();
+          } else if (diff < -50) {
+            handlePreviousImage();
+          }
 
-                <Button
-                  onClick={handleNextImage}
-                  colorScheme="blue"
-                >
-                  Next →
-                </Button>
-              </HStack>
-            </Stack>
-          </ModalBody>
+          setTouchStartX(null);
+        }}
+      />
+    </Box>
+
+    <HStack spacing={2}>
+      {carouselImages.map((_, index) => (
+        <Box
+          key={index}
+          w="10px"
+          h="10px"
+          borderRadius="full"
+          bg={index === currentImageIndex ? "white" : "gray.500"}
+          cursor="pointer"
+          onClick={() => setCurrentImageIndex(index)}
+        />
+      ))}
+    </HStack>
+
+    <HStack spacing={6}>
+      <Button onClick={handlePreviousImage} colorScheme="gray">
+        ← Previous
+      </Button>
+
+      <Button onClick={handleNextImage} colorScheme="blue">
+        Next →
+      </Button>
+    </HStack>
+  </Stack>
+</ModalBody>
         </ModalContent>
       </Modal>
     </Flex>
