@@ -68,11 +68,47 @@ export default function TestResult(props: TestResultProps) {
   const [selectedType, setSelectedType] = useState(initialGroup.type);
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [selectedRole, setSelectedRole] = useState<string | null>(null);
+
+  const [carouselImages, setCarouselImages] = useState<string[]>([]);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
 const personalityClassGroup =
   selectedType === initialGroup.type
     ? initialGroup
     : getPersonalityClassGroupByType(selectedType);
+
+function getCarouselImages() {
+  const type = personalityClassGroup.type;
+
+  const typeOrder = [
+    "ESFP",
+    "ESTP",
+    "ISFP",
+    "ISTP",
+    "ESFJ",
+    "ESTJ",
+    "ISFJ",
+    "ISTJ",
+    "ENFP",
+    "ENFJ",
+    "INFP",
+    "INFJ",
+    "ENTP",
+    "ENTJ",
+    "INTP",
+    "INTJ",
+  ];
+
+  const classOrder = ["Fighter", "Cleric", "Rogue", "Wizard"];
+
+  const typeIndex = typeOrder.indexOf(type);
+
+  return classOrder.map((role, roleIndex) => {
+    const imageNumber = String(typeIndex * 4 + roleIndex + 1).padStart(2, "0");
+
+    return `/Summary/${imageNumber}-${type}-${role}.JPG`;
+  });
+}
 
 function handleDownload(gender: string) {
   if (!selectedRole) return;
@@ -345,6 +381,18 @@ return (
         </Box>
       
       </SimpleGrid>
+
+     <Button
+      mt={4}
+      colorScheme="purple"
+      onClick={() => {
+        setCarouselImages(getCarouselImages());
+        setCurrentImageIndex(0);
+      }}
+    >
+      View Character Gallery
+    </Button>         
+
       <Text
         fontSize="md"
         fontWeight="bold"
