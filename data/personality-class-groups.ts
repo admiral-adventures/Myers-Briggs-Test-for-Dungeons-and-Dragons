@@ -4,15 +4,15 @@ export const personalityClassGroup: PersonalityClassGroup[] = [
   {
     type: "ENFJ",
     name: "The Protagonist",
-    nameDescription: "“When the whole world is silent, even one voice becomes powerful.” - Malala Yousafzai",
+    nameDescription: "“The best way to find yourself is to lose yourself in the service of others.” - Mahatma Gandhi",
     epithet: "Extroverted iNtuitive Feeling Judging",
-    description: `Protagonists (ENFJs) feel called to serve a greater purpose in life. Thoughtful and idealistic, these personality types strive to have a positive impact on other people and the world around them. They rarely shy away from an opportunity to do the right thing, even when doing so is far from easy.
-Protagonists are born leaders, which explains why these personalities can be found among many notable politicians, coaches, and teachers. Their passion and charisma allow them to inspire others not just in their careers but in every arena of their lives, including their relationships. Few things bring Protagonists a deeper sense of joy and fulfillment than guiding friends and loved ones to grow into their best selves.`,
+    description: `Protagonists (ENFJs) don’t just talk about making the world better—they believe it’s possible. Passionate, driven, and idealistic, ENFJs feel a deep sense of responsibility to uplift others and guide them toward something greater. Whether they’re mentoring a friend, organizing a community event, or inspiring change on a global stage, these natural-born leaders are fueled by vision and heart.
+At their best, Protagonists are shining examples of what it means to live with integrity. They strive to lead by example—not for attention or recognition, but because they truly care. They care about people, they care about justice, and they care about living a life that aligns with their values.`,
     jungianFunctionalPreference: {
-      dominant: "PALADIN - Oath of the Crown",
-      auxiliary: "CLERIC - Knowledge Domain",
-      tertiary: "BARD - College of Swords",
-      inferior: "WIZARD - Evocation",
+      dominant: "PALADIN (Oath of the Crown)",
+      auxiliary: "CLERIC (Knowledge Domain)",
+      tertiary: "BARD (College of Swords)",
+      inferior: "WIZARD (Evocation)",
     },
     generalTraits: [
       "Daenerys Targaryen - Game of Thrones",
@@ -22,18 +22,18 @@ Protagonists are born leaders, which explains why these personalities can be fou
       "Padme Amidala - Star Wars",      
     ],
     relationshipStrengths: [
-      "RECEPTIVE – Protagonists have strong opinions, but they’re far from closed-minded. They recognize the importance of allowing others to express themselves fully. Even when Protagonists don’t agree with someone, they recognize that person’s right to voice their truth.",
-      "RELIABLE – Few things bother Protagonists more than the prospect of letting down a person or cause that they believe in. People with this personality type can be counted on to see their promises and responsibilities through – even when it’s difficult to do so.",
-      "PASSIONATE – Protagonists are far from being boring do-gooders. These types brim with interests, and they take great pleasure in pursuing their hobbies – whether that’s hiking, cooking, dancing, growing houseplants, or something else entirely. As a result, they rarely find themselves at a loss for something interesting to do.",
-      "ALTRUISTIC – These personalities are known for harboring a deep desire to be a force for positive change. Protagonists genuinely believe that if they bring people together, they can do a world of good.",
-      "CHARISMATIC – Determined and inspiring, Protagonists often find their way into leadership roles. Whether they’re captain of their softball team or a leader on the world stage, they rarely lose sight of their main goal: to be of service to others.",
+      "RECEPTIVE. ENFJs have strong opinions, but they listen. They know how to create space for others’ voices, even when they disagree.",
+      "RELIABLE. If they say they’ll be there, they will be. Protagonists take their commitments seriously and can be counted on when it matters most.",
+      "PASSIONATE. These aren’t passive leaders. ENFJs brim with energy and enthusiasm for life, often juggling careers, causes, hobbies, and friendships—all with heart..",
+      "ALTRUISTIC. Protagonists are fueled by purpose. They believe in using their strengths to serve others and build a better world.",
+      "CHARISMATIC. Whether it’s a pep talk in the kitchen or a speech in front of a crowd, ENFJs command attention—and inspire action—with their warmth and authenticity.",
     ],
     relationshipWeaknesses: [
-      "UNREALISTIC – Many Protagonists put pressure on themselves to right every wrong that they encounter. But no matter how hard these personalities strive, it just isn’t realistic for them to solve all of the world’s problems. If they aren’t careful, they can spread themselves too thin – and be left unable to help anyone.",
-      "OVERLY IDEALISTIC – Protagonists tend to have clear ideas about what’s right and what’s wrong. They often think that everyone shares these fundamental principles – or, at least, that everyone should share these principles. So it can come as a genuine shock to Protagonists when people violate their core values, such as truth or justice.",
-      "CONDESCENDING – People with this personality type enjoy teaching others, particularly about the causes and beliefs that matter so much to them. But, at times, Protagonists’ attempts to “enlighten” others may come across as patronizing – not the most effective strategy for persuading other people, unfortunately",
-      "INTENSE – When it comes to self-improvement, Protagonists are rarely short on energy or determination. But they may not recognize that not everyone shares these qualities. At times, Protagonists may push others to make changes that they aren’t ready for – or simply aren’t interested in making in the first place.",
-      "OVERLY EMPATHETIC – Compassion is among this personality type’s greatest strengths. But Protagonists have a tendency to take on other people’s problems as their own – a habit that can leave them emotionally and physically exhausted.",
+      "UNREALISTIC. ENFJs set high standards for themselves—and sometimes, impossibly high expectations for what they can do or fix. They risk burnout when they try to carry the weight of the world.",
+      "OVERLY IDEALISTIC. It’s jarring for Protagonists when others don’t share their values. Betrayals of honesty or fairness can feel deeply personal.",
+      "CONDESCENDING. Their desire to help can occasionally veer into territory that feels patronizing. Not everyone wants to be 'guided'— even with the best intentions.",
+      "INTENSE. Protagonists bring a powerful emotional force to their interactions. But not everyone can match their energy or desire for growth, which can lead to frustration or miscommunication.",
+      "OVERLY EMPATHETIC. ENFJs don’t just understand what others feel—they feel it, too. Without clear emotional boundaries, they risk losing themselves in other people’s struggles.",
     ],
     successDefinition: `1. LEADING THE WAY -  I am a devoted altruists, ready to face slings and arrows in order to stand up for the people and ideas that I believe in. This strength of conviction bolsters my innate leadership skills, particularly my ability to guide people to work together in service of the greater good.
 2. GETTING INVOLVED - I am a genuine, caring person who talks the talk and walks the walk. Nothing makes me happier than motivating other people to do what’s right.  When I care about someone, I want to help solve that person’s problems – sometimes at any cost. The good news is that many people are grateful for my assistance and advice. After all, there’s a reason that these I have a reputation for helping others improve their lives.
