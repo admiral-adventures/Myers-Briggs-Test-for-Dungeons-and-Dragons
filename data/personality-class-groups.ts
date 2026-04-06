@@ -9,10 +9,10 @@ export const personalityClassGroup: PersonalityClassGroup[] = [
     description: `Protagonists (ENFJs) don’t just talk about making the world better—they believe it’s possible. Passionate, driven, and idealistic, ENFJs feel a deep sense of responsibility to uplift others and guide them toward something greater. Whether they’re mentoring a friend, organizing a community event, or inspiring change on a global stage, these natural-born leaders are fueled by vision and heart.
 At their best, Protagonists are shining examples of what it means to live with integrity. They strive to lead by example—not for attention or recognition, but because they truly care. They care about people, they care about justice, and they care about living a life that aligns with their values.`,
     jungianFunctionalPreference: {
-      dominant: "PALADIN (Oath of the Crown)",
-      auxiliary: "CLERIC (Knowledge Domain)",
-      tertiary: "BARD (College of Swords)",
-      inferior: "WIZARD (Evocation)",
+      dominant: "PALADIN - Oath of the Crown",
+      auxiliary: "CLERIC - Knowledge Domain",
+      tertiary: "BARD - College of Swords",
+      inferior: "WIZARD - Evocation",
     },
     generalTraits: [
       "Daenerys Targaryen - Game of Thrones",
