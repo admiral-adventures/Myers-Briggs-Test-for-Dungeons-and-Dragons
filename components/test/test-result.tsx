@@ -13,7 +13,7 @@ import {
   Modal,
   ModalOverlay,
   ModalContent,
-  ModalHeader,
+  ModalHeader,touchAction
   ModalBody,
   ModalCloseButton,
   useDisclosure,
@@ -1221,7 +1221,7 @@ return (
                 overflow="auto"
                 maxH="85vh"
                 maxW="100%"
-                touchAction="pan-x pan-y pinch-zoom"
+                style={{ touchAction: "pan-x pan-y pinch-zoom" }}
               >
                 <Image
                   src={carouselImages[currentImageIndex]}
