@@ -1202,7 +1202,9 @@ return (
       <Modal isOpen={isCarouselOpen} onClose={onCarouselClose} size="full">
         <ModalOverlay />
         <ModalContent bg="black">
-          <ModalHeader color="white">Character Summaries</ModalHeader>
+          <ModalHeader color="white" textAlign="center>
+            Character Summaries
+            </ModalHeader>
           <ModalCloseButton />
 
           <ModalBody pb={6}>
