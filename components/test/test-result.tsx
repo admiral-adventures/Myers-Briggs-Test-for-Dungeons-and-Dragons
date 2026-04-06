@@ -13,7 +13,7 @@ import {
   Modal,
   ModalOverlay,
   ModalContent,
-  ModalHeader,touchAction
+  ModalHeader,
   ModalBody,
   ModalCloseButton,
   useDisclosure,
