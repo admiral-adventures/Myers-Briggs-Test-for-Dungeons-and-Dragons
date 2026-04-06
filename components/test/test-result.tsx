@@ -965,16 +965,20 @@ return (
         </UnorderedList>
       )}
       <Button
-        mt={2} // Margin top for spacing
-        colorScheme="blue" // Use Chakra UI color scheme for light blue
+        size="md"
+        bg="#99CCFF"
+        color="black"
+        border="2px solid black"
         onClick={() => window.open(`https://admiraladventures.com/-pre-gen-characters#${personalityClassGroup.type}`, "_blank")
 }
       >
         Download Character Sheet
       </Button>
       <Button
-        mt={2} // Margin top for spacing
-        colorScheme="blue" // Use Chakra UI color scheme for light blue
+        size="md"
+        bg="#99CCFF"
+        color="black"
+        border="2px solid black"
         onClick={() => window.location.href = MailtoLinkForTestResult(props.testResult, personalityClassGroup)}
       >
         Email Results
@@ -1006,8 +1010,10 @@ return (
           </Text>
         ))}
       <Button
-        mt={2} // Margin top for spacing
-        colorScheme="blue" // Use Chakra UI color scheme for light blue
+        size="md"
+        bg="#99CCFF"
+        color="black"
+        border="2px solid black"
         onClick={() => window.open("https://admiraladventures.com", "_blank")}
       >
         Visit Our Website
@@ -1035,8 +1041,10 @@ return (
           </Text>
         ))}
       <Button
-        mt={2} // Margin top for spacing
-        colorScheme="blue" // Use Chakra UI color scheme for light blue
+        size="md"
+        bg="#99CCFF"
+        color="black"
+        border="2px solid black"
         onClick={() => window.open("https://startplaying.games/gm/admiral-adventures", "_blank")}
       >
         Book a Session
@@ -1064,8 +1072,10 @@ return (
           </Text>
         ))}
             <Button
-        mt={2} // Margin top for spacing
-        colorScheme="blue" // Use Chakra UI color scheme for light blue
+        size="md"
+        bg="#99CCFF"
+        color="black"
+        border="2px solid black"
         onClick={() => window.open("https://www.linkedin.com/in/brody-berkhout/", "_blank")}
       >
         LinkedIn Profile
@@ -1147,11 +1157,13 @@ return (
         ))}
       </UnorderedList>
       <Button
-        mt={2} // Margin top for spacing
-        colorScheme="blue" // Use Chakra UI color scheme for light blue
+        size="md"
+        bg="#99CCFF"
+        color="black"
+        border="2px solid black"
         onClick={() => window.open("https://buymeacoffee.com/admiraladventures", "_blank")}
       >
-        ☕️
+        Buy Me a Coffee ☕️
       </Button>
 
       <Modal isOpen={isOpen} onClose={onClose} isCentered>
