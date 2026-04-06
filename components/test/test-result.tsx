@@ -66,7 +66,12 @@ export default function TestResult(props: TestResultProps) {
   );
   
   const [selectedType, setSelectedType] = useState(initialGroup.type);
-  const { isOpen, onOpen, onClose } = useDisclosure();
+ const { isOpen, onOpen, onClose } = useDisclosure();
+  const {
+    isOpen: isCarouselOpen,
+    onOpen: onCarouselOpen,
+    onClose: onCarouselClose,
+  } = useDisclosure();
   const [selectedRole, setSelectedRole] = useState<string | null>(null);
 
   const [carouselImages, setCarouselImages] = useState<string[]>([]);
@@ -108,6 +113,18 @@ function getCarouselImages() {
 
     return `/Summary/${imageNumber}-${type}-${role}.JPG`;
   });
+}
+
+function handleNextImage() {
+  setCurrentImageIndex((prev) =>
+    prev === carouselImages.length - 1 ? 0 : prev + 1
+  );
+}
+
+function handlePreviousImage() {
+  setCurrentImageIndex((prev) =>
+    prev === 0 ? carouselImages.length - 1 : prev - 1
+  );
 }
 
 function handleDownload(gender: string) {
@@ -382,16 +399,17 @@ return (
       
       </SimpleGrid>
 
-     <Button
-      mt={4}
-      colorScheme="purple"
-      onClick={() => {
-        setCarouselImages(getCarouselImages());
-        setCurrentImageIndex(0);
-      }}
-    >
-      View Character Gallery
-    </Button>         
+      <Button
+        mt={4}
+        colorScheme="purple"
+        onClick={() => {
+          setCarouselImages(getCarouselImages());
+          setCurrentImageIndex(0);
+          onCarouselOpen();
+        }}
+      >
+        View Character Gallery
+      </Button>       
 
       <Text
         fontSize="md"
@@ -1163,6 +1181,41 @@ return (
           </ModalBody>
         </ModalContent>
       </Modal>  
+
+      <Modal isOpen={isCarouselOpen} onClose={onCarouselClose} isCentered size="xl">
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>Character Art Preview</ModalHeader>
+          <ModalCloseButton />
+
+          <ModalBody pb={6}>
+            <Stack spacing={4} align="center">
+              <Image
+                src={carouselImages[currentImageIndex]}
+                alt="Character art"
+                maxH="500px"
+                objectFit="contain"
+              />
+
+              <HStack spacing={6}>
+                <Button
+                  onClick={handlePreviousImage}
+                  colorScheme="gray"
+                >
+                  ← Previous
+                </Button>
+
+                <Button
+                  onClick={handleNextImage}
+                  colorScheme="blue"
+                >
+                  Next →
+                </Button>
+              </HStack>
+            </Stack>
+          </ModalBody>
+        </ModalContent>
+      </Modal>
     </Flex>
   );
 }
