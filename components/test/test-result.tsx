@@ -1202,7 +1202,7 @@ return (
       <Modal isOpen={isCarouselOpen} onClose={onCarouselClose} size="full">
         <ModalOverlay />
         <ModalContent bg="black">
-          <ModalHeader color="white" textAlign="center>
+          <ModalHeader color="white" textAlign="center">
             Character Summaries
             </ModalHeader>
           <ModalCloseButton />
