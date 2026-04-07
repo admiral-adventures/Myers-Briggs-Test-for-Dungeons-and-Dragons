@@ -1222,6 +1222,25 @@ return (
       maxH="85vh"
       maxW="100%"
       style={{ touchAction: "pan-x pan-y pinch-zoom" }}
+      onTouchStart={(e) => {
+        if (e.touches.length === 1) {
+          setTouchStartX(e.touches[0].clientX);
+        }
+      }}
+      onTouchEnd={(e) => {
+        if (touchStartX === null) return;
+    
+        const touchEndX = e.changedTouches[0].clientX;
+        const diff = touchStartX - touchEndX;
+    
+        if (diff > 50) {
+          handleNextImage();
+        } else if (diff < -50) {
+          handlePreviousImage();
+        }
+    
+        setTouchStartX(null);
+      }}
     >
       <Image
         src={carouselImages[currentImageIndex]}
@@ -1230,21 +1249,6 @@ return (
         maxW="95vw"
         objectFit="contain"
         userSelect="none"
-        onTouchStart={(e) => setTouchStartX(e.touches[0].clientX)}
-        onTouchEnd={(e) => {
-          if (touchStartX === null) return;
-
-          const touchEndX = e.changedTouches[0].clientX;
-          const diff = touchStartX - touchEndX;
-
-          if (diff > 50) {
-            handleNextImage();
-          } else if (diff < -50) {
-            handlePreviousImage();
-          }
-
-          setTouchStartX(null);
-        }}
       />
     </Box>
 
