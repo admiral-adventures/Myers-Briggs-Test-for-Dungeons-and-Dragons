@@ -76,6 +76,7 @@ export default function TestResult(props: TestResultProps) {
 
   const [carouselImages, setCarouselImages] = useState<string[]>([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [isZoomed, setIsZoomed] = useState(false);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
   
 const personalityClassGroup =
@@ -120,12 +121,14 @@ function handleNextImage() {
   setCurrentImageIndex((prev) =>
     prev === carouselImages.length - 1 ? 0 : prev + 1
   );
+  setIsZoomed(false);
 }
 
 function handlePreviousImage() {
   setCurrentImageIndex((prev) =>
     prev === 0 ? carouselImages.length - 1 : prev - 1
   );
+  setIsZoomed(false);
 }
 
 function handleDownload(gender: string) {
@@ -1245,10 +1248,15 @@ return (
       <Image
         src={carouselImages[currentImageIndex]}
         alt="Character art"
-        maxH="85vh"
-        maxW="95vw"
+        maxH={isZoomed ? "none" : "85vh"}
+        maxW={isZoomed ? "none" : "95vw"}
         objectFit="contain"
         userSelect="none"
+        cursor="zoom-in"
+        transform={isZoomed ? "scale(2)" : "scale(1)"}
+        transformOrigin="center"
+        transition="transform 0.2s ease"
+        onClick={() => setIsZoomed((prev) => !prev)}
       />
     </Box>
 
@@ -1261,7 +1269,10 @@ return (
           borderRadius="full"
           bg={index === currentImageIndex ? "white" : "gray.500"}
           cursor="pointer"
-          onClick={() => setCurrentImageIndex(index)}
+          onClick={() => {
+            setCurrentImageIndex(index);
+            setIsZoomed(false);
+          }}
         />
       ))}
     </HStack>
