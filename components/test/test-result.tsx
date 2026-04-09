@@ -120,7 +120,6 @@ function handleNextImage() {
   setCurrentImageIndex((prev) =>
     prev === carouselImages.length - 1 ? 0 : prev + 1
   );
-  setIsZoomed(false);
 }
 
 function handlePreviousImage() {
