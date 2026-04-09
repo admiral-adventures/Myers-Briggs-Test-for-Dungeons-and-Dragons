@@ -19,7 +19,7 @@ import {
   useDisclosure,
   Image,
 } from "@chakra-ui/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import {
   TestResult as ITestResult,
@@ -76,6 +76,7 @@ export default function TestResult(props: TestResultProps) {
 
   const [carouselImages, setCarouselImages] = useState<string[]>([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [isMobileCarousel, setIsMobileCarousel] = useState(false);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
   
 const personalityClassGroup =
@@ -83,6 +84,17 @@ const personalityClassGroup =
     ? initialGroup
     : getPersonalityClassGroupByType(selectedType);
 
+useEffect(() => {
+  const checkMobile = () => {
+    setIsMobileCarousel(window.innerWidth <= 768);
+  };
+
+  checkMobile();
+  window.addEventListener("resize", checkMobile);
+
+  return () => window.removeEventListener("resize", checkMobile);
+}, []);
+  
 function getCarouselImages() {
   const type = personalityClassGroup.type;
 
@@ -112,7 +124,9 @@ function getCarouselImages() {
   return classOrder.map((role, roleIndex) => {
     const imageNumber = String(typeIndex * 4 + roleIndex + 1).padStart(2, "0");
 
-    return `/Summary/${imageNumber}-${type}-${role}.JPG`;
+    const mobileSuffix = isMobileCarousel ? "-Mobile" : "";
+
+    return `/Summary/${imageNumber}-${type}-${role}${mobileSuffix}.JPG`;
   });
 }
 
