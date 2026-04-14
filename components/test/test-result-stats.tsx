@@ -24,7 +24,10 @@ function TraitBar(props: {
   total: number;
   color: string;
 }) {
-  const percentage = ((props.count / props.total) * 100).toFixed(0);
+  const percentage =
+    props.total === 0
+      ? "0"
+      : ((props.count / props.total) * 100).toFixed(0);
 
   return (
     <Flex direction="column" w="full" gap={0.3}>
