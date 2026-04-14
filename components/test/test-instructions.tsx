@@ -38,32 +38,32 @@ export default function TestInstructions(props: TestInstructionsProps) {
            {" "}
             <Text as="span" fontWeight="semibold">
             Answer by instinct.
-            </Text>{" "} . Choose the response that feels most natural in the moment, even if it is not the “best” tactical choice.
+            </Text>{" "} Choose the response that feels most natural in the moment, even if it is not the “best” tactical choice.
           </ListItem>
           <ListItem>
            {" "}
             <Text as="span" fontWeight="semibold">
             Step into the viewpoint given in the question.
-            </Text>{" "} . Some scenes place you as the party’s strategist, while others ask what you would do in Lyra’s, Brom’s, Maeve’s, or 
+            </Text>{" "} Some scenes place you as the party’s strategist, while others ask what you would do in Lyra’s, Brom’s, Maeve’s, or 
             Theron’s position. Answer from that stated point of view only.
           </ListItem>
           <ListItem>
            {" "}
             <Text as="span" fontWeight="semibold">
             Do not build a character in advance.
-            </Text>{" "} . There is no need to decide race, class, alignment, or backstory before starting. Let your choices emerge naturally through the adventure.
+            </Text>{" "} There is no need to decide race, class, alignment, or backstory before starting. Let your choices emerge naturally through the adventure.
           </ListItem>
           <ListItem>
            {" "}
             <Text as="span" fontWeight="semibold">
             Ignore table politics and other players.
-            </Text>{" "} . Answer as if the scene is unfolding around you personally, without worrying about what would make the “best party decision.”
+            </Text>{" "} Answer as if the scene is unfolding around you personally, without worrying about what would make the “best party decision.”
           </ListItem>
           <ListItem>
            {" "}
             <Text as="span" fontWeight="semibold">
             Do not try to predict the personality type.
-            </Text>{" "} . The most accurate results come from fast, honest choices rather than pattern-hunting.
+            </Text>{" "} The most accurate results come from fast, honest choices rather than pattern-hunting.
           </ListItem>
         </UnorderedList>
 
