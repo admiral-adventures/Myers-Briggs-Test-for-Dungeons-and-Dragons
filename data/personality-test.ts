@@ -3,590 +3,578 @@ import { TestQuestion } from "../lib/personality-test";
 export const personalityTest: TestQuestion[] = [
   {
     no: 1,
-    question: "Scenario: Your adventure team is invited to a grand ball in a noble's castle. Do you: ",
+    question: "At dusk, smoke curls from a farmstead as goblins shriek through the wheat. Beside you, Brom, the party’s heavily armored fighter and shield wall, raises his blade while terrified villagers scatter. As one of Brom’s companions in the road, do you:",
     answerOptions: [
       {
         type: "A",
-        answer: "Eagerly embrace the opportunity to socialize and make connections with potentially helpful factions",
+        answer: "Rally the villagers beside Brom, shouting quick orders to form a defense",
         score: "E",
       },
-      { type: "B", answer: "Find a quiet corner to hide in and observe people from a distance in order to gain information", score: "I" },
+      { 
+        type: "B", 
+        answer: "Slip behind a stone wall and study the goblins’ movements before acting", 
+        score: "I" 
+      },
     ],
   },
   {
     no: 2,
-    question: "Scenario: Your adventure team is navigating a dense forest with potential dangers. Do you: ",
+    question: "The surviving goblins flee into moonlit hills. Lyra, your nimble rogue scout and tracker, crouches over fresh prints while Brom’s shield arm still bleeds. As the party member helping decide the pursuit, do you:",
     answerOptions: [
-      { type: "A", answer: "Investigate thoroughly the tangible details of the surroundings to guide the group", score: "S" },
-      { type: "B", answer: "Trust your instincts and intuition to choose the best path forward based on your initial impression", score: "N" },
+      {
+        type: "A",
+        answer: "Set marching order, assign watches, and pursue on a disciplined timeline",
+        score: "J",
+      },
+      { 
+        type: "B", 
+        answer: "Follow the trail immediately and let the hunt evolve as it unfolds", 
+        score: "P" 
+      },
     ],
   },
   {
     no: 3,
-    question: "Scenario: Your character comes across an ancient map with unclear markings. Do you: ",
+    question: "Inside the ruined farmhouse, Lyra, the party’s trap expert, kneels over a chest rigged with bone hooks and rusted bells. If you were Lyra in this moment, would you:",
     answerOptions: [
-      { type: "A", answer: "Analyze the details and symbols on the map looking for concrete patterns", score: "S" },
-      { type: "B", answer: "Interpret the map's overall meaning, relying on your “gut feeling”", score: "N" },
+      {
+        type: "A",
+        answer: "Inspect each wire, hinge, and pressure point to find the exact trigger",
+        score: "S",
+      },
+      { 
+        type: "B", 
+        answer: "Imagine what larger deception the goblins meant the trap to conceal", 
+        score: "N" 
+      },
     ],
   },
   {
     no: 4,
-    question: "Scenario: Your adventure team faces a moral dilemma involving a captured enemy that the team is considering “dispatching” before leaving the area. Do you: ",
+    question: "A soot stained goblin prisoner trembles as Sister Maeve, your compassionate cleric healer, binds his burns with glowing magic. He claims darker forces wait in the hills. As the party member questioning him, do you:",
     answerOptions: [
-      { type: "A", answer: "Analyze the situation objectively, focusing on the logical consequences", score: "T" },
-      { type: "B", answer: "Consider the ethical implications and values before deciding", score: "F" },
+      {
+        type: "A",
+        answer: "Press him for numbers, routes, and hard tactical details",
+        score: "T",
+      },
+      { 
+        type: "B", 
+        answer: "Judge his story by the fear in his voice and whether it feels genuine", 
+        score: "F" 
+      },
     ],
   },
   {
     no: 5,
-    question: "Scenario: Your character is chosen as the party spokesperson in a diplomatic mission. Do you: ",
+    question: "Following the goblins’ trail, your party reaches an ancient crypt where torch smoke drifts from the entrance. Brom waits for your signal while Maeve grips her holy symbol. As the one deciding the party’s approach, do you:",
     answerOptions: [
-      { type: "A", answer: "Stick to the prepared script and agenda for a logical presentation", score: "T" },
-      { type: "B", answer: "Consider the feelings and perspectives provided by the opposing diplomats", score: "F" },
+      {
+        type: "A",
+        answer: "Watch how the crypt reacts before choosing your approach",
+        score: "I",
+      },
+      { 
+        type: "B", 
+        answer: "Coordinate the descent and assign each companion a role", 
+        score: "E" 
+      },
     ],
   },
   {
     no: 6,
-    question: "Scenario: Your adventure team has a limited time to decide between two quests. Do you: ",
+    question: "A hidden stair spirals deeper into the crypt while distant chanting echoes below. Lyra asks whether to scout ahead alone. As the party member making the call, do you:",
     answerOptions: [
-      { type: "A", answer: "Evaluate the practical benefits and potential outcomes of each quest", score: "J" },
-      { type: "B", answer: "Embrace the spontaneity, choosing the quest that feels right in the moment", score: "P" },
+      {
+        type: "A",
+        answer: "Let Lyra scout first and adapt based on what she finds",
+        score: "P",
+      },
+      { 
+        type: "B", 
+        answer: "Establish a descent order with fallback positions", 
+        score: "J" 
+      },
     ],
   },
   {
     no: 7,
-    question: "Scenario: Your character uncovers a hidden trap in the dungeon. Do you: ",
+    question: "A stone sarcophagus opens to reveal murals of a forgotten king swallowed by shadow. Beside you, Thero, the party’s scholarly wizard, studies the carvings. Standing beside Theron, do you:",
     answerOptions: [
-      { type: "A", answer: "Alert the party immediately and develop a plan to navigate around it", score: "J" },
-      { type: "B", answer: "Investigate further and improvise a solution on the spot", score: "P" },
+      {
+        type: "A",
+        answer: "Focus on the symbolic warning hidden in the imagery",
+        score: "N",
+      },
+      { 
+        type: "B", 
+        answer: "Examine the physical details for historical clues", 
+        score: "S" 
+      },
     ],
   },
   {
     no: 8,
-    question: "Scenario: After a challenging battle, your adventure team members suggest celebrating at the local tavern. Do you: ",
+    question: "The crypt’s spectral guardian offers a bargain: destroy the necromancer below, but an innocent trapped soul must be sacrificed. Sister Maeve turns to you in alarm. As the party’s moral decision maker in this moment, do you:",
     answerOptions: [
-      { type: "A", answer: "Join the revelry, sharing stories and laughter with everyone", score: "E" },
-      { type: "B", answer: "Prefer a quiet evening, reflecting on the day's events in solitude", score: "I" },
+      {
+        type: "A",
+        answer: "Refuse if it violates the value of the innocent soul",
+        score: "F",
+      },
+      { 
+        type: "B", 
+        answer: "Judge the choice by mission consequences and future risk", 
+        score: "J" 
+      },
     ],
   },
   {
     no: 9,
-    question: "Scenario: Your adventure team must decipher a riddle to enter a hidden chamber. Do you: ",
+    question: "The necromancer falls, and days later rain hisses on Blackglass City’s cobblestones as Lyra’s bard contact leads your party into a smugglers’ den. As the party member handling first contact, do you:",
     answerOptions: [
-      { type: "A", answer: "Break down the riddle logically, focusing on the literal meanings", score: "S" },
-      { type: "B", answer: "Consider alternative interpretations, exploring the riddle's hidden messages", score: "N" },
+      {
+        type: "A",
+        answer: "Work the room quickly, building rapport and gathering leads",
+        score: "E",
+      },
+      { 
+        type: "B", 
+        answer: "Stay quiet and map the guild’s power structure first", 
+        score: "I" 
+      },
     ],
   },
   {
     no: 10,
-    question: "Scenario: Your character discovers a magical portal leading to an unknown realm that looks inviting and safe. Do you: ",
+    question: "City alarm bells ring in the middle of the night as your infiltration begins collapsing. Lyr, the rogue rooftop expert, spots an unexpected escape route above. As the companion choosing the team’s next move, do you:",
     answerOptions: [
-      { type: "A", answer: "Inspect the portal and the destination for visible details and potential dangers", score: "S" },
-      { type: "B", answer: "Step through the portal, trusting your intuition about the new world", score: "N" },
+      {
+        type: "A",
+        answer: "Use Lyra’s rooftop discovery and improvise",
+        score: "P",
+      },
+      { 
+        type: "B", 
+        answer: "Pull the team back to the original escape plan and timing", 
+        score: "J" 
+      },
     ],
   },
   {
     no: 11,
-    question: "Scenario: A fellow adventure team member is upset because they can't let go of a cursed sword they just picked up. Do you: ",
+    question: "In a candlelit tavern, Lyra spreads coded ledgers across the table, stained with wine and blood. If you were the one deciphering them with her, would you:",
     answerOptions: [
-      { type: "A", answer: "Offer practical solutions to help them overcome the problem", score: "T" },
-      { type: "B", answer: "Provide emotional support and lend a listening ear", score: "F" },
+      {
+        type: "A",
+        answer: "Decode the entries line by line",
+        score: "S",
+      },
+      { 
+        type: "B", 
+        answer: "Search for the larger conspiracy in the pattern", 
+        score: "N" 
+      },
     ],
   },
   {
     no: 12,
-    question: "Scenario: Your adventure team must make a difficult decision, fight a dragon attacking innocent town folk where one member of the team is expected to die, or flee and sacrifice the town folk that have important information you need. Do you: ",
+    question: "A corrupt magistrate funded the assassins but now offers names in exchange for mercy. Brom wants justice, while Maeve urges compassion. As the final voice in the decision, do you:",
     answerOptions: [
-      { type: "A", answer: "Analyze the facts and make a decision based on logic and reason", score: "T" },
-      { type: "B", answer: "Consider the impact your decision will have on relationships and group harmony", score: "F" },
+      {
+        type: "A",
+        answer: "Hold him accountable regardless of usefulness",
+        score: "F",
+      },
+      { 
+        type: "B", 
+        answer: "Spare him if the information improves your strategic position", 
+        score: "T" 
+      },
     ],
   },
   {
     no: 13,
-    question: "Scenario: Your adventure team is low on supplies, and you come across a mysterious merchant. Do you: ",
+    question: "Days later, war horns echo through a volcanic mountain pass as fire giant scouts descend through ash. Brom looks to you while militia lines panic. As the battlefield commander in the moment, do you:",
     answerOptions: [
-      { type: "A", answer: "Negotiate for the best deal, considering all available options", score: "J" },
-      { type: "B", answer: "Embrace the uncertainty and make impromptu purchases based on what feels right", score: "P" },
+      {
+        type: "A",
+        answer: "Shout immediate orders and steady the line",
+        score: "E",
+      },
+      { 
+        type: "B", 
+        answer: "Study the battlefield silently before committing", 
+        score: "I" 
+      },
     ],
   },
   {
     no: 14,
-    question: "Scenario: Your character finds an ancient artifact with unclear uses. Do you: ",
+    question: "Fresh fire giant tracks split toward two ridgelines. Lyra studies the ash while Theron watches the smoke above. As the one choosing the route, do you:",
     answerOptions: [
-      { type: "A", answer: "Examine the artifact closely, seeking clues to understand its practical functions? ", score: "J" },
-      { type: "B", answer: "Experiment with the artifact, exploring its potential magical properties", score: "P" },
+      {
+        type: "A",
+        answer: "Predict which path matches the giants’ larger objective",
+        score: "N",
+      },
+      { 
+        type: "B", 
+        answer: "Follow the fresher measurable trail", 
+        score: "S" 
+      },
     ],
   },
   {
     no: 15,
-    question: "Scenario: Your adventure team is planning a surprise attack on an enemy camp. Do you: ",
+    question: "Before dawn, allied commanders demand a siege plan. Theron projects troop positions in glowing arcane light. As the strategist shaping the assault, do you:",
     answerOptions: [
-      { type: "A", answer: "Contribute ideas and actively participate in the strategy discussion", score: "E" },
-      { type: "B", answer: "Reflect on the plan independently before expressing your thoughts", score: "I" },
+      {
+        type: "A",
+        answer: "Break the assault into phases with fallback positions",
+        score: "J",
+      },
+      { 
+        type: "B", 
+        answer: "Keep each front fluid so commanders can adapt", 
+        score: "P" 
+      },
     ],
   },
   {
     no: 16,
-    question: "Scenario: Your adventure team faces a magical barrier with unknown properties. Do you: ",
+    question: "A wounded fire giant offers the location of the war forge after Maeve stabilizes him with healing magic. As the one judging his credibility, do you:",
     answerOptions: [
-      { type: "A", answer: "Analyze the barrier's composition and structure to find a way through", score: "S" },
-      { type: "B", answer: "Experiment with magical abilities and your survival instincts to navigate the barrier", score: "N" },
+      {
+        type: "A",
+        answer: "Test the claim against timing, terrain, and logistics",
+        score: "T",
+      },
+      { 
+        type: "B", 
+        answer: "Judge whether his desperation feels believable", 
+        score: "F" 
+      },
     ],
   },
   {
     no: 17,
-    question: "Scenario: Your character discovers a hidden door that you are convinced leads to an ancient treasure. Do you: ",
+    question: "Victory in the mountains leads your party into the desert, where storm clouds spiral above a shattered amphitheater. Brom tightens his gauntlets as an ancient Blue Dragon prowls ahead. As one of Brom’s companions preparing for battle, do you:",
     answerOptions: [
       {
         type: "A",
-        answer: "“Inspect the door for traps and security measures”",
-        score: "S",
+        answer: "Study the dragon’s movement patterns before speaking",
+        score: "I",
       },
-      {
-        type: "B",
-        answer: "Open the door impulsively, eager to discover what lies beyond",
-        score: "N",
+      { 
+        type: "B", 
+        answer: "Rally the party into final readiness", 
+        score: "E" 
       },
     ],
   },
   {
     no: 18,
-    question: "Scenario: Which appeals to your character more when exploring a dangerous dungeon: ",
+    question: "Hot sand crackles with lightning as Theron detects glowing storm runes beneath the arena floor. Standing beside Theron as he studies the magic, do you:",
     answerOptions: [
-      { type: "A", answer: "Planning every move with strategic precision despite the tension it may cause with the team", score: "T" },
-      { type: "B", answer: "Avoiding conflict by focusing on the feelings and concerns of your team in order to bond with them", score: "F" },
+      {
+        type: "A",
+        answer: "Examine each rune’s exact placement and function",
+        score: "S",
+      },
+      { 
+        type: "B", 
+        answer: "Infer the larger magical network binding the arena", 
+        score: "N" 
+      },
     ],
   },
   {
     no: 19,
-    question: "Scenario: When exploring dangerous underground caverns, is your character more comfortable in making decisions based on: ",
+    question: "The Blue Dragon offers a cruel bargain: surrender the relic or watch a desert city burn. Maeve looks shaken by the cost. As the one making the final call, do you:",
     answerOptions: [
-      { type: "A", answer: "Logical judgments, evaluating tactical advantages and outcomes", score: "T" },
-      { type: "B", answer: "Value judgments, guided by your character's moral principles and beliefs", score: "F" },
+      {
+        type: "A",
+        answer: "Refuse if innocent lives become the cost",
+        score: "F",
+      },
+      { 
+        type: "B", 
+        answer: "Choose the option preserving long-term advantage", 
+        score: "T" 
+      },
     ],
   },
   {
     no: 20,
-    question: "Scenario: Your character discovers an ancient library filled with forgotten knowledge. Do you: ",
+    question: "Lightning explodes across the arena as the dragon’s strike shatters Brom’s battle line. As the companion deciding how the party responds, do you:",
     answerOptions: [
-      { type: "A", answer: "Organize and categorize the information for practical use", score: "J" },
-      { type: "B", answer: "Delve into various topics without a specific plan, following your curiosity", score: "P" },
+      {
+        type: "A",
+        answer: "Use the chaos to create new openings",
+        score: "P",
+      },
+      { 
+        type: "B", 
+        answer: "Re-form the line and restore combat roles", 
+        score: "J" 
+      },
     ],
   },
   {
     no: 21,
-    question: "Scenario: Would you say your character is more: ",
+    question: "With the dragon defeated, your party enters Acererak’s floating tomb where jeweled skulls orbit in stale dust. Theron warns one mistake means annihilation. As the one choosing the opening move, do you:",
     answerOptions: [
-      { type: "A", answer: "Serious and determined, driven by clear goals and a focused mindset", score: "J" },
-      { type: "B", answer: "Easy-going, embracing the journey and adapting to unforeseen challenges", score: "P" },
+      {
+        type: "A",
+        answer: "Observe the skulls’ motion before committing",
+        score: "I",
+      },
+      { 
+        type: "B", 
+        answer: "Break the silence and coordinate the opening move", 
+        score: "E" 
+      },
     ],
   },
   {
     no: 22,
-    question: "Scenario: Your adventure team is about to engage with an oracle who can provide answers to help you in your quest. Do you: ",
+    question: "Maeve discovers each floating skull contains a stolen memory from a fallen hero. Standing between Maeve’s intuition and Theron’s logic, do you:",
     answerOptions: [
       {
         type: "A",
-        answer: "Trust that all the right questions will be asked by the party",
-        score: "E",
+        answer: "Search for the hidden meaning behind the chosen memories",
+        score: "N",
       },
-      { type: "B", answer: "Create your own list in private to make sure everything is covered", score: "I" },
+      { 
+        type: "B", 
+        answer: "Catalog which memories have tactical relevance", 
+        score: "S" 
+      },
     ],
   },
   {
     no: 23,
-    question: "Scenario: A magical mirror offers glimpses of the future. Do you: ",
+    question: "The tomb begins collapsing as Lyra identifies three unstable escape routes through falling stone. As the party member directing the escape, do you:",
     answerOptions: [
-      { type: "A", answer: "Focus on the immediate and practical information it provides", score: "S" },
-      { type: "B", answer: "Explore the potential and symbolic meanings in the visions", score: "N" },
+      {
+        type: "A",
+        answer: "Rank the exits by survivability and move the team in order",
+        score: "J",
+      },
+      { 
+        type: "B", 
+        answer: "Move toward whichever path remains viable", 
+        score: "P" 
+      },
     ],
   },
   {
     no: 24,
-    question: "Scenario: One of your adventure team members is a circle of dreams druid who has strange visions every night that they recite each morning to the group. Do you find these visionary snippets: ",
+    question: "Acererak offers knowledge to save kingdoms, but only if Theron permanently loses his identity. As Theron’s closest companion in the moment, do you:",
     answerOptions: [
-      { type: "A", answer: "Somewhat annoying", score: "S" },
-      { type: "B", answer: "Fascinating", score: "N" },
+      {
+        type: "A",
+        answer: "Evaluate the offer by long-term outcomes",
+        score: "T",
+      },
+      { 
+        type: "B", 
+        answer: "Reject it if the cost is Theron’s soul", 
+        score: "F" 
+      },
     ],
   },
   {
     no: 25,
-    question: "Scenario: An adventure team member disagrees with your character's plan. Do you: ",
+    question: "Escaping the tomb tears open a planar rift into Lolth’s Demonweb Pits, where black silk bridges stretch over endless darkness. As the party member keeping everyone together, do you:",
     answerOptions: [
-      { type: "A", answer: "Present logical arguments to support your plan", score: "T" },
-      { type: "B", answer: "Seek common ground and compromise to maintain harmony", score: "F" },
+      {
+        type: "A",
+        answer: "Keep everyone talking through the fear and call out next steps",
+        score: "E",
+      },
+      { 
+        type: "B", 
+        answer: "Stay silent and absorb the danger first", 
+        score: "I" 
+      },
     ],
   },
   {
     no: 26,
-    question: "Scenario: Your adventure team is about to enter the hideout of brigands to neutralize them after they are believed to have murdered some of the residents of the town. Is it worse to be: ",
+    question: "The web bridge splits into poisoned silver strands marked with sacred drow sigils. Theron warns every path may be a lie. As the one choosing the path forward, do you:",
     answerOptions: [
-      { type: "A", answer: "Unjust", score: "T" },
-      { type: "B", answer: "Merciless", score: "F" },
+      {
+        type: "A",
+        answer: "Infer which route reflects Lolth’s deeper deception",
+        score: "N",
+      },
+      { 
+        type: "B", 
+        answer: "Compare the physical signs on each strand", 
+        score: "S" 
+      },
     ],
   },
   {
     no: 27,
-    question: "Scenario: Your adventure team has just defeated a powerful and evil syndicate. Once word gets out, the news will start a series of predictable events that you may be able to influence. These events should occur: ",
+    question: "A fallen drow priestess claims she can guide you to Lolth’s sanctum if spared. As the one judging her fate, do you:",
     answerOptions: [
-      { type: "A", answer: "By careful selection and choice", score: "J" },
-      { type: "B", answer: "Randomly and by chance", score: "P" },
+      {
+        type: "A",
+        answer: "Decide whether redemption still feels possible",
+        score: "F",
+      },
+      { 
+        type: "B", 
+        answer: "Judge her by leverage, evidence, and likely outcome", 
+        score: "T" 
+      },
     ],
   },
   {
     no: 28,
-    question: "Scenario: Your character just purchased a magical staff with unknown magical properties from a merchant which depleted the party's resources. Do you feel better: ",
+    question: "The living web shifts beneath your boots as phase spiders descend from above. Brom asks whether to hold formation. As the one directing the party’s movement, do you:",
     answerOptions: [
-      { type: "A", answer: "Purchasing it and getting on with the adventure", score: "J" },
-      { type: "B", answer: "Having the option to buy, even if it means delaying departure", score: "P" },
+      {
+        type: "A",
+        answer: "Lock the party into a clear route and marching order",
+        score: "J",
+      },
+      { 
+        type: "B", 
+        answer: "Flow with the shifting web and seize openings", 
+        score: "P" 
+      },
     ],
   },
   {
     no: 29,
-    question: "Scenario: Your adventure team has entered a general store to purchase gear from a questionable merchant. Do you:  ",
+    question: "Back on Faerûn, Theron learns the Red Wizards of Thay are raising a dracolich army. As the companion advising Theron’s next move, do you:",
     answerOptions: [
-      { type: "A", answer: "Initiate conversation to ask what the merchant has in stock", score: "E" },
-      { type: "B", answer: "Wait to be approached by the merchant", score: "I" },
+      {
+        type: "A",
+        answer: "Withdraw to study the ritual before speaking",
+        score: "I",
+      },
+      { 
+        type: "B", 
+        answer: "Rally allies and faction contacts into action", 
+        score: "E" 
+      },
     ],
   },
   {
     no: 30,
-    question: "Scenario: Your character have been adventuring with a rogue that follows his common sense at the exclusion of all other considerations. Do you find that “common sense” is: ",
+    question: "Crimson runes pulse across battlefield tombs while necromantic smoke coils skyward. Standing beside Theron as he traces the geometry, do you:",
     answerOptions: [
-      { type: "A", answer: "Rarely questionable", score: "S" },
-      { type: "B", answer: "Frequently questionable", score: "N" },
+      {
+        type: "A",
+        answer: "Identify each rune circle’s direct purpose",
+        score: "S",
+      },
+      { 
+        type: "B", 
+        answer: "Search for the hidden design driving the ritual", 
+        score: "N" 
+      },
     ],
   },
   {
     no: 31,
-    question: "Scenario: Your character is tasked with deciphering an ancient Elvish script. Do you: ",
+    question: "Undead wyverns rise unexpectedly as the Red Wizards adapt faster than planned. As the one reprioritizing the battle, do you:",
     answerOptions: [
-      { type: "A", answer: "Approach the task methodically, translating one symbol at a time", score: "S" },
-      { type: "B", answer: "Look for patterns and connections, seeking to understand the overall meaning", score: "N" },
+      {
+        type: "A",
+        answer: "Shift targets dynamically as threats evolve",
+        score: "P",
+      },
+      { 
+        type: "B", 
+        answer: "Reorder the battlefield into strict priorities", 
+        score: "J" 
+      },
     ],
   },
   {
     no: 32,
-    question: "Scenario: Your character finds a pouch with a potion of healing while searching a room. Before telling the group about your discovery, do you: ",
+    question: "A Thayan defector offers the final counterspell, but only if trapped allies are abandoned. As the deciding voice between Brom and Maeve, do you:",
     answerOptions: [
-      { type: "A", answer: "Evaluate the immediate advantages for yourself", score: "T" },
-      { type: "B", answer: "Consider the long-term benefits for the entire party", score: "F" },
+      {
+        type: "A",
+        answer: "Refuse any plan that sacrifices allies",
+        score: "F",
+      },
+      { 
+        type: "B", 
+        answer: "Prioritize the option most likely to stop the ritual", 
+        score: "T" 
+      },
     ],
   },
   {
     no: 33,
-    question: "Scenario: Your character is about to cast a fireball in the direction of a zombie hoard attacking you which will destroy them all, but it will also severely injure or kill an important ally. When making this decision, do you: ",
+    question: "Deep beneath the battlefield, Lyra uncovers Acererak’s true phylactery in an obsidian vault. As the one leading the vault entry, do you:",
     answerOptions: [
-      { type: "A", answer: "Focus on the logical consequences and potential dangers if you don't cast it", score: "T" },
-      { type: "B", answer: "Consider the feelings and values associated with the ally you are about to injure", score: "F" },
+      {
+        type: "A",
+        answer: "Take charge immediately and direct the room",
+        score: "E",
+      },
+      { 
+        type: "B", 
+        answer: "Study the vault’s defenses first", 
+        score: "I" 
+      },
     ],
   },
   {
     no: 34,
-    question: "Scenario: Your adventure team is planning a surprise attack on a dragon's lair. Do you: ",
+    question: "Poison needles, collapsing floors, soul gems, and false phylacteries surround the vault. If you were working beside Lyra on the traps, would you:",
     answerOptions: [
       {
         type: "A",
-        answer: "Formulate a detailed plan with specific roles for each party member",
-        score: "J",
+        answer: "Search for the grand deception tying the traps together",
+        score: "N",
       },
-      { type: "B", answer: "Keep the plan flexible, ready to adapt to unexpected circumstances", score: "P" },
+      { 
+        type: "B", 
+        answer: "Disable each mechanism methodically", 
+        score: "S" 
+      },
     ],
   },
   {
     no: 35,
-    question: "Scenario: your adventure team must choose between continuing the time sensitive quest or taking a break to rest. Do you: ",
+    question: "Destroying the phylactery will collapse the tomb and trap one companion inside. Brom volunteers without hesitation. As the one making the sacrifice decision, do you:",
     answerOptions: [
-      { type: "A", answer: "Consider the practical benefits of completing the quest without delay", score: "J" },
-      { type: "B", answer: "Prioritize the well-being and morale of the party, opting for a rest", score: "P" },
+      {
+        type: "A",
+        answer: "End Acererak’s threat permanently",
+        score: "T",
+      },
+      { 
+        type: "B", 
+        answer: "Preserve your companion if possible", 
+        score: "F" 
+      },
     ],
   },
   {
     no: 36,
-    question: "Your adventure team just engaged in contentious negotiations with a corrupt mayor who is hampering the party's ability to remove evil and diabolical forces from a small town. These types of interactions: ",
-    answerOptions: [
-      { type: "A", answer: "Stimulate and energize you", score: "E" },
-      { type: "B", answer: "Tax your reserves", score: "I" },
-    ],
-  },
-  {
-    no: 37,
-    question: "Scenario: Your adventure team encounters a wounded creature in the forest. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "Prioritize immediate action, applying first aid and healing", score: "S" },
-      { type: "B", answer: "Analyze the creature's behavior to understand the cause of its injuries", score: "N" },
-    ],
-  },
-  {
-    no: 38,
-    question: "Scenario: Your adventure team needs to decide between taking a risky shortcut or a safer, longer route. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "Advocate for the known and proven path to ensure safety", score: "S" },
-      { type: "B", answer: "Embrace the challenge and potential rewards of the shortcut", score: "N" },
-    ],
-  },
-  {
-    no: 39,
-    question: "Scenario: Your adventure team is split and has been arguing for some time on which of two plans to execute (sneak in through the back door or attack from the front). Which is more satisfying: ",
-    answerOptions: [
-      { type: "A", answer: "To discuss an issue thoroughly", score: "T" },
-      { type: "B", answer: "To arrive at agreement on an issue", score: "F" },
-    ],
-  },
-  {
-    no: 40,
-    question: "Scenario: Your adventure team encounters a mysterious figure offering information at a price. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "Assess the credibility of the information before making a deal", score: "T" },
-      { type: "B", answer: "Trust your instincts and make the deal, confident in the potential benefits", score: "F" },
-    ],
-  },
-  {
-    no: 41,
-    question: "Scenario: An adventure team member is captured by enemies. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "Formulate a strategic plan for a rescue mission", score: "J" },
-      { type: "B", answer: "Improvise and adapt, utilizing the environment to rescue your friend", score: "P" },
-    ],
-  },
-  {
-    no: 42,
-    question: "Scenario: Your adventure team faces a powerful foe, and the plan goes awry. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "Stay focused on the original plan, seeking to salvage what you can", score: "J" },
-      { type: "B", answer: "Improvise and adapt, finding new strategies on the fly", score: "P" },
-    ],
-  },
-  {
-    no: 43,
-    question: "Scenario: Exploring a new region, your adventure team is invited to a witchlight carnival run by various “Fey” creatures known for their harmless pranks. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "Enjoy the revelry and immerse yourself in the experience", score: "E" },
-      {
-        type: "B",
-        answer: "Appreciate the festivities but also avoid immediately jumping into the activities",
-        score: "I",
-      },
-    ],
-  },
-  {
-    no: 44,
-    question: "Scenario: Your adventure team has requested an audience with a dwarven counsil while looking for help to repel an invasion from the underdark. Your character has been tasked to speak on behalf of the team. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "State your case based on the facts", score: "S" },
-      { type: "B", answer: "Advocate for the bigger principles involved", score: "N" },
-    ],
-  },
-  {
-    no: 45,
-    question: "Scenario: Your adventure team has found a magic item shop and is excited to add some magical weapons to your inventory. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "Only inquire about the weapons the shop keeper has on hand", score: "S" },
-      { type: "B", answer: "Ask if they could create or acquire a special weapon based on your design and research", score: "N" },
-    ],
-  },
-  {
-    no: 46,
-    question: "Scenario: Your adventure team just completed a quest with an old and intelligent wizard that became a mentor to you. Which compliment below feels like the better compliment to give the gentleman : ",
-    answerOptions: [
-      { type: "A", answer: "“There goes a very logical wizard”", score: "T" },
-      { type: "B", answer: "“There goes a very sentimental mentor”", score: "F" },
-    ],
-  },
-  {
-    no: 47,
-    question: "Scenario: Your character has agreed to join up with a team of other adventurers to help rid a small town of some ruffians who are terrorizing the townsfolk. Do you envision yourself more as: ",
-    answerOptions: [
-      { type: "A", answer: "An unwavering member of the team that will dispense justice", score: "T" },
-      { type: "B", answer: "A devoted and caring advocate for the terrorized townsfolk", score: "F" },
-    ],
-  },
-  {
-    no: 48,
-    question: "Scenario: Your adventure team has just agreed with a patron to take joint possession of an abandoned mine in exchange for removing all the evil creatures that have taken residence within it. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "Ensure you have a final and unalterable contract before starting the quest", score: "J" },
-      { type: "B", answer: "Prefer a tentative and preliminary contract that can be altered based on what the quest may encounter", score: "P" },
-    ],
-  },
-  {
-    no: 49,
-    question: "Scenario: Your adventure team has just agreed with a plan to sneak up to and attack a young dragon that has recently occupied an abandoned tower near a small town. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "Feel comfortable now that a plan has been agreed upon", score: "J" },
-      { type: "B", answer: "Feel uncomfortable because the plan locks the team into a given course of action", score: "P" },
-    ],
-  },
-  {
-    no: 50,
-    question: "Scenario: Your adventure team has encountered a small group of Sea Elves embarked on a religious pilgrimage and they are asking you to help save several members who were abducted by Orcs. Do you: ",
+    question: "At the volcanic gates of an Ancient Red Dragon’s fortress, Brom steadies his shield, Lyra scans the walls, Maeve whispers a prayer, and Theron studies the map. As the strategist choosing the breach plan, do you:",
     answerOptions: [
       {
         type: "A",
-        answer: "Speak easily and at length with the group's leader",
-        score: "E",
+        answer: "Rank the fortress wings by threat priority and clear the weakest flank first",
+        score: "J",
       },
-      { type: "B", answer: "Find little to say to the group leader", score: "I" },
-    ],
-  },
-  {
-    no: 51,
-    question: "Scenario: Your character acquires a mysterious and powerful potion. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "Find someone to cast the “Identify” spell to find out exactly what it is", score: "S" },
-      { type: "B", answer: "Experiment cautiously, curious about its potential effects", score: "N" },
-    ],
-  },
-  {
-    no: 52,
-    question: "Scenario: Your adventure team finds two spell scrolls (Fireball and Major Image) and offers you first choice of which one to add to your inventory. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "Take the Fireball scroll knowing it has a predictable and practical effect", score: "S" },
-      { type: "B", answer: "Take the Major Image scroll knowing that you will come up with an ingenious way to use it", score: "N" },
-    ],
-  },
-  {
-    no: 53,
-    question: "Scenario: Your adventure team faces a powerful foe who threatens to kill a hostage unless you ensure that he will not be harmed once he releases the hostage. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "Engage in fact-based conversation, focusing on mutual benefits and reason", score: "T" },
-      { type: "B", answer: "Connect emotionally, seeking to build a personal rapport", score: "F" },
-    ],
-  },
-  {
-    no: 54,
-    question: "Scenario: There is a group of Goblins ambushing travelers. Your adventure team captures one who claims he is being forced to do bad things because he is bullied by the larger and meaner goblins in the group. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "Listen to what the Goblin has to say in a fair-minded way based on his actions", score: "T" },
-      { type: "B", answer: "Feel sympathetic to his situation based on the extenuating circumstances", score: "F" },
-    ],
-  },
-  {
-    no: 55,
-    question: "Scenario: One of your adventure team members has been captured by enemy Orcs and held in a cage inside an Orc encampment. The team has decided to enter the camp on a rescue mission. Do you: ",
-    answerOptions: [
-      { type: "A", answer: "Make sure things are arranged as much as they can be prior to entering", score: "J" },
-      { type: "B", answer: "Enter the camp immediately and let things just happen", score: "P" },
-    ],
-  },
-  {
-    no: 56,
-    question: "Scenario: Your character has become a Hero of the Realm and you have taken on a number of retainers to assist you in your quests. Is your relationship with your retainers: ",
-    answerOptions: [
-      { type: "A", answer: "Re-negotiable", score: "J" },
-      { type: "B", answer: "Random and circumstantial", score: "P" },
-    ],
-  },
-  {
-    no: 57,
-    question: "Scenario: Your adventure team's wizard establishes a mental link with two other team members. The wizard is asking for advice. What is your preference: ",
-    answerOptions: [
-      { type: "A", answer: "Be the first to respond", score: "E" },
-      { type: "B", answer: "Hope someone speaks up first", score: "I" },
-    ],
-  },
-  {
-    no: 58,
-    question: "Scenario: Your adventure team is in a combat arena about to face certain death at the hands of an unbeatable abomination. What do you rely on more to survive: ",
-    answerOptions: [
-      { type: "A", answer: "A strong sense of reality", score: "S" },
-      { type: "B", answer: "A vivid imagination", score: "N" },
-    ],
-  },
-  {
-    no: 59,
-    question: "Scenario: A global conflict is brewing in the world between two major factions, the cause of which is unknown but must be identified to avoid a coming war. To help identify the cause, do you look at: ",
-    answerOptions: [
-      { type: "A", answer: "The tactical fundamentals of the situation", score: "S" },
-      { type: "B", answer: "The potential strategic overtones", score: "N" },
-    ],
-  },
-  {
-    no: 60,
-    question: "Scenario: Your adventure team is tasked to rescue a number of hostages taken by a brutal force from an evil empire. Which seems to be the greater error that could derail the mission: ",
-    answerOptions: [
-      { type: "A", answer: "Being too passionate", score: "T" },
-      { type: "B", answer: "Being too objective", score: "F" },
-    ],
-  },
-  {
-    no: 61,
-    question: "Scenario: A potential patron is determining whether to hire your character for an important task. The patron asks how you view yourself as a decision maker. Are you: ",
-    answerOptions: [
-      { type: "A", answer: "Hard-headed", score: "T" },
-      { type: "B", answer: "Soft-hearted", score: "F" },
-    ],
-  },
-  {
-    no: 62,
-    question: "Scenario: Your adventure team is tasked to prepare an undefended outpost for an inevitable and overwhelming attack and you have only a couple of days to prepare and limited resources. What appeals to you more: ",
-    answerOptions: [
-      { type: "A", answer: "A prioritized list executed on a schedule", score: "J" },
-      { type: "B", answer: "An effort that is unscheduled but feels like it is getting the right things accomplished", score: "P" },
-    ],
-  },
-  {
-    no: 63,
-    question: "Scenario: Your character is an exceptional Bard that is frequently asked to provide entertainment nightly at the inn where you are staying. What is your preferred approach to ensure the crowd is entertained: ",
-    answerOptions: [
-      { type: "A", answer: "Execute your “well practiced routine” that you know has worked before", score: "J" },
-      { type: "B", answer: "Trying a “fresh and whimsical” approach based on the make-up of your audience", score: "P" },
-    ],
-  },
-  {
-    no: 64,
-    question: "Scenario: A rival adventure team approaches you in a tavern. Which approach is more appealing to you: ",
-    answerOptions: [
-      { type: "A", answer: "Ensure you are easy to approach", score: "E" },
-      { type: "B", answer: "Sit back and wait in a somewhat reserved approach", score: "I" },
-    ],
-  },
-  {
-    no: 65,
-    question: "Scenario: Your character has been tasked to write a letter asking for help from a reclusive and retired adventurer whose help you need on your next quest. When drafting your letter, what writing style appeals to you more: ",
-    answerOptions: [
-      { type: "A", answer: "A literal one", score: "S" },
-      { type: "B", answer: "A figurative one", score: "N" },
-    ],
-  },
-  {
-    no: 66,
-    question: "Scenario: Your adventure team has been tasked to infiltrate an enemy army in order to gain valuable information necessary to defeat them. What is a more difficult approach for you: ",
-    answerOptions: [
-      { type: "A", answer: "Identifying and bonding with others in order to glean information", score: "S" },
-      { type: "B", answer: "Utilizing and manipulating others in order to glean information", score: "N" },
-    ],
-  },
-  {
-    no: 67,
-    question: "Scenario: Your adventure team has been tasked to convince an ancient and reclusive dragon that a particular item from their treasure hoard has to be borrowed in order to defeat an enemy army that the dragon cares less about. Which approach do you plan to use: ",
-    answerOptions: [
-      { type: "A", answer: "Clarity of reason", score: "T" },
-      { type: "B", answer: "Strength of compassion", score: "F" },
-    ],
-  },
-  {
-    no: 68,
-    question: "Scenario: Your adventure team has been taken prisoner by an evil wizard who is quizzing only you in a series of seemingly unrelated choices that you must make in order to free your fellow adventures. Which is the greater fault when approaching how to make your choices: ",
-    answerOptions: [
-      { type: "A", answer: "Being indiscriminate", score: "T" },
-      { type: "B", answer: "Being critical", score: "F" },
-    ],
-  },
-  {
-    no: 69,
-    question: "Scenario: Your adventure team must enter the “Caves of Chaos” in order to find and release a number of townsfolk that have been abducted for evil purposes. Before entering the caves, do you prefer to: ",
-    answerOptions: [
-      { type: "A", answer: "Come up with a quick plan with a number of possible options in order to deal with the unexpected", score: "J" },
-      { type: "B", answer: "Enter immediately since no plan will be able to account for all the unknowns", score: "P" },
-    ],
-  },
-  {
-    no: 70,
-    question: "Scenario: Your adventure team must enter an ancient city in the underdark and neutralize the power of a noble house that is running the city. What is a better overall approach to accomplishing the objective: ",
-    answerOptions: [
-      { type: "A", answer: "Deliberate than spontaneous", score: "J" },
-      { type: "B", answer: "Spontaneous than deliberate", score: "P" },
+      { 
+        type: "B", 
+        answer: "Enter through the first opening Lyra finds and adapt as the fortress reveals itself", 
+        score: "P" 
+      },
     ],
   },
 ];
