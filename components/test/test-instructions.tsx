@@ -27,11 +27,6 @@ export default function TestInstructions(props: TestInstructionsProps) {
               36-scene D&D adventure campaign
             </Text>{" "}, following your party from low-level goblin 
           raids to legendary battles against dragons, liches, and the great villains of Faerûn.
-
-          To get the most accurate result, approach each question as if you are {" "}
-            <Text as="span" fontWeight="semibold">
-            inside the scene in that exact moment.
-            </Text>{" "} 
         </Text>
       
       <Flex
@@ -46,37 +41,37 @@ export default function TestInstructions(props: TestInstructionsProps) {
             </Text>{" "} . Choose the response that feels most natural in the moment, even if it is not the “best” tactical choice.
           </ListItem>
           <ListItem>
-            Respond honestly — choose what feels natural to you,{" "}
+           {" "}
             <Text as="span" fontWeight="semibold">
-              not
-            </Text>{" "}
-            how you wish to be perceived.
+            Step into the viewpoint given in the question.
+            </Text>{" "} . Some scenes place you as the party’s strategist, while others ask what you would do in Lyra’s, Brom’s, Maeve’s, or 
+            Theron’s position. Answer from that stated point of view only.
           </ListItem>
           <ListItem>
-            Do{" "}
+           {" "}
             <Text as="span" fontWeight="semibold">
-              not
-            </Text>{" "}
-            assume a specific race, background, class, or subclass.
+            Do not build a character in advance.
+            </Text>{" "} . There is no need to decide race, class, alignment, or backstory before starting. Let your choices emerge naturally through the adventure.
           </ListItem>
           <ListItem>
-            Do{" "}
+           {" "}
             <Text as="span" fontWeight="semibold">
-              not
-            </Text>{" "}
-            consider how your choices might affect other players — answer as if you’re acting alone.
+            Ignore table politics and other players.
+            </Text>{" "} . Answer as if the scene is unfolding around you personally, without worrying about what would make the “best party decision.”
+          </ListItem>
+          <ListItem>
+           {" "}
+            <Text as="span" fontWeight="semibold">
+            Do not try to predict the personality type.
+            </Text>{" "} . The most accurate results come from fast, honest choices rather than pattern-hunting.
           </ListItem>
         </UnorderedList>
 
         <Text>
-          If your answers result in a perfect 50/50 split on any of the four
-          personality dimensions (e.g., Introversion vs. Extroversion), the
-          system will randomly select one option to display. To view the
-          alternate result, click{" "}
-          <Text as="span" fontWeight="semibold">
-            “Test Result History”
-          </Text>{" "}
-          until it appears.
+          To get the most accurate result, approach each question as if you are {" "}
+            <Text as="span" fontWeight="semibold">
+            inside the scene in that exact moment.
+            </Text>{" "} 
         </Text>
       </Flex>
 
