@@ -57,17 +57,6 @@ function TraitBar(props: {
 }
 
 export default function TestResultStats(props: TestResultStatsProps) {
-  const totalQuestions: Record<TraitKey, number> = {
-    E: 10, // Total number of questions for Extroverted/Introverted pair
-    I: 10, // Total number of questions for Extroverted/Introverted pair (corrected)
-    S: 20, // Total number of questions for Sensing/Intuitive pair
-    N: 20, // Total number of questions for Sensing/Intuitive pair (corrected)
-    T: 20, // Total number of questions for Thinking/Feeling pair
-    F: 20, // Total number of questions for Thinking/Feeling pair (corrected)
-    P: 20, // Total number of questions for Perceiving/Judging pair
-    J: 20, // Total number of questions for Perceiving/Judging pair (corrected)
-  };
-  const statsColorScheme = ["red", "pink", "blue", "purple", "yellow", "orange", "green", "teal"];
 
   const traitPairs: { a: TraitKey; b: TraitKey; colors: string[] }[] = [
     { a: "E", b: "I", colors: ["red", "pink"] },
@@ -101,7 +90,7 @@ export default function TestResultStats(props: TestResultStatsProps) {
       {traitPairs.map((pair, index) => {
         const countA = countTrait(pair.a);
         const countB = countTrait(pair.b);
-        const total = totalQuestions[pair.a];
+        const total = countA + countB;
       
         return (
           <Box
