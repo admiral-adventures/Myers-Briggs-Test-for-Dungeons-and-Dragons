@@ -868,8 +868,12 @@ return (
                 key={index}
                 textAlign="justify"
               >
-                {"🔴 "}{relationshipWeakness}
-              </ListItem>
+                {"🔴 "}
+                <Text as="span" fontWeight="bold">
+                {relationshipWeakness.match(/^[A-Z\s]+?\./)?.[0]}
+                </Text>{" "}
+                {relationshipWeakness.replace(/^[A-Z\s]+?\.\s*/, "")}
+                </ListItem>
             )
           )}
         </UnorderedList>
