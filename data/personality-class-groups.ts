@@ -7,6 +7,7 @@ export const personalityClassGroup: PersonalityClassGroup[] = [
     nameDescription: "“The best way to find yourself is to lose yourself in the service of others.” - Mahatma Gandhi",
     epithet: "Extroverted iNtuitive Feeling Judging",
     description: `Protagonists (ENFJs) don’t just talk about making the world better—they believe it’s possible. Passionate, driven, and idealistic, ENFJs feel a deep sense of responsibility to uplift others and guide them toward something greater. Whether they’re mentoring a friend, organizing a community event, or inspiring change on a global stage, these natural-born leaders are fueled by vision and heart.
+    
 At their best, Protagonists are shining examples of what it means to live with integrity. They strive to lead by example—not for attention or recognition, but because they truly care. They care about people, they care about justice, and they care about living a life that aligns with their values.`,
     jungianFunctionalPreference: {
       dominant: "PALADIN - Oath of the Crown",
@@ -35,8 +36,8 @@ At their best, Protagonists are shining examples of what it means to live with i
       "INTENSE. Protagonists bring a powerful emotional force to their interactions. But not everyone can match their energy or desire for growth, which can lead to frustration or miscommunication.",
       "OVERLY EMPATHETIC. ENFJs don’t just understand what others feel—they feel it, too. Without clear emotional boundaries, they risk losing themselves in other people’s struggles.",
     ],
-    successDefinition: `1. LEADING THE WAY -  I am a devoted altruists, ready to face slings and arrows in order to stand up for the people and ideas that I believe in. This strength of conviction bolsters my innate leadership skills, particularly my ability to guide people to work together in service of the greater good.
-2. GETTING INVOLVED - I am a genuine, caring person who talks the talk and walks the walk. Nothing makes me happier than motivating other people to do what’s right.  When I care about someone, I want to help solve that person’s problems – sometimes at any cost. The good news is that many people are grateful for my assistance and advice. After all, there’s a reason that these I have a reputation for helping others improve their lives.
+    successDefinition: `LEADING THE WAY. I am a devoted altruists, ready to face slings and arrows in order to stand up for the people and ideas that I believe in. This strength of conviction bolsters my innate leadership skills, particularly my ability to guide people to work together in service of the greater good.
+GETTING INVOLVED. I am a genuine, caring person who talks the talk and walks the walk. Nothing makes me happier than motivating other people to do what’s right.  When I care about someone, I want to help solve that person’s problems – sometimes at any cost. The good news is that many people are grateful for my assistance and advice. After all, there’s a reason that these I have a reputation for helping others improve their lives.
 `,
     strengths: [
       "Protagonists tend to find a solution which works for everyone.",
@@ -61,9 +62,11 @@ At their best, Protagonists are shining examples of what it means to live with i
   {
     type: "ENTJ",
     name: "The Commander",
-    nameDescription: "“Your time is limited, so don’t waste it living someone else’s life.” - Steve Jobs",
+    nameDescription: "“Leadership is not about being in charge. It is about taking care of those in your charge.” - Simon Sinek",
     epithet: "Extroverted iNtuitive Thinking Judging",
-    description: `Commanders are natural-born leaders. People with this personality type embody the gifts of charisma and confidence, and project authority in a way that draws crowds together behind a common goal. However, Commanders are also characterized by an often ruthless level of rationality, using their drive, determination and sharp minds to achieve whatever end they’ve set for themselves. Perhaps it is best that they make up only three percent of the population, lest they overwhelm the more timid and sensitive personality types that make up much of the rest of the world – but we have Commanders to thank for many of the businesses and institutions we take for granted every day.`,
+    description: `There are people who lead, and then there are people who were born to lead. ENTJs—known as Commanders—are the latter. With natural charisma, fierce intelligence, and unshakable confidence, Commanders are the engines behind massive enterprises, daring missions, and bold new visions of progress. They don’t just dream big—they execute big.
+
+Only about 3% of the population has this personality type, but their influence is everywhere. Many of the world’s most powerful businesses, organizations, and movements have been shaped by Commanders. Their presence is unmistakable: sharp, strategic, and seemingly tireless in their pursuit of the next goal.`,
     jungianFunctionalPreference: {
       dominant: "FIGHTER - Battle Master",
       auxiliary: "CLERIC - Storm Domain",
@@ -78,23 +81,23 @@ At their best, Protagonists are shining examples of what it means to live with i
       "Khan Noonien Singh - Star Trek",
     ],
     relationshipStrengths: [
-      "EFFICIENT – Commanders see inefficiency not just as a problem in its own right, but as something that pulls time and energy away from all their future goals, an elaborate sabotage consisting of irrationality and laziness. People with the Commander personality type will root out such behavior wherever they go.",
-      "ENERGETIC – Rather than finding this process taxing Commanders are energized by it, genuinely enjoying leading their teams forward as they implement their plans and goals.",
-      "SELF-CONFIDENT – Commanders couldn’t do this if they were plagued by self-doubt – they trust their abilities, make known their opinions, and believe in their capacities as leaders.",
-      "STRONG-WILLED – Nor do they give up when the going gets tough – Commander personalities strive to achieve their goals, but really nothing is quite as satisfying to them as rising to the challenge of each obstacle in their run to the finish line.",
-      "STRATEGIC THINKERS – Commanders exemplify the difference between moment-to-moment crisis management and navigating the challenges and steps of a bigger plan, and are known for examining every angle of a problem and not just resolving momentary issues, but moving the whole project forward with their solutions.",
-      "CHARISMATIC AND INSPIRING – These qualities combine to create individuals who are able to inspire and invigorate others, who people actually want to be their leaders, and this in turn helps Commanders to accomplish their often ambitious goals that could never be finished alone.",
+      "EFFICIENT. ENTJs hate wasted time. They are driven to streamline processes, cut through bureaucracy, and eliminate anything that stands between them and the goal. To them, inefficiency is sabotage, and they treat it accordingly.",
+      "ENERGETIC. These aren’t leaders who burn out easily. On the contrary, Commanders draw energy from challenges, thriving in fast-paced environments where others might flounder. They bring momentum to any project or team.",
+      "SELF-CONFIDENT. ENTJs trust their instincts. They speak with conviction, take bold steps without hesitation, and don’t wait for permission to take charge. This confidence is contagious and it often inspires others to follow their lead.",
+      "STRONG-WILLED. Obstacles don’t deter them, they motivate them. ENTJs love a good challenge and often accomplish things others consider impossible, simply because they refuse to quit.",
+      "STRATEGIC THINKERS. Unlike those who focus only on the problem in front of them, Commanders always have the bigger picture in mind. They anticipate roadblocks, adjust course as needed, and drive the whole system forward—not just their immediate task.",
+      "CHARISMATIC AND INSPIRING. When they’re at their best, ENTJs don’t just command, they inspire. Their ambition, intensity, and confidence draw others in and rally teams toward bold, collective goals.",
     ],
     relationshipWeaknesses: [
-      "STUBBORN AND DOMINANT – Sometimes all this confidence and willpower can go too far, and Commanders are all too capable of digging in their heels, trying to win every single debate and pushing their vision, and theirs alone.",
-      "INTOLERANT – “It’s my way or the highway.” People with the Commander personality type are notoriously unsupportive of any idea that distracts from their primary goals, and even more so of ideas based on emotional considerations. Commanders won’t hesitate a second to make that fact clear to those around them.",
-      "IMPATIENT – Some people need more time to think than others, an intolerable delay to quick-thinking Commanders. They may misinterpret contemplation as stupidity or disinterest in their haste, a terrible mistake for a leader to make.",
-      "ARROGANT – Commander personalities respect quick thoughts and firm convictions, their own qualities, and look down on those who don’t match up. This relationship is a challenge for most other personality types who are perhaps not timid in their own right, but will seem so beside overbearing Commanders.",
-      "POOR HANDLING OF EMOTIONS – All this bluster, alongside the assumed supremacy of rationalism, makes Commanders distant from their own emotional expression and sometimes downright scornful of others’. People with this personality type often trample others’ feelings, inadvertently hurting their partners and friends, especially in emotionally charged situations.",
-      "COLD AND RUTHLESS – Their obsession with efficiency and unwavering belief in the merits of rationalism, especially professionally, makes Commanders incredibly insensitive in pursuing their goals, dismissing personal circumstances, sensitivities, and preferences as irrational and irrelevant.",
+      "STUBBORN AND DOMINANT. ENTJs believe strongly in their vision, and they’ll fight hard for it. But this can lead to steamrolling over others’ input or refusing to adjust their course, even when compromise might be the better path.",
+      "INTOLERANT.  If an idea doesn’t serve their mission, they’ll dismiss it outright, especially if it’s based on emotional logic. ENTJs need to be mindful not to alienate creative or sensitive team members whose perspectives, while different, could be valuable.",
+      "IMPATIENT. ENTJs move fast and expect others to keep up. When people need more time to think, process, or even feel, Commanders may misinterpret it as incompetence or indifference, when in reality, it’s just a different style.",
+      "ARROGANT. Confidence becomes arrogance when ENTJs stop listening. They may view those who aren’t as fast-thinking or assertive as beneath them, creating tension and driving away collaborators who could balance their intensity.",
+      "POOR HANDLING OF EMOTIONS. Emotions are messy, unpredictable, and inefficient. Everything Commanders dislike. But ignoring them doesn’t make them go away. ENTJs often struggle to respond to the emotional needs of others, and sometimes even their own.",
+      "COLD AND RUTHLESS. In pursuit of their goals, ENTJs can become so focused that they disregard the personal toll of their actions. They may view relationships and wellbeing as secondary to “the mission,” unintentionally burning bridges or wounding allies along the way.",
     ],
-    successDefinition: `1. A WORTHY CHALLENGE - I am a true powerhouse, and I cultivate an image of being larger than life – and often enough I am. I need to remember though, that my stature comes not just from my own actions, but from the actions of the team that props me up, and that it’s important to recognize the contributions, talents and needs, especially from an emotional perspective, of my support network. 
-    2. STRIVING FOR GREATNESS - At the negotiating table, I am dominant, relentless, and unforgiving. This isn’t because I am coldhearted or vicious per se – it’s more that I genuinely enjoy the challenge, the battle of wits, the repartee that comes from this environment, and if the other side can’t keep up, that’s no reason for me to fold on my own core tenet of ultimate victory.`,
+    successDefinition: `A WORTHY CHALLENGE. I am a true powerhouse, and I cultivate an image of being larger than life – and often enough I am. I need to remember though, that my stature comes not just from my own actions, but from the actions of the team that props me up, and that it’s important to recognize the contributions, talents and needs, especially from an emotional perspective, of my support network. 
+STRIVING FOR GREATNESS. At the negotiating table, I am dominant, relentless, and unforgiving. This isn’t because I am coldhearted or vicious per se – it’s more that I genuinely enjoy the challenge, the battle of wits, the repartee that comes from this environment, and if the other side can’t keep up, that’s no reason for me to fold on my own core tenet of ultimate victory.`,
     strengths: [
       "Commanders tend to “cut straight to the chase” and do not get sidetracked by non-essential issues.",
       "Commanders tend to step up to a leadership position which may help keep the session moving forward.",
@@ -118,9 +121,11 @@ At their best, Protagonists are shining examples of what it means to live with i
   {
     type: "ENFP",
     name: "The Campaigner",
-    nameDescription: "“It doesn’t interest me what you do for a living. I want to know what you ache for – and if you dare to dream of meeting your heart’s longing.” - Oriah Mountain Dreamer",
+    nameDescription: "“To live is the rarest thing in the world. Most people exist, that is all.” - Oscar Wilde",
     epithet: "Extroverted iNtuitive Feeling Perceiving",
-    description: `Campaigners (ENFPs) are true free spirits – outgoing, openhearted, and open-minded. With their lively, upbeat approach to life, they stand out in any crowd. But even though they can be the life of the party, Campaigners don’t just care about having a good time. These personality types run deep – as does their longing for meaningful, emotional connections with other people.`,
+    description: `Campaigners (ENFPs) are the spark in any room—the lively, openhearted souls who light up social circles with their warmth and curiosity. But beneath their upbeat, outgoing energy lies a deep well of passion and introspection. ENFPs are seekers of meaning and connection, endlessly fascinated by the magic woven into everyday moments and the intricate webs that link us all.
+
+Known for their playful spirit and infectious enthusiasm, Campaigners live life on their own terms. They’re not content with surface-level chatter or shallow experiences. For these idealists, every conversation, every relationship, and every adventure holds the potential for emotional richness and genuine growth.`,
     jungianFunctionalPreference: {
       dominant: "BARBARIAN - World Tree",
       auxiliary: "DRUID - Circle of Dreams",
@@ -135,23 +140,23 @@ At their best, Protagonists are shining examples of what it means to live with i
       `Valeria - 1982 Conan the Barbarian`,
     ],
     relationshipStrengths: [
-      "CURIOUS – Campaigners can find beauty and fascination in nearly anything. Imaginative and open-minded, these personalities aren’t afraid to venture beyond their comfort zones in search of new ideas, experiences, and adventures.",
-      "PERCEPTIVE – To people with this personality type, no one is unimportant – which might explain how they can pick up on even the subtlest shifts in another person’s mood or expression. Because they’re so sensitive to other people’s feelings and needs, Campaigners can make full use of their caring, considerate nature.",
-      "ENTHUSIASTIC – When something captures their imagination and inspires them, Campaigners want to share it with anyone who will listen. And they’re just as eager to hear other people’s ideas and opinions – even if those thoughts are wildly different from their own.",
-      "EXCELLENT COMMUNICATORS – Campaigners brim with things to say, but they can be caring listeners as well. This gives them a nearly unmatched ability to have positive and enjoyable conversations with all sorts of people – even people who aren’t particularly sociable or agreeable.",
-      "FESTIVE – Campaigners may live for deep, meaningful conversations, but they can also be spontaneous and lighthearted. These personalities know how to find fun and joy in the present moment – and few things give them more pleasure than sharing their joy with others.",
-      "GOOD NATURED – All of these strengths come together to form a person who is warmhearted and approachable, with an altruistic spirit and a friendly disposition. Campaigners strive to get along with pretty much everyone, and their circles of acquaintances and friends often stretch far and wide.",
+      "CURIOUS. Campaigners see wonder in the everyday and aren’t afraid to explore new ideas, places, and perspectives beyond their comfort zone.",
+      "PERCEPTIVE. No detail is too small for ENFPs. Their sensitivity to others’ moods and feelings helps them respond with care and kindness.",
+      "ENTHUSIASTIC. When inspiration strikes, Campaigners share it with contagious excitement, drawing others into their world of possibilities.",
+      "EXCELLENT COMMUNICATORS. With a gift for both speaking and listening, ENFPs connect with all kinds of people, making conversations meaningful and enjoyable.",
+      "FESTIVE. Life is a celebration for Campaigners. They know how to blend fun and depth, creating joyful moments worth remembering.",
+      "GOOD NATURED. Warm and approachable, ENFPs are genuine in their care for others and excel at building wide and varied social circles.",
     ],
     relationshipWeaknesses: [
-      "PEOPLE PLEASING – Most Campaigners are uncomfortable with the prospect of being disliked. To maintain peace, they may compromise on things that matter to them or allow people to treat them poorly. And when they fail to win someone over, they might lose sleep trying to figure out what to do about it.",
-      "UNFOCUSED – The thrill of a new project – especially one that involves collaborating with other people – can bring out the best in Campaigners. But this personality type is known for having ever-evolving interests, meaning that Campaigners may find it challenging to maintain discipline and focus over the long term.",
-      'DISORGANIZED – Campaigners’ enthusiasm is legendary, but it doesn’t extend to everything. Specifically, people with this personality type may try to avoid boring, practical matters, such as chores, maintenance, or paperwork. The resulting sense of disorganization can become a major source of stress in their lives.',
-      "OVERLY ACCOMODATING – Campaigner personalities feel called to uplift others, and they may find themselves saying yes whenever anyone asks them for guidance or help. But unless they set boundaries, even the most energetic Campaigners can become overcommitted, with too little time and energy to tackle the necessities of their own lives.",
-      "OVERLY OPTIMISTIC – Optimism can be among this personality type’s key strengths. But Campaigners’ rosy outlook can lead them to make well-intentioned but naive decisions, such as believing people who haven’t earned their trust. This trait can also make it difficult for Campaigners to accept hard but necessary truths – and to share those truths with others.",
-      "RESTLESS – With their positive, upbeat attitude, Campaigners rarely seem upset or dissatisfied on the outside. But their inner idealism can leave them with a nagging feeling that some major areas of their life just aren’t good enough – whether that’s their work, their home life, or their relationships.",
+      "PEOPLE PLEASING. Avoiding conflict and seeking approval can lead Campaigners to compromise their own values or well-being.",
+      "UNFOCUSED. Their many interests and ideas can scatter their energy, making it hard to follow through consistently.",
+      'DISORGANIZE  Practical tasks often fall by the wayside as Campaigners chase inspiration, causing stress from clutter or missed details.',
+      "OVERLY ACCOMODATING. Their desire to help others sometimes results in taking on too much, leaving little room for self-care.",
+      "OVERLY OPTIMISTIC.  ENFPs’ rosy view of the world can blind them to red flags or hard realities they need to face.",
+      "RESTLESS. Despite their sunny exterior, Campaigners can feel a deep internal dissatisfaction when life or relationships don’t measure up to their ideals.",
      ],
-    successDefinition: `1. THE MAGIC OF EVERYDAY LIFE -  I am independent and creative, always on the lookout for the magic and meaning in everyday life. In my unique way, I can be quite introspective. I can’t help but ponder the deeper meaning and significance of life – even when I should be paying attention to something else. I believe that everything – and everyone – is connected, and I live for the glimmers of insight that I can gain into these connections.
-    2. SEEKING JOY - I am capable of intense thought and feeling – and also of kicking back and having a good time. Even in moments of fun, I want to connect emotionally with others. Few things matter more to me than having genuine, heartfelt conversations with the people I cherish. I believe that everyone deserves to express their feelings, and their empathy and warmth create spaces where even the most timid spirits can feel comfortable opening up.`,
+    successDefinition: `THE MAGIC OF EVERYDAY LIFE. I am independent and creative, always on the lookout for the magic and meaning in everyday life. In my unique way, I can be quite introspective. I can’t help but ponder the deeper meaning and significance of life – even when I should be paying attention to something else. I believe that everything – and everyone – is connected, and I live for the glimmers of insight that I can gain into these connections.
+SEEKING JOY. I am capable of intense thought and feeling – and also of kicking back and having a good time. Even in moments of fun, I want to connect emotionally with others. Few things matter more to me than having genuine, heartfelt conversations with the people I cherish. I believe that everyone deserves to express their feelings, and their empathy and warmth create spaces where even the most timid spirits can feel comfortable opening up.`,
     strengths: [
       "Campaigners are very tolerant of other players which helps with session cohesion.",
       "Campaigners are highly creative which tends to help solve intractable problems that may be preventing the session from moving forward.",
@@ -175,10 +180,11 @@ At their best, Protagonists are shining examples of what it means to live with i
   {
     type: "ENTP",
     name: "The Debater",
-    nameDescription: "“Follow the path of the unsafe, independent thinker. Expose your ideas to the dangers of controversy.” - Thomas J. Watson",
+    nameDescription: "“Think for yourselves and let others enjoy the privilege to do so too.” - Voltaire",
     epithet: "Extroverted iNtuitive Thinking Perceiving",
-    description: `Quick-witted and audacious, Debaters aren’t afraid to disagree with the status quo. In fact, they’re not afraid to disagree with pretty much anything or anyone. Few things light up people with this personality type more than a bit of verbal sparring – and if the conversation veers into controversial terrain, so much the better.
-It would be a mistake, though, to think of Debaters as disagreeable or mean-spirited. Instead, people with this personality type are knowledgeable and curious, with a playful sense of humor, and they can be incredibly entertaining. They simply have an offbeat, contrarian idea of fun – one that involves a healthy dose of spirited debate.`,
+    description: `If the world had more ENTPs—Debaters—it would be a far more exciting (and probably more chaotic) place. ENTPs are wired to question everything. Whether it’s your thesis, your belief system, your boss, or the entire structure of society, Debaters approach it all with irreverent wit, intellectual firepower, and a smirk that says, “What if we did it completely differently?”
+
+To Debaters, few things are more exhilarating than a well-matched argument. They don’t debate to dominate; they debate to discover and to stress-test ideas, challenge assumptions, and push boundaries. And yes, sometimes, they just want to see if they can win the argument.`,
     jungianFunctionalPreference: {
       dominant: "RANGER - Hunter",
       auxiliary: "BARD - College of Eloquence",
@@ -194,22 +200,22 @@ It would be a mistake, though, to think of Debaters as disagreeable or mean-spir
       "Subotai - 1982 Conan the Barbarian",
     ],
     relationshipStrengths: [
-      "KNOWLEDGEABLE – Debaters rarely pass up a good opportunity to learn something new, especially abstract concepts. This information isn’t usually absorbed for any planned purpose as with dedicated studying, people with the Debater personality type just find it fascinating.",
-      "QUICK THINKERS – Debaters have tremendously flexible minds, and are able to shift from idea to idea without effort, drawing on their accumulated knowledge to prove their points, or their opponents’, as they see fit.",
-      "ORIGINAL – Having little attachment to tradition, Debater personalities are able to discard existing systems and methods and pull together disparate ideas from their extensive knowledge base, with a little raw creativity to hold them together, to formulate bold new ideas. If presented with chronic, systemic problems and given rein to solve them, Debaters respond with unabashed glee.",
-      "EXCELLENT BRAINSTORMERS – Nothing is quite as enjoyable to Debaters as analyzing problems from every angle to find the best solutions. Combining their knowledge and originality to splay out every aspect of the subject at hand, rejecting without remorse options that don’t work and presenting ever more possibilities, Debaters are irreplaceable in brainstorming sessions.",
-      "CHARISMATIC – People with the Debater personality type have a way with words and wit that others find intriguing. Their confidence, quick thought and ability to connect disparate ideas in novel ways create a style of communication that is charming, even entertaining, and informative at the same time.",
-      "ENERGETIC – When given a chance to combine these traits to examine an interesting problem, Debaters can be truly impressive in their enthusiasm and energy, having no qualms with putting in long days and nights to find a solution.",
+      "KNOWLEDGEABLE. ENTPs are insatiable learners. They devour ideas, theories, and trivia like popcorn. Their knowledge isn’t always neatly organized, but it gives them a vast reservoir of insight to draw from in any conversation.",
+      "QUICK THINKERS. These personalities can pivot on a dime in conversation or debate. They connect dots in real-time and articulate complex ideas with impressive speed.",
+      "ORIGINAL. Debaters don’t just think outside the box—they question why the box exists at all. Their innovative thinking makes them especially skilled at solving systemic problems in unconventional ways.",
+      "EXCELLENT BRAINSTORMERS. ENTPs love possibilities. They thrive in collaborative, high-energy idea sessions, throwing out fresh, exciting concepts that others might never think of.",
+      "CHARISMATIC. With their humor, intellect, and daring spirit, ENTPs are natural entertainers and compelling conversationalists. They draw people in, even when they’re challenging their audience’s beliefs.",
+      "ENERGETIC. When mentally stimulated, ENTPs can become practically unstoppable, working long hours, jumping from topic to topic, driven by their passion and intellectual hunger.",
      ],
     relationshipWeaknesses: [
-      "VERY ARGUMENTATIVE – If there’s anything Debaters enjoy, it’s the mental exercise of debating an idea, and nothing is sacred. More consensus-oriented personality types rarely appreciate the vigor with which Debater personalities tear down their beliefs and methods, leading to a great deal of tension.",
-      "INSENSITIVE – Being so rational, Debaters often misjudge others feelings and push their debates well past others’ tolerance levels. People with this personality type don’t really consider emotional points to be valid in such debates either, which magnifies the issue tremendously.",
-      "INTOLERANT – Unless people are able to back up their ideas in a round of mental sparring, Debaters are likely to dismiss not just the ideas but the people themselves. Either a suggestion can stand up to rational scrutiny or it’s not worth bothering with.",
-      "CAN FIND IT DIFFICULT TO FOCUS – The same flexibility that allows Debaters to come up with such original plans and ideas makes them readapt perfectly good ones far too often, or to even drop them entirely as the initial excitement wanes and newer thoughts come along. Boredom comes too easily for Debaters, and fresh thoughts are the solution, though not always a helpful one.",
-      `DISLIKE PRACTICAL MATTERS – Debaters are interested in what could be – malleable concepts like ideas and plans that can be adapted and debated. When it comes to hard details and day-to-day execution where creative flair isn’t just unnecessary but actually counter-productive, Debater personalities lose interest, often with the consequence of their plans never seeing the light of day.`,
+      "VERY ARGUMENTATIVE. ENTPs are natural contrarians. Unfortunately, not everyone enjoys being debated all the time. Their constant questioning can wear others down and make them seem combative, even when they’re just having fun.",
+      "INSENSITIVE. In their quest for logic, ENTPs often overlook or dismiss emotional cues. What they see as healthy skepticism or playful provocation may feel like disregard or cruelty to more sensitive personalities.",
+      "INTOLERANT. If someone can’t keep up intellectually, or presents arguments based on emotion rather than logic, ENTPs may write them off. This habit can limit their collaborative potential and damage relationships.",
+      "CAN FIND IT DIFFICULT TO FOCUS. ENTPs chase novelty. Once the thrill of an idea fades, they may lose interest, even if the work isn’t finished. This can leave a trail of brilliant but incomplete projects behind them.",
+      `DISLIKE PRACTICAL MATTERS. Details? Logistics? Routine execution? Not an ENTP’s favorite. They often find daily maintenance dull and may struggle to commit to the unglamorous aspects of productivity.`,
     ],
-    successDefinition: `1. BREAKING THE RULES - As I see it, most people are too ready to do as they’re told and blindly conform to social norms, pressures, and standards. I enjoy the mental exercise of questioning the prevailing mode of thought, and I take a certain pleasure in uncovering the value of underdogs and outliers. My active mind can’t help but rethink the things that everyone else takes for granted and push them in clever new directions.
-2. THE COST OF CONTRARIANISM - As I see it, most people are too ready to do as they’re told and blindly conform to social norms, pressures, and standards. I enjoy the mental exercise of questioning the prevailing mode of thought, and I take a certain pleasure in uncovering the value of underdogs and outliers. My active mind can’t help but rethink the things that everyone else takes for granted and push myself in clever new directions.`,
+    successDefinition: `BREAKING THE RULES. As I see it, most people are too ready to do as they’re told and blindly conform to social norms, pressures, and standards. I enjoy the mental exercise of questioning the prevailing mode of thought, and I take a certain pleasure in uncovering the value of underdogs and outliers. My active mind can’t help but rethink the things that everyone else takes for granted and push them in clever new directions.
+THE COST OF CONTRARIANISM. As I see it, most people are too ready to do as they’re told and blindly conform to social norms, pressures, and standards. I enjoy the mental exercise of questioning the prevailing mode of thought, and I take a certain pleasure in uncovering the value of underdogs and outliers. My active mind can’t help but rethink the things that everyone else takes for granted and push myself in clever new directions.`,
     strengths: [
       "Debaters tend to be fairly laid-back and easy to get along with which helps facilitate player cohesion.",
       "Debaters tend to understand new things quickly which prevents slowing sessions down to explain things.",
@@ -233,10 +239,11 @@ It would be a mistake, though, to think of Debaters as disagreeable or mean-spir
   {
     type: "ESFJ",
     name: "The Consul",
-    nameDescription: "“Encourage, lift, and strengthen one another. For the positive energy spread to one will be felt by us all.” - Deborah Day",
+    nameDescription: "“We rise by lifting others.” - Robert Ingersoll",
     epithet: "Extroverted Sensing Feeling Judging",
-    description: `For Consuls, life is sweetest when it’s shared with others. People with this personality type form the bedrock of many communities, opening their homes – and their hearts – to friends, loved ones, and neighbors.
-This doesn’t mean that Consuls like everyone, or that they’re saints. But Consuls do believe in the power of hospitality and good manners, and they tend to feel a sense of duty to those around them. Generous and reliable, people with this personality type often take it upon themselves – in ways both large and small – to hold their families and their communities together.`,
+    description: `For Consuls, life isn’t meant to be lived in solitude, it’s meant to be shared. This personality type shines when they’re bringing people together, caring for loved ones, and upholding the traditions and social harmony that hold families and communities in balance. They’re the ones organizing birthday parties, remembering anniversaries, and showing up, without being asked, when someone’s in need.
+
+At their core, Consuls are connectors. They believe in kindness, in manners, and in the importance of showing up for others. Though they may not always agree with everyone around them, they rarely stop trying to find common ground. With a strong sense of duty and an even stronger sense of heart, Consuls play a vital role in creating spaces where people feel welcome, understood, and cared for.`,
     jungianFunctionalPreference: {
       dominant: "FIGHTER - Champion",
       auxiliary: "CLERIC - Life Domain",
@@ -251,22 +258,22 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
       "Lando Calrissian - Star Wars",      
     ],
     relationshipStrengths: [
-      "STRONG PRACTICAL SKILLS – Consuls are excellent managers of day-to-day tasks and routine maintenance, enjoying making sure that those who are close to them are well cared for.",
-      "STRONG SENSE OF DUTY – People with the Consul personality type have a strong sense of responsibility and strive to meet their obligations, though this may sometimes be more from a sense of social expectations than intrinsic drive.",
-      "VERY LOYAL – Valuing stability and security very highly, Consuls are eager to preserve the status quo, which makes them extremely loyal and trustworthy partners and employees. Consuls are true pillars of any groups they belong to – whether it is their family or a community club, people with this personality type can always be relied upon.",
-      "SENSITIVE AND WARM – Helping to ensure that stability, Consul personalities seek harmony and care deeply about other people’s feelings, being careful not to offend or hurt anybody. Consuls are strong team players, and win-win situations are the stuff smiles are made of.",
-      "GOOD AT CONNECTING WITH OTHERS – These qualities come together to make Consuls social, comfortable and well-liked. Consul personalities have a strong need to “belong”, and have no problem with small talk or following social cues in order to help them take an active role in their communities.",
+      "STRONG PRACTICAL SKILLS. Consuls thrive in real-world tasks. From coordinating events to managing daily responsibilities, they keep life running smoothly for those around them.",
+      "STRONG SENSE OF DUTY. They take obligations seriously, often going out of their way to fulfill responsibilities, especially when others are counting on them.",
+      "VERY LOYAL. Consuls prize stability and commitment. They’re often the glue that holds social groups or families together, remaining dependable through thick and thin.",
+      "SENSITIVE AND WARM. With a genuine concern for others’ feelings, Consuls naturally create environments of warmth and inclusion. They seek harmony, not conflict.",
+      "GOOD AT CONNECTING WITH OTHERS. Outgoing and observant, Consuls are skilled at reading social dynamics and fostering a sense of belonging wherever they go.",
      ],
     relationshipWeaknesses: [
-      "WORRIED ABOUT THEIR SOCIAL STATUS – These Strengths are related to a chief Weakness: Consuls’ preoccupation with social status and influence, which affects many decisions they make, potentially limiting their creativity and open-mindedness.",
-      "INFLEXIBLE – Consuls place a lot of importance on what is socially acceptable, and can be very cautious, even critical of anything unconventional or outside the mainstream. People with this personality type may also sometimes push their own beliefs too hard in an effort to establish them as mainstream.",
-      "RELUCTANT TO INNOVATE OR IMPROVISE – Just as they can be critical of others’ “unusual” behavior, Consuls may also be unwilling to step out of their own comfort zones, usually for fear of being (or just appearing) different.",
-      "VULNERABLE TO CRITICISM – It can be especially challenging to change these tendencies because Consuls are so conflict-averse. Consul personalities can become very defensive and hurt if someone, especially a person close to them, criticizes their habits, beliefs or traditions.",
-      "OFTEN TOO NEEDY – Consuls need to hear and see a great deal of appreciation. If their efforts go unnoticed, people with the Consul personality type may start fishing for compliments, in an attempt to get reassurance of how much they are valued.",
-      "TOO SELFLESS – The other side of this is that Consuls sometimes try to establish their value with doting attention, something that can quickly overwhelm those who don’t need it, making it ultimately unwelcome. Furthermore, Consuls often neglect their own needs in the process.",      
+      "WORRIED ABOUT THEIR SOCIAL STATUS. A deep desire to be liked and respected can sometimes cause Consuls to overvalue appearances, tradition, or approval, limiting their growth and spontaneity.",
+      "INFLEXIBLE. With a strong focus on what is “acceptable,” Consuls can be wary or critical of unconventional ideas and people, particularly when those differences disrupt the social order.",
+      "RELUCTANT TO INNOVATE OR IMPROVISE. Change can be uncomfortable for Consuls, especially when it challenges the status quo. They may resist trying new methods or taking unfamiliar risks.",
+      "VULNERABLE TO CRITICISM. Even well-meant feedback can hit hard, especially from those they care about. Consuls may interpret critique as a personal rejection, leading to defensiveness or self-doubt.",
+      "OFTEN TOO NEEDY. While Consuls give a great deal, they also crave visible appreciation. If their efforts go unnoticed, they may seek validation in ways that feel excessive or performative to others.",
+      "TOO SELFLESS. Driven by a desire to help, Consuls may overextend themselves, sometimes neglecting their own needs entirely. Their generosity, while admirable, can become overwhelming to recipients or unsustainable for themselves.",      
     ],
-    successDefinition: `1.  BUILDING RELATIONSHIPS THAT LAST - I rarely miss a birthday or holiday. Devoted to my relationships, I commit even the smallest details of my friends’ and loved ones’ lives to memory. Supportive and outgoing, I can always be spotted at a party – I am the one fluttering around making sure that everyone else is having a good time! But make no mistake, I don’t just breeze through other people’s lives. Loyal to the core, I build lasting relationships, and I can be counted on to show up whenever a helping hand, or a listening ear, is needed.
-    2. THE BEAUTY OF A RESPONSIBLE LIFE - I have a clear moral compass – and it can be nothing short of baffling to me when other people’s actions don’t align with it. I believe that there is a clear right thing to do in nearly every situation. While some may adopt a more lenient, live-and-let-live attitude, I find it difficult not to judge when someone takes a path that strikes me as misguided. As a result, I often struggle to accept it when someone, particularly someone I care about, disagrees with me.`,
+    successDefinition: `BUILDING RELATIONSHIPS THAT LAST. I rarely miss a birthday or holiday. Devoted to my relationships, I commit even the smallest details of my friends’ and loved ones’ lives to memory. Supportive and outgoing, I can always be spotted at a party – I am the one fluttering around making sure that everyone else is having a good time! But make no mistake, I don’t just breeze through other people’s lives. Loyal to the core, I build lasting relationships, and I can be counted on to show up whenever a helping hand, or a listening ear, is needed.
+THE BEAUTY OF A RESPONSIBLE LIFE. I have a clear moral compass – and it can be nothing short of baffling to me when other people’s actions don’t align with it. I believe that there is a clear right thing to do in nearly every situation. While some may adopt a more lenient, live-and-let-live attitude, I find it difficult not to judge when someone takes a path that strikes me as misguided. As a result, I often struggle to accept it when someone, particularly someone I care about, disagrees with me.`,
     strengths: [
       "Consuls tend to make decisions based on their emotions and concern for others, thus they may make game decision that will keep a group together above any other consideration.",
       "Consuls tend to be sensitive to the needs and feelings of others, thus they will be a calming influence when conflict between players arises in a session.",
@@ -290,9 +297,11 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
   {
     type: "ESFP",
     name: "The Entertainer",
-    nameDescription: "“Live for each second without hesitation.” - Elton John",
+    nameDescription: "“You only live once, but if you do it right, once is enough.” - Mae West",
     epithet: "Extroverted Sensing Feeling Perceiving",
-    description: `If anyone is to be found spontaneously breaking into song and dance, it is the Entertainer personality type. Entertainers get caught up in the excitement of the moment, and want everyone else to feel that way, too. No other personality type is as generous with their time and energy as Entertainers when it comes to encouraging others, and no other personality type does it with such irresistible style.`,
+    description: `If you hear music, laughter, and the unmistakable sound of someone turning a quiet moment into a spontaneous celebration, chances are you’ve found an Entertainer. Bursting with charisma and driven by a deep love of life’s pleasures, ESFPs are radiant, joyful, and impossible to ignore. Whether it’s breaking into dance mid-conversation or lighting up a room with their contagious enthusiasm, Entertainers live for connection—and they make sure everyone’s invited.
+
+But don’t mistake the sparkle for superficiality. Beneath their playful charm is a person who genuinely cares about others, notices the details most miss, and lives to make those around them feel seen, supported, and celebrated.`,
     jungianFunctionalPreference: {
       dominant: "MONK - Drunken Master",
       auxiliary: "DRUID - Circle of the Moon",
@@ -306,22 +315,22 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
       "Peregrin Took - The Lord of the Rings",
     ],
     relationshipStrengths: [
-      "BOLD – Entertainers aren’t known for holding back. Wanting to experience everything there is to experience, people with the Entertainer personality type don’t mind stepping out of their comfort zones when no one else is willing.",
-      "ORIGINAL – Traditions and expectations are secondary to Entertainers, if a consideration at all. Entertainer personalities love to experiment with new styles, and constantly find new ways to stick out in the crowd.",
-      "AESTHETICS AND SHOWMANSHIP – Not stopping at mere outfits, Entertainers inject artistic creativity into their words and actions, too. Every day is a performance, and Entertainers love to put on a show.",
-      "PRACTICAL – To Entertainers, the world is meant to be felt and experienced. Truth is stranger than fiction, and Entertainers prefer to see and do than to wax philosophical about “what-ifs”.",
-      "OBSERVANT – With all this focus on the here and now, on doing and acting, it makes sense that Entertainers are naturals when it comes to noticing real, tangible things and changes.",
-      'EXCELLENT PEOPLE SKILLS – More so than things though, Entertainers love to pay attention to people. They are talkative, witty, and almost never run out of things to discuss. For people with this personality type, happiness and satisfaction stem from the time they spend with the people they enjoy being with. ',
+      "BOLD. ESFPs are adventurous spirits, never shying away from a challenge or the chance to step outside their comfort zone. They bring color and energy to everything they touch.",
+      "ORIGINAL. Whether it’s their fashion sense, creative ideas, or ways of solving problems, Entertainers love to stand out from the crowd and push the envelope.",
+      "AESTHETICS AND SHOWMANSHIP. They don’t just see beauty, they create it. ESFPs put flair and personality into everything from the way they dress to how they tell a story.",
+      "PRACTICAL. Entertainers may be expressive, but they’re grounded. They trust their senses and respond to the world as it is, preferring action to abstract theory.",
+      "OBSERVANT. With their sharp eye for detail, Entertainers notice everything—from a change in mood to the perfect accessory. Their awareness keeps them connected to people and their surroundings.",
+      'EXCELLENT PEOPLE SKILLS. Warm, talkative, and tuned into others, ESFPs are social naturals. Whether they’re hyping up a friend or entertaining a crowd, they know how to make people feel included and alive.,
     ],
     relationshipWeaknesses: [
-      "SENSITIVE – Entertainers (especially Turbulent ones) are strongly emotional, and very vulnerable to criticism – they can feel like they’ve been backed into a corner, sometimes reacting badly. This is probably Entertainers’ greatest weakness, because it makes it so hard to address any other weaknesses brought to light.",
-      "CONFLICT AVERSE – Entertainers sometimes ignore and avoid conflict entirely. They tend to say and do what’s needed to get out of such situations, then move on to something more fun.",
-      "EASILY BORED – Without constant excitement, Entertainers find ways to create it themselves. Risky behavior, self-indulgence, and the pleasures of the moment over long-term plans are all things Entertainers get into a little too often.",
-      "POOR LONG-TERM PLANNER – In fact, Entertainer personalities rarely make detailed plans for the future. To them, things come as they come, and they rarely bother with taking the time to lay out steps and consequences, with the belief that they could change at any moment – even with things that can be planned.",
-      "UNFOCUSED – Anything that requires long-term dedication and focus is a particular challenge for Entertainers. In academics, dense, unchanging subjects like Classic Literature are much more difficult than more dynamic, relatable subjects like psychology. The trick for Entertainers is to find day-to-day joy in broader goals, and to tough it out with those tedious things that must be done.",
+      "SENSITIVE. While they’re upbeat on the outside, criticism can hit ESFPs hard. Even casual feedback may feel deeply personal, leading them to avoid difficult conversations or lash out emotionally.",
+      "CONFLICT AVERSE. Drama is fun when it’s playful, but when things get tense or personal, Entertainers often sidestep confrontation instead of addressing it directly.",
+      "EASILY BORED. Without stimulation, ESFPs can quickly lose interest. This leads to distraction, risky choices, or abandoning tasks that lack excitement.",
+      "POOR LONG-TERM PLANNER. Living in the moment means that Entertainers often forget to think about the future. Planning for retirement or managing their diet long-term? Not exactly their go-to activities.",
+      "UNFOCUSED. Big goals require sustained effort, something ESFPs struggle with. They do best when tasks are interactive, dynamic, and have immediate rewards, and may falter with things that require long-term grit.",
     ],
-    successDefinition: `1.  LIVING WITH PASSION - I love the spotlight, and all the world’s a stage. Many famous people like are indeed actors, but I love putting on a show for my friends too, chatting with a unique and earthy wit, soaking up attention and making every outing feel a bit like a party. Utterly social, I enjoy the simplest things, and there’s no greater joy for me than just having fun with a good group of friends.
-    2.  A SPONTANEOUS SPIRIT- There’s nothing that makes me feel quite as unhappy as realizing that I am boxed in by circumstance, unable to join my friends. The biggest challenge I face is that I am often so focused on immediate pleasures that I neglect the duties and responsibilities that make those luxuries possible. Complex analysis, repetitive tasks, and matching statistics to real consequences are not easy activities for me. I would rather rely on luck or opportunity, or simply ask for help from my extensive circle of friends. `,
+    successDefinition: `LIVING WITH PASSION. I love the spotlight, and all the world’s a stage. Many famous people like are indeed actors, but I love putting on a show for my friends too, chatting with a unique and earthy wit, soaking up attention and making every outing feel a bit like a party. Utterly social, I enjoy the simplest things, and there’s no greater joy for me than just having fun with a good group of friends.
+A SPONTANEOUS SPIRIT. There’s nothing that makes me feel quite as unhappy as realizing that I am boxed in by circumstance, unable to join my friends. The biggest challenge I face is that I am often so focused on immediate pleasures that I neglect the duties and responsibilities that make those luxuries possible. Complex analysis, repetitive tasks, and matching statistics to real consequences are not easy activities for me. I would rather rely on luck or opportunity, or simply ask for help from my extensive circle of friends. `,
     strengths: [
       "Entertainers liven up a table and spread infectious enthusiasm during game sessions.",
       "Entertainers love being part of the team and work well with other players during sessions.",
@@ -347,7 +356,9 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
     name: "The Executive",
     nameDescription: "“Good order is the foundation of all things.” - Edmund Burke",
     epithet: "Extroverted Sensing Thinking Judging",
-    description: `Executives are representatives of tradition and order, utilizing their understanding of what is right, wrong and socially acceptable to bring families and communities together. Embracing the values of honesty, dedication and dignity, people with the Executive personality type are valued for their clear advice and guidance, and they happily lead the way on difficult paths. Taking pride in bringing people together, Executives often take on roles as community organizers, working hard to bring everyone together in celebration of cherished local events, or in defense of the traditional values that hold families and communities together.`,
+    description: `Executives (ESTJs) are the pillars of structure, responsibility, and community. They lead not with lofty theories or empty promises, but with action—measured, reliable, and grounded in a deep sense of duty. These are the people who step up when others hesitate, who take the helm in times of uncertainty, and who pride themselves on holding fast to what works.
+
+Clear-minded and determined, Executives build systems that last. Whether organizing a team, a family, or a full-blown civic event, they ensure everything is handled with precision and integrity. You’ll often find them where structure is needed most—bringing order to chaos, keeping the wheels turning, and making sure no one drops the ball.`,
     jungianFunctionalPreference: {
       dominant: "PALADIN - Oath of Devotion",
       auxiliary: "DRUID - Circle of the Shepherd",
@@ -363,23 +374,23 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
       "Darth Vader - Star Wars",
     ],
     relationshipStrengths: [
-      "DEDICATED – Seeing things to completion borders on an ethical obligation for Executives. Tasks aren’t simply abandoned because they’ve become difficult or boring – people with the Executive personality type take them up when they are the right thing to do, and they will be finished so long as they remain the right thing to do.",
-      "STRONG-WILLED – A strong will makes this dedication possible, and Executives don’t give up their beliefs because of simple opposition. Executives defend their ideas and principles relentlessly, and must be proven clearly and conclusively wrong for their stance to budge.",
-      "DIRECT AND HONEST – Executives trust facts far more than abstract ideas or opinions. Straightforward statements and information are king, and Executive personalities return the honesty - whether it’s wanted or not.",
-      "LOYAL, PATIENT AND RELIABLE – Executives work to exemplify truthfulness and reliability, considering stability and security very important. When Executives say they’ll do something, they keep their word, making them very responsible members of their families, companies and communities.",
-      "ENJOY CREATING ORDER – Chaos makes things unpredictable, and unpredictable things can’t be trusted when they are needed most – with this in mind, Executives strive to create order and security in their environments by establishing rules, structures and clear roles.",
-      "EXCELLENT ORGANIZERS – This commitment to truth and clear standards makes Executives capable and confident leaders. People with this personality type have no problem distributing tasks and responsibilities to others fairly and objectively, making them excellent administrators.",
+      "DEDICATED. Executives take their commitments seriously. When they say they’ll do something, you can count on it getting done...completely, and to a high standard.",
+      "STRONG-WILLED. Once they’ve set a course, ESTJs stick to it. They aren’t easily discouraged by resistance and are willing to push through adversity to uphold what they believe in.",
+      "DIRECT AND HONEST. These personalities value clarity over comfort. They tell it like it is, whether it’s popular or not, and respect others who do the same.",
+      "LOYAL, PATIENT AND RELIABLE. Stability is sacred to an Executive. They show up, follow through, and remain steadfast even when others waver.",
+      "ENJOY CREATING ORDER. From organizing a calendar to setting workplace protocols, Executives are natural systems-builders who thrive when there’s a plan in place.",
+      "EXCELLENT ORGANIZERS. With their clear thinking and strong sense of fairness, Executives excel at delegating, managing teams, and turning plans into action.",
      ],
     relationshipWeaknesses: [
-      "INFLEXIBLE AND STUBBORN – The problem with being so fixated on what works is that Executives too often dismiss what might work better. Everything is opinion until proven, and Executive personalities are reluctant to trust an opinion long enough for it to have that chance.",
-      "UNCOMFORTABLE WITH UNCONVENTIONAL SITUATIONS – Executives are strong adherents to tradition and when suddenly forced to try unvetted solutions, they become uncomfortable and stressed. New ideas suggest that their methods weren’t good enough, and abandoning what has always worked before in favor of something that may yet fail risks their image of reliability.",
-      "JUDGMENTAL – Executives have strong convictions about what is right, wrong, and socially acceptable. Executives’ compulsion to create order often extends to all things and everyone, ignoring the possibility that there are two right ways to get things done. Executives do not hesitate to let these “deviants” know what they think, considering it their duty to set things right.",
-      "TOO FOCUSED ON SOCIAL STATUS – Executives take pride in the respect of their friends, colleagues and community and while difficult to admit, are very concerned with public opinion. Executives (especially Turbulent ones) can get so caught up in meeting others’ expectations that they fail to address their own needs.",
-      "DIFFICULT TO RELAX – This need for respect fosters a need to maintain their dignity, which can make it difficult to cut loose and relax for risk of looking the fool, even in good fun.",
-      "DIFFICULTY EXPRESSING EMOTION – This is all evidence of Executives’ greatest weakness: expressing emotions and feeling empathy. People with the Executive personality type get so caught up in the facts and most effective methods that they forget to think of what makes others happy, or of their sensitivity. A detour can be breathtakingly beautiful, a joy for the family, but Executives may only see the consequence of arriving at their destination an hour late, hurting their loved ones by rejecting the notion too harshly.",
+      "INFLEXIBLE AND STUBBORN. ESTJs place great trust in what’s tried and true. As a result, they may reject new approaches, even when innovation could lead to better outcomes.",
+      "UNCOMFORTABLE WITH UNCONVENTIONAL SITUATIONS. Change that disrupts order or defies tradition can be deeply unsettling for Executives. They prefer structured, proven environments and may struggle with ambiguity or improvisation.",
+      "JUDGMENTAL. Because they have clear ideas about right and wrong, Executives can be quick to criticize those who don’t share their values or approach. This can alienate those who see the world differently or operate with more flexibility.",
+      "TOO FOCUSED ON SOCIAL STATUS. ESTJs often care deeply about earning respect and being seen as competent and successful. While this drive can be motivating, it may also lead them to suppress personal needs or pursue approval at the expense of authenticity.",
+      "DIFFICULT TO RELAX. With a strong sense of duty and the ever-present need to maintain control, Executives may find it hard to let go and simply enjoy the moment—especially when there’s work to be done.",
+      "DIFFICULTY EXPRESSING EMOTION. Focused on facts and efficiency, Executives can overlook the emotional side of life. They may unintentionally dismiss the feelings of others, or struggle to communicate their own, leading to misunderstandings or emotional distance in their relationships.",
      ],
-    successDefinition: `1. A GREATER RESPONSIBILITY - I am the classic image of the model citizen: I help my neighbors, uphold the law, and try to make sure that everyone participates in the communities and organizations I hold so dear.  The main challenge for me is to recognize that not everyone follows the same path or contributes in the same way. A true leader recognizes the strength of the individual, as well as that of the group, and helps bring those individuals’ ideas to the table. That way, I really do have all the facts, and are able to lead the charge in directions that work for everyone.
-    2. LEADING BY EXAMPLE - I am aware of my surroundings and live in a world of clear, verifiable facts – the surety of my knowledge means that even against heavy resistance, I stick to my principles and push an unclouded vision of what is and is not acceptable. My opinions aren’t just empty talk either, I am more than willing to dive into the most challenging projects, improving action plans and sorting details along the way, making even the most complicated tasks seem easy and approachable.`,
+    successDefinition: `A GREATER RESPONSIBILITY. I am the classic image of the model citizen: I help my neighbors, uphold the law, and try to make sure that everyone participates in the communities and organizations I hold so dear.  The main challenge for me is to recognize that not everyone follows the same path or contributes in the same way. A true leader recognizes the strength of the individual, as well as that of the group, and helps bring those individuals’ ideas to the table. That way, I really do have all the facts, and are able to lead the charge in directions that work for everyone.
+LEADING BY EXAMPLE. I am aware of my surroundings and live in a world of clear, verifiable facts – the surety of my knowledge means that even against heavy resistance, I stick to my principles and push an unclouded vision of what is and is not acceptable. My opinions aren’t just empty talk either, I am more than willing to dive into the most challenging projects, improving action plans and sorting details along the way, making even the most complicated tasks seem easy and approachable.`,
     strengths: [
       "Executives tend to be assertive and “take-charge” type of people which helps fill the leadership role that may be required in a game session.",
       "Executives are good at remembering things and thus can help keep a session moving forward by remembering a key detail from several sessions prior.",
@@ -405,8 +416,9 @@ This doesn’t mean that Consuls like everyone, or that they’re saints. But Co
     name: "The Entrepreneur",
     nameDescription: "“Life is either a daring adventure or nothing at all.” - Helen Keller",
     epithet: "Extroverted Sensing Thinking Perceiving",
-    description: `Entrepreneurs always have an impact on their immediate surroundings – the best way to spot them at a party is to look for the whirling eddy of people flitting about them as they move from group to group. Laughing and entertaining with a blunt and earthy humor, Entrepreneur personalities love to be the center of attention. If an audience member is asked to come on stage, Entrepreneurs volunteer – or volunteer a shy friend.
-Theory, abstract concepts and plodding discussions about global issues and their implications don’t keep Entrepreneurs interested for long. Entrepreneurs keep their conversation energetic, with a good dose of intelligence, but they like to talk about what is – or better yet, to just go out and do it. Entrepreneurs leap before they look, fixing their mistakes as they go, rather than sitting idle, preparing contingencies and escape clauses.`,
+    description: `If life is a stage, Entrepreneurs are the ones grabbing the mic, pulling people into the spotlight, and turning the moment into a show. ESTPs are electric. They don’t just light up a room—they supercharge it. Loud, fast-moving, and always a little unpredictable, these natural-born risk-takers live to experience life in real time. For them, talk is cheap—action is everything.
+
+Entrepreneurs are the ones making things happen now, diving headfirst into challenges while the rest of the room is still deciding if it’s safe. Hands-on, quick-witted, and endlessly charismatic, ESTPs live for momentum. Whether it's at a party, on the sales floor, or mid-adventure, one thing is certain: when an Entrepreneur is around, it won’t be boring.`,
     jungianFunctionalPreference: {
       dominant: "RANGER - Gloom Stalker",
       auxiliary: "CLERIC - Trickery Domain",
@@ -421,23 +433,23 @@ Theory, abstract concepts and plodding discussions about global issues and their
       "Wolverine - ",
     ],
     relationshipStrengths: [
-      "BOLD – People with the Entrepreneur personality type are full of life and energy. There is no greater joy for Entrepreneurs than pushing boundaries and discovering and using new things and ideas.",
-      "RATIONAL AND PRACTICAL – Entrepreneurs love knowledge and philosophy, but not for their own sake. What’s fun for Entrepreneur personalities is finding ideas that are actionable and drilling into the details so they can put them to use. If a discussion is completely arbitrary, there are better uses for Entrepreneurs’ time.",
-      "ORIGINAL – Combining their boldness and practicality, Entrepreneurs love to experiment with new ideas and solutions. They put things together in ways no one else would think to.",
-      "PERCEPTIVE – This originality is helped by Entrepreneurs’ ability to notice when things change – and when they need to change! Small shifts in habits and appearances stick out to Entrepreneurs, and they use these observations to help create connections with others.",
-      "DIRECT – This perceptive skill isn’t used for mind games – Entrepreneurs prefer to communicate clearly, with direct and factual questions and answers. Things are what they are.",
-      "SOCIABLE – All these qualities pull together to make a natural group leader in Entrepreneurs. This isn’t something that they actively seek – people with this personality type just have a knack for making excellent use of social interactions and networking opportunities.",
+      "BOLD. ESTPs don’t hesitate. They dive into the unknown, energizing others with their courage and willingness to take risks most people avoid.",
+      "RATIONAL AND PRACTICAL. While they love action, Entrepreneurs are grounded in reality. They seek results, not theory, and prefer ideas they can test and apply immediately.",
+      "ORIGINAL. ESTPs think fast and unconventionally. They bring a unique flair to problem-solving, connecting ideas and tools in ways that are both surprising and effective.",
+      "PERCEPTIVE. These personalities are hyper-aware of their surroundings, often catching subtle details, body language, mood shifts, or social dynamics, that others overlook.",
+      "DIRECT. What you see is what you get. Entrepreneurs don’t mince words. Their straightforward style can be refreshing in a world full of hedging and hesitation.",
+      "SOCIABLE. ESTPs are magnetic in groups. They know how to read a room, draw people in, and turn every interaction into an opportunity either for connection, for business, or just for fun.",
      ],
     relationshipWeaknesses: [
-      "INSENSITIVE – Feelings and emotions come second to facts and “reality” for Entrepreneurs. Emotionally charged situations are awkward, uncomfortable affairs, and Entrepreneurs’ blunt honesty doesn’t help here. These personalities often have a lot of trouble acknowledging and expressing their own feelings as well.",
-      "IMPATIENT – Entrepreneurs move at their own pace to keep themselves excited. Slowing down because someone else “doesn’t get it” or having to stay focused on a single detail for too long is extremely challenging for Entrepreneurs.",
-      "RISK-PRONE – This impatience can lead Entrepreneurs to push into uncharted territory without thinking of the long-term consequences. Entrepreneur personalities sometimes intentionally combat boredom with extra risk.",
-      "UNSTRUCTURED – Entrepreneurs see an opportunity – to fix a problem, to advance, to have fun – and seize the moment, often ignoring rules and social expectations in the process. This may get things done, but it can create unexpected social fallout.",
-      "MAY MISS THE BIGGER PICTURE – Living in the moment can cause Entrepreneurs to miss the forest for the trees. People with this personality type love to solve problems here and now, perhaps too much. All parts of a project can be perfect, but the project will still fail if those parts do not fit together.",
-      "DEFIANT – Entrepreneurs won’t be boxed in. Repetition, hardline rules, sitting quietly while they are lectured at – this isn’t how Entrepreneurs live their lives. They are action-oriented and hands-on. Environments like school and much entry-level work can be so tedious that they’re intolerable, requiring extraordinary effort from Entrepreneurs to stay focused long enough to get to freer positions.",
+      "INSENSITIVE. Emotional nuance doesn’t come naturally to ESTPs. They can be startlingly blunt, especially when they’re focused on facts or solutions rather than feelings.",
+      "IMPATIENT. Slow processes, repetitive tasks, or lagging teammates frustrate Entrepreneurs. If something isn’t moving quickly enough, they’ll often try to force it—or abandon it.",
+      "RISK-PRONE. Their appetite for novelty and challenge can lead them into unnecessary or dangerous territory, just to feel the thrill of action.",
+      "UNSTRUCTURED. ESTPs dislike being boxed in by rigid rules or routines. While this keeps them adaptable, it can also make it difficult for them to follow through on obligations.",
+      "MAY MISS THE BIGGER PICTURE. Their laser focus on the here and now can mean they overlook strategic goals, long-term consequences, or how all the moving parts fit together.",
+      "DEFIANT. ESTPs push back hard when restricted. They resist authority that feels arbitrary, and often need freedom and autonomy to truly shine—though this can cause friction in structured systems.",
     ],
-    successDefinition: `1. DIVING RIGHT IN - I am the likeliest person to make a lifestyle of risky behavior. I live in the moment and dive into the action – I am the eye of the storm. I enjoy drama, passion, and pleasure, not for emotional thrills, but because it’s so stimulating to my logical mind. I am forced to make critical decisions based on factual, immediate reality in a process of rapid-fire rational stimulus response.
-    2. THE PATH LESS TRAVELED - Sometimes my instantaneous observation and action is just what’s required, as in some corporate environments, and especially in emergencies. With perhaps the most perceptive, unfiltered view of anyone, I have a unique skill in noticing small changes. Whether a shift in facial expression, a new clothing style, or a broken habit, I pick up on hidden thoughts and motives where most would be lucky to pick up anything specific at all. I use these observations immediately, calling out the change and asking questions, often with little regard for sensitivity. I should remember that not everyone wants their secrets and decisions broadcast.`,
+    successDefinition: `DIVING RIGHT IN. I am the likeliest person to make a lifestyle of risky behavior. I live in the moment and dive into the action – I am the eye of the storm. I enjoy drama, passion, and pleasure, not for emotional thrills, but because it’s so stimulating to my logical mind. I am forced to make critical decisions based on factual, immediate reality in a process of rapid-fire rational stimulus response.
+THE PATH LESS TRAVELED. Sometimes my instantaneous observation and action is just what’s required, as in some corporate environments, and especially in emergencies. With perhaps the most perceptive, unfiltered view of anyone, I have a unique skill in noticing small changes. Whether a shift in facial expression, a new clothing style, or a broken habit, I pick up on hidden thoughts and motives where most would be lucky to pick up anything specific at all. I use these observations immediately, calling out the change and asking questions, often with little regard for sensitivity. I should remember that not everyone wants their secrets and decisions broadcast.`,
     strengths: [
       "Entrepreneurs make decision quickly and will likely help keep the game moving forward.",
       "Entrepreneurs have strong social skills and may be very persuasive which helps overcome team indecision.",
