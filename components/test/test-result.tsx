@@ -886,19 +886,19 @@ return (
         Character Ideals
       </Heading>
       {personalityClassGroup.successDefinition
-        .split(/\.\n+/g)
-        .map((successDefinition) =>
-          successDefinition.endsWith(".")
-            ? successDefinition
-            : `${successDefinition}.`
-        )
+        .split(/\n+/g)
+        .filter(Boolean)
         .map((successDefinition, index) => (
-          <Text
-            key={index}
-            textAlign="justify"
-          >
-            {`${successDefinition}`}
-          </Text>
+          <Box key={index} my={4}>
+            <Text fontWeight="bold" textAlign="left">
+              {"⭐️ "}
+              {successDefinition.match(/^[A-Z\s-]+?\./)?.[0]}
+            </Text>
+      
+            <Text textAlign="justify">
+              {successDefinition.replace(/^[A-Z\s-]+?\.\s*/, "")}
+            </Text>
+          </Box>
         ))}
       <Heading
         scrollMarginTop={8}
