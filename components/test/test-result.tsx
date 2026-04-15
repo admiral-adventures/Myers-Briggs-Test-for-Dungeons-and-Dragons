@@ -841,7 +841,11 @@ return (
               key={index}
               textAlign="justify"
             >
-              {"🟢 "}{relationshipStrength}
+              {"🟢 "}
+              <Text as="span" fontWeight="bold">
+                {relationshipStrength.match(/^[A-Z\s]+?\./)?.[0]}
+              </Text>{" "}
+              {relationshipStrength.replace(/^[A-Z\s]+?\.\s*/, "")}
             </ListItem>
           )
         )}
