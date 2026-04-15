@@ -836,16 +836,15 @@ return (
       <UnorderedList w="full" styleType="none">
         {personalityClassGroup.relationshipStrengths.map(
           (relationshipStrength, index) => (
-            <ListItem
-              my={2}
-              key={index}
-              textAlign="justify"
-            >
-              {"🟢 "}
-              <Text as="span" fontWeight="bold">
+            <ListItem my={2} key={index}>
+              <Text fontWeight="bold" textAlign="left">
+                {"🟢 "}
                 {relationshipStrength.match(/^[A-Z\s-]+?\./)?.[0]}
-              </Text>{" "}
-              {relationshipStrength.replace(/^[A-Z\s-]+?\.\s*/, "")}
+              </Text>
+      
+              <Text textAlign="justify">
+                {relationshipStrength.replace(/^[A-Z\s-]+?\.\s*/, "")}
+              </Text>
             </ListItem>
           )
         )}
