@@ -37,8 +37,7 @@ At their best, Protagonists are shining examples of what it means to live with i
       "OVERLY EMPATHETIC. ENFJs don’t just understand what others feel—they feel it, too. Without clear emotional boundaries, they risk losing themselves in other people’s struggles.",
     ],
     successDefinition: `LEADING THE WAY. I am a devoted altruists, ready to face slings and arrows in order to stand up for the people and ideas that I believe in. This strength of conviction bolsters my innate leadership skills, particularly my ability to guide people to work together in service of the greater good.
-GETTING INVOLVED. I am a genuine, caring person who talks the talk and walks the walk. Nothing makes me happier than motivating other people to do what’s right.  When I care about someone, I want to help solve that person’s problems – sometimes at any cost. The good news is that many people are grateful for my assistance and advice. After all, there’s a reason that these I have a reputation for helping others improve their lives.
-`,
+GETTING INVOLVED. I am a genuine, caring person who talks the talk and walks the walk. Nothing makes me happier than motivating other people to do what’s right.  When I care about someone, I want to help solve that person’s problems – sometimes at any cost. The good news is that many people are grateful for my assistance and advice. After all, there’s a reason that these I have a reputation for helping others improve their lives.`,
     strengths: [
       "Protagonists tend to find a solution which works for everyone.",
       "Protagonists tend to make others at the table feel valued and important.",
@@ -150,7 +149,7 @@ Known for their playful spirit and infectious enthusiasm, Campaigners live life 
     relationshipWeaknesses: [
       "PEOPLE PLEASING. Avoiding conflict and seeking approval can lead Campaigners to compromise their own values or well-being.",
       "UNFOCUSED. Their many interests and ideas can scatter their energy, making it hard to follow through consistently.",
-      'DISORGANIZE  Practical tasks often fall by the wayside as Campaigners chase inspiration, causing stress from clutter or missed details.',
+      "DISORGANIZE  Practical tasks often fall by the wayside as Campaigners chase inspiration, causing stress from clutter or missed details.",
       "OVERLY ACCOMODATING. Their desire to help others sometimes results in taking on too much, leaving little room for self-care.",
       "OVERLY OPTIMISTIC.  ENFPs’ rosy view of the world can blind them to red flags or hard realities they need to face.",
       "RESTLESS. Despite their sunny exterior, Campaigners can feel a deep internal dissatisfaction when life or relationships don’t measure up to their ideals.",
@@ -320,7 +319,7 @@ But don’t mistake the sparkle for superficiality. Beneath their playful charm 
       "AESTHETICS AND SHOWMANSHIP. They don’t just see beauty, they create it. ESFPs put flair and personality into everything from the way they dress to how they tell a story.",
       "PRACTICAL. Entertainers may be expressive, but they’re grounded. They trust their senses and respond to the world as it is, preferring action to abstract theory.",
       "OBSERVANT. With their sharp eye for detail, Entertainers notice everything—from a change in mood to the perfect accessory. Their awareness keeps them connected to people and their surroundings.",
-      'EXCELLENT PEOPLE SKILLS. Warm, talkative, and tuned into others, ESFPs are social naturals. Whether they’re hyping up a friend or entertaining a crowd, they know how to make people feel included and alive.",
+      "EXCELLENT PEOPLE SKILLS. Warm, talkative, and tuned into others, ESFPs are social naturals. Whether they’re hyping up a friend or entertaining a crowd, they know how to make people feel included and alive.",
     ],
     relationshipWeaknesses: [
       "SENSITIVE. While they’re upbeat on the outside, criticism can hit ESFPs hard. Even casual feedback may feel deeply personal, leading them to avoid difficult conversations or lash out emotionally.",
