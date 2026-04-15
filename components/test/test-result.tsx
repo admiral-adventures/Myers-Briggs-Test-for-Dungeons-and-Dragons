@@ -862,17 +862,16 @@ return (
         <UnorderedList w="full" styleType="none">
           {personalityClassGroup.relationshipWeaknesses.map(
             (relationshipWeakness, index) => (
-              <ListItem
-                my={2}
-                key={index}
-                textAlign="justify"
-              >
+            <ListItem my={2} key={index}>
+              <Text fontWeight="bold" textAlign="left">
                 {"🔴 "}
-                <Text as="span" fontWeight="bold">
                 {relationshipWeakness.match(/^[A-Z\s-]+?\./)?.[0]}
-                </Text>{" "}
+              </Text>
+      
+              <Text textAlign="justify">
                 {relationshipWeakness.replace(/^[A-Z\s-]+?\.\s*/, "")}
-                </ListItem>
+              </Text>
+            </ListItem>
             )
           )}
         </UnorderedList>
