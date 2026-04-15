@@ -320,7 +320,7 @@ But don’t mistake the sparkle for superficiality. Beneath their playful charm 
       "AESTHETICS AND SHOWMANSHIP. They don’t just see beauty, they create it. ESFPs put flair and personality into everything from the way they dress to how they tell a story.",
       "PRACTICAL. Entertainers may be expressive, but they’re grounded. They trust their senses and respond to the world as it is, preferring action to abstract theory.",
       "OBSERVANT. With their sharp eye for detail, Entertainers notice everything—from a change in mood to the perfect accessory. Their awareness keeps them connected to people and their surroundings.",
-      'EXCELLENT PEOPLE SKILLS. Warm, talkative, and tuned into others, ESFPs are social naturals. Whether they’re hyping up a friend or entertaining a crowd, they know how to make people feel included and alive.,
+      'EXCELLENT PEOPLE SKILLS. Warm, talkative, and tuned into others, ESFPs are social naturals. Whether they’re hyping up a friend or entertaining a crowd, they know how to make people feel included and alive.",
     ],
     relationshipWeaknesses: [
       "SENSITIVE. While they’re upbeat on the outside, criticism can hit ESFPs hard. Even casual feedback may feel deeply personal, leading them to avoid difficult conversations or lash out emotionally.",
