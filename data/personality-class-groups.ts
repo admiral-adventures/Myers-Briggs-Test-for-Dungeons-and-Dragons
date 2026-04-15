@@ -592,10 +592,8 @@ IN SEARCH OF A CALLING. Like flowers in the spring, my creativity and idealism c
     nameDescription: "“The person who says it cannot be done should not interrupt the person who is doing it.” - George Bernard Shaw ",
     epithet: "Introverted iNtuitive Thinking Judging",
     description: `It can be lonely at the top. For INTJs, also known as Architects, this isn't just a metaphor—it’s a lived experience. As one of the rarest Myers-Briggs personality types, Architects are solitary strategists who thrive in the world of ideas. 
-
-They're not interested in fitting in or following the crowd. They’re here to break new ground, question everything, and engineer the future with logic as their compass.
-
-If life is a chessboard, INTJs are five moves ahead.`,
+    
+They're not interested in fitting in or following the crowd. They’re here to break new ground, question everything, and engineer the future with logic as their compass. If life is a chessboard, INTJs are five moves ahead.`,
     jungianFunctionalPreference: {
       dominant: "FIGHTER - Arcane Archer",
       auxiliary: "BARD - College of Whispers",
