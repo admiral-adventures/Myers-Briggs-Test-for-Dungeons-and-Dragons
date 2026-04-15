@@ -624,7 +624,7 @@ They're not interested in fitting in or following the crowd. They’re here to b
       "COMBATIVE. Rules? Authority? INTJs want to know why before they comply. This can lead to unnecessary conflict when the goal should be compromise.",
       "SOCIALLY CLUELESS. INTJs sometimes miss subtle cues in social settings. Their desire to be authentic can come off as tactless or even hostile, leaving them misunderstood and isolated.",
     ],
-    successDefinition: `A THIRST FOR KNOWLEDGE. I don’t just learn new things for show. I genuinely enjoy expanding the limits of my knowledge.
+    successDefinition: `A THIRST FOR KNOWLEDGE. I don’t just learn new things for show. I genuinely enjoy expanding the limits of my knowledge. I recognize my own ability to teach myself about – and master – any topic that interests me, whether that’s coding or capoeira or classical music. I believe that, through willpower and intelligence, I can achieve even the most challenging goals.
 THE CHESS GAME OF LIFE. Life is like a giant game of chess. Relying on strategy rather than chance, I contemplate the strengths and weaknesses of each move before I make it. And I never lose faith that, with enough ingenuity and insight, I can find a way to win – no matter what challenges might arise along the way.`,
     strengths: [
       "Architects tend to be very good listeners which minimizes other players from having to repeat conversations.",
