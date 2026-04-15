@@ -843,9 +843,9 @@ return (
             >
               {"🟢 "}
               <Text as="span" fontWeight="bold">
-                {relationshipStrength.match(/^[A-Z\s]+?\./)?.[0]}
+                {relationshipStrength.match(/^[A-Z\s-]+?\./)?.[0]}
               </Text>{" "}
-              {relationshipStrength.replace(/^[A-Z\s]+?\.\s*/, "")}
+              {relationshipStrength.replace(/^[A-Z\s-]+?\.\s*/, "")}
             </ListItem>
           )
         )}
@@ -870,9 +870,9 @@ return (
               >
                 {"🔴 "}
                 <Text as="span" fontWeight="bold">
-                {relationshipWeakness.match(/^[A-Z\s]+?\./)?.[0]}
+                {relationshipWeakness.match(/^[A-Z\s-]+?\./)?.[0]}
                 </Text>{" "}
-                {relationshipWeakness.replace(/^[A-Z\s]+?\.\s*/, "")}
+                {relationshipWeakness.replace(/^[A-Z\s-]+?\.\s*/, "")}
                 </ListItem>
             )
           )}
