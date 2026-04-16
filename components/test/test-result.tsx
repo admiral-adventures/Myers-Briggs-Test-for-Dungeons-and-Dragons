@@ -443,7 +443,7 @@ return (
           onCarouselOpen();
         }}
       >
-        View Character Gallery
+        {`View ${personalityClassGroup.type} Gallery`}
       </Button>       
 
       <Text
