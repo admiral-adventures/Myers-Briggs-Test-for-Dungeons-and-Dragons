@@ -467,6 +467,7 @@ return (
       </Button>
       <Heading
         scrollMarginTop={8}
+        id="generalTraits"
         my={6}
         as="h2"
         size="md"
