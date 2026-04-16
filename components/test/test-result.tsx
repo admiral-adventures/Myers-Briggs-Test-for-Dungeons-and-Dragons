@@ -289,7 +289,7 @@ return (
                 onOpen();
               }}
             >
-              Download PC
+              Download Character Sheet PDF
             </Button>
       
           </Stack>
@@ -334,7 +334,7 @@ return (
                 onOpen();
               }}
             >
-              Download PC
+              Download Character Sheet PDF
             </Button>
       
           </Stack>
@@ -379,7 +379,7 @@ return (
                 onOpen();
               }}
             >
-              Download PC
+              Download Character Sheet PDF
             </Button>
       
           </Stack>
