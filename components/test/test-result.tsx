@@ -212,12 +212,18 @@ return (
       <Heading
         scrollMarginTop={8}
         id="description"
-        as="h1"
-        my={8}
-        fontSize="lg"
+        as="h2"
+        mt={6}
+        mb={3}
+        fontSize="xl"
         textAlign="center"
       >
-        {personalityClassGroup.epithet}
+        <Highlight
+          query={personalityClassGroup.type.split("")}
+          styles={{ color: "primary.500" }}
+        >
+          {personalityClassGroup.epithet}
+        </Highlight>
       </Heading>
       {personalityClassGroup.description
         .split(/\.\n+/g)
