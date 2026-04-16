@@ -239,7 +239,7 @@ return (
         mt={6}
         mb={2}
         as="h2"
-        size="lg"
+        fontSize="17px"
         textAlign="center"
       >
         Character Class and Subclass Options
