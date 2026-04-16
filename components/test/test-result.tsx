@@ -261,7 +261,7 @@ return (
         >
           <Stack spacing={3}>
       
-            <Text fontWeight="bold" fontSize="lg" textAlign="center">
+            <Text fontWeight="bold" fontSize="xl" textAlign="center">
               FIGHTER OPTION
             </Text>
       
@@ -306,7 +306,7 @@ return (
         >
           <Stack spacing={3}>
       
-            <Text fontWeight="bold" fontSize="lg" textAlign="center">
+            <Text fontWeight="bold" fontSize="xl" textAlign="center">
               CLERIC OPTION
             </Text>
       
@@ -351,7 +351,7 @@ return (
         >
           <Stack spacing={3}>
       
-            <Text fontWeight="bold" fontSize="lg" textAlign="center">
+            <Text fontWeight="bold" fontSize="xl" textAlign="center">
               ROGUE OPTION
             </Text>
       
@@ -396,7 +396,7 @@ return (
         >
           <Stack spacing={3}>
       
-            <Text fontWeight="bold" fontSize="lg" textAlign="center">
+            <Text fontWeight="bold" fontSize="xl" textAlign="center">
               WIZARD OPTION
             </Text>
       
