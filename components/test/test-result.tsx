@@ -274,7 +274,7 @@ return (
                 width={14}
                 height={14}
               />
-              <Text fontWeight="bold">
+              <Text fontWeight="bold" fontSize="xl">
                 {personalityClassGroup.jungianFunctionalPreference.dominant}
               </Text>
             </HStack>
@@ -319,7 +319,7 @@ return (
                 width={14}
                 height={14}
               />
-              <Text fontWeight="bold">
+              <Text fontWeight="bold" fontSize="xl">
                 {personalityClassGroup.jungianFunctionalPreference.auxiliary}
               </Text>
             </HStack>
@@ -364,7 +364,7 @@ return (
                 width={14}
                 height={14}
               />
-              <Text fontWeight="bold">
+              <Text fontWeight="bold" fontSize="xl">
                 {personalityClassGroup.jungianFunctionalPreference.tertiary}
               </Text>
             </HStack>
@@ -409,7 +409,7 @@ return (
                 width={14}
                 height={14}
               />
-              <Text fontWeight="bold">
+              <Text fontWeight="bold" fontSize="xl">
                 {personalityClassGroup.jungianFunctionalPreference.inferior}
               </Text>
             </HStack>
