@@ -913,7 +913,7 @@ return (
         .split(/\n+/g)
         .filter(Boolean)
         .map((successDefinition, index) => (
-          <Box key={index} my={4}>
+          <Box key={index} my={2}>
             <Text fontWeight="bold" textAlign="left">
               {"⭐️ "}
               {successDefinition.match(/^[A-Z\s-]+?\./)?.[0]}
