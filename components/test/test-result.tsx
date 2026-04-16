@@ -214,16 +214,11 @@ return (
         id="description"
         as="h2"
         mt={6}
-        mb={3}
-        fontSize="xl"
+        mb={2}
+        fontSize="2xl"
         textAlign="center"
       >
-        <Highlight
-          query={personalityClassGroup.type.split("")}
-          styles={{ color: "primary.500" }}
-        >
-          {personalityClassGroup.epithet}
-        </Highlight>
+        {personalityClassGroup.epithet}
       </Heading>
       {personalityClassGroup.description
         .split(/\.\n+/g)
