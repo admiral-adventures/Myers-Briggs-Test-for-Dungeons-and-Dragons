@@ -265,7 +265,7 @@ return (
               FIGHTER OPTION
             </Text>
       
-            <HStack spacing={3} justify="center">
+            <HStack spacing={3} justify="left">
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.dominant
@@ -310,7 +310,7 @@ return (
               CLERIC OPTION
             </Text>
       
-            <HStack spacing={3} justify="center">
+            <HStack spacing={3} justify="left">
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.auxiliary
@@ -355,7 +355,7 @@ return (
               ROGUE OPTION
             </Text>
       
-            <HStack spacing={3} justify="center">
+            <HStack spacing={3} justify="left">
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.tertiary
@@ -400,7 +400,7 @@ return (
               WIZARD OPTION
             </Text>
       
-            <HStack spacing={3} justify="center">
+            <HStack spacing={3} justify="left">
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.inferior
