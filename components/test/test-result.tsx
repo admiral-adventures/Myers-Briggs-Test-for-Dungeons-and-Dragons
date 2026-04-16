@@ -468,9 +468,10 @@ return (
       <Heading
         scrollMarginTop={8}
         id="generalTraits"
-        my={6}
+        mt={6}
+        mb={2}
         as="h2"
-        size="md"
+        fontSize="2xl"
         textAlign="center"
       >
         Explore Other Character Types
@@ -824,9 +825,10 @@ return (
       <Heading
         scrollMarginTop={8}
         id="general-traits"
-        my={4}
+        mt={6}
+        mb={2}
         as="h2"
-        size="md"
+        fontSize="2xl"
         textAlign="center"
       >
         {`${personalityClassGroup.type}s You May Know`}
@@ -845,9 +847,10 @@ return (
 <Heading
   scrollMarginTop={8}
   id="relationship-strengths"
-  my={4}
+  mt={6}
+  mb={2}
   as="h2"
-  size="md"
+  fontSize="2xl"
   textAlign="center"
 >
   Character Personality Traits
@@ -871,9 +874,10 @@ return (
       <Heading
         scrollMarginTop={8}
         id="relationship-weaknesses"
-        my={4}
+        mt={6}
+        mb={2}
         as="h2"
-        size="md"
+        fontSize="2xl"
         textAlign="center"
       >
         Character Flaws
@@ -897,9 +901,10 @@ return (
         <Heading
         scrollMarginTop={8}
         id="success-definition"
-        my={4}
+        mt={6}
+        mb={2}
         as="h2"
-        size="md"
+        fontSize="2xl"
         textAlign="center"
       >
         Character Ideals
@@ -922,9 +927,10 @@ return (
       <Heading
         scrollMarginTop={8}
         id="strengths"
-        my={4}
+        mt={6}
+        mb={2}
         as="h2"
-        size="md"
+        fontSize="2xl"
         textAlign="center"
       >
         Positive Table Behaviors
@@ -943,9 +949,10 @@ return (
       <Heading
         scrollMarginTop={8}
         id="special-gifts"
-        my={4}
+        mt={6}
+        mb={2}
         as="h2"
-        size="md"
+        fontSize="2xl"
         textAlign="center"
       >
         Negative Table Behaviors
@@ -964,9 +971,10 @@ return (
       <Heading
         scrollMarginTop={8}
         id="potential-problem-areas"
-        my={4}
+        mt={6}
+        mb={2}
         as="h2"
-        size="md"
+        fontSize="2xl"
         textAlign="center"
       >
         Download Your Character Sheet
@@ -1025,9 +1033,10 @@ return (
       <Heading
         scrollMarginTop={8}
         id="explanation-of-problems"
-        my={4}
+        mt={6}
+        mb={2}
         as="h2"
-        size="md"
+        fontSize="2xl"
         textAlign="center"
       >
         About Admiral Adventures
@@ -1060,9 +1069,10 @@ return (
       <Heading
         scrollMarginTop={8}
         id="solutions"
-        my={4}
+        mt={6}
+        mb={2}
         as="h2"
-        size="md"
+        fontSize="2xl"
         textAlign="center"
       >
       Can&apos;t Find a Group to Play With? Hire a Professional DM!
@@ -1091,9 +1101,10 @@ return (
       <Heading
         scrollMarginTop={8}
         id="living-happily-tips"
-        my={4}
+        mt={6}
+        mb={2}
         as="h2"
-        size="md"
+        fontSize="2xl"
         textAlign="center"
       >
        My Resume 
@@ -1177,9 +1188,10 @@ return (
       <Heading
         scrollMarginTop={8}
         id="ten-rules-to-live-to-achieve-success"
-        my={4}
+        mt={6}
+        mb={2}
         as="h2"
-        size="md"
+        fontSize="2xl"
         textAlign="center"
       >
         Buy Me a Coffee
