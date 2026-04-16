@@ -236,9 +236,10 @@ return (
       <Heading
         scrollMarginTop={8}
         id="jungian-functional-preference-ordering"
-        my={4}
+        mt={6}
+        mb={2}
         as="h2"
-        size="md"
+        size="lg"
         textAlign="center"
       >
         Character Class and Subclass Options
