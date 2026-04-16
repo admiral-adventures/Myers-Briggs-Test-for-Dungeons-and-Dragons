@@ -279,7 +279,7 @@ return (
       
             <Button
               size="md"
-              bg="#99CCFF"
+              bg={getGalleryButtonColor()}
               color="black"
               border="2px solid black"
               onClick={() => {
@@ -324,7 +324,7 @@ return (
       
             <Button
               size="md"
-              bg="#99CCFF"
+              bg={getGalleryButtonColor()}
               color="black"
               border="2px solid black"
               onClick={() => {
@@ -369,7 +369,7 @@ return (
       
             <Button
               size="md"
-              bg="#99CCFF"
+              bg={getGalleryButtonColor()}
               color="black"
               border="2px solid black"
               onClick={() => {
@@ -414,7 +414,7 @@ return (
       
             <Button
               size="md"
-              bg="#99CCFF"
+              bg={getGalleryButtonColor()}
               color="black"
               border="2px solid black"
               onClick={() => {
@@ -456,7 +456,7 @@ return (
 
       <Button
         size="md"
-        bg="#99CCFF"
+        bg={getGalleryButtonColor()}
         color="black"
         border="2px solid black"
         onClick={() => window.open("https://buymeacoffee.com/admiraladventures", "_blank")}
@@ -1002,7 +1002,7 @@ return (
       )}
       <Button
         size="md"
-        bg="#99CCFF"
+        bg={getGalleryButtonColor()}
         color="black"
         border="2px solid black"
         onClick={() => window.open(`https://admiraladventures.com/-pre-gen-characters#${personalityClassGroup.type}`, "_blank")
@@ -1012,7 +1012,7 @@ return (
       </Button>
       <Button
         size="md"
-        bg="#99CCFF"
+        bg={getGalleryButtonColor()}
         color="black"
         border="2px solid black"
         onClick={() => window.location.href = MailtoLinkForTestResult(props.testResult, personalityClassGroup)}
@@ -1047,7 +1047,7 @@ return (
         ))}
       <Button
         size="md"
-        bg="#99CCFF"
+        bg={getGalleryButtonColor()}
         color="black"
         border="2px solid black"
         onClick={() => window.open("https://admiraladventures.com", "_blank")}
@@ -1078,7 +1078,7 @@ return (
         ))}
       <Button
         size="md"
-        bg="#99CCFF"
+        bg={getGalleryButtonColor()}
         color="black"
         border="2px solid black"
         onClick={() => window.open("https://startplaying.games/gm/admiral-adventures", "_blank")}
@@ -1109,7 +1109,7 @@ return (
         ))}
             <Button
         size="md"
-        bg="#99CCFF"
+        bg={getGalleryButtonColor()}
         color="black"
         border="2px solid black"
         onClick={() => window.open("https://www.linkedin.com/in/brody-berkhout/", "_blank")}
@@ -1194,7 +1194,7 @@ return (
       </UnorderedList>
       <Button
         size="md"
-        bg="#99CCFF"
+        bg={getGalleryButtonColor()}
         color="black"
         border="2px solid black"
         onClick={() => window.open("https://buymeacoffee.com/admiraladventures", "_blank")}
