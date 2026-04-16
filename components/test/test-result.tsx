@@ -142,6 +142,22 @@ function handlePreviousImage() {
   );
 }
 
+function getGalleryButtonColor() {
+  const type = personalityClassGroup.type;
+
+  const yellowTypes = ["ESFP", "ESTP", "ISFP", "ISTP"];
+  const blueTypes = ["ESFJ", "ESTJ", "ISFJ", "ISTJ"];
+  const greenTypes = ["ENFP", "ENFJ", "INFP", "INFJ"];
+  const purpleTypes = ["ENTP", "ENTJ", "INTP", "INTJ"];
+
+  if (yellowTypes.includes(type)) return "#FFFFCC";
+  if (blueTypes.includes(type)) return "#CCECFF";
+  if (greenTypes.includes(type)) return "#C1D892";
+  if (purpleTypes.includes(type)) return "#CBBFE8";
+
+  return "#99CCFF";
+}
+  
 function handleDownload(gender: string) {
   if (!selectedRole) return;
 
@@ -416,7 +432,7 @@ return (
 
       <Button
         size="md"
-        bg="#99CCFF"
+        bg={getGalleryButtonColor()}
         color="black"
         border="2px solid black"
         onClick={() => {
