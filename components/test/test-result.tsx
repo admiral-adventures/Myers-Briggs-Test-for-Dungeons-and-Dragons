@@ -283,6 +283,7 @@ return (
             </Text>
       
             <HStack spacing={3} align="center" w="full">
+              {/* Left Icon */}
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.dominant
@@ -292,6 +293,7 @@ return (
                 height={14}
               />
             
+              {/* Centered Text Block */}
               <Box flex="1" textAlign="center">
                 {(() => {
                   const [mainClass, subClass] =
@@ -299,16 +301,26 @@ return (
             
                   return (
                     <>
-                      <Text fontWeight="bold" fontSize="2xl">
+                      <Text fontWeight="bold" fontSize="xl">
                         {mainClass}
                       </Text>
-                      <Text fontWeight="bold" fontSize="xl">
+                      <Text fontSize="md">
                         {subClass}
                       </Text>
                     </>
                   );
                 })()}
               </Box>
+            
+              {/* Right Icon (duplicate) */}
+              <Image
+                src={getClassIconPath(
+                  personalityClassGroup.jungianFunctionalPreference.dominant
+                )}
+                alt="class icon"
+                width={14}
+                height={14}
+              />
             </HStack>
       
             <Button
