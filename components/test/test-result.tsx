@@ -299,10 +299,10 @@ return (
             
                   return (
                     <>
-                      <Text fontWeight="bold" fontSize="xl">
+                      <Text fontWeight="bold" fontSize="2xl">
                         {mainClass}
                       </Text>
-                      <Text fontSize="md">
+                      <Text fontSize="xl">
                         {subClass}
                       </Text>
                     </>
