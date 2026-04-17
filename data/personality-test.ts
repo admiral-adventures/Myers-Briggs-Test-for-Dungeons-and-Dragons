@@ -483,17 +483,17 @@ export const personalityTest: TestQuestion[] = [
   },
   {
     no: 31,
-    question: "Undead wyverns rise unexpectedly as the Red Wizards adapt faster than planned. As the one reprioritizing the battle, do you:",
+    question: "Undead wyverns rise unexpectedly as the Red Wizards adapt faster than planned, their rotting wings beating ash into the air. Brom struggles to hold the line while wounded soldiers cry out behind you. As the one deciding the battle’s priority in this moment, do you:",
     answerOptions: [
       {
         type: "A",
-        answer: "Shift targets dynamically as threats evolve",
-        score: "P",
+        answer: "Direct the party to focus fire on the wyverns to neutralize the greatest tactical threat first",
+        score: "T",
       },
       { 
         type: "B", 
-        answer: "Reorder the battlefield into strict priorities", 
-        score: "J" 
+        answer: "Redirect effort to protect and evacuate the wounded, even if it risks losing ground", 
+        score: "F" 
       },
     ],
   },
