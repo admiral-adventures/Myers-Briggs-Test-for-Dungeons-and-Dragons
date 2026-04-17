@@ -159,7 +159,7 @@ function getGalleryButtonColor() {
 }
 
 function getButtonColor(type: string) {
-  if (type === selectedType) return "gray.400";
+  if (type === selectedType) return "gray.100";
 
   const yellowTypes = ["ESFP", "ESTP", "ISFP", "ISTP"];
   const blueTypes = ["ESFJ", "ESTJ", "ISFJ", "ISTJ"];
