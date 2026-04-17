@@ -282,7 +282,7 @@ return (
               FIGHTER OPTION
             </Text>
       
-            <HStack spacing={3} justify="left">
+            <HStack spacing={3} align="center" w="full">
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.dominant
@@ -291,10 +291,25 @@ return (
                 width={14}
                 height={14}
               />
-              <Text fontWeight="bold" fontSize="xl">
-                {personalityClassGroup.jungianFunctionalPreference.dominant}
-              </Text>
-            </HStack>
+            
+              <Box flex="1" textAlign="center">
+                {(() => {
+                  const [mainClass, subClass] =
+                    personalityClassGroup.jungianFunctionalPreference.dominant.split(" - ");
+            
+                  return (
+                    <>
+                      <Text fontWeight="bold" fontSize="xl">
+                        {mainClass}
+                      </Text>
+                      <Text fontSize="md">
+                        {subClass}
+                      </Text>
+                    </>
+                  );
+                })()}
+              </Box>
+</HStack>
       
             <Button
               size="md"
