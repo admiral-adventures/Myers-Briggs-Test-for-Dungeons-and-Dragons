@@ -485,7 +485,7 @@ return (
         scrollMarginTop={8}
         id="generalTraits"
         mt={6}
-        mb={2}
+        mb={0}
         as="h2"
         fontSize="2xl"
         textAlign="center"
