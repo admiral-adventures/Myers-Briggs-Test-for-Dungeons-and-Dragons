@@ -463,7 +463,7 @@ return (
       </Button>       
 
       <Text
-        fontSize="md"
+        fontSize="lg"
         fontWeight="bold"
         textAlign="center"
         mt={3}
