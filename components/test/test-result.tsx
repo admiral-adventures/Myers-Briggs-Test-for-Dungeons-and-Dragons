@@ -1370,8 +1370,8 @@ return (
         <ModalContent>
           <ModalHeader>
             {selectedRole
-              ? `Select ${selectedRole} Character Version`
-              : "Select Character Version"}
+              ? `Select ${selectedRole} Option Version`
+              : "Select Option Version"}
           </ModalHeader>
           <ModalCloseButton />
           <ModalBody pb={6}>
