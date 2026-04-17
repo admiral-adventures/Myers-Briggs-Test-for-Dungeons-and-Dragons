@@ -245,6 +245,7 @@ return (
           <Text
             key={index}
             textAlign="justify"
+            mt={index === 0 ? 1 : 3}
           >
             {`${description}`}
           </Text>
