@@ -935,16 +935,23 @@ return (
       >
         Positive Table Behaviors
       </Heading>
-      <UnorderedList w="full">
-        {personalityClassGroup.strengths.map((strength, index) => (
-          <ListItem
-            my={2}
-            key={index}
-            textAlign="justify"
-          >
-            {strength}
-          </ListItem>
-        ))}
+      <UnorderedList w="full" styleType="none" m={0}>
+        {personalityClassGroup.strengths.map((strength, index) => {
+          const emojiNumbers = ["1️⃣", "2️⃣", "3️⃣"];
+      
+          return (
+            <ListItem
+              my={2}
+              key={index}
+              textAlign="justify"
+              display="flex"
+              alignItems="flex-start"
+            >
+              <Box mr={2}>{emojiNumbers[index]}</Box>
+              <Box>{strength}</Box>
+            </ListItem>
+          );
+        })}
       </UnorderedList>
       <Heading
         scrollMarginTop={8}
@@ -957,16 +964,23 @@ return (
       >
         Negative Table Behaviors
       </Heading>
-      <UnorderedList w="full">
-        {personalityClassGroup.gifts.map((gift, index) => (
-          <ListItem
-            my={2}
-            key={index}
-            textAlign="justify"
-          >
-            {gift}
-          </ListItem>
-        ))}
+      <UnorderedList w="full" styleType="none" m={0}>
+        {personalityClassGroup.strengths.map((strength, index) => {
+          const emojiNumbers = ["1️⃣", "2️⃣", "3️⃣"];
+      
+          return (
+            <ListItem
+              my={2}
+              key={index}
+              textAlign="justify"
+              display="flex"
+              alignItems="flex-start"
+            >
+              <Box mr={2}>{emojiNumbers[index]}</Box>
+              <Box>{strength}</Box>
+            </ListItem>
+          );
+        })}
       </UnorderedList>
       <Heading
         scrollMarginTop={8}
