@@ -157,6 +157,22 @@ function getGalleryButtonColor() {
 
   return "#99CCFF";
 }
+
+function getButtonColor(type: string) {
+  if (type === selectedType) return "gray.400";
+
+  const yellowTypes = ["ESFP", "ESTP", "ISFP", "ISTP"];
+  const blueTypes = ["ESFJ", "ESTJ", "ISFJ", "ISTJ"];
+  const greenTypes = ["ENFP", "ENFJ", "INFP", "INFJ"];
+  const purpleTypes = ["ENTP", "ENTJ", "INTP", "INTJ"];
+
+  if (yellowTypes.includes(type)) return "#FFFFCC";
+  if (blueTypes.includes(type)) return "#CCECFF";
+  if (greenTypes.includes(type)) return "#C1D892";
+  if (purpleTypes.includes(type)) return "#CBBFE8";
+
+  return "#99CCFF";
+}  
   
 function handleDownload(gender: string) {
   if (!selectedRole) return;
@@ -486,7 +502,7 @@ return (
     >
     
     <Button
-      bg="#FFFFCC"
+      bg={getButtonColor("ESFP")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -507,7 +523,7 @@ return (
     </Button>
     
     <Button
-      bg="#FFFFCC"
+      bg={getButtonColor("ESTP")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -528,7 +544,7 @@ return (
     </Button>
     
     <Button
-      bg="#FFFFCC"
+      bg={getButtonColor("ISFP")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -549,7 +565,7 @@ return (
     </Button>
     
     <Button
-      bg="#FFFFCC"
+      bg={getButtonColor("ISTP")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -570,7 +586,7 @@ return (
     </Button>
 
     <Button
-      bg="#CCECFF"
+      bg={getButtonColor("ESFJ")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -591,7 +607,7 @@ return (
     </Button>
     
     <Button
-      bg="#CCECFF"
+      bg={getButtonColor("ESTJ")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -612,7 +628,7 @@ return (
     </Button>
     
     <Button
-      bg="#CCECFF"
+      bg={getButtonColor("ISFJ")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -633,7 +649,7 @@ return (
     </Button>
     
     <Button
-      bg="#CCECFF"
+      bg={getButtonColor("ISTJ")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -654,7 +670,7 @@ return (
     </Button>
     
     <Button
-      bg="#C1D892"
+      bg={getButtonColor("ENFP")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -675,7 +691,7 @@ return (
     </Button>
     
     <Button
-      bg="#C1D892"
+      bg={getButtonColor("ENFJ")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -696,7 +712,7 @@ return (
     </Button>
     
     <Button
-      bg="#C1D892"
+      bg={getButtonColor("INFP")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -717,7 +733,7 @@ return (
     </Button>
     
     <Button
-      bg="#C1D892"
+      bg={getButtonColor("INFJ")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -738,7 +754,7 @@ return (
     </Button>
       
     <Button
-      bg="#CBBFE8"
+      bg={getButtonColor("ENTP")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -759,7 +775,7 @@ return (
     </Button>
     
     <Button
-      bg="#CBBFE8"
+      bg={getButtonColor("ENTJ")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -780,7 +796,7 @@ return (
     </Button>
 
     <Button
-      bg="#CBBFE8"
+      bg={getButtonColor("INTP")}
       h="60px"
       w="100%"
       border="2px solid black"
@@ -801,7 +817,7 @@ return (
     </Button>
       
     <Button
-      bg="#CBBFE8"
+      bg={getButtonColor("INTJ")}
       h="60px"
       w="100%"
       border="2px solid black"
