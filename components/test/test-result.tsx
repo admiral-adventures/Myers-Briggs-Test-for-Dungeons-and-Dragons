@@ -464,7 +464,7 @@ return (
       </Button>       
 
       <Text
-        fontSize="lg"
+        fontSize="xl"
         fontWeight="bold"
         textAlign="center"
         mt={3}
@@ -492,6 +492,16 @@ return (
       >
         Explore Other Character Types
     </Heading>
+
+    <Heading
+      as="h3"
+      fontSize="lg"
+      mb={3}
+      textAlign="center"
+      fontWeight="normal"
+    >
+      Selecting a button below reloads page with the appropriate MBTI information
+    </Heading>  
     
     <SimpleGrid
       columns={4}
