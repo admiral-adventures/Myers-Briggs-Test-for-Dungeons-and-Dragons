@@ -149,7 +149,7 @@ Known for their playful spirit and infectious enthusiasm, Campaigners live life 
     relationshipWeaknesses: [
       "PEOPLE PLEASING. Avoiding conflict and seeking approval can lead Campaigners to compromise their own values or well-being.",
       "UNFOCUSED. Their many interests and ideas can scatter their energy, making it hard to follow through consistently.",
-      "DISORGANIZE  Practical tasks often fall by the wayside as Campaigners chase inspiration, causing stress from clutter or missed details.",
+      "DISORGANIZED. Practical tasks often fall by the wayside as Campaigners chase inspiration, causing stress from clutter or missed details.",
       "OVERLY ACCOMODATING. Their desire to help others sometimes results in taking on too much, leaving little room for self-care.",
       "OVERLY OPTIMISTIC.  ENFPs’ rosy view of the world can blind them to red flags or hard realities they need to face.",
       "RESTLESS. Despite their sunny exterior, Campaigners can feel a deep internal dissatisfaction when life or relationships don’t measure up to their ideals.",
