@@ -301,10 +301,10 @@ return (
             
                   return (
                     <>
-                      <Text fontWeight="bold" fontSize="xl">
+                      <Text fontWeight="bold" fontSize="2xl">
                         {mainClass}
                       </Text>
-                      <Text fontSize="md">
+                      <Text fontWeight="bold" fontSize="1xl">
                         {subClass}
                       </Text>
                     </>
@@ -355,6 +355,7 @@ return (
             </Text>
       
             <HStack spacing={3} align="center" w="full">
+              {/* Left Icon */}
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.auxiliary
@@ -364,6 +365,7 @@ return (
                 height={14}
               />
             
+              {/* Centered Text Block */}
               <Box flex="1" textAlign="center">
                 {(() => {
                   const [mainClass, subClass] =
@@ -374,13 +376,23 @@ return (
                       <Text fontWeight="bold" fontSize="2xl">
                         {mainClass}
                       </Text>
-                      <Text fontWeight="bold" fontSize="xl">
+                      <Text fontWeight="bold" fontSize="1xl">
                         {subClass}
                       </Text>
                     </>
                   );
                 })()}
               </Box>
+            
+              {/* Right Icon (duplicate) */}
+              <Image
+                src={getClassIconPath(
+                  personalityClassGroup.jungianFunctionalPreference.auxiliary
+                )}
+                alt="class icon"
+                width={14}
+                height={14}
+              />
             </HStack>
       
             <Button
@@ -415,6 +427,7 @@ return (
             </Text>
       
             <HStack spacing={3} align="center" w="full">
+              {/* Left Icon */}
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.tertiary
@@ -424,6 +437,7 @@ return (
                 height={14}
               />
             
+              {/* Centered Text Block */}
               <Box flex="1" textAlign="center">
                 {(() => {
                   const [mainClass, subClass] =
@@ -434,13 +448,23 @@ return (
                       <Text fontWeight="bold" fontSize="2xl">
                         {mainClass}
                       </Text>
-                      <Text fontWeight="bold" fontSize="xl">
+                      <Text fontWeight="bold" fontSize="1xl">
                         {subClass}
                       </Text>
                     </>
                   );
                 })()}
               </Box>
+            
+              {/* Right Icon (duplicate) */}
+              <Image
+                src={getClassIconPath(
+                  personalityClassGroup.jungianFunctionalPreference.tertiary
+                )}
+                alt="class icon"
+                width={14}
+                height={14}
+              />
             </HStack>
       
             <Button
@@ -475,6 +499,7 @@ return (
             </Text>
       
             <HStack spacing={3} align="center" w="full">
+              {/* Left Icon */}
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.inferior
@@ -484,6 +509,7 @@ return (
                 height={14}
               />
             
+              {/* Centered Text Block */}
               <Box flex="1" textAlign="center">
                 {(() => {
                   const [mainClass, subClass] =
@@ -494,13 +520,23 @@ return (
                       <Text fontWeight="bold" fontSize="2xl">
                         {mainClass}
                       </Text>
-                      <Text fontWeight="bold" fontSize="xl">
+                      <Text fontWeight="bold" fontSize="1xl">
                         {subClass}
                       </Text>
                     </>
                   );
                 })()}
               </Box>
+            
+              {/* Right Icon (duplicate) */}
+              <Image
+                src={getClassIconPath(
+                  personalityClassGroup.jungianFunctionalPreference.inferior
+                )}
+                alt="class icon"
+                width={14}
+                height={14}
+              />
             </HStack>
       
             <Button
