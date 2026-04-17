@@ -230,7 +230,7 @@ return (
         id="description"
         as="h2"
         mt={6}
-        mb={2}
+        mb={1}
         fontSize="2xl"
         textAlign="center"
       >
