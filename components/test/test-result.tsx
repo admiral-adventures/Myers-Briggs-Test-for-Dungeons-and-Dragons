@@ -309,7 +309,7 @@ return (
                   );
                 })()}
               </Box>
-</HStack>
+            </HStack>
       
             <Button
               size="md"
@@ -342,7 +342,7 @@ return (
               CLERIC OPTION
             </Text>
       
-            <HStack spacing={3} justify="left">
+            <HStack spacing={3} align="center" w="full">
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.auxiliary
@@ -351,9 +351,24 @@ return (
                 width={14}
                 height={14}
               />
-              <Text fontWeight="bold" fontSize="xl">
-                {personalityClassGroup.jungianFunctionalPreference.auxiliary}
-              </Text>
+            
+              <Box flex="1" textAlign="center">
+                {(() => {
+                  const [mainClass, subClass] =
+                    personalityClassGroup.jungianFunctionalPreference.auxiliary.split(" - ");
+            
+                  return (
+                    <>
+                      <Text fontWeight="bold" fontSize="2xl">
+                        {mainClass}
+                      </Text>
+                      <Text fontWeight="bold" fontSize="xl">
+                        {subClass}
+                      </Text>
+                    </>
+                  );
+                })()}
+              </Box>
             </HStack>
       
             <Button
@@ -387,7 +402,7 @@ return (
               ROGUE OPTION
             </Text>
       
-            <HStack spacing={3} justify="left">
+            <HStack spacing={3} align="center" w="full">
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.tertiary
@@ -396,9 +411,24 @@ return (
                 width={14}
                 height={14}
               />
-              <Text fontWeight="bold" fontSize="xl">
-                {personalityClassGroup.jungianFunctionalPreference.tertiary}
-              </Text>
+            
+              <Box flex="1" textAlign="center">
+                {(() => {
+                  const [mainClass, subClass] =
+                    personalityClassGroup.jungianFunctionalPreference.tertiary.split(" - ");
+            
+                  return (
+                    <>
+                      <Text fontWeight="bold" fontSize="2xl">
+                        {mainClass}
+                      </Text>
+                      <Text fontWeight="bold" fontSize="xl">
+                        {subClass}
+                      </Text>
+                    </>
+                  );
+                })()}
+              </Box>
             </HStack>
       
             <Button
@@ -432,7 +462,7 @@ return (
               WIZARD OPTION
             </Text>
       
-            <HStack spacing={3} justify="left">
+            <HStack spacing={3} align="center" w="full">
               <Image
                 src={getClassIconPath(
                   personalityClassGroup.jungianFunctionalPreference.inferior
@@ -441,9 +471,24 @@ return (
                 width={14}
                 height={14}
               />
-              <Text fontWeight="bold" fontSize="xl">
-                {personalityClassGroup.jungianFunctionalPreference.inferior}
-              </Text>
+            
+              <Box flex="1" textAlign="center">
+                {(() => {
+                  const [mainClass, subClass] =
+                    personalityClassGroup.jungianFunctionalPreference.inferior.split(" - ");
+            
+                  return (
+                    <>
+                      <Text fontWeight="bold" fontSize="2xl">
+                        {mainClass}
+                      </Text>
+                      <Text fontWeight="bold" fontSize="xl">
+                        {subClass}
+                      </Text>
+                    </>
+                  );
+                })()}
+              </Box>
             </HStack>
       
             <Button
