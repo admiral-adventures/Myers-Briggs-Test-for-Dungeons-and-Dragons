@@ -468,8 +468,7 @@ return (
         textAlign="center"
         mt={3}
       >
-        If you like your pre-generated PC sheet, please buy me a coffee. 
-        The tailored PC sheet you just downloaded took a lot of hard work to create.
+        If you found value in your pre-generated PC sheet, you can support the work by buying me a coffee. The tailored version     required considerable effort.
       </Text>
 
       <Button
