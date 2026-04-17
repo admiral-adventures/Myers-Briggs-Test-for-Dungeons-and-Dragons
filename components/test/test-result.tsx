@@ -496,11 +496,11 @@ return (
     <Heading
       as="h3"
       fontSize="lg"
-      mb={3}
+      mb={0}
       textAlign="center"
       fontWeight="normal"
     >
-      Selecting a button below reloads page with the appropriate MBTI information
+      Selecting a button below reloads this page with the appropriate MBTI information
     </Heading>  
     
     <SimpleGrid
