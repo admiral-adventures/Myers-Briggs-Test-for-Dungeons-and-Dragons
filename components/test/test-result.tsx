@@ -20,7 +20,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-
+import { FiDownload } from "react-icons/fi";
 import {
   TestResult as ITestResult,
   PersonalityClassGroup,
@@ -1432,38 +1432,30 @@ return (
       ))}
     </HStack>
 
-    <HStack spacing={6}>
+    <HStack spacing={4}>
       <Button onClick={handlePreviousImage} colorScheme="gray">
         ← Previous
       </Button>
-
+    
+      <Button
+        size="md"
+        bg={getGalleryButtonColor()}
+        color="black"
+        border="2px solid black"
+        leftIcon={<FiDownload />}
+        onClick={() => {
+          const role = getRoleFromIndex(currentImageIndex);
+          setSelectedRole(role);
+          onOpen();
+        }}
+      >
+        PDF
+      </Button>
+    
       <Button onClick={handleNextImage} colorScheme="blue">
         Next →
       </Button>
     </HStack>
-    <HStack spacing={4}>
-  <Button
-    colorScheme="green"
-    onClick={() => {
-      const role = getRoleFromIndex(currentImageIndex);
-      setSelectedRole(role);
-      handleDownload("Male");
-    }}
-  >
-    Download Male PDF
-  </Button>
-
-  <Button
-    colorScheme="pink"
-    onClick={() => {
-      const role = getRoleFromIndex(currentImageIndex);
-      setSelectedRole(role);
-      handleDownload("Female");
-    }}
-  >
-    Download Female PDF
-  </Button>
-</HStack>
     <Box
       overflow="auto"
       maxH="85vh"
