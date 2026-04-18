@@ -181,7 +181,7 @@ SEEKING JOY. I am capable of intense thought and feeling – and also of kicking
     name: "The Debater",
     nameDescription: "“Think for yourselves and let others enjoy the privilege to do so too.” - Voltaire",
     epithet: "Extroverted iNtuitive Thinking Perceiving",
-    description: `If the world had more ENTPs—Debaters—it would be a far more exciting (and probably more chaotic) place. ENTPs are wired to question everything. Whether it’s your thesis, your belief system, your boss, or the entire structure of society, Debaters approach it all with irreverent wit, intellectual firepower, and a smirk that says, “What if we did it completely differently?”
+    description: `If the world had more ENTPs—Debaters—it would be a far more exciting (and probably more chaotic) place. ENTPs are wired to question everything. Whether it’s your thesis, your belief system, your boss, or the entire structure of society, Debaters approach it all with irreverent wit, intellectual firepower, and a smirk that says, “What if we did it completely differently?”.
 
 To Debaters, few things are more exhilarating than a well-matched argument. They don’t debate to dominate; they debate to discover and to stress-test ideas, challenge assumptions, and push boundaries. And yes, sometimes, they just want to see if they can win the argument.`,
     jungianFunctionalPreference: {
@@ -476,7 +476,7 @@ THE PATH LESS TRAVELED. Sometimes my instantaneous observation and action is jus
     epithet: "Introverted iNtuitive Feeling Judging",
     description: `If ENTPs are the outspoken revolutionaries, INFJs are the quiet ones plotting a gentler kind of transformation—one soul at a time. Often called “The Advocate,” this personality type is rare (only around 1% of the population), but profoundly impactful. INFJs are idealists, but not the pie-in-the-sky dreamers. They’re deep thinkers, quietly determined, and driven by a powerful internal compass pointing toward justice, compassion, and purpose.
 
-To an INFJ, success isn’t measured by money or power. It’s about meaning. Fulfillment. Doing what is right, even if it’s hard. Even if no one notices...`,
+To an INFJ, success isn’t measured by money or power. It’s about meaning. Fulfillment. Doing what is right, even if it’s hard. Even if no one notices.`,
     jungianFunctionalPreference: {
       dominant: "PALADIN - Oath of Redemption",
       auxiliary: "CLERIC - War Domain",
