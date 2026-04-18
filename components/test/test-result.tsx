@@ -142,6 +142,11 @@ function handlePreviousImage() {
   );
 }
 
+function getRoleFromIndex(index: number): string {
+  const classOrder = ["Fighter", "Cleric", "Rogue", "Wizard"];
+  return classOrder[index % 4];
+}
+  
 function getGalleryButtonColor() {
   const type = personalityClassGroup.type;
 
@@ -1401,9 +1406,6 @@ return (
       <Modal isOpen={isCarouselOpen} onClose={onCarouselClose} size="full">
         <ModalOverlay />
         <ModalContent bg="black">
-          <ModalHeader color="white" textAlign="center">
-            Character Summaries
-            </ModalHeader>
           <ModalCloseButton
             color="white"
             bg="rgba(0, 0, 0, 0.6)"
@@ -1416,6 +1418,52 @@ return (
 
 <ModalBody pb={6}>
   <Stack spacing={4} align="center">
+        <HStack spacing={2}>
+      {carouselImages.map((_, index) => (
+        <Box
+          key={index}
+          w="10px"
+          h="10px"
+          borderRadius="full"
+          bg={index === currentImageIndex ? "white" : "gray.500"}
+          cursor="pointer"
+          onClick={() => setCurrentImageIndex(index)}
+        />
+      ))}
+    </HStack>
+
+    <HStack spacing={6}>
+      <Button onClick={handlePreviousImage} colorScheme="gray">
+        ← Previous
+      </Button>
+
+      <Button onClick={handleNextImage} colorScheme="blue">
+        Next →
+      </Button>
+    </HStack>
+    <HStack spacing={4}>
+  <Button
+    colorScheme="green"
+    onClick={() => {
+      const role = getRoleFromIndex(currentImageIndex);
+      setSelectedRole(role);
+      handleDownload("Male");
+    }}
+  >
+    Download Male PDF
+  </Button>
+
+  <Button
+    colorScheme="pink"
+    onClick={() => {
+      const role = getRoleFromIndex(currentImageIndex);
+      setSelectedRole(role);
+      handleDownload("Female");
+    }}
+  >
+    Download Female PDF
+  </Button>
+</HStack>
     <Box
       overflow="auto"
       maxH="85vh"
@@ -1450,30 +1498,6 @@ return (
         userSelect="none"
       />
     </Box>
-
-    <HStack spacing={2}>
-      {carouselImages.map((_, index) => (
-        <Box
-          key={index}
-          w="10px"
-          h="10px"
-          borderRadius="full"
-          bg={index === currentImageIndex ? "white" : "gray.500"}
-          cursor="pointer"
-          onClick={() => setCurrentImageIndex(index)}
-        />
-      ))}
-    </HStack>
-
-    <HStack spacing={6}>
-      <Button onClick={handlePreviousImage} colorScheme="gray">
-        ← Previous
-      </Button>
-
-      <Button onClick={handleNextImage} colorScheme="blue">
-        Next →
-      </Button>
-    </HStack>
   </Stack>
 </ModalBody>
         </ModalContent>
