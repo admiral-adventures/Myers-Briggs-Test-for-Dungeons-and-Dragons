@@ -1034,33 +1034,56 @@ return (
     }
   )}
 </VStack>
-      <Heading
-        scrollMarginTop={8}
-        id="relationship-weaknesses"
-        mt={6}
-        mb={2}
-        as="h2"
-        fontSize="2xl"
-        textAlign="center"
-      >
-        Character Flaws
-      </Heading>
-        <UnorderedList w="full" styleType="none">
-          {personalityClassGroup.relationshipWeaknesses.map(
-            (relationshipWeakness, index) => (
-            <ListItem my={2} key={index}>
-              <Text fontWeight="bold" textAlign="left">
-                {"🔴 "}
-                {relationshipWeakness.match(/^[A-Z\s-]+?\./)?.[0]}
-              </Text>
-      
-              <Text textAlign="justify">
-                {relationshipWeakness.replace(/^[A-Z\s-]+?\.\s*/, "")}
-              </Text>
-            </ListItem>
-            )
-          )}
-        </UnorderedList>
+<Heading
+  scrollMarginTop={8}
+  id="relationship-weaknesses"
+  mt={6}
+  mb={4}
+  as="h2"
+  fontSize="2xl"
+  textAlign="center"
+>
+  Character Flaws
+</Heading>
+
+<VStack spacing={4} align="center" w="full">
+  {personalityClassGroup.relationshipWeaknesses.map(
+    (relationshipWeaknesses, index) => {
+      const title =
+        relationshipWeaknesses.match(/^[A-Z\s-]+?\./)?.[0]?.replace(".", "") || "";
+
+      const description = relationshipWeaknesses.replace(
+        /^[A-Z\s-]+?\.\s*/,
+        ""
+      );
+
+      return (
+        <Box
+          key={index}
+          w="100%"
+          bg="#FFCTCE"
+          border="2px solid black"
+          borderRadius="lg"
+          p={4}
+          boxShadow="sm"
+        >
+          <Text
+            fontWeight="bold"
+            fontSize="lg"
+            textAlign="center"
+            mb={2}
+          >
+            {title}
+          </Text>
+
+          <Text textAlign="center">
+            {description}
+          </Text>
+        </Box>
+      );
+    }
+  )}
+</VStack>
         <Heading
         scrollMarginTop={8}
         id="success-definition"
