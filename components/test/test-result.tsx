@@ -1011,10 +1011,11 @@ return (
         <Box
           key={index}
           w="60%"
-          p={4}
-          borderRadius="lg"
           bg="#C6EFCE"
-          boxShadow="md"
+          border="2px solid black"
+          borderRadius="lg"
+          p={4}
+          boxShadow="sm"
         >
           <Text
             fontWeight="bold"
