@@ -1010,7 +1010,7 @@ return (
       return (
         <Box
           key={index}
-          w="60%"
+          w="90%"
           bg="#C6EFCE"
           border="2px solid black"
           borderRadius="lg"
