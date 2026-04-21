@@ -1026,7 +1026,7 @@ return (
             {title}
           </Text>
 
-          <Text textAlign="jcenter">
+          <Text textAlign="center">
             {description}
           </Text>
         </Box>
