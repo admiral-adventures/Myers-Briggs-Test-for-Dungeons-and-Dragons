@@ -36,7 +36,7 @@ At their best, Protagonists are shining examples of what it means to live with i
       "INTENSE. Protagonists bring a powerful emotional force to their interactions. But not everyone can match their energy or desire for growth, which can lead to frustration or miscommunication.",
       "OVERLY EMPATHETIC. ENFJs don’t just understand what others feel—they feel it, too. Without clear emotional boundaries, they risk losing themselves in other people’s struggles.",
     ],
-    : ["LEADING THE WAY. I am a devoted altruists, ready to face slings and arrows in order to stand up for the people and ideas that I believe in. This strength of conviction bolsters my innate leadership skills, particularly my ability to guide people to work together in service of the greater good.",
+    successDefinition: ["LEADING THE WAY. I am a devoted altruists, ready to face slings and arrows in order to stand up for the people and ideas that I believe in. This strength of conviction bolsters my innate leadership skills, particularly my ability to guide people to work together in service of the greater good.",
 "GETTING INVOLVED. I am a genuine, caring person who talks the talk and walks the walk. Nothing makes me happier than motivating other people to do what’s right.  When I care about someone, I want to help solve that person’s problems – sometimes at any cost. The good news is that many people are grateful for my assistance and advice. After all, there’s a reason that these I have a reputation for helping others improve their lives.",
     ],                     
     strengths: [
