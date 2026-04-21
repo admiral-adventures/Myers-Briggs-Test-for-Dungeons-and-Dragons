@@ -1084,32 +1084,56 @@ return (
     }
   )}
 </VStack>
-        <Heading
-        scrollMarginTop={8}
-        id="success-definition"
-        mt={6}
-        mb={2}
-        as="h2"
-        fontSize="2xl"
-        textAlign="center"
-      >
-        Character Ideals
-      </Heading>
-      {personalityClassGroup.successDefinition
-        .split(/\n+/g)
-        .filter(Boolean)
-        .map((successDefinition, index) => (
-          <Box key={index} my={2}>
-            <Text fontWeight="bold" textAlign="left">
-              {"⭐️ "}
-              {successDefinition.match(/^[A-Z\s-]+?\./)?.[0]}
-            </Text>
-      
-            <Text textAlign="justify">
-              {successDefinition.replace(/^[A-Z\s-]+?\.\s*/, "")}
-            </Text>
-          </Box>
-        ))}
+<Heading
+  scrollMarginTop={8}
+  id="relationship-strengths"
+  mt={6}
+  mb={4}
+  as="h2"
+  fontSize="2xl"
+  textAlign="center"
+>
+  Character Ideals
+</Heading>
+
+<VStack spacing={4} align="center" w="full">
+  {personalityClassGroup.successDefinition.map(
+    (successDefinition, index) => {
+      const title =
+        successDefinition.match(/^[A-Z\s,-]+?\./)?.[0]?.replace(".", "") || "";
+
+      const description = successDefinition.replace(
+        /^[A-Z\s-]+?\.\s*/,
+        ""
+      );
+
+      return (
+        <Box
+          key={index}
+          w="100%"
+          bg="#C6EFCE"
+          border="2px solid black"
+          borderRadius="lg"
+          p={4}
+          boxShadow="sm"
+        >
+          <Text
+            fontWeight="bold"
+            fontSize="lg"
+            textAlign="center"
+            mb={2}
+          >
+            {title}
+          </Text>
+
+          <Text textAlign="center">
+            {description}
+          </Text>
+        </Box>
+      );
+    }
+  )}
+</VStack>
       <Heading
         scrollMarginTop={8}
         id="strengths"
