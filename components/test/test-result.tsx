@@ -1000,7 +1000,7 @@ return (
   {personalityClassGroup.relationshipStrengths.map(
     (relationshipStrength, index) => {
       const title =
-        relationshipStrength.match(/^[A-Z\s-]+?\./)?.[0]?.replace(".", "") || "";
+        relationshipStrength.match(/^[A-Z\s,-]+?\./)?.[0]?.replace(".", "") || "";
 
       const description = relationshipStrength.replace(
         /^[A-Z\s-]+?\.\s*/,
@@ -1050,7 +1050,7 @@ return (
   {personalityClassGroup.relationshipWeaknesses.map(
     (relationshipWeaknesses, index) => {
       const title =
-        relationshipWeaknesses.match(/^[A-Z\s-]+?\./)?.[0]?.replace(".", "") || "";
+        relationshipWeaknesses.match(/^[A-Z\s,-]+?\./)?.[0]?.replace(".", "") || "";
 
       const description = relationshipWeaknesses.replace(
         /^[A-Z\s-]+?\.\s*/,
@@ -1061,7 +1061,7 @@ return (
         <Box
           key={index}
           w="100%"
-          bg="#FFCTCE"
+          bg="#FFC7CE"
           border="2px solid black"
           borderRadius="lg"
           p={4}
