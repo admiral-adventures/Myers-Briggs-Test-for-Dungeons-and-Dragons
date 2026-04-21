@@ -45,7 +45,7 @@ export interface PersonalityClassGroup {
   generalTraits: string[];
   relationshipStrengths: string[];
   relationshipWeaknesses: string[];
-  successDefinition: string;
+  successDefinition: string[];
   strengths: string[];
   gifts: string[];
   potentialProblemAreas: string[];
