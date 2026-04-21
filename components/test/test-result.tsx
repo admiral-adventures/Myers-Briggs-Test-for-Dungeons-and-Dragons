@@ -987,29 +987,51 @@ return (
   scrollMarginTop={8}
   id="relationship-strengths"
   mt={6}
-  mb={2}
+  mb={4}
   as="h2"
   fontSize="2xl"
   textAlign="center"
 >
   Character Personality Traits
 </Heading>
-      <UnorderedList w="full" styleType="none">
-        {personalityClassGroup.relationshipStrengths.map(
-          (relationshipStrength, index) => (
-            <ListItem my={2} key={index}>
-              <Text fontWeight="bold" textAlign="left">
-                {"🟢 "}
-                {relationshipStrength.match(/^[A-Z\s-]+?\./)?.[0]}
-              </Text>
-      
-              <Text textAlign="justify">
-                {relationshipStrength.replace(/^[A-Z\s-]+?\.\s*/, "")}
-              </Text>
-            </ListItem>
-          )
-        )}
-      </UnorderedList>
+
+<VStack spacing={4} align="center" w="full">
+  {personalityClassGroup.relationshipStrengths.map(
+    (relationshipStrength, index) => {
+      const title =
+        relationshipStrength.match(/^[A-Z\s-]+?\./)?.[0]?.replace(".", "") || "";
+
+      const description = relationshipStrength.replace(
+        /^[A-Z\s-]+?\.\s*/,
+        ""
+      );
+
+      return (
+        <Box
+          key={index}
+          w="60%"
+          p={4}
+          borderRadius="lg"
+          bg="#C6EFCE"
+          boxShadow="md"
+        >
+          <Text
+            fontWeight="bold"
+            fontSize="lg"
+            textAlign="center"
+            mb={2}
+          >
+            {title}
+          </Text>
+
+          <Text textAlign="justify">
+            {description}
+          </Text>
+        </Box>
+      );
+    }
+  )}
+</VStack>
       <Heading
         scrollMarginTop={8}
         id="relationship-weaknesses"
