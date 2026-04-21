@@ -1010,7 +1010,7 @@ return (
       return (
         <Box
           key={index}
-          w="90%"
+          w="100%"
           bg="#C6EFCE"
           border="2px solid black"
           borderRadius="lg"
@@ -1026,7 +1026,7 @@ return (
             {title}
           </Text>
 
-          <Text textAlign="justify">
+          <Text textAlign="jcenter">
             {description}
           </Text>
         </Box>
