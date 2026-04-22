@@ -1012,7 +1012,7 @@ return (
           key={index}
           w="100%"
           bg="#C6EFCE"
-          border="2px solid black"
+          border="4px solid #800000"
           borderRadius="lg"
           p={4}
           boxShadow="sm"
