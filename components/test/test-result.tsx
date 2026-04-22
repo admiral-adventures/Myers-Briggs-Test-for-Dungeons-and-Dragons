@@ -1011,8 +1011,8 @@ return (
         <Box
           key={index}
           w="100%"
-          bg="#C6EFCE"
-          border="6px solid #003300"
+          bg="#CCFFCC"
+          border="2px solid black"
           borderRadius="lg"
           p={4}
           boxShadow="sm"
@@ -1061,8 +1061,8 @@ return (
         <Box
           key={index}
           w="100%"
-          bg="#FFC7CE"
-          border="6px solid #800000"
+          bg="#FFCCCC"
+          border="2px solid black"
           borderRadius="lg"
           p={4}
           boxShadow="sm"
@@ -1111,8 +1111,8 @@ return (
         <Box
           key={index}
           w="100%"
-          bg="#FFEB9C"
-          border="6px solid #663300"
+          bg="#FFFFCC"
+          border="2px solid black"
           borderRadius="lg"
           p={4}
           boxShadow="sm"
