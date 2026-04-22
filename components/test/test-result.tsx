@@ -1012,7 +1012,7 @@ return (
           key={index}
           w="100%"
           bg="#C6EFCE"
-          border="8px solid #003300"
+          border="6px solid #003300"
           borderRadius="lg"
           p={4}
           boxShadow="sm"
@@ -1062,7 +1062,7 @@ return (
           key={index}
           w="100%"
           bg="#FFC7CE"
-          border="2px solid black"
+          border="6px solid #800000"
           borderRadius="lg"
           p={4}
           boxShadow="sm"
@@ -1112,7 +1112,7 @@ return (
           key={index}
           w="100%"
           bg="#FFEB9C"
-          border="2px solid black"
+          border="6px solid #663300"
           borderRadius="lg"
           p={4}
           boxShadow="sm"
