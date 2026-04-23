@@ -263,7 +263,7 @@ return (
         mb={2}
         mx="auto"
         maxW="100%"
-        maxH="80px"
+        maxH="160px"
         objectFit="contain"
       />
       <SimpleGrid
