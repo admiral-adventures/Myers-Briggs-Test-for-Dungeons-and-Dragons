@@ -256,17 +256,16 @@ return (
             {`${description}`}
           </Text>
         ))}
-      <Heading
-        scrollMarginTop={8}
-        id="jungian-functional-preference-ordering"
+      <Image
+        src="/images/mbti/Banner1.png"
+        alt="Character Class and Subclass Options"
         mt={6}
         mb={2}
-        as="h2"
-        fontSize="2xl"
-        textAlign="center"
-      >
-        Character Class and Subclass Options
-      </Heading>
+        mx="auto"
+        maxW="100%"
+        maxH="80px"
+        objectFit="contain"
+      />
       <SimpleGrid
         columns={{ base: 1, md: 2 }}
         spacing={6}
