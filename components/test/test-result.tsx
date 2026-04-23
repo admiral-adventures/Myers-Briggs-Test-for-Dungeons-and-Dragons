@@ -983,17 +983,16 @@ return (
           </ListItem>
         ))}
       </UnorderedList>
-<Heading
-  scrollMarginTop={8}
-  id="relationship-strengths"
-  mt={6}
-  mb={4}
-  as="h2"
-  fontSize="2xl"
-  textAlign="center"
->
-  Character Personality Traits
-</Heading>
+      <Image
+        src="/images/mbti/Banner2.png"
+        alt="relationship-strengths"
+        mt={6}
+        mb={2}
+        mx="auto"
+        maxW="100%"
+        maxH="160px"
+        objectFit="contain"
+      />
 
 <VStack spacing={4} align="center" w="full">
   {personalityClassGroup.relationshipStrengths.map(
@@ -1033,17 +1032,16 @@ return (
     }
   )}
 </VStack>
-<Heading
-  scrollMarginTop={8}
-  id="relationship-weaknesses"
-  mt={6}
-  mb={4}
-  as="h2"
-  fontSize="2xl"
-  textAlign="center"
->
-  Character Flaws
-</Heading>
+      <Image
+        src="/images/mbti/Banner3.png"
+        alt="relationship-weaknesses"
+        mt={6}
+        mb={2}
+        mx="auto"
+        maxW="100%"
+        maxH="160px"
+        objectFit="contain"
+      />
 
 <VStack spacing={4} align="center" w="full">
   {personalityClassGroup.relationshipWeaknesses.map(
@@ -1083,17 +1081,16 @@ return (
     }
   )}
 </VStack>
-<Heading
-  scrollMarginTop={8}
-  id="relationship-strengths"
-  mt={6}
-  mb={4}
-  as="h2"
-  fontSize="2xl"
-  textAlign="center"
->
-  Character Ideals
-</Heading>
+      <Image
+        src="/images/mbti/Banner4.png"
+        alt="relationship-strengths"
+        mt={6}
+        mb={2}
+        mx="auto"
+        maxW="100%"
+        maxH="160px"
+        objectFit="contain"
+      />
 
 <VStack spacing={4} align="center" w="full">
   {personalityClassGroup.successDefinition.map(
