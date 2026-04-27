@@ -230,7 +230,7 @@ return (
         src={`/images/mbti/${personalityClassGroup.type.toLowerCase()}.png`}
         width={400} // use a reasonable intrinsic size
         height={314} // match actual aspect ratio if known
-        style={{ width: "100%", height: "auto" }}
+        style={{ width: "70%", height: "auto" }}
       />
       <Heading
         scrollMarginTop={8}
