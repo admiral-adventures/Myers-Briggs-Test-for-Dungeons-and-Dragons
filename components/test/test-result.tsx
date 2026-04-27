@@ -228,8 +228,9 @@ return (
       <Image
         alt="illustration"
         src={`/images/mbti/${personalityClassGroup.type.toLowerCase()}.png`}
-        width={200}
-        height={200}
+        width={800} // use a reasonable intrinsic size
+        height={628} // match actual aspect ratio if known
+        style={{ width: "100%", height: "auto" }}
       />
       <Heading
         scrollMarginTop={8}
