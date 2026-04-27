@@ -236,7 +236,7 @@ return (
         scrollMarginTop={8}
         id="description"
         as="h2"
-        mt={6}
+        mt={0}
         mb={0}
         fontSize="2xl"
         textAlign="center"
