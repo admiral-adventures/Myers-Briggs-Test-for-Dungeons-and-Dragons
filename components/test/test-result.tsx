@@ -215,7 +215,7 @@ return (
           query={personalityClassGroup.type}
           styles={{ color: "primary.500" }}
         >
-          {`${personalityClassGroup.type} - ${personalityClassGroup.name}`}
+          {`${personalityClassGroup.type}`}
         </Highlight>
       </Heading>
       <Text
