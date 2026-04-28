@@ -58,9 +58,12 @@ export default function TestResultTableOfContent() {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
+    
+      // Delay ensures scroll + observer settle first
+      setTimeout(() => {
+        setActiveId(id);
+      }, 100);
     }
-  
-    setActiveId(id);
   }
 
   return (
