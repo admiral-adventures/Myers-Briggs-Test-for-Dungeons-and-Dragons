@@ -22,15 +22,22 @@ export default function TestResultTableOfContent() {
         id: element.id,
         text: element.getAttribute("data-toc") || "",
       }));
-  
+    
       const h2Toc = Array.from(
         document.querySelectorAll("h2")
       ).map((element) => ({
         id: element.id,
         text: element.textContent || "",
       }));
-  
-      setHeadings([...h1Toc, ...h2Toc]);
+    
+      const allHeadings = [...h1Toc, ...h2Toc];
+    
+      setHeadings(allHeadings);
+    
+      // ✅ NEW: force first item active
+      if (allHeadings.length > 0) {
+        setActiveId(allHeadings[0].id);
+      }
     };
   
     // Initial build
