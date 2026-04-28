@@ -8,10 +8,7 @@ export default function TestResultTableOfContent() {
   const { activeId, setActiveId } = useHeadingsObserver();
 
   const [headings, setHeadings] = useState<
-    {
-      id: string;
-      text: string;
-    }[]character traits
+    { id: string; text: string }[]
   >([]);
 
   useEffect(() => {
