@@ -30,14 +30,31 @@ export default function TestResultTableOfContent() {
         text: element.textContent || "",
       }));
     
-      const allHeadings = [
-        {
-          id: "__top__",
-          text: h1Toc[0]?.text || "Top",
-        },
-        ...h1Toc.slice(1),
-        ...h2Toc,
-      ];
+    const baseHeadings = [
+      {
+        id: "__top__",
+        text: h1Toc[0]?.text || "Top",
+      },
+      ...h1Toc.slice(1),
+      ...h2Toc,
+    ];
+    
+    // Insert AFTER "Explore Other Character Types"
+    const insertIndex = baseHeadings.findIndex(
+      (h) => h.text === "Explore Other Character Types"
+    );
+    
+    const allHeadings =
+      insertIndex !== -1
+        ? [
+            ...baseHeadings.slice(0, insertIndex + 1),
+            {
+              id: "character-traits",
+              text: "Character Traits",
+            },
+            ...baseHeadings.slice(insertIndex + 1),
+          ]
+        : baseHeadings;
     
       setHeadings(allHeadings);
     
