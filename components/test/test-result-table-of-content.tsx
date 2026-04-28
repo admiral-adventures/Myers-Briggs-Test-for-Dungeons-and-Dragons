@@ -15,23 +15,38 @@ export default function TestResultTableOfContent() {
   >([]);
 
   useEffect(() => {
-    const h1Toc = Array.from(
-      document.querySelectorAll("h1[data-toc]")
-    ).map((element) => ({
-      id: element.id,
-      text: element.getAttribute("data-toc") || "",
-    }));
-    
-    const h2Toc = Array.from(
-      document.querySelectorAll("h2")
-    ).map((element) => ({
-      id: element.id,
-      text: element.textContent || "",
-    }));
-    
-    const elements = [...h1Toc, ...h2Toc];
-
-    setHeadings(elements);
+    const buildHeadings = () => {
+      const h1Toc = Array.from(
+        document.querySelectorAll("h1[data-toc]")
+      ).map((element) => ({
+        id: element.id,
+        text: element.getAttribute("data-toc") || "",
+      }));
+  
+      const h2Toc = Array.from(
+        document.querySelectorAll("h2")
+      ).map((element) => ({
+        id: element.id,
+        text: element.textContent || "",
+      }));
+  
+      setHeadings([...h1Toc, ...h2Toc]);
+    };
+  
+    // Initial build
+    buildHeadings();
+  
+    // Watch for DOM changes (MBTI switching)
+    const observer = new MutationObserver(() => {
+      buildHeadings();
+    });
+  
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true,
+    });
+  
+    return () => observer.disconnect();
   }, []);
 
   function handleTableOfContentLinkClick(
