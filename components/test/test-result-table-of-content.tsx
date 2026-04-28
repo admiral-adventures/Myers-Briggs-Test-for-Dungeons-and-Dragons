@@ -15,12 +15,21 @@ export default function TestResultTableOfContent() {
   >([]);
 
   useEffect(() => {
-    const elements = Array.from(document.querySelectorAll("h2")).map(
-      (element) => ({
-        id: element.id,
-        text: element.textContent!,
-      })
-    );
+    const h1Toc = Array.from(
+      document.querySelectorAll("h1[data-toc]")
+    ).map((element) => ({
+      id: element.id,
+      text: element.getAttribute("data-toc") || "",
+    }));
+    
+    const h2Toc = Array.from(
+      document.querySelectorAll("h2")
+    ).map((element) => ({
+      id: element.id,
+      text: element.textContent || "",
+    }));
+    
+    const elements = [...h1Toc, ...h2Toc];
 
     setHeadings(elements);
   }, []);
