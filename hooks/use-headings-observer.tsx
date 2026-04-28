@@ -4,12 +4,17 @@ export default function useHeadingsObserver() {
   const observer = useRef<IntersectionObserver>();
   const [activeId, setActiveId] = useState("");
   const isInitialLoad = useRef(true);
+  const TOP_ID = "__top__";
 
   useEffect(() => {
     const handleObserver: IntersectionObserverCallback = (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           if (isInitialLoad.current) return;
+        
+          // If near top, keep "__top__" active
+          if (window.scrollY < 100) return;
+        
           setActiveId(entry.target.id);
         }
       });
@@ -29,6 +34,15 @@ export default function useHeadingsObserver() {
   
     // Initial attach
     createObserver();
+
+    // ✅ Detect when user is near top of page
+    const handleScroll = () => {
+      if (window.scrollY < 100) {
+        setActiveId(TOP_ID);
+      }
+    };
+
+window.addEventListener("scroll", handleScroll);
     
     // ✅ ADD THIS BLOCK RIGHT HERE
     setTimeout(() => {
@@ -55,6 +69,7 @@ export default function useHeadingsObserver() {
     return () => {
       observer.current?.disconnect();
       mutationObserver.disconnect();
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
