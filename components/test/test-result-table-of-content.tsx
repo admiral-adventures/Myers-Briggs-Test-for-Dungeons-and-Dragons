@@ -39,6 +39,12 @@ export default function TestResultTableOfContent() {
     id: string
   ) {
     event.preventDefault();
+  
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  
     setActiveId(id);
   }
 
