@@ -67,7 +67,10 @@ export default function TestResult(props: TestResultProps) {
   );
   
   const [selectedType, setSelectedType] = useState(initialGroup.type);
- const { isOpen, onOpen, onClose } = useDisclosure();
+  useEffect(() => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [selectedType]);
+  const { isOpen, onOpen, onClose } = useDisclosure();
   const {
     isOpen: isCarouselOpen,
     onOpen: onCarouselOpen,
