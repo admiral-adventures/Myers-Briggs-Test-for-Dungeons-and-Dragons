@@ -225,13 +225,15 @@ return (
       >
         {personalityClassGroup.nameDescription}
       </Text>
-      <Image
-        alt="illustration"
-        src={`/images/mbti/${personalityClassGroup.type.toLowerCase()}.png`}
-        width={400} // use a reasonable intrinsic size
-        height={314} // match actual aspect ratio if known
-        style={{ width: "70%", height: "auto" }}
-      />
+      <Box w={{ base: "100%", md: "60%" }}>
+        <Image
+          alt="illustration"
+          src={`/images/mbti/${personalityClassGroup.type.toLowerCase()}.png`}
+          width={400}
+          height={314}
+          style={{ width: "100%", height: "auto" }}
+        />
+      </Box>
       <Heading
         scrollMarginTop={8}
         id="description"
