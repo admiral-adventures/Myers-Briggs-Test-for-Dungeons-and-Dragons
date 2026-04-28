@@ -30,7 +30,14 @@ export default function TestResultTableOfContent() {
         text: element.textContent || "",
       }));
     
-      const allHeadings = [...h1Toc, ...h2Toc];
+      const allHeadings = [
+        {
+          id: "__top__",
+          text: h1Toc[0]?.text || "Top",
+        },
+        ...h1Toc.slice(1),
+        ...h2Toc,
+      ];
     
       setHeadings(allHeadings);
     
@@ -56,22 +63,32 @@ export default function TestResultTableOfContent() {
     return () => observer.disconnect();
   }, []);
 
-  function handleTableOfContentLinkClick(
-    event: MouseEvent<HTMLLIElement, globalThis.MouseEvent>,
-    id: string
-  ) {
-    event.preventDefault();
-  
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
-    
-      // Delay ensures scroll + observer settle first
-      setTimeout(() => {
-        setActiveId(id);
-      }, 100);
-    }
+function handleTableOfContentLinkClick(
+  event: MouseEvent<HTMLLIElement, globalThis.MouseEvent>,
+  id: string
+) {
+  event.preventDefault();
+
+  // ✅ Special case: scroll to top
+  if (id === "__top__") {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+
+    setTimeout(() => {
+      setActiveId("__top__");
+    }, 100);
+
+    return;
   }
+
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth", block: "start" });
+
+    setTimeout(() => {
+      setActiveId(id);
+    }, 100);
+  }
+}
 
   return (
     <Flex
@@ -110,7 +127,9 @@ export default function TestResultTableOfContent() {
               handleTableOfContentLinkClick(event, heading.id)
             }
           >
-            <Link href={`#${heading.id}`}>{heading.text}</Link>
+            <Link href={heading.id === "__top__" ? "#" : `#${heading.id}`}>
+              {heading.text}
+            </Link>
           </ListItem>
         ))}
       </UnorderedList>
