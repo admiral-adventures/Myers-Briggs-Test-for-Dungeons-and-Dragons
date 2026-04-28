@@ -208,6 +208,7 @@ return (
     >
       <Heading
         id={personalityClassGroup.type}
+        data-toc={personalityClassGroup.type}
         as="h1"
         textAlign="center"
       >
