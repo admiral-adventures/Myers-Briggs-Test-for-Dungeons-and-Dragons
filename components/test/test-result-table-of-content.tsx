@@ -44,12 +44,12 @@ export default function TestResultTableOfContent() {
     const allHeadings =
       insertIndex !== -1
         ? [
-            ...baseHeadings.slice(0, insertIndex + 1),
+            ...baseHeadings.slice(0, insertIndex),
             {
               id: "character-traits",
               text: "Character Options",
             },
-            ...baseHeadings.slice(insertIndex + 1),
+            ...baseHeadings.slice(insertIndex),
           ]
         : baseHeadings;
     
