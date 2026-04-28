@@ -11,7 +11,7 @@ export default function TestResultTableOfContent() {
     {
       id: string;
       text: string;
-    }[]
+    }[]character traits
   >([]);
 
   useEffect(() => {
@@ -50,7 +50,7 @@ export default function TestResultTableOfContent() {
             ...baseHeadings.slice(0, insertIndex + 1),
             {
               id: "character-traits",
-              text: "Character Traits",
+              text: "Character Options",
             },
             ...baseHeadings.slice(insertIndex + 1),
           ]
