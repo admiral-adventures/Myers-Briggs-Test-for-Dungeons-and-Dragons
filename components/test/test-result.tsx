@@ -264,6 +264,7 @@ return (
           </Text>
         ))}
       <Image
+        id="character-traits"
         src="/images/mbti/Banner1.png"
         alt="Character Class and Subclass Options"
         mt={6}
@@ -272,6 +273,7 @@ return (
         maxW="100%"
         maxH="160px"
         objectFit="contain"
+        style={{ scrollMarginTop: "2rem" }}
       />
       <SimpleGrid
         columns={{ base: 1, md: 2 }}
