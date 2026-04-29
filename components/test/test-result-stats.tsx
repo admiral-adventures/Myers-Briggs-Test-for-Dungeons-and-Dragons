@@ -84,7 +84,7 @@ export default function TestResultStats(props: TestResultStatsProps) {
       gap={4}
       top={5}
       direction="column"
-      pos={{ base: "static", lg: "sticky" }}
+      pos={{ base: "relative", lg: "sticky" }}
       alignSelf="flex-start"
     >
       <Heading as="h1" textAlign="center" fontSize="lg">
@@ -123,5 +123,15 @@ export default function TestResultStats(props: TestResultStatsProps) {
         );
       })}
     </Flex>
+    <Box
+      display={{ base: "block", lg: "none" }}
+      position="absolute"
+      bottom="0"
+      left="0"
+      width="100%"
+      height="40px"
+      pointerEvents="none"
+      bgGradient="linear(to-t, var(--chakra-colors-yellow-50), transparent)"
+    />
   );
 }
