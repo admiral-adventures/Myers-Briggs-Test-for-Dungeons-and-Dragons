@@ -45,10 +45,27 @@ export default function TestResultTableOfContent() {
       insertIndex !== -1
         ? [
             ...baseHeadings.slice(0, insertIndex),
+    
+            // Existing inserted entry
             {
-              id: "character-traits",
+              id: "character-options",
               text: "Character Options",
             },
+    
+            // ✅ NEW entries (inserted immediately after)
+            {
+              id: "character-traits",
+              text: "Character Traits",
+            },
+            {
+              id: "character-flaws",
+              text: "Character Flaws",
+            },
+            {
+              id: "character-ideals",
+              text: "Character Ideals",
+            },
+    
             ...baseHeadings.slice(insertIndex),
           ]
         : baseHeadings;
