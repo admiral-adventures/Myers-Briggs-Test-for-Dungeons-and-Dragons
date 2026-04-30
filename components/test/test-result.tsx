@@ -972,7 +972,7 @@ return (
     </SimpleGrid>
       <Heading
         scrollMarginTop={8}
-        id="general-traits"
+        id="you-may-know"
         mt={6}
         mb={2}
         as="h2"
