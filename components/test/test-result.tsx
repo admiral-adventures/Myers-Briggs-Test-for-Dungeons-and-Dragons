@@ -264,7 +264,7 @@ return (
           </Text>
         ))}
       <Image
-        id="character-traits"
+        id="character-options"
         src="/images/mbti/Banner1.png"
         alt="Character Class and Subclass Options"
         mt={6}
