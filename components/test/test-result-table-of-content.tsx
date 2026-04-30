@@ -36,23 +36,33 @@ export default function TestResultTableOfContent() {
       ...h2Toc,
     ];
     
-    // Insert AFTER "Explore Other Character Types"
-    const insertIndex = baseHeadings.findIndex(
+    // First insertion: Character Options (before "Explore Other Character Types")
+    const insertExploreIndex = baseHeadings.findIndex(
       (h) => h.text === "Explore Other Character Types"
     );
     
-    const allHeadings =
-      insertIndex !== -1
+    let updatedHeadings =
+      insertExploreIndex !== -1
         ? [
-            ...baseHeadings.slice(0, insertIndex),
-    
-            // Existing inserted entry
+            ...baseHeadings.slice(0, insertExploreIndex),
             {
               id: "character-options",
               text: "Character Options",
             },
+            ...baseHeadings.slice(insertExploreIndex),
+          ]
+        : baseHeadings;
     
-            // ✅ NEW entries (inserted immediately after)
+    // Second insertion: Traits/Flaws/Ideals (after "You May Know")
+    const insertKnowIndex = updatedHeadings.findIndex(
+      (h) => h.id === "you-may-know"
+    );
+    
+    const allHeadings =
+      insertKnowIndex !== -1
+        ? [
+            ...updatedHeadings.slice(0, insertKnowIndex + 1),
+    
             {
               id: "character-traits",
               text: "Character Traits",
@@ -66,20 +76,20 @@ export default function TestResultTableOfContent() {
               text: "Character Ideals",
             },
     
-            ...baseHeadings.slice(insertIndex),
+            ...updatedHeadings.slice(insertKnowIndex + 1),
           ]
-        : baseHeadings;
-    
-      setHeadings(allHeadings);
-    
-      // ✅ NEW: force first item active
-      if (allHeadings.length > 0) {
-        setActiveId(allHeadings[0].id);
-      }
-    };
-  
-    // Initial build
-    buildHeadings();
+        : updatedHeadings;
+        
+          setHeadings(allHeadings);
+        
+          // ✅ NEW: force first item active
+          if (allHeadings.length > 0) {
+            setActiveId(allHeadings[0].id);
+          }
+        };
+      
+        // Initial build
+        buildHeadings();
   
     // Watch for DOM changes (MBTI switching)
     const observer = new MutationObserver(() => {
