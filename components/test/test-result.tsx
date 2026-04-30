@@ -993,6 +993,7 @@ return (
         ))}
       </UnorderedList>
       <Image
+        id="character-traits"
         src="/images/mbti/Banner2.png"
         alt="relationship-strengths"
         mt={6}
@@ -1042,6 +1043,7 @@ return (
   )}
 </VStack>
       <Image
+        id="character-flaws"
         src="/images/mbti/Banner3.png"
         alt="relationship-weaknesses"
         mt={6}
@@ -1091,6 +1093,7 @@ return (
   )}
 </VStack>
       <Image
+        id="character-ideals"
         src="/images/mbti/Banner4.png"
         alt="relationship-strengths"
         mt={6}
