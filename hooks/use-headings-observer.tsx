@@ -27,7 +27,9 @@ export default function useHeadingsObserver() {
         rootMargin: "-20% 0% -35% 0px",
       });
   
-      const elements = document.querySelectorAll("h1[data-toc], h2");
+      const elements = document.querySelectorAll(
+        'h1[data-toc], h2, #character-options, #character-traits, #character-flaws, #character-ideals'
+      );
   
       elements.forEach((element) => observer.current?.observe(element));
     };
