@@ -182,6 +182,46 @@ export function getAllSavedTestResult() {
   });
 }
 
+async function submitResultToDatabase(testResult: TestResult) {
+  try {
+    const counts = testResult.testScores.reduce(
+      (acc, score) => {
+        acc[score] += 1;
+        return acc;
+      },
+      { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 }
+    );
+
+    const classGroup = getPersonalityClassGroupByTestScores(
+      testResult.testScores
+    );
+
+    await fetch("/.netlify/functions/submit-result", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        mbti_type: classGroup.type,
+        e_count: counts.E,
+        i_count: counts.I,
+        s_count: counts.S,
+        n_count: counts.N,
+        t_count: counts.T,
+        f_count: counts.F,
+        j_count: counts.J,
+        p_count: counts.P,
+        campaign_version: "36q-v1",
+        completion_seconds: null,
+        recommended_class: classGroup.name,
+        total_questions: testResult.testScores.length,
+      }),
+    });
+  } catch (error) {
+    console.error("Telemetry failed:", error);
+  }
+}
+
 export function saveTestResult(testResult: {
   timestamp: number;
   testAnswers: TestAnswerOption["type"][];
@@ -190,7 +230,12 @@ export function saveTestResult(testResult: {
   return Future.make<Result<number, Error>>((resolve) => {
     getDb()
       .then((db) => db.put(TEST_RESULT_STORE, testResult))
-      .then((id) => resolve(Result.Ok(id)))
+      .then((id) => {
+        // NEW: send to Netlify DB (non-blocking)
+        submitResultToDatabase(testResult);
+      
+        resolve(Result.Ok(id));
+      })
       .catch((error) => resolve(Result.Error(error)));
   });
 }
