@@ -196,7 +196,7 @@ async function submitResultToDatabase(testResult: TestResult) {
       testResult.testScores
     );
 
-    await fetch("/api/submit-result", ...)
+    await fetch("/api/submit-result", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
