@@ -184,12 +184,12 @@ export const personalityTest: TestQuestion[] = [
       {
         type: "A",
         answer: "Hold him accountable regardless of usefulness",
-        score: "F",
+        score: "T",
       },
       { 
         type: "B", 
         answer: "Spare him if the information improves your strategic position", 
-        score: "T" 
+        score: "F" 
       },
     ],
   },
