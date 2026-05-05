@@ -55,12 +55,12 @@ export const personalityTest: TestQuestion[] = [
     answerOptions: [
       {
         type: "A",
-        answer: "Press him for numbers, routes, and hard tactical details",
+        answer: "Focus on extracting verifiable facts",
         score: "T",
       },
       { 
         type: "B", 
-        answer: "Judge his story by the fear in his voice and whether it feels genuine", 
+        answer: "Consider his emotional state when judging his claim", 
         score: "F" 
       },
     ],
@@ -71,12 +71,12 @@ export const personalityTest: TestQuestion[] = [
     answerOptions: [
       {
         type: "A",
-        answer: "Watch how the crypt reacts before choosing your approach",
+        answer: "Take a moment to internally assess risks before speaking",
         score: "I",
       },
       { 
         type: "B", 
-        answer: "Coordinate the descent and assign each companion a role", 
+        answer: "Speak up immediately and organize the group’s approach", 
         score: "E" 
       },
     ],
@@ -103,12 +103,12 @@ export const personalityTest: TestQuestion[] = [
     answerOptions: [
       {
         type: "A",
-        answer: "Focus on the symbolic warning hidden in the imagery",
+        answer: "Interpret the meaning behind the imagery",
         score: "N",
       },
       { 
         type: "B", 
-        answer: "Examine the physical details for historical clues", 
+        answer: "Focus on observable details and craftsmanship", 
         score: "S" 
       },
     ],
@@ -119,13 +119,13 @@ export const personalityTest: TestQuestion[] = [
     answerOptions: [
       {
         type: "A",
-        answer: "Refuse if it violates the value of the innocent soul",
+        answer: "Reject the deal because sacrificing an innocent violates your principles",
         score: "F",
       },
       { 
         type: "B", 
-        answer: "Judge the choice by mission consequences and future risk", 
-        score: "J" 
+        answer: "Accept if it produces the best overall outcome despite the cost", 
+        score: "T" 
       },
     ],
   },
@@ -167,12 +167,12 @@ export const personalityTest: TestQuestion[] = [
     answerOptions: [
       {
         type: "A",
-        answer: "Decode the entries line by line",
+        answer: "Analyze each entry sequentially for concrete meaning",
         score: "S",
       },
       { 
         type: "B", 
-        answer: "Search for the larger conspiracy in the pattern", 
+        answer: "Look for overarching patterns or hidden connections", 
         score: "N" 
       },
     ],
@@ -183,13 +183,13 @@ export const personalityTest: TestQuestion[] = [
     answerOptions: [
       {
         type: "A",
-        answer: "Hold him accountable regardless of usefulness",
-        score: "T",
+        answer: "Hold him accountable because it’s the right thing to do",
+        score: "F",
       },
       { 
         type: "B", 
-        answer: "Spare him if the information improves your strategic position", 
-        score: "F" 
+        answer: "Use him if the information creates a strategic advantage", 
+        score: "T" 
       },
     ],
   },
@@ -551,12 +551,12 @@ export const personalityTest: TestQuestion[] = [
     answerOptions: [
       {
         type: "A",
-        answer: "End Acererak’s threat permanently",
+        answer: "Prioritize eliminating the threat despite the cost",
         score: "T",
       },
       { 
         type: "B", 
-        answer: "Preserve your companion if possible", 
+        answer: "Prioritize preserving the individual even if the threat remains", 
         score: "F" 
       },
     ],
