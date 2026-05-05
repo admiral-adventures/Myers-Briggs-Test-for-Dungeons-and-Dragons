@@ -60,7 +60,7 @@ export const personalityTest: TestQuestion[] = [
       },
       { 
         type: "B", 
-        answer: "Consider his emotional state when judging his claim", 
+        answer: "Weigh his situation and intent when judging his claim", 
         score: "F" 
       },
     ],
@@ -252,7 +252,7 @@ export const personalityTest: TestQuestion[] = [
       },
       { 
         type: "B", 
-        answer: "Judge whether his desperation feels believable", 
+        answer: "Consider his circumstances and motives when judging the claim", 
         score: "F" 
       },
     ],
@@ -348,7 +348,7 @@ export const personalityTest: TestQuestion[] = [
       },
       { 
         type: "B", 
-        answer: "Catalog which memories have tactical relevance", 
+        answer: "Catalog the specific details and contents of each memory", 
         score: "S" 
       },
     ],
@@ -412,7 +412,7 @@ export const personalityTest: TestQuestion[] = [
       },
       { 
         type: "B", 
-        answer: "Compare the physical signs on each strand", 
+        answer: "Compare the visible physical differences between each path", 
         score: "S" 
       },
     ],
@@ -423,7 +423,7 @@ export const personalityTest: TestQuestion[] = [
     answerOptions: [
       {
         type: "A",
-        answer: "Decide whether redemption still feels possible",
+        answer: "Decide based on whether redemption aligns with your values",
         score: "F",
       },
       { 
@@ -551,13 +551,13 @@ export const personalityTest: TestQuestion[] = [
     answerOptions: [
       {
         type: "A",
-        answer: "Prioritize eliminating the threat despite the cost",
-        score: "T",
+        answer: "Commit immediately to a decisive course of action to eliminate the threat",
+        score: "J",
       },
       { 
         type: "B", 
-        answer: "Prioritize preserving the individual even if the threat remains", 
-        score: "F" 
+        answer: "Hold off and adapt as the situation develops to preserve options", 
+        score: "P" 
       },
     ],
   },
