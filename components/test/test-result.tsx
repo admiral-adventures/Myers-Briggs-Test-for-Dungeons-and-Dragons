@@ -467,12 +467,41 @@ return (
               border="2px solid black"
               onClick={() => {
                 setSelectedRole("Cleric");
+                setSelectedAssetType("pdf");
                 onOpen();
               }}
             >
               Download Character Sheet PDF
             </Button>
-      
+
+            <Button
+              size="md"
+              bg={getGalleryButtonColor()}
+              color="black"
+              border="2px solid black"
+              onClick={() => {
+                setSelectedRole("Cleric");
+                setSelectedAssetType("portrait");
+                onOpen();
+              }}
+            >
+              Download Your Character Portrait
+            </Button>
+            
+            <Button
+              size="md"
+              bg={getGalleryButtonColor()}
+              color="black"
+              border="2px solid black"
+              onClick={() => {
+                setSelectedRole("Cleric");
+                setSelectedAssetType("token");
+                onOpen();
+              }}
+            >
+              Download Your Character VTT Token
+            </Button>
+            
           </Stack>
         </Box>
       
@@ -539,12 +568,41 @@ return (
               border="2px solid black"
               onClick={() => {
                 setSelectedRole("Rogue");
+                setSelectedAssetType("pdf");
                 onOpen();
               }}
             >
               Download Character Sheet PDF
             </Button>
-      
+
+            <Button
+              size="md"
+              bg={getGalleryButtonColor()}
+              color="black"
+              border="2px solid black"
+              onClick={() => {
+                setSelectedRole("Rogue");
+                setSelectedAssetType("portrait");
+                onOpen();
+              }}
+            >
+              Download Your Character Portrait
+            </Button>
+            
+            <Button
+              size="md"
+              bg={getGalleryButtonColor()}
+              color="black"
+              border="2px solid black"
+              onClick={() => {
+                setSelectedRole("Rogue");
+                setSelectedAssetType("token");
+                onOpen();
+              }}
+            >
+              Download Your Character VTT Token
+            </Button>
+            
           </Stack>
         </Box>
       
@@ -611,12 +669,41 @@ return (
               border="2px solid black"
               onClick={() => {
                 setSelectedRole("Wizard");
+                setSelectedAssetType("pdf");
                 onOpen();
               }}
             >
               Download Character Sheet PDF
             </Button>
-      
+
+            <Button
+              size="md"
+              bg={getGalleryButtonColor()}
+              color="black"
+              border="2px solid black"
+              onClick={() => {
+                setSelectedRole("Wizard");
+                setSelectedAssetType("portrait");
+                onOpen();
+              }}
+            >
+              Download Your Character Portrait
+            </Button>
+            
+            <Button
+              size="md"
+              bg={getGalleryButtonColor()}
+              color="black"
+              border="2px solid black"
+              onClick={() => {
+                setSelectedRole("Wizard");
+                setSelectedAssetType("token");
+                onOpen();
+              }}
+            >
+              Download Your Character VTT Token
+            </Button>
+            
           </Stack>
         </Box>
       
