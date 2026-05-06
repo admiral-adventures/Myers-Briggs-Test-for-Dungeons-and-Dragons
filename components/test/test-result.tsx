@@ -49,6 +49,24 @@ function getPCFilePath(type: string, role: string, gender: string) {
   return `/PCs/${type}-${role}-${gender}.pdf`;
 }
 
+function getAssetFilePath(
+  type: string,
+  role: string,
+  gender: string,
+  assetType: "pdf" | "portrait" | "token"
+) {
+  const base =
+    assetType === "pdf"
+      ? "/PCs"
+      : assetType === "portrait"
+      ? "/Portrait"
+      : "/Token";
+
+  const extension = assetType === "pdf" ? "pdf" : "png";
+
+  return `${base}/${type}-${role}-${gender}.${extension}`;
+}
+
 function getClassNameFromPreference(preference: string) {
   return preference.split(" - ")[0];
 }
@@ -77,6 +95,9 @@ export default function TestResult(props: TestResultProps) {
     onClose: onCarouselClose,
   } = useDisclosure();
   const [selectedRole, setSelectedRole] = useState<string | null>(null);
+  const [selectedAssetType, setSelectedAssetType] = useState<
+    "pdf" | "portrait" | "token" | null
+  >(null);
 
   const [carouselImages, setCarouselImages] = useState<string[]>([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -184,12 +205,13 @@ function getButtonColor(type: string) {
 }  
   
 function handleDownload(gender: string) {
-  if (!selectedRole) return;
+  if (!selectedRole || !selectedAssetType) return;
 
-  const url = getPCFilePath(
+  const url = getAssetFilePath(
     personalityClassGroup.type,
     selectedRole,
-    gender
+    gender,
+    selectedAssetType
   );
 
   window.open(url, "_blank");
@@ -344,12 +366,41 @@ return (
               border="2px solid black"
               onClick={() => {
                 setSelectedRole("Fighter");
+                setSelectedAssetType("pdf");
                 onOpen();
               }}
             >
               Download Character Sheet PDF
             </Button>
-      
+
+            <Button
+              size="md"
+              bg={getGalleryButtonColor()}
+              color="black"
+              border="2px solid black"
+              onClick={() => {
+                setSelectedRole("Fighter");
+                setSelectedAssetType("portrait");
+                onOpen();
+              }}
+            >
+              Download Your Character Portrait
+            </Button>
+            
+            <Button
+              size="md"
+              bg={getGalleryButtonColor()}
+              color="black"
+              border="2px solid black"
+              onClick={() => {
+                setSelectedRole("Fighter");
+                setSelectedAssetType("token");
+                onOpen();
+              }}
+            >
+              Download Your Character VTT Token
+            </Button>
+            
           </Stack>
         </Box>
       
