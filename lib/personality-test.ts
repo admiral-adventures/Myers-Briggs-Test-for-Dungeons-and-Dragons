@@ -223,11 +223,12 @@ async function submitResultToDatabase(testResult: TestResult) {
   }
 }
 
-export function saveTestResult(testResult: {
-  timestamp: number;
-  testAnswers: TestAnswerOption["type"][];
-  testScores: PersonalityClass["type"][];
-}) {
+  export function saveTestResult(testResult: {
+    timestamp: number;
+    completionSeconds: number;
+    testAnswers: TestAnswerOption["type"][];
+    testScores: PersonalityClass["type"][];
+  }) {
   return Future.make<Result<number, Error>>((resolve) => {
     getDb()
       .then((db) => db.put(TEST_RESULT_STORE, testResult))
