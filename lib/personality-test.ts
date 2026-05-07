@@ -58,6 +58,7 @@ export interface PersonalityClassGroup {
 
 export interface TestResult {
   timestamp: number;
+  completionSeconds: number;
   testAnswers: TestAnswerOption["type"][];
   testScores: PersonalityClass["type"][];
 }
@@ -212,7 +213,7 @@ async function submitResultToDatabase(testResult: TestResult) {
         j_count: counts.J,
         p_count: counts.P,
         campaign_version: "36q-v1",
-        completion_seconds: null,
+        completion_seconds: testResult.completionSeconds,
         recommended_class: classGroup.name,
         total_questions: testResult.testScores.length,
       }),
