@@ -21,6 +21,8 @@ export default function TestQuestion() {
   const [currentPersonalityTestIndex, setCurrentPersonalityTestIndex] =
     useState(0);
 
+  const [startTime] = useState(Date.now());
+
   const isUserAlreadyPickAnswer =
     userTestAnswers[currentPersonalityTestIndex] !== undefined;
 
@@ -73,6 +75,9 @@ export default function TestQuestion() {
 
   function handleSeeResultButtonClick() {
     const timestamp = Date.now();
+    const completionSeconds = Math.floor(
+      (Date.now() - startTime) / 1000
+    );
     const testScores = userTestAnswers.map((answer, index) =>
       getQuestionAnswerScore(index + 1, answer)
     );
@@ -81,6 +86,7 @@ export default function TestQuestion() {
       testAnswers: userTestAnswers,
       testScores,
       timestamp,
+      completionSeconds,
     })
       .tap(() => {
         setUserTestAnswers([]);
