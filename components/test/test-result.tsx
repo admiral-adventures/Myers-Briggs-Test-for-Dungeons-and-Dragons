@@ -1321,7 +1321,7 @@ return (
         Negative Table Behaviors
       </Heading>
       <UnorderedList w="full" styleType="none" m={0}>
-        {personalityClassGroup.strengths.map((strength, index) => {
+        {personalityClassGroup.gifts.map((strength, index) => {
           const emojiNumbers = ["1️⃣", "2️⃣", "3️⃣"];
       
           return (
